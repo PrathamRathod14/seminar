@@ -1,0 +1,10 @@
+.env
+metrics_results.json
+research_report.md
+audit_llm_responses/
+.llm_cache/
+repos/
+__pycache__/
+*.pyc
+.venv/
+.venv_wsl/
