@@ -4,11 +4,11 @@ This project tests a simple research question:
 
 **Can LLMs recover ROS 2 software architecture from real source code, and what mistakes do they make?**
 
-This runnable setup uses real Groq-hosted models only and records real external tool smoke checks in `tool_audit`.
+This runnable setup uses real Groq-hosted models only. By default, `REAL_DATA_ONLY=1`, so tutorial, example, demo, test, mock, dummy, fake, stub, fixture, simulation, simulator, and loopback inputs are excluded from the evaluation data.
 
 In proposal terms, this is the current implementation:
 
-- **Now:** run SQ1, SQ2, SQ3 static validation, real AS2FM smoke conversion, and real ROSClaw firewall tests.
+- **Now:** run SQ1, SQ2, and SQ3 static validation on real-data-only ROS 2 source inputs. AS2FM and ROSClaw smoke checks are skipped in real-data-only mode because the available local inputs are tutorial/test/simulation fixtures.
 
 ## Current Setup
 
@@ -27,6 +27,7 @@ ACTIVE_MODELS=llama-4,groq-large,groq-small,qwen-groq
 MAX_REPOS=15
 PROMPT_CHAR_BUDGET=30000
 LLM_CACHE=1
+REAL_DATA_ONLY=1
 ```
 
 For this Groq-only target set, provide `GROQ_API_KEY`. Do not put real API keys in `.env.example`; keep real keys only in `.env`.
@@ -164,15 +165,14 @@ Main metric:
 
 - **Tool Coverage Ratio**
 
-AS2FM and ROSClaw are downloaded into `tools/` and smoke-tested for real. The taxonomy coverage number is computed by the deterministic ROS 2 static architecture validator in this project, while external tool execution evidence is stored separately in `tool_audit`.
+The taxonomy coverage number is computed by the deterministic ROS 2 static architecture validator in this project. AS2FM and ROSClaw are downloaded into `tools/`, but their bundled local smoke inputs are tutorial/test/simulation fixtures, so they are skipped when `REAL_DATA_ONLY=1`.
 
 ### SQ4: Adoption Gap
 
 The run records practical adoption-friction evidence from the local smoke checks:
 
-- AS2FM smoke setup/execution time
-- ROSClaw smoke setup/execution time
-- configuration evidence for the tutorial model/interface metadata and ROSClaw test suite
+- real-data-only filter status
+- skipped status for external smoke checks whose available inputs are tutorial/test/simulation fixtures
 - comparison against the baseline of manually triaging residual LLM errors
 
 GitHub stars/forks/issues can still be added as an adoption proxy, but they are not required for the proposal completion gate recorded in `metrics_results.json`.
@@ -288,7 +288,7 @@ Your pasted plan says the final study should do this:
 7. Measure end-to-end TtV.
 8. Measure adoption friction for AS2FM and ROSA.
 
-The current pipeline covers steps 1-5 with real Groq model calls/cache and real static validation. It also records real AS2FM and ROSClaw smoke checks in `tool_audit`; AS2FM is run in WSL with ROS 2 Jazzy on its bundled tutorial model, and ROSClaw's firewall tests are run from the cloned repo.
+The current pipeline covers steps 1-5 with real Groq model calls/cache and real static validation. In real-data-only mode it does not use the bundled AS2FM tutorial model or ROSClaw firewall tests as metric evidence, because those are not real production source inputs.
 
 ## Future Expansion
 

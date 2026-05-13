@@ -8678,6 +8678,33 @@
               "assignments": []
             }
           ],
+          "action": "bt_1002_halt_response_on_receive",
+          "guard": {
+            "exp": {
+              "op": "∧",
+              "left": true,
+              "right": {
+                "op": "¬",
+                "exp": {
+                  "op": "=",
+                  "left": "current_child_idx",
+                  "right": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "location": "reset_children",
+          "destinations": [
+            {
+              "location": "reset_children",
+              "probability": {
+                "exp": 1.0
+              },
+              "assignments": []
+            }
+          ],
           "action": "bt_1003_halt_response_on_receive",
           "guard": {
             "exp": {
@@ -8732,33 +8759,6 @@
               "assignments": []
             }
           ],
-          "action": "bt_1002_halt_response_on_receive",
-          "guard": {
-            "exp": {
-              "op": "∧",
-              "left": true,
-              "right": {
-                "op": "¬",
-                "exp": {
-                  "op": "=",
-                  "left": "current_child_idx",
-                  "right": 1
-                }
-              }
-            }
-          }
-        },
-        {
-          "location": "reset_children",
-          "destinations": [
-            {
-              "location": "reset_children",
-              "probability": {
-                "exp": 1.0
-              },
-              "assignments": []
-            }
-          ],
           "action": "bt_1004_halt_response_on_receive",
           "guard": {
             "exp": {
@@ -8770,6 +8770,79 @@
                   "op": "=",
                   "left": "current_child_idx",
                   "right": 3
+                }
+              }
+            }
+          }
+        },
+        {
+          "location": "tick_children",
+          "destinations": [
+            {
+              "location": "tick_children",
+              "probability": {
+                "exp": 1.0
+              },
+              "assignments": []
+            }
+          ],
+          "action": "bt_1002_response_on_receive",
+          "guard": {
+            "exp": {
+              "op": "∧",
+              "left": {
+                "op": "∧",
+                "left": {
+                  "op": "∧",
+                  "left": true,
+                  "right": {
+                    "op": "¬",
+                    "exp": {
+                      "op": "∧",
+                      "left": {
+                        "op": "=",
+                        "left": "bt_1002_response__status",
+                        "right": 1
+                      },
+                      "right": {
+                        "op": "=",
+                        "left": "current_child_idx",
+                        "right": 1
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "op": "¬",
+                  "exp": {
+                    "op": "∧",
+                    "left": {
+                      "op": "=",
+                      "left": "bt_1002_response__status",
+                      "right": 2
+                    },
+                    "right": {
+                      "op": "=",
+                      "left": "current_child_idx",
+                      "right": 1
+                    }
+                  }
+                }
+              },
+              "right": {
+                "op": "¬",
+                "exp": {
+                  "op": "∧",
+                  "left": {
+                    "op": "=",
+                    "left": "bt_1002_response__status",
+                    "right": 3
+                  },
+                  "right": {
+                    "op": "=",
+                    "left": "current_child_idx",
+                    "right": 1
+                  }
                 }
               }
             }
@@ -8932,79 +9005,6 @@
               "assignments": []
             }
           ],
-          "action": "bt_1002_response_on_receive",
-          "guard": {
-            "exp": {
-              "op": "∧",
-              "left": {
-                "op": "∧",
-                "left": {
-                  "op": "∧",
-                  "left": true,
-                  "right": {
-                    "op": "¬",
-                    "exp": {
-                      "op": "∧",
-                      "left": {
-                        "op": "=",
-                        "left": "bt_1002_response__status",
-                        "right": 1
-                      },
-                      "right": {
-                        "op": "=",
-                        "left": "current_child_idx",
-                        "right": 1
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "op": "¬",
-                  "exp": {
-                    "op": "∧",
-                    "left": {
-                      "op": "=",
-                      "left": "bt_1002_response__status",
-                      "right": 2
-                    },
-                    "right": {
-                      "op": "=",
-                      "left": "current_child_idx",
-                      "right": 1
-                    }
-                  }
-                }
-              },
-              "right": {
-                "op": "¬",
-                "exp": {
-                  "op": "∧",
-                  "left": {
-                    "op": "=",
-                    "left": "bt_1002_response__status",
-                    "right": 3
-                  },
-                  "right": {
-                    "op": "=",
-                    "left": "current_child_idx",
-                    "right": 1
-                  }
-                }
-              }
-            }
-          }
-        },
-        {
-          "location": "tick_children",
-          "destinations": [
-            {
-              "location": "tick_children",
-              "probability": {
-                "exp": 1.0
-              },
-              "assignments": []
-            }
-          ],
           "action": "bt_1001_response_on_receive",
           "guard": {
             "exp": {
@@ -9078,6 +9078,33 @@
               "assignments": []
             }
           ],
+          "action": "bt_1002_halt_response_on_receive",
+          "guard": {
+            "exp": {
+              "op": "∧",
+              "left": true,
+              "right": {
+                "op": "¬",
+                "exp": {
+                  "op": "=",
+                  "left": "current_child_idx",
+                  "right": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "location": "halt_current_child",
+          "destinations": [
+            {
+              "location": "halt_current_child",
+              "probability": {
+                "exp": 1.0
+              },
+              "assignments": []
+            }
+          ],
           "action": "bt_1003_halt_response_on_receive",
           "guard": {
             "exp": {
@@ -9116,33 +9143,6 @@
                   "op": "=",
                   "left": "current_child_idx",
                   "right": 0
-                }
-              }
-            }
-          }
-        },
-        {
-          "location": "halt_current_child",
-          "destinations": [
-            {
-              "location": "halt_current_child",
-              "probability": {
-                "exp": 1.0
-              },
-              "assignments": []
-            }
-          ],
-          "action": "bt_1002_halt_response_on_receive",
-          "guard": {
-            "exp": {
-              "op": "∧",
-              "left": true,
-              "right": {
-                "op": "¬",
-                "exp": {
-                  "op": "=",
-                  "left": "current_child_idx",
-                  "right": 1
                 }
               }
             }
