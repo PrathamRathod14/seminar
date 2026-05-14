@@ -1,0 +1,42 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam componentStyle rectangle
+skinparam packageStyle rectangle
+skinparam shadowing false
+title Architecture Evidence Status\nros2/bond_core
+
+package "This experiment run" as run #F8FAFC {
+  component "source package manifest\n0 files" as manifest #FEE2E2
+  component "ground-truth extractor\n0 nodes, 0 topics" as extractor #FEE2E2
+  component "generated diagram\nempty" as old_diagram #FEE2E2
+}
+
+package "Expected architecture view to recover" as expected #EFF6FF {
+  component "bond API/library\nheartbeat bond abstraction" as bond_api #E0F2FE
+  queue "bond status topic(s)\nheartbeat/status messages" as bond_topics #FEF3C7
+  component "application node A" as node_a #DCFCE7
+  component "application node B" as node_b #DCFCE7
+}
+
+manifest --> extractor : no local source evidence
+extractor --> old_diagram : no extracted architecture
+node_a --> bond_api : creates/monitors bond
+node_b --> bond_api : creates/monitors bond
+bond_api --> bond_topics : exchanges heartbeat/status
+bond_topics --> bond_api : monitors peer liveliness
+
+note right of manifest
+  The empty original diagram means this run did not ingest
+  bond_core source files. It should not be interpreted as
+  "bond_core has no architecture."
+end note
+
+legend right
+  Red = missing experiment evidence
+  Blue/green/yellow = architectural concepts to recover once source is available
+endlegend
+footer Evidence: source_packages/20260513T175513Z/ros2_bond_core/full_source_manifest.json is empty
+@enduml
+

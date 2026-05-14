@@ -1,0 +1,80 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam componentStyle rectangle
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam ArrowColor #334155
+skinparam component {
+  BackgroundColor #E0F2FE
+  BorderColor #2563EB
+}
+title Real Package/Layer Architecture\nros2/rclcpp
+
+package "Public C++ client APIs" as public_api #EFF6FF {
+  component "rclcpp\nNode, Context, QoS,\nPublisher, Subscription,\nClient, Service, Timer" as rclcpp
+  component "rclcpp_action\nAction client/server API" as rclcpp_action
+  component "rclcpp_lifecycle\nLifecycleNode + managed entities" as rclcpp_lifecycle
+  component "rclcpp_components\nComposable node loading\nand component containers" as rclcpp_components
+}
+
+package "Execution and entity management" as execution #F0FDFA {
+  component "Executors\nSingleThreaded,\nMultiThreaded,\nEventsCBG" as executors
+  component "Callback groups\nconcurrency policy" as callback_groups
+  component "WaitSet\nwaitable collection" as waitset
+  component "Node interfaces\nbase, topics, services,\ntimers, graph, params" as node_interfaces
+}
+
+package "ROS 2 lower layers" as lower #FFF7ED {
+  component "rcl / rcl_action /\nrcl_lifecycle" as rcl
+  component "rmw\nmiddleware abstraction" as rmw
+  component "rosidl runtime +\ntype support" as rosidl
+  component "rcutils / rcpputils /\ntracetools" as utilities
+}
+
+package "User process" as user_process #F8FAFC {
+  actor "User code" as user
+  component "Application node" as app_node
+  queue "Topics / services /\nactions / parameters" as ros_graph #FEF3C7
+}
+
+user --> app_node : derives from or owns
+app_node --> rclcpp : uses Node APIs
+app_node --> rclcpp_action : optional action API
+app_node --> rclcpp_lifecycle : optional managed lifecycle
+app_node --> rclcpp_components : optional composition
+
+rclcpp_action --> rclcpp : depends on
+rclcpp_components --> rclcpp : loads Node-like components
+rclcpp_lifecycle --> rclcpp : reuses core node facilities
+
+rclcpp --> node_interfaces : splits large Node responsibilities
+rclcpp --> executors : spin callbacks
+executors --> callback_groups : enforce callback concurrency
+executors --> waitset : wait for ready entities
+node_interfaces --> ros_graph : create graph entities
+
+rclcpp --> rcl
+rclcpp_action --> rcl
+rclcpp_lifecycle --> rcl
+rcl --> rmw
+rclcpp --> rosidl
+rclcpp --> utilities
+
+note right of rclcpp
+  This is a framework/library architecture,
+  not a runtime node-topic graph.
+  The old "my_node -> chatter" diagram came
+  from an example signature in node.hpp.
+end note
+
+legend right
+  Blue = rclcpp package/API layer
+  Teal = execution/internal coordination
+  Orange = lower ROS 2 dependencies
+  Yellow = ROS graph concepts exposed to applications
+endlegend
+footer Evidence: local package.xml files and rclcpp public headers in repos/ros2_rclcpp
+@enduml
+
