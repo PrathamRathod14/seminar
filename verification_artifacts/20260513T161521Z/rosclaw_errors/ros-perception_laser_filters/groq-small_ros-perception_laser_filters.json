@@ -1,0 +1,117 @@
+{
+  "pair_key": "groq-small :: ros-perception/laser_filters",
+  "repo": "ros-perception/laser_filters",
+  "actual_categories": [
+    "hallucinated_node",
+    "missing_node",
+    "subsystem_boundary_confusion",
+    "wrong_topic_name"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "hallucinated_node",
+      "missing_node",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ],
+    "AS2FM": [
+      "hallucinated_node",
+      "missing_node",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "groq-small_ros-perception_laser_filters__err_0001",
+      "category": "hallucinated_node",
+      "node": "LaserScanPolygonFilter",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-perception_laser_filters__err_0002",
+      "category": "hallucinated_node",
+      "node": "LaserScanPolygonFilterBase",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-perception_laser_filters__err_0003",
+      "category": "missing_node",
+      "node": "laser_scan_box_filter",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-perception_laser_filters__err_0004",
+      "category": "missing_node",
+      "node": "laser_scan_footprint_filter",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-perception_laser_filters__err_0005",
+      "category": "missing_node",
+      "node": "scan_to_cloud_filter_chain",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-perception_laser_filters__err_0006",
+      "category": "missing_node",
+      "node": "scan_to_scan_filter_chain",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-perception_laser_filters__err_0007",
+      "category": "subsystem_boundary_confusion",
+      "node": "laser_scan_polygon_filter",
+      "detail": "gt=other; predicted=laser_filters",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-perception_laser_filters__err_0008",
+      "category": "wrong_topic_name",
+      "node": "laser_scan_polygon_filter",
+      "detail": "publishes topic differs: polygon",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-perception_laser_filters__err_0009",
+      "category": "wrong_topic_name",
+      "node": "laser_scan_polygon_filter",
+      "detail": "subscribes topic differs: input",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

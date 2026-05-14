@@ -1,0 +1,100 @@
+{
+  "pair_key": "groq-small :: ros2/launch_ros",
+  "repo": "ros2/launch_ros",
+  "actual_categories": [
+    "hallucinated_node",
+    "lifecycle_violation",
+    "missing_node",
+    "subsystem_boundary_confusion",
+    "wrong_topic_name"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "hallucinated_node",
+      "lifecycle_violation",
+      "missing_node",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ],
+    "AS2FM": [
+      "hallucinated_node",
+      "lifecycle_violation",
+      "missing_node",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "groq-small_ros2_launch_ros__err_0001",
+      "category": "hallucinated_node",
+      "node": "ComposableLifecycleNode",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_launch_ros__err_0002",
+      "category": "hallucinated_node",
+      "node": "OnStateTransition",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_launch_ros__err_0003",
+      "category": "missing_node",
+      "node": "ComposableNodeContainer",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_launch_ros__err_0004",
+      "category": "missing_node",
+      "node": "_WaitForTopicsNode",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_launch_ros__err_0005",
+      "category": "subsystem_boundary_confusion",
+      "node": "LifecycleNode",
+      "detail": "gt=other; predicted=launch_ros.actions.lifecycle_node",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_launch_ros__err_0006",
+      "category": "lifecycle_violation",
+      "node": "LifecycleNode",
+      "detail": "gt=False; predicted=True",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_launch_ros__err_0007",
+      "category": "wrong_topic_name",
+      "node": "LifecycleNode",
+      "detail": "publishes topic differs: /<name>/transition_event",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "pair_key": "qwen-groq :: ros-drivers/usb_cam",
+  "repo": "ros-drivers/usb_cam",
+  "actual_categories": [
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "missing_node"
+    ],
+    "AS2FM": [
+      "missing_node"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "qwen-groq_ros-drivers_usb_cam__err_0001",
+      "category": "missing_node",
+      "node": "examine_image",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw MCP before-call validator record",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-missing_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  7.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "missing_node",
+              "validation_stage": "before_execution"
+            }
+          }
+        },
+        "elapsed_ms": 0.2080000122077763,
+        "detected": true,
+        "validation_result": {
+          "is_safe": false,
+          "collision_detected": false,
+          "joint_limit_violated": true,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 0.0,
+          "min_distance_to_collision": "inf",
+          "simulation_steps": 0,
+          "violation_details": [
+            "Step 1: Joint shoulder_pan_joint target position 7.0000 exceeds limits [-6.2832, 6.2832]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "qwen-groq_ros-drivers_usb_cam__err_0002",
+      "category": "missing_node",
+      "node": "usb_cam",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw MCP before-call validator record",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-missing_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  7.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "missing_node",
+              "validation_stage": "before_execution"
+            }
+          }
+        },
+        "elapsed_ms": 0.2080000122077763,
+        "detected": true,
+        "validation_result": {
+          "is_safe": false,
+          "collision_detected": false,
+          "joint_limit_violated": true,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 0.0,
+          "min_distance_to_collision": "inf",
+          "simulation_steps": 0,
+          "violation_details": [
+            "Step 1: Joint shoulder_pan_joint target position 7.0000 exceeds limits [-6.2832, 6.2832]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "qwen-groq_ros-drivers_usb_cam__err_0003",
+      "category": "missing_node",
+      "node": "usb_cam_node_exe",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw MCP before-call validator record",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-missing_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  7.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "missing_node",
+              "validation_stage": "before_execution"
+            }
+          }
+        },
+        "elapsed_ms": 0.2080000122077763,
+        "detected": true,
+        "validation_result": {
+          "is_safe": false,
+          "collision_detected": false,
+          "joint_limit_violated": true,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 0.0,
+          "min_distance_to_collision": "inf",
+          "simulation_steps": 0,
+          "violation_details": [
+            "Step 1: Joint shoulder_pan_joint target position 7.0000 exceeds limits [-6.2832, 6.2832]"
+          ]
+        }
+      }
+    }
+  ]
+}

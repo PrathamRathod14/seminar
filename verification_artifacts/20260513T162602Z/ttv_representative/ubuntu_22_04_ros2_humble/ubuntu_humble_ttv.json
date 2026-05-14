@@ -1,0 +1,23 @@
+{
+  "status": "environment_unavailable",
+  "required_environment": "Ubuntu 22.04 + ROS 2 Humble",
+  "distro": "Ubuntu-22.04",
+  "probe": {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu-22.04",
+      "--",
+      "bash",
+      "-lc",
+      "printf 'ubuntu_version='; lsb_release -rs 2>/dev/null || true; if [ -f /opt/ros/humble/setup.bash ]; then source /opt/ros/humble/setup.bash; echo humble_setup=present; echo ros_distro=${ROS_DISTRO:-missing}; else echo humble_setup=missing; echo ros_distro=missing; fi; printf 'python_version='; python3 --version 2>/dev/null || true"
+    ],
+    "returncode": 0,
+    "stdout_tail": "ubuntu_version=22.04\nhumble_setup=missing\nros_distro=missing\npython_version=Python 3.10.12\n",
+    "stderr_tail": "",
+    "elapsed_ms": 4004.310699994676
+  },
+  "humble_present": false,
+  "records": [],
+  "note": "Native AS2FM TtV is executed inside WSL only when /opt/ros/humble/setup.bash exists. The local native AS2FM TtV records remain the working fallback on this machine."
+}

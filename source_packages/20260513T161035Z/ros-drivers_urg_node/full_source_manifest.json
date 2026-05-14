@@ -1,0 +1,62 @@
+[
+  {
+    "path": "include\\urg_node\\urg_c_wrapper.hpp",
+    "bytes": 6842,
+    "sha256": "8d606d7d181f307bbe662f2abd526f5c95e0dbcc91b4a25435fd485eb1f5261e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\urg_node\\urg_node.hpp",
+    "bytes": 5751,
+    "sha256": "fdf2de69dcfdbfd142f6d1ae29815bb2bbb3ca02a64a7d6cd9583e0fa72e78d4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch\\urg_node_ethernet.yaml",
+    "bytes": 446,
+    "sha256": "ffebd40668449ae515436fd2b5732fdf76a4a9d698aa7d6aa0850cbfd9f5c80f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch\\urg_node_launch.py",
+    "bytes": 1371,
+    "sha256": "07baf745d466ecee5fec92c45272ffaf2e4816df60d72d5c109b4624447f0976",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch\\urg_node_serial.yaml",
+    "bytes": 447,
+    "sha256": "3dd28f8b4b04bd5ab36a56df2acde5b2797233a184e67fb5f3bb3550317bc761",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "package.xml",
+    "bytes": 1371,
+    "sha256": "ededfb98f4a4709015b7b2251e9c1446c674cab54f63a083674adab8c607c23b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "scripts\\set_urg_ip.py",
+    "bytes": 3524,
+    "sha256": "35a8367bae484ca9b0e0634e2fb1cf5d2f6caf2a249f7090884358d5b94212f5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\get_id.cpp",
+    "bytes": 5521,
+    "sha256": "06a6e593234f946b37beb2fec5396ec6eebb80a99a6cd64515bc7043e28729a1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\urg_c_wrapper.cpp",
+    "bytes": 30207,
+    "sha256": "3ae63301091d7ca8880edc192df598969b0a705fbe3001e2b3b6c39110b24c0a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\urg_node.cpp",
+    "bytes": 21625,
+    "sha256": "b5b18d4d86a892e8af49b22e5c152ef44bdf1b9d47987c2a5e054205891708e1",
+    "included_in_llm_prompt": true
+  }
+]

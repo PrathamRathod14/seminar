@@ -1,0 +1,120 @@
+{
+  "jani-version": 1,
+  "name": "ros2_architecture_recovery_check",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "metadata": {
+    "ground_truth_nodes": [
+      {
+        "name": "urg_node",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "scan",
+            "type": "sensor_msgs::msg::LaserScan"
+          },
+          {
+            "topic": "laser_status",
+            "type": "urg_node_msgs::msg::Status"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "launch\\urg_node_launch.py",
+          "src\\urg_node.cpp"
+        ],
+        "msg_types": {
+          "scan": "sensor_msgs::msg::LaserScan",
+          "laser_status": "urg_node_msgs::msg::Status"
+        },
+        "has_lifecycle": false
+      }
+    ],
+    "candidate_nodes": [
+      {
+        "name": "urg_node",
+        "subsystem": "Sensor",
+        "publishes": [
+          {
+            "topic": "scan",
+            "type": "sensor_msgs/msg/LaserScan"
+          },
+          {
+            "topic": "laser_status",
+            "type": "urg_node_msgs/msg/Status"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [],
+        "msg_types": {
+          "scan": "sensor_msgs/msg/LaserScan",
+          "laser_status": "urg_node_msgs/msg/Status"
+        },
+        "has_lifecycle": false
+      }
+    ],
+    "model_label": "groq-large",
+    "repo_label": "ros-drivers/urg_node",
+    "verification_adapter": "AS2FM/JANI architecture evidence artifact"
+  },
+  "properties": [
+    {
+      "name": "interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    }
+  ]
+}

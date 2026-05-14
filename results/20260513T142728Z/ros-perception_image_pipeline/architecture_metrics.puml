@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam rectangle {
+  RoundCorner 8
+  BorderColor #4B5563
+}
+title ROS 2 LLM Architecture Recovery\nros-perception/image_pipeline
+rectangle "INPUT\nRepo: ros-perception/image_pipeline\nSource files sent: 4\nGT nodes/topics: 34/11" as input #E0F2FE
+rectangle "SQ1: LLM architecture recovery\nllama-4: precision 6.25%, SBRG 2.94 percentage points, TP/FP/FN 1/15/33\ngroq-large: precision 6.25%, SBRG 2.94 percentage points, TP/FP/FN 1/15/33\ngroq-small: precision 75.00%, SBRG 8.82 percentage points, TP/FP/FN 3/1/31\nqwen-groq: precision 0.00%, SBRG 0.00 percentage points, TP/FP/FN 0/0/34" as sq1 #ECFDF5
+rectangle "SQ2: Error taxonomy\nTotal repo errors: 177\nmissing_node: 131\nhallucinated_node: 31\nwrong_topic_name: 9\nsubsystem_boundary_confusion: 5\nlifecycle_violation: 1" as sq2 #FFF7ED
+rectangle "SQ3: Tool detection\nTCR: 100.00%\nAS2FM: run\nROSClaw: run" as sq3 #F5F3FF
+rectangle "SQ4 / Outputs\nAnnotation: source_parser_seed_for_manual_review\nRun: 20260513T142728Z\nTtV: 2574.96 ms" as sq4 #F8FAFC
+input --> sq1
+sq1 --> sq2
+sq2 --> sq3
+sq3 --> sq4
+footer Generated from metrics_results.json
+@enduml

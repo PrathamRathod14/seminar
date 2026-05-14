@@ -1,0 +1,443 @@
+{
+  "pair_key": "groq-small :: ros2/launch_ros",
+  "repo": "ros2/launch_ros",
+  "actual_categories": [
+    "hallucinated_node",
+    "lifecycle_violation",
+    "missing_node",
+    "subsystem_boundary_confusion",
+    "wrong_topic_name"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "hallucinated_node",
+      "lifecycle_violation",
+      "missing_node",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ],
+    "AS2FM": [
+      "hallucinated_node",
+      "lifecycle_violation",
+      "missing_node",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "groq-small_ros2_launch_ros__err_0001",
+      "category": "hallucinated_node",
+      "node": "ComposableLifecycleNode",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw MCP before-call validator record",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-hallucinated_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  7.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "hallucinated_node",
+              "validation_stage": "before_execution"
+            }
+          }
+        },
+        "elapsed_ms": 669.0018000081182,
+        "detected": true,
+        "validation_result": {
+          "is_safe": false,
+          "collision_detected": false,
+          "joint_limit_violated": true,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 0.0,
+          "min_distance_to_collision": "inf",
+          "simulation_steps": 0,
+          "violation_details": [
+            "Step 1: Joint shoulder_pan_joint target position 7.0000 exceeds limits [-6.2832, 6.2832]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_launch_ros__err_0002",
+      "category": "hallucinated_node",
+      "node": "OnStateTransition",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw MCP before-call validator record",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-hallucinated_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  7.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "hallucinated_node",
+              "validation_stage": "before_execution"
+            }
+          }
+        },
+        "elapsed_ms": 669.0018000081182,
+        "detected": true,
+        "validation_result": {
+          "is_safe": false,
+          "collision_detected": false,
+          "joint_limit_violated": true,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 0.0,
+          "min_distance_to_collision": "inf",
+          "simulation_steps": 0,
+          "violation_details": [
+            "Step 1: Joint shoulder_pan_joint target position 7.0000 exceeds limits [-6.2832, 6.2832]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_launch_ros__err_0003",
+      "category": "missing_node",
+      "node": "ComposableNodeContainer",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw MCP before-call validator record",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-missing_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  7.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "missing_node",
+              "validation_stage": "before_execution"
+            }
+          }
+        },
+        "elapsed_ms": 0.2080000122077763,
+        "detected": true,
+        "validation_result": {
+          "is_safe": false,
+          "collision_detected": false,
+          "joint_limit_violated": true,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 0.0,
+          "min_distance_to_collision": "inf",
+          "simulation_steps": 0,
+          "violation_details": [
+            "Step 1: Joint shoulder_pan_joint target position 7.0000 exceeds limits [-6.2832, 6.2832]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_launch_ros__err_0004",
+      "category": "missing_node",
+      "node": "_WaitForTopicsNode",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw MCP before-call validator record",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-missing_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  7.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "missing_node",
+              "validation_stage": "before_execution"
+            }
+          }
+        },
+        "elapsed_ms": 0.2080000122077763,
+        "detected": true,
+        "validation_result": {
+          "is_safe": false,
+          "collision_detected": false,
+          "joint_limit_violated": true,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 0.0,
+          "min_distance_to_collision": "inf",
+          "simulation_steps": 0,
+          "violation_details": [
+            "Step 1: Joint shoulder_pan_joint target position 7.0000 exceeds limits [-6.2832, 6.2832]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_launch_ros__err_0005",
+      "category": "subsystem_boundary_confusion",
+      "node": "LifecycleNode",
+      "detail": "gt=other; predicted=launch_ros.actions.lifecycle_node",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw MCP before-call validator record",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-subsystem_boundary_confusion",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  7.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "subsystem_boundary_confusion",
+              "validation_stage": "before_execution"
+            }
+          }
+        },
+        "elapsed_ms": 0.14730001566931605,
+        "detected": true,
+        "validation_result": {
+          "is_safe": false,
+          "collision_detected": false,
+          "joint_limit_violated": true,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 0.0,
+          "min_distance_to_collision": "inf",
+          "simulation_steps": 0,
+          "violation_details": [
+            "Step 1: Joint shoulder_pan_joint target position 7.0000 exceeds limits [-6.2832, 6.2832]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_launch_ros__err_0006",
+      "category": "lifecycle_violation",
+      "node": "LifecycleNode",
+      "detail": "gt=False; predicted=True",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw MCP before-call validator record",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-lifecycle_violation",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  7.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "lifecycle_violation",
+              "validation_stage": "before_execution"
+            }
+          }
+        },
+        "elapsed_ms": 0.14449999434873462,
+        "detected": true,
+        "validation_result": {
+          "is_safe": false,
+          "collision_detected": false,
+          "joint_limit_violated": true,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 0.0,
+          "min_distance_to_collision": "inf",
+          "simulation_steps": 0,
+          "violation_details": [
+            "Step 1: Joint shoulder_pan_joint target position 7.0000 exceeds limits [-6.2832, 6.2832]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_launch_ros__err_0007",
+      "category": "wrong_topic_name",
+      "node": "LifecycleNode",
+      "detail": "publishes topic differs: /<name>/transition_event",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw MCP before-call validator record",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-wrong_topic_name",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  7.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "wrong_topic_name",
+              "validation_stage": "before_execution"
+            }
+          }
+        },
+        "elapsed_ms": 0.11740002082660794,
+        "detected": true,
+        "validation_result": {
+          "is_safe": false,
+          "collision_detected": false,
+          "joint_limit_violated": true,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 0.0,
+          "min_distance_to_collision": "inf",
+          "simulation_steps": 0,
+          "violation_details": [
+            "Step 1: Joint shoulder_pan_joint target position 7.0000 exceeds limits [-6.2832, 6.2832]"
+          ]
+        }
+      }
+    }
+  ]
+}

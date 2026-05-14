@@ -1,0 +1,5156 @@
+[
+  {
+    "path": ".pre-commit-config.yaml",
+    "bytes": 3091,
+    "sha256": "9f2549bf8f339af965e855bdc4054c2c2981cdbe2da85ef57f30d1275737da4b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "codecov.yml",
+    "bytes": 848,
+    "sha256": "83fc1d2d8a455ae1ce63db48e52d608c086928b4de85e3afc67e72d95b156cf8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\include\\nav2_amcl\\amcl_node.hpp",
+    "bytes": 14959,
+    "sha256": "db03e53dc9f59452236301cd523d1811d1238c7a02ac55a9e2a7a0339f97186b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\include\\nav2_amcl\\angleutils.hpp",
+    "bytes": 1972,
+    "sha256": "30ff4b78fe002e3de640ed86c67bfccdefacc6dda5ea37b143e06e0ceb6e68b4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\include\\nav2_amcl\\map\\map.hpp",
+    "bytes": 4417,
+    "sha256": "ae44fb13d5909f1e8b6a01c4762110668ff12ad82ebedb36cfd9f5c6047c32ff",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\include\\nav2_amcl\\motion_model\\differential_motion_model.hpp",
+    "bytes": 1679,
+    "sha256": "295b603038a9a49f13e64abc88b05a3a0b89a5ca21a4f5e2aa3a3860297851e2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\include\\nav2_amcl\\motion_model\\motion_model.hpp",
+    "bytes": 2139,
+    "sha256": "c4a46046d76f0ccbf63c5cf32fff2cf434b2e198d9e35699676dd90bba785e2d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\include\\nav2_amcl\\motion_model\\omni_motion_model.hpp",
+    "bytes": 1645,
+    "sha256": "03ae58e950c2018b1a44873a618ee58144eda39ccb85668051a23a73b9c8e6f3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\include\\nav2_amcl\\pf\\eig3.hpp",
+    "bytes": 1347,
+    "sha256": "1bc1b5a78f78c4d679430d416975522e10691c84c9e066ddbe4fbe6933695584",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\include\\nav2_amcl\\pf\\pf.hpp",
+    "bytes": 5777,
+    "sha256": "e1d5b2418a2f3391fca3a4b8e58e2dad84a5568b6e032c6e278c0d12749f736a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\include\\nav2_amcl\\pf\\pf_kdtree.hpp",
+    "bytes": 2968,
+    "sha256": "a6bf2616014a94f561f33cc867dd1409840d5e6ee11a171b5976d2cb0adf126f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\include\\nav2_amcl\\pf\\pf_pdf.hpp",
+    "bytes": 2704,
+    "sha256": "53855e02a341341b6cc552bf0e4d9540c01be00e07f2689c9f66f7cf9ae10e68",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\include\\nav2_amcl\\pf\\pf_vector.hpp",
+    "bytes": 2911,
+    "sha256": "6387ac30b43043ecb6cf93e9cd979183d014aed947adad6aa7e6ba53e6fb6aac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\include\\nav2_amcl\\portable_utils.hpp",
+    "bytes": 1141,
+    "sha256": "7f13a008a2f0032e1e39954e5882e3da92ac1c9bfb8d87ed86c81fc24f234aba",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\include\\nav2_amcl\\sensors\\laser\\laser.hpp",
+    "bytes": 5251,
+    "sha256": "978547d74726175247e996910ee38c31f78106f4d33021d6ceddfb0eeb8156b2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\package.xml",
+    "bytes": 1726,
+    "sha256": "3882646528a33140760e379f9ded13b606bb36ba01d453411e83dd8f58a1b67c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\plugins.xml",
+    "bytes": 356,
+    "sha256": "a59141bec7950f4c7870fe93c1e9dcd23e179e51ca9417374e614d0857c61250",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\src\\amcl_node.cpp",
+    "bytes": 58311,
+    "sha256": "3029186f9b8df25cd0c10fe2a1e59419689afcb14cf6ec01445a0cb58ed90c06",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\src\\main.cpp",
+    "bytes": 1098,
+    "sha256": "e2d4657dd3cd0cfe56bb4ab267b65acf05af865848f22cee623d9c923ac40b63",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\src\\map\\map_cspace.cpp",
+    "bytes": 5574,
+    "sha256": "d444a561d0b3276e99233234df688ff2926c906e0aaf4bc81fe9863a5cada59d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\src\\motion_model\\differential_motion_model.cpp",
+    "bytes": 4080,
+    "sha256": "2c5ec96fe18abc2956fcd24542bbe9c08db5fd29d6ac9f45d3e389b9fe46ae7e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\src\\motion_model\\omni_motion_model.cpp",
+    "bytes": 3276,
+    "sha256": "339dc861189c57a7573a11b5a9bb3ce445df98cbc670591e08130408dd58d333",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\src\\sensors\\laser\\beam_model.cpp",
+    "bytes": 3875,
+    "sha256": "d946292d8defc3f95f7f608e62145deb2703fef58b622e067efb69da063b291a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\src\\sensors\\laser\\laser.cpp",
+    "bytes": 1887,
+    "sha256": "436e2343efed9e754a5761d5177720b6d5177633848936e0f4b07cfd0db9e7dd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\src\\sensors\\laser\\likelihood_field_model.cpp",
+    "bytes": 4411,
+    "sha256": "54e905d4fe8532dfd36ec4a55785475776e08e40712d4e71889e44361854c757",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_amcl\\src\\sensors\\laser\\likelihood_field_model_prob.cpp",
+    "bytes": 7876,
+    "sha256": "ba53ec7b15bc912349528f2e2eba90ea0af2ae3b218f8d1f5c440d1b24003ff0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\behavior_tree_engine.hpp",
+    "bytes": 4777,
+    "sha256": "4caa426fef1248e3b4c8731a18496d50e0332142568ad18a7341679aa096f199",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\bt_action_node.hpp",
+    "bytes": 18519,
+    "sha256": "81248155e6e1bad41580141e9e09074e24937c18acfd2627e9268aef1e03bcac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\bt_action_server.hpp",
+    "bytes": 10017,
+    "sha256": "79fb1ab6fb10fa030e91f349fd00502d97d08a67db8282dc77f90c321a5500ae",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\bt_action_server_impl.hpp",
+    "bytes": 20039,
+    "sha256": "a2dfcfcb25da3a9980b9347a368fc7935c08efca2e44aaed17e66f46b7d5784f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\bt_cancel_action_node.hpp",
+    "bytes": 6218,
+    "sha256": "f2bf946c7111bc388e5cbc37b3582c4dc4bc22eb664a04a5f019c40042126840",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\bt_service_node.hpp",
+    "bytes": 10174,
+    "sha256": "876321e5705e76cbf9254aac97ccadd77ac0d8c1b7b26da16a0af53bf44e0666",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\bt_utils.hpp",
+    "bytes": 16721,
+    "sha256": "a96507cc450dfd9c3e75582b93bcad0b10504195580faa851677af47a0ebd97a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\json_utils.hpp",
+    "bytes": 3632,
+    "sha256": "5d5ce37e171867b15ca66600bd7172e72e5e95aac70c645c0457843b7ba9ef53",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\append_goal_pose_to_goals_action.hpp",
+    "bytes": 2049,
+    "sha256": "d72292f522e5dcfee14fa4fbeb6a4f590611e0957ca8bb70e5868e6be4901448",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\assisted_teleop_action.hpp",
+    "bytes": 3705,
+    "sha256": "9a6992be4e4473e12a53fecfd5740860cd5002a0882138dda7ed26206ff19b25",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\assisted_teleop_cancel_node.hpp",
+    "bytes": 2082,
+    "sha256": "30f60105632c3a050e10ddf9899e8bb1e3ddce24e852fe2a792ae848f9863228",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\back_up_action.hpp",
+    "bytes": 3719,
+    "sha256": "9fc48c7391b5cab2e00e92312d78b754416cedb04349a87ee7f50343551a6f42",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\back_up_cancel_node.hpp",
+    "bytes": 2008,
+    "sha256": "2b131cb9eb0e6e10eaf95606842ed93668f670f6b2237b7dcd963352e82dcbdc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\check_pose_occupancy_action.hpp",
+    "bytes": 3454,
+    "sha256": "dbbd2ec1c559ae7e48fed764dad56c7b13706acc68bbe690ee4e490b269c7943",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\check_stop_status_action.hpp",
+    "bytes": 3151,
+    "sha256": "c14e6798029625247594be2be636d539b8a475787d15df269ae9b32914612be4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\clear_costmap_service.hpp",
+    "bytes": 6344,
+    "sha256": "7269b0323e8296c28acb658723fd220982494cf9a74852312a1fc66460205f18",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\compute_and_track_route_action.hpp",
+    "bytes": 5397,
+    "sha256": "0cae02da2abde7299f5841693c40c7de3e647af786d0af44cba5df43d397c7e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\compute_and_track_route_cancel_node.hpp",
+    "bytes": 2199,
+    "sha256": "d286ca48336591d8b192532a6986892df69cf43466da15e9a912d1bc04c4f314",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\compute_path_through_poses_action.hpp",
+    "bytes": 4506,
+    "sha256": "863285aa584b787a3072311a59e3a215a5b7ab9c7fae9ba2c9031b7d63435946",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\compute_path_to_pose_action.hpp",
+    "bytes": 4643,
+    "sha256": "960ed5e3734b9945272d648dfd10904ecf1972532efdd895805446e3f7e89a38",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\compute_route_action.hpp",
+    "bytes": 4588,
+    "sha256": "61ef920a2144329eff6d251feac9b4c20b3cc4239b86132e0f1661cea52b1b03",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\concatenate_paths_action.hpp",
+    "bytes": 2429,
+    "sha256": "4773e351721819b6a989220b74b8066204ecbe154506b2d701d37b2718c455fc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\controller_cancel_node.hpp",
+    "bytes": 2046,
+    "sha256": "91a4f8479146ee71f4c6d2ba4dd8ed13fc605241c36bbcbd3e6c75b81ee7ff81",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\controller_selector_node.hpp",
+    "bytes": 3740,
+    "sha256": "c4a76ed4c909b9e163550132b20620dcbb340af62b3077e975b6fb1e3dfb1111",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\drive_on_heading_action.hpp",
+    "bytes": 3859,
+    "sha256": "9577acf3e7ba1d231cb665c0405a841af3abf4cb56b39f351fd1032793950ad6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\drive_on_heading_cancel_node.hpp",
+    "bytes": 2102,
+    "sha256": "e1f2390ba6c80b7d754a8542386751857b28b98f554849440eaa4e08501eaf3f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\extract_route_nodes_as_goals_action.hpp",
+    "bytes": 1930,
+    "sha256": "d9ea5a130cf289038cf98a14335af1a4456037771802e84b74f182e10e70cb07",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\follow_object_action.hpp",
+    "bytes": 3449,
+    "sha256": "649d612d203dfff3008e7b957aed984b79f392836e84bf4a7ae9b1241a88f6e3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\follow_object_cancel_node.hpp",
+    "bytes": 2145,
+    "sha256": "0993d0560fb38932ccb3a1b1dc65f9097ec73d17b79adeff20538c94e4610bc1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\follow_path_action.hpp",
+    "bytes": 4428,
+    "sha256": "fba8c9ea4496d06b7e02f4207c1f2a06d0c070cb54efd2e4d139a3533100ba3b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\get_current_pose_action.hpp",
+    "bytes": 2670,
+    "sha256": "69f6ecff01762e0f91ec07216a3152ea6e51b7d00e341c4c7e8762c1478a2313",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\get_next_few_goals_action.hpp",
+    "bytes": 1989,
+    "sha256": "0f929cca582c7cdf94b6b85e3a78acaa7e90865043d423a32f8d5b97c2c0bea6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\get_pose_from_path_action.hpp",
+    "bytes": 2246,
+    "sha256": "3599e6e359249b45eb4b3347fe2a2f18c736e1ca31741e701c7fb79ad347ab69",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\goal_checker_selector_node.hpp",
+    "bytes": 3783,
+    "sha256": "3257ddd1e6d6306d2fb19a29192fa8ff62137e8680ececb68058ada40c0d18fd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\navigate_through_poses_action.hpp",
+    "bytes": 3898,
+    "sha256": "0779098fee16f5ce952212e0d06eff154ec089346a6d6547144f0e002a61487f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\navigate_to_pose_action.hpp",
+    "bytes": 3770,
+    "sha256": "e7dd162e7e9b3faee39451818197e04f90903ffe20d8df2c8e1ae9c83e8fd4bc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\path_handler_selector_node.hpp",
+    "bytes": 3767,
+    "sha256": "8be2ace033d75ff01aea8cc5072d8fd3fce2d6bae37a7b396b7dc8f8b4558c55",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\planner_selector_node.hpp",
+    "bytes": 3677,
+    "sha256": "cc58734129558cce67bd4d1f5874feda628d6c00e39ec661567cc1c720f991b3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\progress_checker_selector_node.hpp",
+    "bytes": 3891,
+    "sha256": "1ebf5630679a9f8f11c659a2e408255c6c370b7939e183e3357621e868060342",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\reinitialize_global_localization_service.hpp",
+    "bytes": 1856,
+    "sha256": "680c74bf33de351768f30aa032e3a9c5bdb2b875e650a711c6a897ce4c7643c6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\remove_in_collision_goals_action.hpp",
+    "bytes": 3955,
+    "sha256": "56235a6d5695fed243756e1a1de27f1314ca89bc7eeefdf5b8689a3738d71f2a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\remove_passed_goals_action.hpp",
+    "bytes": 3420,
+    "sha256": "ec968f63c1c69844f86b91960cdf12fe02c4ff9ec471f8de741f0dca9d72e215",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\smooth_path_action.hpp",
+    "bytes": 4311,
+    "sha256": "02d8005917c0c4e98fa3f42c6c43be7f967d9c1513bd0ea12f9aa09f60f0d23b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\smoother_selector_node.hpp",
+    "bytes": 3684,
+    "sha256": "47270b917eedac2e7b63d47b04ba8fab0617f17b2e629fd45993e721761efa86",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\spin_action.hpp",
+    "bytes": 3669,
+    "sha256": "0c31f9f35f095afff370dc74d83941731e2ee816909421934d11e57ce971b0a6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\spin_cancel_node.hpp",
+    "bytes": 1982,
+    "sha256": "5844967b70e688d72cab3d24b5a2045649e29ccff8c22b407850cdfe39ee7c05",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\toggle_collision_monitor_service.hpp",
+    "bytes": 2023,
+    "sha256": "904b5661c98902b70d165e9b58347a5a922b999c65abdc6cb3e59e613b5633ea",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\truncate_path_action.hpp",
+    "bytes": 2666,
+    "sha256": "5da36400fa912262f5c2eedff1cc1b89e86b3174910125cd4201916766da1a78",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\truncate_path_local_action.hpp",
+    "bytes": 5193,
+    "sha256": "e29032043a58d8059fd1c35e64146952533d0c25e1d0dc843c46abb153adf050",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\validate_path_action.hpp",
+    "bytes": 5120,
+    "sha256": "e9b09c0d73745959f7be01e399dc5bece1f14ac6bc78faef3d55a510c6e9fdd4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\wait_action.hpp",
+    "bytes": 3338,
+    "sha256": "efe78b157ca0518ff63c0dbcdbfa6cdf5794efbaf83cb29724829092baf07639",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\action\\wait_cancel_node.hpp",
+    "bytes": 1982,
+    "sha256": "7495f965a8a7f95c243fec71bd1ddfc7339f6ff4e318d67bbd44d6c7df58f411",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\are_error_codes_present_condition.hpp",
+    "bytes": 2672,
+    "sha256": "26c1ab1474f3f453cbb26139272c9ee83f4c92396fe4e0e63505f1947939d092",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\are_poses_near_condition.hpp",
+    "bytes": 2999,
+    "sha256": "40c1da46e66e6e53f15136d70e1c930bd104b5bdca7441f39a51cf95bc99ab5e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\distance_traveled_condition.hpp",
+    "bytes": 2880,
+    "sha256": "98c608a83bebe096d780cbf02cfdd6c9193396951b8c733e6503707d9491f0d2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\globally_updated_goal_condition.hpp",
+    "bytes": 2761,
+    "sha256": "068645fa43c871c0c6ac8ada8a3af1774a59fae77ff41228aec91240dcec0aa1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\goal_reached_condition.hpp",
+    "bytes": 3237,
+    "sha256": "fdf26d17539febb0b8e871358112bb241da9cac19c5000c64569452672f3276f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\goal_updated_condition.hpp",
+    "bytes": 2635,
+    "sha256": "a03384f0458d7b1d8ce6bbf6ecbd7111681b44b8219de527217c3917a7498001",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\initial_pose_received_condition.hpp",
+    "bytes": 1571,
+    "sha256": "3eedabd07a5a2d2e8d5570bdfd58d8c7dd47adad2471ad155b65c2fcec1c84a0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\is_battery_charging_condition.hpp",
+    "bytes": 3084,
+    "sha256": "774f7d15cd3b7de35a434cfa8884f8a3e2affee0e05d5da0e985398fc7d81576",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\is_battery_low_condition.hpp",
+    "bytes": 3389,
+    "sha256": "ca2985fb0952c94d76b80828d328813f9b50e210dfe76a81abccac3e5ce4d4b6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\is_goal_nearby_condition.hpp",
+    "bytes": 3486,
+    "sha256": "d9ea27703e78b5e5a6c417d860a93d646d04bca83c999f0ea8e6e686ac966d0e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\is_stuck_condition.hpp",
+    "bytes": 3470,
+    "sha256": "371f7a8d11635761e5302291547f808240acdf1b5734267e193b99afb184b4e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\is_within_path_tracking_bounds_condition.hpp",
+    "bytes": 3232,
+    "sha256": "78adc58305daf646a1a570586e64a37f387160326ca0f23f65e7fb63f3539ac4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\path_expiring_timer_condition.hpp",
+    "bytes": 2610,
+    "sha256": "71b50f3c05b28483ccae2eb8cf1aba31533e21b5413137f7dac2f427002d7861",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\time_expired_condition.hpp",
+    "bytes": 2344,
+    "sha256": "366d1b7d1c055a1fc080b9cf0114686cbe543e294765166a5fcd1b5a56343ede",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\transform_available_condition.hpp",
+    "bytes": 2795,
+    "sha256": "2ffd46d764df2f7d4bb8d1a0c8ff2cc1b1877525d2c7baabec1e774c02889d7e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\would_a_controller_recovery_help_condition.hpp",
+    "bytes": 1594,
+    "sha256": "d70240f2a5741edb737c9529bda0a0c6b570a03648f249def3ec04dfb08c410e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\would_a_planner_recovery_help_condition.hpp",
+    "bytes": 1781,
+    "sha256": "11fd25beb85474676cb236ea8484c47ec2c3ee195ad27d9c63287818a18d4595",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\would_a_route_recovery_help_condition.hpp",
+    "bytes": 1749,
+    "sha256": "25e4fa60aab38299393f45c30a0a40d346595ded4e4f3ff68fac9e66343b0be8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\condition\\would_a_smoother_recovery_help_condition.hpp",
+    "bytes": 1587,
+    "sha256": "2ce96b454e61097837de2eeeeda2d4f170417a6a903abbcaa00872dc14e1cc12",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\control\\nonblocking_sequence.hpp",
+    "bytes": 4188,
+    "sha256": "b62ebf7e47dd659e5fedc5b1e52a20f6cd578b8e31f47a3acce907d82ecfa206",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\control\\pause_resume_controller.hpp",
+    "bytes": 5796,
+    "sha256": "543b040bab706c237e74f8bd09c2ae8228a7c41b4120ba709527354cfb6588d7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\control\\persistent_sequence.hpp",
+    "bytes": 2385,
+    "sha256": "d6d64350ac9124e99685d982a6acdfaaf3860853b2b3ccfcf3fa80d7d1b4a8ee",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\control\\pipeline_sequence.hpp",
+    "bytes": 3996,
+    "sha256": "4bd761f4c49b26b30d3a8cc6f161d16fafcac45f685321da2b1b2b75d805ee26",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\control\\recovery_node.hpp",
+    "bytes": 2709,
+    "sha256": "ac8b1f257b2aba3ea4202e3ceda9541ae1205ff7725a9b1dc8f3bc702007ad40",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\control\\round_robin_node.hpp",
+    "bytes": 3959,
+    "sha256": "19f76ef3c9bca1bf4ff50cd133b5c9f56d3df7ae73e0bada35a7ffe79d80cc03",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\decorator\\distance_controller.hpp",
+    "bytes": 2683,
+    "sha256": "2b9ce4218ee91a56454d19cd528c2c5f933044a1fa29c643345b3c8f574f2ce1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\decorator\\goal_updated_controller.hpp",
+    "bytes": 2736,
+    "sha256": "e6e3c0c0c713bae889a732e955d8c21f6c6d51aca00ef7d3abf855e9bcd61935",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\decorator\\goal_updater_node.hpp",
+    "bytes": 4278,
+    "sha256": "0f87ef02e47d48bfae96201faa4a9bf86cdd8119e5336d96d2f94b607ba02470",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\decorator\\path_longer_on_approach.hpp",
+    "bytes": 3786,
+    "sha256": "3572a252726da9ab1a858bc7c149f7587680b6c203f5419e7bafff6cbd0f14fc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\decorator\\rate_controller.hpp",
+    "bytes": 2212,
+    "sha256": "feff104084e1f5524795f00392b3b6ebcf578a338c12c5b55478f0e479454019",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\decorator\\single_trigger_node.hpp",
+    "bytes": 2025,
+    "sha256": "3dc78e6ffa46fa22e288f960b2800047e6bdb7b908fdd257741c2104c3118332",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\plugins\\decorator\\speed_controller.hpp",
+    "bytes": 4355,
+    "sha256": "b890ba8240a1c7da14fe1ee9cee8da95509123b46c5bf780f7ca719f035e8143",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\ros_topic_logger.hpp",
+    "bytes": 4121,
+    "sha256": "fe019cd034819025e72e3a25957ccbe74ec718cc156b3ef46b87dcb977e5aa90",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\include\\nav2_behavior_tree\\utils\\loop_rate.hpp",
+    "bytes": 3380,
+    "sha256": "ac207cbfd3cfe35dc83ff35164c6d76b95d2ab68871d02205da7eeddc7edcd78",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\nav2_tree_nodes.xml",
+    "bytes": 60304,
+    "sha256": "c30bce6bda1a28a7a7c0d38dbf0c87e50a14d8d91b3fb32f6b49563054472521",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\package.xml",
+    "bytes": 1540,
+    "sha256": "a0cc5ed4fe6d5a6c1d6c14a9972f9c0f76d50256eaa079373bf2ccab7952865a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\append_goal_pose_to_goals_action.cpp",
+    "bytes": 1604,
+    "sha256": "72bb66ed73d261a911e158d6c27445cc4647843e7f3cb0564b6e3004c30cda8d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\assisted_teleop_action.cpp",
+    "bytes": 2681,
+    "sha256": "49df8d543c7692ba813bc6969d97de65948578aa90a1ad7676e870acfeeffcb5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\assisted_teleop_cancel_node.cpp",
+    "bytes": 1516,
+    "sha256": "13aa2934e9f08e5c98669c1b5bcb94a6ab16513a6ebb4ebb444240b3efa8bed9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\back_up_action.cpp",
+    "bytes": 2846,
+    "sha256": "4a841ba515810b937ad83c25c8c68b76cf6dcdce54f4bcb54afb42b03c2869fe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\back_up_cancel_node.cpp",
+    "bytes": 1450,
+    "sha256": "9d49c35be0817e0c1581b06470480fb5cdd6da4b8b345f584b86e90a1ac272bf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\check_pose_occupancy_action.cpp",
+    "bytes": 2198,
+    "sha256": "45ff74a857987627e68782fc1507db6887666e7bbf42c8ec8a74612496a6efc3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\check_stop_status_action.cpp",
+    "bytes": 2546,
+    "sha256": "8d76bcb7dee4640091a422c05a53eda779cc4b83994760475c00db037d825227",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\clear_costmap_service.cpp",
+    "bytes": 2807,
+    "sha256": "a7a055c6175f34dbbbc8e433f4ce96f4756b8fac3e356007c3b1c430749275e5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\compute_and_track_route_action.cpp",
+    "bytes": 5732,
+    "sha256": "0442b1b058897b347d90899b42ddeb61b155b5dc6d814e35c17b811b96e26c69",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\compute_and_track_route_cancel_node.cpp",
+    "bytes": 1573,
+    "sha256": "9207d664c9b20323af4c0dab470790dd2b9cefb17fac216fca901378ebe21a21",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\compute_path_through_poses_action.cpp",
+    "bytes": 3438,
+    "sha256": "86588ebefb929cd2650e0a0028ec5f85aa978c6323b8523c010c3ffac2e7a13d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\compute_path_to_pose_action.cpp",
+    "bytes": 3843,
+    "sha256": "bf3e6eadc398bb3637136a9c7608bd7a7fa7a8cca333d1914425f6f68056c669",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\compute_route_action.cpp",
+    "bytes": 3468,
+    "sha256": "cac81bb5491a963dc282197cab196b950337d50049719081ec14bb4f18b4d3f5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\concatenate_paths_action.cpp",
+    "bytes": 2307,
+    "sha256": "e55433361482fac09a91ce5a5211fc16704e9cc2a7e0f318a5e3faae7022869e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\controller_cancel_node.cpp",
+    "bytes": 1479,
+    "sha256": "8eb46a78cc64b7819e9308ae43e036a42d0fdfed7fddb95d63f9619491d6c7a5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\controller_selector_node.cpp",
+    "bytes": 3334,
+    "sha256": "839dae1d76d84fb59e2b8e9d267b7f47fbc2ef30c7f918285e198dc742573e78",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\drive_on_heading_action.cpp",
+    "bytes": 2904,
+    "sha256": "2669497e31ec66635e29f934c3643dd4393b86792060b492b756990345960eb5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\drive_on_heading_cancel_node.cpp",
+    "bytes": 1517,
+    "sha256": "ec64dad1af0d59e84446a02aa1a765f43bca542bc3642bf9d182a5ffae8d4ac8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\extract_route_nodes_as_goals_action.cpp",
+    "bytes": 1892,
+    "sha256": "412780afffee46d4abed97b797f2660d463d2fb11da2189220e83ba314c2f466",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\follow_object_action.cpp",
+    "bytes": 2601,
+    "sha256": "013a0d2d0d4619b2f3713edb646882f3f160f938904ccb21041ee2c72425633c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\follow_object_cancel_node.cpp",
+    "bytes": 1542,
+    "sha256": "c033fc39ecbadb98bb5f15306b803edcc0ec70726efef377e05781d7e0cf04ae",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\follow_path_action.cpp",
+    "bytes": 4217,
+    "sha256": "3d419c2ed4b11507b2d278b479785ff9a981d2a7e204c0c9ca939d6efbe78f4f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\get_current_pose_action.cpp",
+    "bytes": 2344,
+    "sha256": "991f3687dcf2ac61f038369fa0ba78fde2964fc6e7e7a488fbb84f6064304248",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\get_next_few_goals_action.cpp",
+    "bytes": 1776,
+    "sha256": "e5584c0ce0c5ad8e21c84a15c525813fd9724c5248d2741b64997bee6041f7ad",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\get_pose_from_path_action.cpp",
+    "bytes": 2137,
+    "sha256": "51e7db5d476c8314c75c7aea67b9e545d48f8298656616955e7748bbb99ad565",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\goal_checker_selector_node.cpp",
+    "bytes": 3381,
+    "sha256": "5d6a800027796f0bf2650a3f8f01876a750540fd4c2569e5156e031c1b983caa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\navigate_through_poses_action.cpp",
+    "bytes": 2602,
+    "sha256": "28cf8275ea04ef195704de121148de951492021a9166f2d809d5e185c1b7a3fc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\navigate_to_pose_action.cpp",
+    "bytes": 2480,
+    "sha256": "7604a4ba617b3e91805e72167955b1a5c2a71075f69936d0e45b49dde16e5ec7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\path_handler_selector_node.cpp",
+    "bytes": 3347,
+    "sha256": "841fa8077cc198ab9d9da45db04ed68495712d1243b5d9aa7ada121bd29ecf5f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\planner_selector_node.cpp",
+    "bytes": 3247,
+    "sha256": "c0158cf49379b4006dc966fdcefee0a665d0668cfe227e3409aef4c18fc43d57",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\progress_checker_selector_node.cpp",
+    "bytes": 3464,
+    "sha256": "b555786fb82e42c7702ca1479875ad7ad105f6acb3863dba6572bc69d2d071e7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\reinitialize_global_localization_service.cpp",
+    "bytes": 1239,
+    "sha256": "15b521bb3c360deae252e1a6bbb84d2a235eeee128317c683a69a2fe7fef02e9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\remove_in_collision_goals_action.cpp",
+    "bytes": 3922,
+    "sha256": "2167d3c09e8cd06460027cb301907835bdb980db327cb09ebe994346769d0ff9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\remove_passed_goals_action.cpp",
+    "bytes": 3674,
+    "sha256": "7061b6b569afb8fde665683efac6c9912266828994c61d7b0ef3e5e35e2b7f0f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\smooth_path_action.cpp",
+    "bytes": 2895,
+    "sha256": "0a8a2d1d5500a3ce7f53d28bcc7163dbadefc6f745917956fdeb6686fa8f1e80",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\smoother_selector_node.cpp",
+    "bytes": 3311,
+    "sha256": "1e9b7eb5c458716f9aa1a5abf4d8357abc8ea6bf14de1d321018f9d94931487a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\spin_action.cpp",
+    "bytes": 2675,
+    "sha256": "79b416942103670edb7fb979f9fa13b2ebe4881181ef6011e6407ca14d7e18ff",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\spin_cancel_node.cpp",
+    "bytes": 1433,
+    "sha256": "fe1f30686a01886c00204eaa70bde420cacc0e3a0a4477e2f7805b5cfbebde00",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\toggle_collision_monitor_service.cpp",
+    "bytes": 1307,
+    "sha256": "7585f180ea2afaf2f70477b665a789b3f8aa00bb7485aef21f8ffee299e0a732",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\truncate_path_action.cpp",
+    "bytes": 2781,
+    "sha256": "a6de1a3e5425625c51021d4c9ce6500651c23661fa85888fa731db56cd622024",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\truncate_path_local_action.cpp",
+    "bytes": 5772,
+    "sha256": "ee845204d91ba69d41ff3d51c318629cd71e436e7b70075c1f8022a1b1080230",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\validate_path_action.cpp",
+    "bytes": 3541,
+    "sha256": "0776ff4725eb004c9ee6cd723f38746df528680cdde5fe5af2e4b3fc13ddac8f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\wait_action.cpp",
+    "bytes": 2565,
+    "sha256": "412f9304b8cefb5616ab2230466d66785add83b38218bcce6afcb3dd69fada0c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\action\\wait_cancel_node.cpp",
+    "bytes": 1433,
+    "sha256": "1bef1b70f905e575bda6f134f573f8656a7c2b292f16d0470510a39d56865d5a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\are_error_codes_present_condition.cpp",
+    "bytes": 876,
+    "sha256": "fbd923b947e00865fddf47af7b471e0d68cc0fc8a02efabaafa0ec9243a21779",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\are_poses_near_condition.cpp",
+    "bytes": 2769,
+    "sha256": "bb389b2cb124ecf8a0703fa3fd4b8fa76f5e1dec9fc60eb2ecfc3a86e68498b1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\distance_traveled_condition.cpp",
+    "bytes": 2935,
+    "sha256": "01def4a91a2d59652a6954c034605d19c9addf5995e1347c417f76f8c113de7c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\globally_updated_goal_condition.cpp",
+    "bytes": 1907,
+    "sha256": "c06fd1d94bad0229fb45cbd0092eed7df1a48de2167d01133351f234230ddc7f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\goal_reached_condition.cpp",
+    "bytes": 2735,
+    "sha256": "667d02a8d1280c66654f08db02f3b2b17bbe0a00fd6afe195c3fc17c5c3521c8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\goal_updated_condition.cpp",
+    "bytes": 1757,
+    "sha256": "e1991e49ef4b6279506e10800dce27223817141575f616424aef99f1f705b323",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\initial_pose_received_condition.cpp",
+    "bytes": 1334,
+    "sha256": "5acb8868256af50c27aa4babc7b06c9d4f073567a2f8a3c6fac951f7e1acbc14",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\is_battery_charging_condition.cpp",
+    "bytes": 2877,
+    "sha256": "923ed28992702124f89f621b212ec8b49ba94df6556ad0277685db518215b385",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\is_battery_low_condition.cpp",
+    "bytes": 3000,
+    "sha256": "de9c9d1769654522fe5ab7682a2982272ebb8a0ab15a0217fe7a7578ccb64a98",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\is_goal_nearby_condition.cpp",
+    "bytes": 4095,
+    "sha256": "e02f7e5df858f4ec6543ff9e6b35672e287cff6229d43268dd035e19f583786c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\is_stuck_condition.cpp",
+    "bytes": 4977,
+    "sha256": "9bd515aa1450090564eb7492ec03e9ac98e679380e2fb9837c5e0f8b08e83848",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\is_within_path_tracking_bounds_condition.cpp",
+    "bytes": 3463,
+    "sha256": "fd02e773df7a87f2cb5469342452d284510e24a143f2ab9178a0075ea3b35892",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\path_expiring_timer_condition.cpp",
+    "bytes": 2133,
+    "sha256": "b3ff53034acbf6953e2f58c01f59aa278631d55ffd9a78828895f7208f072032",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\time_expired_condition.cpp",
+    "bytes": 1948,
+    "sha256": "c7f457d4ff5c87b2f64538dfec462229c39aa4dbe14db4b1c0bf3093f39c2f99",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\transform_available_condition.cpp",
+    "bytes": 2827,
+    "sha256": "cc0003a76bfbe4b97ea78cc66a0d94d9cfe87cb477d97e71c4ee593635dd2d45",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\would_a_controller_recovery_help_condition.cpp",
+    "bytes": 1367,
+    "sha256": "0247bb83a6852843b6e77b03c6b6bf9e1dbbc676471d999920a4d903ebfe00b0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\would_a_planner_recovery_help_condition.cpp",
+    "bytes": 1406,
+    "sha256": "9c15499c6717aef5dafd42547d40a7d366de021edabbbb436c3c24f260185d48",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\would_a_route_recovery_help_condition.cpp",
+    "bytes": 1397,
+    "sha256": "dcadc7e45908a631d92a44c7f00d327f1a905224c53aa19d2b5c993028963eed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\condition\\would_a_smoother_recovery_help_condition.cpp",
+    "bytes": 1355,
+    "sha256": "9f7301927ab1c57c241863d364c461a686fc6b41d4c20c1242c15ab9fbf867a5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\control\\nonblocking_sequence.cpp",
+    "bytes": 2116,
+    "sha256": "a0d4dba28e7d65a972b5dcb7a6b1a81c65e6dfab8d3be61693f6eee6e6a0d01d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\control\\pause_resume_controller.cpp",
+    "bytes": 5937,
+    "sha256": "63ed9db4da6c0827faeb83d60acfdb71f24ad18693557cefa2407f4d400f38e8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\control\\persistent_sequence.cpp",
+    "bytes": 2901,
+    "sha256": "a405d89bbb90d871cd422d7311dd310c39fd17ff08e68e69ac90c7a70ce3b58c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\control\\pipeline_sequence.cpp",
+    "bytes": 2723,
+    "sha256": "7d153070844b2e0bed9d06cca7a7edf07d052a7ef66450eb526aaa9db4529226",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\control\\recovery_node.cpp",
+    "bytes": 4353,
+    "sha256": "864d26e22590c4389d0df0f81d174330f0aaa6dfab19bc89fddedb8d2a81b883",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\control\\round_robin_node.cpp",
+    "bytes": 3144,
+    "sha256": "ed8ed60bbba1dae4252491bbe28a9dc9b22201b6c32221900cbff177ba53a2b8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\decorator\\distance_controller.cpp",
+    "bytes": 4043,
+    "sha256": "614b6ab170e0e63ff61c84f0781251f86c801e6c245f06d78bd7d75d2729da9c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\decorator\\goal_updated_controller.cpp",
+    "bytes": 2369,
+    "sha256": "c391fb73a4a9b60e5f05805f3d32ee02aeef4db63fdfdcf9390133471ff3a087",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\decorator\\goal_updater_node.cpp",
+    "bytes": 5665,
+    "sha256": "5fee9aeb8934b7ec9b24a3a76e030b9ac109c86029bb3a632e2a25830c4097ef",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\decorator\\path_longer_on_approach.cpp",
+    "bytes": 3134,
+    "sha256": "a0ae461849e382c611c7d6b2aabdfb70eabc414172a584fd45d89b82f7c69a98",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\decorator\\rate_controller.cpp",
+    "bytes": 2729,
+    "sha256": "8be9c4d4f594b81f7ae62b3bc648c6e7eb6cf8ac3928c316ccc788c15e59bfbc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\decorator\\single_trigger_node.cpp",
+    "bytes": 1782,
+    "sha256": "5ed98ffa21dba4399978ab422361087909288bfecefbdda2315eaf4201dd51cc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\plugins\\decorator\\speed_controller.cpp",
+    "bytes": 3470,
+    "sha256": "a931868ee9f88f69862a87152a8fa0c19d67a1f3cd6ce0c880b1ae75b1abf354",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\src\\behavior_tree_engine.cpp",
+    "bytes": 6733,
+    "sha256": "326744456abec8014ade6c76780a0372285d36760e85cdd7767827de183e6535",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behavior_tree\\src\\generate_nav2_tree_nodes_xml.cpp",
+    "bytes": 1593,
+    "sha256": "2affa9786739a5a9bfc300ae9ea1750519bba6728258071fa6d113cbe1ca0c9e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\behavior_plugin.xml",
+    "bytes": 1021,
+    "sha256": "6179fdcc49bc45600101340f9386cabf4c15e658f336d1b8138c6fa8f886d5b2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\include\\nav2_behaviors\\behavior_server.hpp",
+    "bytes": 3623,
+    "sha256": "5fcae21180e4b3a7a7e5ed879219aec87f7b8d7d7502b4b7336e7b49a20c31b5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\include\\nav2_behaviors\\plugins\\assisted_teleop.hpp",
+    "bytes": 3397,
+    "sha256": "c92dd6d56d9b36032d21eacf4efec545f42cd464c30f454801a2840c64ff80c4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\include\\nav2_behaviors\\plugins\\back_up.hpp",
+    "bytes": 1241,
+    "sha256": "e1d06accd9724b2135ea316894dd5b35d051622a08a470f1bc4676929207fc4e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\include\\nav2_behaviors\\plugins\\drive_on_heading.hpp",
+    "bytes": 10458,
+    "sha256": "a83b5932a3cd481461a6272ad119c110605c9038ad1c8e3bf7f57bc4da670738",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\include\\nav2_behaviors\\plugins\\spin.hpp",
+    "bytes": 2875,
+    "sha256": "45510eba695f9661e9cb870a20c8a803b7fd09b5fff58b3cee188e4c8a143018",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\include\\nav2_behaviors\\plugins\\wait.hpp",
+    "bytes": 2006,
+    "sha256": "1ac2749e3f7f2a763c5adbaf7702514aa3f07200ac53cdff641c1359e854d7fd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\include\\nav2_behaviors\\timed_behavior.hpp",
+    "bytes": 9929,
+    "sha256": "a2124cf99c93b7da59d3432fb7ac5efa059ba7221b7fd213e871dda189e30936",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\package.xml",
+    "bytes": 1414,
+    "sha256": "c17dc808dd73e7217ce11f3e0724a7a3e90aefb7b4ab90c5c7cf84e8696bd781",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\plugins\\assisted_teleop.cpp",
+    "bytes": 6067,
+    "sha256": "fdfdf043f80fb99d7634fa68fe8c26cd49d343648f93fa0db19a69b39d6a45a6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\plugins\\back_up.cpp",
+    "bytes": 1993,
+    "sha256": "8e04992ff069c0b71b2285cf03b3ed3108b05b072732341eac5074749d06e892",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\plugins\\drive_on_heading.cpp",
+    "bytes": 851,
+    "sha256": "40140b5348d06e94c0a63e2ce676f580fb32015a6f69fc5e6900ce9e03f4e064",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\plugins\\spin.cpp",
+    "bytes": 6166,
+    "sha256": "8d5591c259fd95e13c35197f346950d51bc60bd69093dae095a97e6a2c67dba4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\plugins\\wait.cpp",
+    "bytes": 1610,
+    "sha256": "9f301fa5402375d857b3d81b74643661fdfa7d875ae117c700fa6c303d5b234a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\src\\behavior_server.cpp",
+    "bytes": 8024,
+    "sha256": "1a584c6a3aa43d0579c46980bd1dd134dd5b496ba483c96e8ebfff1ae159253e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_behaviors\\src\\main.cpp",
+    "bytes": 1020,
+    "sha256": "b34c5ac4765ee8a2f406bdcafc618d5853d17d291b8cd78fba7ba3c715454dde",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\launch\\bringup_launch.py",
+    "bytes": 11614,
+    "sha256": "e651f56dd552b9597d26a46b0e9655f360d59b9d25cb3ed20a74c85b80088ea1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\launch\\keepout_zone_launch.py",
+    "bytes": 9821,
+    "sha256": "d61572c05ebddd8f82a6e3a23f3fed24935cc361e6435031e2e1ae9a7cf37c81",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\launch\\localization_launch.py",
+    "bytes": 10763,
+    "sha256": "980f1ad7a068e9705f939858599c9f7dd453182ac612b16994a3110f04c579a3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\launch\\navigation_launch.py",
+    "bytes": 18471,
+    "sha256": "27b365f11f9a3fc8c862b0d897443d3b45514f604bf9cf5b6b226bf2816358ed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\launch\\rviz_launch.py",
+    "bytes": 3169,
+    "sha256": "9be580f779624c628a97a9292d48f06cfd2d05b94fdd19b822e405a6c24e5d80",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\launch\\slam_launch.py",
+    "bytes": 6291,
+    "sha256": "bf9a2a17e04920e9ec1fd641e5ddb2eb5c4bd3f479a4e7a65a01c18e93f52500",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\launch\\speed_zone_launch.py",
+    "bytes": 9766,
+    "sha256": "00c7525b091cf67f5dd6b269fcf170a0d9101088af74760d9523fc10f24e43d0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\maps\\depot.yaml",
+    "bytes": 127,
+    "sha256": "6b21a16070d80668dcb03f1ea21bfd9c46fbc4c83f201ca6d0263a16ffbd01cb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\maps\\depot_keepout.yaml",
+    "bytes": 135,
+    "sha256": "236b5b2e3b8ca5bf5d3e9963a2a695f968e93e78f99bf652c7f25b8dea2d1ccc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\maps\\depot_speed.yaml",
+    "bytes": 129,
+    "sha256": "3f52c72e03305c1e77604dd0c0583a40e3829d3df8e2db5df3319f4e0268f153",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\maps\\tb3_sandbox.yaml",
+    "bytes": 144,
+    "sha256": "8efb4cbe7e357eed1c6679ebf0c834281330c7bf4eac1d3e449141ae327f0228",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\maps\\warehouse.yaml",
+    "bytes": 132,
+    "sha256": "bfbcc0cff349044391b11cd57242e039037603f71f750bf7b7cc8885bf5f5c79",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\maps\\warehouse_keepout.yaml",
+    "bytes": 140,
+    "sha256": "2c85596b1d9a82d3d74658a7145371ed10b14ffdaec9ebc25d3cbbf039123e6f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\maps\\warehouse_speed.yaml",
+    "bytes": 135,
+    "sha256": "d4f1b4af7fcd821ed4fad4565bc10763caf64aee60d292fca6ccb2be41580581",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\package.xml",
+    "bytes": 1837,
+    "sha256": "b075dc0d3b6842bf8fd704064fc806a3aa924d0fa6d8ade26b3765b1185e5e5e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bringup\\params\\nav2_params.yaml",
+    "bytes": 19123,
+    "sha256": "1a6d9b84c8f01a92f9d6196c9b6e6cf6fe4c7fc9a5e4cfd1448b7576a0ca6a6d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\follow_point.xml",
+    "bytes": 1283,
+    "sha256": "c6beaa545f4a4093b7e4408acb00cd5b6cd7a3ed5603a7b72d56a94ea4d85b5c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\nav_to_pose_with_consistent_replanning_and_if_path_becomes_invalid.xml",
+    "bytes": 3415,
+    "sha256": "5843f0814856ce810e12e3c0c1e59f3821e955a8f1b55c1ce3ff9b5b97c4cadb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\navigate_on_route_graph_w_recovery.xml",
+    "bytes": 6012,
+    "sha256": "f828a3339ddd53a0851219cf48dbbec57c6c2e6ebf83c7d89c0d0e36f08a6060",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\navigate_through_poses_w_replanning_and_recovery.xml",
+    "bytes": 4590,
+    "sha256": "06bf704c255e5b3c4f7984ab903d7ee6d05b5e99f2692cdc040040b6ae52df53",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\navigate_to_pose_w_bounds_check.xml",
+    "bytes": 955,
+    "sha256": "8caa736bc8388c0a54f1a8650e0f06c372f529afa88d08d8c1816787f2082827",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\navigate_to_pose_w_replanning_and_recovery.xml",
+    "bytes": 4139,
+    "sha256": "f64a27f22a64c3ccb398e0b784247da5228d924e0f20291eb9a40ba1ed5450b8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\navigate_to_pose_w_replanning_goal_patience_and_recovery.xml",
+    "bytes": 3815,
+    "sha256": "6d93b88ce3e2da68c0b5644fffcfc2077bff365598be6bf173dae8678459a799",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\navigate_w_recovery_and_replanning_only_if_path_becomes_invalid.xml",
+    "bytes": 3014,
+    "sha256": "d1b13f343490c03a41859cbe1482b105804e044b9ba7cb1b979a35fe742d0752",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\navigate_w_replanning_distance.xml",
+    "bytes": 1006,
+    "sha256": "6162ad4ec313469645a4fe92f65a1705f1cf63f1221b2ca4ee976e14e1fcac2d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\navigate_w_replanning_only_if_goal_is_updated.xml",
+    "bytes": 1028,
+    "sha256": "f9c275494354eec3e888add0c865e704d084610abc0942fb85bb19041817fd4e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\navigate_w_replanning_only_if_path_becomes_invalid.xml",
+    "bytes": 1265,
+    "sha256": "68b85492de1831f597986894207332dcfde9b2d93e92f13239645fb9b10543b3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\navigate_w_replanning_speed.xml",
+    "bytes": 1063,
+    "sha256": "2163dbc5dff051b02ae42fb469816b2ab45f96c6186ae42ecd94047f3b607588",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\navigate_w_replanning_time.xml",
+    "bytes": 990,
+    "sha256": "177a9513213b6ab67d34adbfbd961f5477351c3dea62e8386cfab1632645d368",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\navigate_w_routing_global_planning_and_control_w_recovery.xml",
+    "bytes": 5798,
+    "sha256": "92e49ed228c2d8a97e692d0c1ca2334c6c5594487a2b39a52bf919f88a314ab0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\behavior_trees\\odometry_calibration.xml",
+    "bytes": 1487,
+    "sha256": "fc51f2bb63d6ada0bdafd5676d12cb19fa4a75ffb3eca42f62f1242f54137ba7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\include\\nav2_bt_navigator\\bt_navigator.hpp",
+    "bytes": 3759,
+    "sha256": "fc239d1d9278327fd8334277cd0ce32a1286b0fa34b82be7cc4529c3b01b3862",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\include\\nav2_bt_navigator\\navigators\\navigate_through_poses.hpp",
+    "bytes": 4449,
+    "sha256": "7f05e870e39027502f8bb8a2ea273ecdc0718fba45bdc76c5f020513cf09230c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\include\\nav2_bt_navigator\\navigators\\navigate_to_pose.hpp",
+    "bytes": 4828,
+    "sha256": "543b5969518941246eebb770edacdf32c4418dc4bd163b4b1ac1448dc31eef15",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\navigator_plugins.xml",
+    "bytes": 552,
+    "sha256": "aaad74eb00b0bac74d1202791906b717894f3bb4adffa42478999fa2bb5b9987",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\package.xml",
+    "bytes": 1269,
+    "sha256": "7973e1b78aeccb35e5e4273c821c8ed439224c939ce9cbc77d32254d41345ae3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\src\\bt_navigator.cpp",
+    "bytes": 6741,
+    "sha256": "2dd0ec22e4988b92ac45ba0aa408e12ac31e5d823cf9e51bbbbfb10e3801fcf9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\src\\main.cpp",
+    "bytes": 937,
+    "sha256": "f35f4b25610aa0ca462b4ab43a4a1f6985742723957d91e9d62608f19affa672",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\src\\navigators\\navigate_through_poses.cpp",
+    "bytes": 12080,
+    "sha256": "e06d4a4afbfb5a18e341a1764b4865e038f0a7ddd92b3b0f0f1258a4b03fcccc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_bt_navigator\\src\\navigators\\navigate_to_pose.cpp",
+    "bytes": 10428,
+    "sha256": "7395481c3ed5742c38c3b7921051df761d6aabf3f7f78d03b3865168646a3c49",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\include\\nav2_collision_monitor\\circle.hpp",
+    "bytes": 4047,
+    "sha256": "0f8d5ed33f74341dfc1d4b1745231113cf19b98bb7549b3a00b603d865f888d7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\include\\nav2_collision_monitor\\collision_detector_node.hpp",
+    "bytes": 6073,
+    "sha256": "612e7c868dc446bedc27179ff77c47681a6a802c9e72244806895bf17159c2b5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\include\\nav2_collision_monitor\\collision_monitor_node.hpp",
+    "bytes": 10033,
+    "sha256": "4326316fd61875f120652d63a6ba6c7a71c0bc36fda1f59caa08e6bede081020",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\include\\nav2_collision_monitor\\costmap.hpp",
+    "bytes": 5120,
+    "sha256": "b13f9c1ae33221f93a59340fafefb15e4c577ffd128a18f64309be4d1ebb2932",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\include\\nav2_collision_monitor\\kinematics.hpp",
+    "bytes": 1781,
+    "sha256": "1d5140b1b60478fb1c35fc26ee23295ce860de8ceff3c1115277969f7dbff07c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\include\\nav2_collision_monitor\\pointcloud.hpp",
+    "bytes": 5205,
+    "sha256": "424290a8f6ea307d37b40c99175a97d6e6d97ec42841e0fcf721f67f0ad2e80c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\include\\nav2_collision_monitor\\polygon.hpp",
+    "bytes": 13216,
+    "sha256": "c437f0d2746395b9a8d1fdc2456d61a3038bbb0a4425d7df737626a9882c1f35",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\include\\nav2_collision_monitor\\polygon_source.hpp",
+    "bytes": 4010,
+    "sha256": "96f7e22cbe7af9cb1a4e4746d1a45abcedf04478b547113a8c1b2ddaa76362b7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\include\\nav2_collision_monitor\\range.hpp",
+    "bytes": 3569,
+    "sha256": "121c11856a543eaaf37865a12f95898bc79ae998ab6ea7b8c41893484df109f4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\include\\nav2_collision_monitor\\scan.hpp",
+    "bytes": 3266,
+    "sha256": "1913070f648b3c34133d12427a45ed395c502796187d442b168206d7724320f9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\include\\nav2_collision_monitor\\source.hpp",
+    "bytes": 7169,
+    "sha256": "333451f0bbd772e3ba11e57db6d178244319bcf708483740745aa6bf4b3cc2e1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\include\\nav2_collision_monitor\\types.hpp",
+    "bytes": 2374,
+    "sha256": "581ade783b85136343762281f1810be0b8499895342ee0ace8cf07e9d3b32fad",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\include\\nav2_collision_monitor\\velocity_polygon.hpp",
+    "bytes": 4099,
+    "sha256": "f42aaaa70954440845edfa0910b7ea466ee9c5fedc34c9b110b430fa0b1d608a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\launch\\collision_detector_node.launch.py",
+    "bytes": 6187,
+    "sha256": "7d14fd0355aa9f9e32c941dc258ae01a5266e04b4a21ae70d14a0eb681494c27",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\launch\\collision_monitor_node.launch.py",
+    "bytes": 6285,
+    "sha256": "9204394a191943c0899c93e464a0011e3f3f5949c6d8790e1eec2b887ca89a36",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\package.xml",
+    "bytes": 1556,
+    "sha256": "b1e2bdf2e3980c678b26b02cf06b7a6ea22940d8651f0badf2c5135ba3346a2f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\params\\collision_detector_params.yaml",
+    "bytes": 996,
+    "sha256": "8315dda1cb0514bbefbb6b2d571248d559c77a45b7781f9f28afbeeac9ee63c2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\params\\collision_monitor_params.yaml",
+    "bytes": 3860,
+    "sha256": "00a275af1df56cc2ad2251feb60a0dcc5cd28a5a69c8c6be3be5ef0eb8ed0206",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\circle.cpp",
+    "bytes": 5299,
+    "sha256": "f35873e37ee0432af0e83ba9002a054b1e70d966de8d9b028360e9628c898e24",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\collision_detector_main.cpp",
+    "bytes": 969,
+    "sha256": "2ded8a83cd37be1ce4d48c08c247d0556fbc470060498ff557bed8caef0d0afd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\collision_detector_node.cpp",
+    "bytes": 12853,
+    "sha256": "afaf158100a79c785c3bdb2ab8bf4a7b553b42c75966e21f0b1d0b7fe4b38c1c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\collision_monitor_main.cpp",
+    "bytes": 976,
+    "sha256": "dc9b39133c53b14353186e4d651690a7d28947e10846e4a5b91186c98f153bff",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\collision_monitor_node.cpp",
+    "bytes": 23312,
+    "sha256": "865f42335ccaa4c7a342350063557fc2d67ed288f6901aaf4e204a3ca341b734",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\costmap.cpp",
+    "bytes": 5034,
+    "sha256": "2e2a48d56745e878c8119b844e771d9cb1bb0888e3cd6e556f6ef4bb6b558461",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\kinematics.cpp",
+    "bytes": 2309,
+    "sha256": "a38493135cf1c16d8311c351be7dc774462025135bb3d30c7fd3e8ad9a1ff725",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\pointcloud.cpp",
+    "bytes": 8316,
+    "sha256": "14ce44d4e93a314a496e6214f6093b640873314ee300ab92ed55c8240de2d413",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\polygon.cpp",
+    "bytes": 22701,
+    "sha256": "7fa7073b61a3f433e74d8eedfaf6b3dde1b449b769aabbb2b0112d05eb5de866",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\polygon_source.cpp",
+    "bytes": 6083,
+    "sha256": "c540f4b7e746c614cd330b8fb027f14de37496d541fc980be792016b9a4d4d1f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\range.cpp",
+    "bytes": 4244,
+    "sha256": "09746c3dfa8504efd5aef38d8884b3278024b59c62586b605d9d55ee7978785c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\scan.cpp",
+    "bytes": 3233,
+    "sha256": "ece4b49ddd9b68a2d105afe6df2e734f606b83e83e83e182eaa2c066180c1dc5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\source.cpp",
+    "bytes": 5356,
+    "sha256": "fb5c585cf23c30b155dbd856e403c2449b4270c145006de1fd81c24b35fffac4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_collision_monitor\\src\\velocity_polygon.cpp",
+    "bytes": 6253,
+    "sha256": "ee4585c8be810a266a2940b7ff95257ef0f500cbfa8a9bbcc56c8c440147691c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_common\\nav2_common\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_common\\nav2_common\\launch\\__init__.py",
+    "bytes": 896,
+    "sha256": "f5e9fac3c1dca0136c456fe2d1165300a4d12e60f055cfbb3a5183b20659a4b0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_common\\nav2_common\\launch\\has_node_params.py",
+    "bytes": 1923,
+    "sha256": "321f102a2eff7b370fd9d82e58db587d697fa0a03ac220c1449f52b3fd0d457a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_common\\nav2_common\\launch\\launch_config_as_bool.py",
+    "bytes": 1567,
+    "sha256": "023f2a2c7d9d4df6ff0b2af69d773f4beaaf2d53e16ba8ec40c0afb187293706",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_common\\nav2_common\\launch\\replace_string.py",
+    "bytes": 3750,
+    "sha256": "d5e7e564f7e8e8526f58e2f831fd1de01237f5aeb398b81af047607030372ab0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_common\\nav2_common\\launch\\rewritten_yaml.py",
+    "bytes": 11049,
+    "sha256": "ce15e09ab226301af31e6bb1bda3130029bcd7945a046fc43f5fec9989189c65",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_common\\package.xml",
+    "bytes": 1242,
+    "sha256": "0413df1bc18b8f7bf7fac066bb0d186c7ec851cf6eef97721c93c051dc1b003d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_constrained_smoother\\include\\nav2_constrained_smoother\\constrained_smoother.hpp",
+    "bytes": 3190,
+    "sha256": "63353f14c42e18ab11f9563709ee985ee2baf10d89c58fbc96da635b46a94d92",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_constrained_smoother\\include\\nav2_constrained_smoother\\options.hpp",
+    "bytes": 6784,
+    "sha256": "6e3d71c293d40c7acfdab2c31bf9a60f98da92166399423b46b378f571d02fc3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_constrained_smoother\\include\\nav2_constrained_smoother\\smoother.hpp",
+    "bytes": 14978,
+    "sha256": "b14b565f5a4d38c345b452235fd4e3656f30f65bc730efa9ec0f04e593e6dfb6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_constrained_smoother\\include\\nav2_constrained_smoother\\smoother_cost_function.hpp",
+    "bytes": 9377,
+    "sha256": "6337d7f973353788e024b40d7d11ae29676867f4747100a4737451a41f714964",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_constrained_smoother\\include\\nav2_constrained_smoother\\utils.hpp",
+    "bytes": 4317,
+    "sha256": "b9e0fd066a5ef31841238938622fcf05d0e722565a1239ceea09c9ee0a726f64",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_constrained_smoother\\nav2_constrained_smoother.xml",
+    "bytes": 396,
+    "sha256": "a6ee9ac2d3b49388b0fb27e92a444ab0eab7de2602ce325268a34834c11922c4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_constrained_smoother\\package.xml",
+    "bytes": 1444,
+    "sha256": "421dc5c7927ed210d49af6d956374a5a68b30404892d4563e5dad388b86135fa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_constrained_smoother\\src\\constrained_smoother.cpp",
+    "bytes": 5952,
+    "sha256": "e80e4706334d764fbf75df5e4504238f812805e87407975dad586a025e901368",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\include\\nav2_controller\\controller_server.hpp",
+    "bytes": 11097,
+    "sha256": "c330900ec41ff2e38995c917f2ab1592c690bf4bb8c5a458a4453bd14acdf39d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\include\\nav2_controller\\parameter_handler.hpp",
+    "bytes": 4085,
+    "sha256": "534a1c7142a524ec56912e809f36a5ab1d6a9af1f8e195491ec63a34f6854dfd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\include\\nav2_controller\\plugins\\adaptive_tolerance_goal_checker.hpp",
+    "bytes": 6425,
+    "sha256": "0b7c3c1c95e8bec02871db0305acba7c20cb3782f4341f49f8350c6bbc72cf47",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\include\\nav2_controller\\plugins\\axis_goal_checker.hpp",
+    "bytes": 5424,
+    "sha256": "0a122c9d5e40f05aadbd4862f6f034468f065dde163c9b6a99417c12154caa33",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\include\\nav2_controller\\plugins\\feasible_path_handler.hpp",
+    "bytes": 6787,
+    "sha256": "a8eb6d05c99881813111e623f902c93f826fd3dca08bc8d1748abd15fa77a003",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\include\\nav2_controller\\plugins\\pose_progress_checker.hpp",
+    "bytes": 4042,
+    "sha256": "727c1bc30e1e132f1d935bd090424598a4d83b77de2c31dfda0dba99119f6897",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\include\\nav2_controller\\plugins\\position_goal_checker.hpp",
+    "bytes": 5201,
+    "sha256": "f83c75bce55eb853a742ec2cc99f76e3402d407077140532e9c78c37bf5722e7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\include\\nav2_controller\\plugins\\simple_goal_checker.hpp",
+    "bytes": 6591,
+    "sha256": "859a3eefa20a43ed938e36e6f8db7501cfe3d92185aef6273f0705807e1d1d6a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\include\\nav2_controller\\plugins\\simple_progress_checker.hpp",
+    "bytes": 4566,
+    "sha256": "a0664d63136519770705b25b9e2d6efd92223001a4f1e24e48bb0268a7ae2f2f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\include\\nav2_controller\\plugins\\stopped_goal_checker.hpp",
+    "bytes": 6114,
+    "sha256": "3ffde03703abea7f804626ee6821e3715301c64d6b8a49b468ddae25cd549bd0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\package.xml",
+    "bytes": 1359,
+    "sha256": "64d526338dfce2c7a8cc33970ab7eded47f09a4868def54096a7267a2c0ae40f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\plugins.xml",
+    "bytes": 2367,
+    "sha256": "ec780835e62a45e587ddc200df0572f0ec740e108e3ae4b4611018115f0bbf3f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\plugins\\adaptive_tolerance_goal_checker.cpp",
+    "bytes": 14989,
+    "sha256": "dcdb3f1f3ec6dd86ec3c280718acc5667f33040cf3a05b4d61508643a3ba9856",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\plugins\\axis_goal_checker.cpp",
+    "bytes": 9547,
+    "sha256": "fffa343aaebf24aaf530f8840b5ccb5ecf42d306b0bec14f3c2228070b674191",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\plugins\\feasible_path_handler.cpp",
+    "bytes": 13360,
+    "sha256": "9d57737d385ef9d82a0b1aadf1ac0ae190186b96fca29a85dbfdc77f1afe2789",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\plugins\\pose_progress_checker.cpp",
+    "bytes": 4947,
+    "sha256": "5bd02b9b9adeb6a3cb0cef01c38d2fdd20782bb0210badbb5f9ad2b553b44933",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\plugins\\position_goal_checker.cpp",
+    "bytes": 7090,
+    "sha256": "2d2847654f2037ed921ab5725c8092e6069c005032e2d07f258f154654ce03ee",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\plugins\\simple_goal_checker.cpp",
+    "bytes": 9319,
+    "sha256": "a93c9172ff28ee2d395aaf6b3206cb132611b33c13116684c832fba1fae6c006",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\plugins\\simple_progress_checker.cpp",
+    "bytes": 5305,
+    "sha256": "bbc86d894a6a59c4a9116a4dc8e61f710ee27b018a72e97c23ece299ec629ce6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\plugins\\stopped_goal_checker.cpp",
+    "bytes": 7165,
+    "sha256": "858e7fe5f19094fd8e15a2771eb1f8f96bb1f6b98c3141c620b8d667161991ce",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\src\\controller_server.cpp",
+    "bytes": 35629,
+    "sha256": "d4b899d4346c1332e8f39fdc3efabb80186bbf1332d68e75f203875e1aa350ab",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\src\\main.cpp",
+    "bytes": 943,
+    "sha256": "237cc3ef2fe6d7b9d3ba12797e3db37485491f96168af5b91e1f8bbbd9debb71",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_controller\\src\\parameter_handler.cpp",
+    "bytes": 8958,
+    "sha256": "7b13fa6973d2cc9d83b4b4d516e74a14ca1a5badba8959c7b87e6300a3d4ad71",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\include\\nav2_core\\behavior.hpp",
+    "bytes": 2401,
+    "sha256": "3b12e1c882a54ecf01fd4e4921b8245e4b792dc261a102c2b6551d306606e58c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\include\\nav2_core\\behavior_tree_navigator.hpp",
+    "bytes": 13077,
+    "sha256": "a07bf9cac793e1ca3e2ec890c4fa0727242dd7dd2398386f1203a95a421b28dd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\include\\nav2_core\\controller.hpp",
+    "bytes": 5590,
+    "sha256": "9ece1db20e7ee22824db37c428f4b5c286ca28f187ae52f92d474afea2a0bdc7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\include\\nav2_core\\controller_exceptions.hpp",
+    "bytes": 2248,
+    "sha256": "976ca7b06022b90b7c62add66e4afadb9b04576ce4fd804be8fe130da02af411",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\include\\nav2_core\\global_planner.hpp",
+    "bytes": 2803,
+    "sha256": "79f5abab77faded49ad0dc8e53b515070f0968026bf241366b68f168fa681802",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\include\\nav2_core\\goal_checker.hpp",
+    "bytes": 5418,
+    "sha256": "dddcfbd83a43704fe077806d946b26de70668a2a55e08f58cc5c29104d255f70",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\include\\nav2_core\\path_handler.hpp",
+    "bytes": 3771,
+    "sha256": "d22ddb95264bfa92e442a5a47e2565b64b6b83d1223b54dedee2a389c72b3355",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\include\\nav2_core\\planner_exceptions.hpp",
+    "bytes": 3857,
+    "sha256": "dba34e497fa8b5a7ea53f260476355295263256682546829379410e3426e7de7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\include\\nav2_core\\progress_checker.hpp",
+    "bytes": 1910,
+    "sha256": "9fbb77403e636e09775c5c49a57378207db04f3e0eae851ce957edd629c0b7c0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\include\\nav2_core\\route_exceptions.hpp",
+    "bytes": 2193,
+    "sha256": "1c29f9ad10d7aee0982ed437bed3368d0522eb1078284dc1921f0568fc925a1c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\include\\nav2_core\\smoother.hpp",
+    "bytes": 2352,
+    "sha256": "39d5027cc15ce93f4cff6a8fdb24585d810a55017bc2340d9f5f4bf4d3afe7fe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\include\\nav2_core\\smoother_exceptions.hpp",
+    "bytes": 1876,
+    "sha256": "6a216834d6ee82d2d7c4bbc65cc92cf94f0278b4ae2500bf74122ef5ffac4a12",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\include\\nav2_core\\waypoint_task_executor.hpp",
+    "bytes": 2281,
+    "sha256": "3317b81ad04a66ec299a38c5e6ff0afe4fdfe292585685f88e4e7d121826b319",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_core\\package.xml",
+    "bytes": 1177,
+    "sha256": "64718cee6bd0e9594931c03205bfeb810b2a91c713baadf35b07f639ae6d2206",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\costmap_plugins.xml",
+    "bytes": 2480,
+    "sha256": "09363415ce90df8d2bc44d764a6405fb1e68f9f3141a95a5ddd5e448769d9250",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\clear_costmap_service.hpp",
+    "bytes": 4584,
+    "sha256": "d5351e6b06ac7179dbd18f164a79eb72a8588b7bfd82eb30fed9203f8a9c4a5f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\cost_values.hpp",
+    "bytes": 3320,
+    "sha256": "e1d0c0a8dbe899d6dae08e684683da8f6bac7e2c2e432d4d7f445d1eaef9beeb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\costmap_2d.hpp",
+    "bytes": 18161,
+    "sha256": "f5302d9758882c7655a2500287217fc322cfb094c9fb2f9fcbb640de881578fa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\costmap_2d_publisher.hpp",
+    "bytes": 6523,
+    "sha256": "4c1d1fd2aab93f4279e56b56c4ce0c424af9b63caca6dcf946c473091920b751",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\costmap_2d_ros.hpp",
+    "bytes": 16883,
+    "sha256": "0e34fa35b8bfcce0fd8468b9a7da3732a86bc182f17ab51c4fadb58d33f1714d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\costmap_filters\\binary_filter.hpp",
+    "bytes": 4439,
+    "sha256": "921b7b5df80ecafd4ecfadbc4f0162006385fd11b4b416559fbcb904eeaa1dfa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\costmap_filters\\costmap_filter.hpp",
+    "bytes": 8204,
+    "sha256": "2c6ca9ec66c215783482a93a9fbc67a54dc5b3d9a5825320ab8374007c43cf23",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\costmap_filters\\filter_values.hpp",
+    "bytes": 2745,
+    "sha256": "61d9f70a25949fa400565936d88d5b26f2db5cf877ab99339abcc94e6b3df190",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\costmap_filters\\keepout_filter.hpp",
+    "bytes": 4958,
+    "sha256": "8b6055a2498d155843e0288bed45cd6919e64f3f90959f491a670f78da3aa1c1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\costmap_filters\\speed_filter.hpp",
+    "bytes": 4069,
+    "sha256": "2dd5e3c6d4a559ab99ab54805915d3aa268e93f130e258be58e208f5198ab3be",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\costmap_layer.hpp",
+    "bytes": 7398,
+    "sha256": "f21c64b7b8114fa2bd6b225602bf824e0f37f689096f09dfb552f343c599ae51",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\costmap_math.hpp",
+    "bytes": 2701,
+    "sha256": "05a26dc816cc9d2befc8f447d98e5555f95f33dfc23e37c8196e787a3c23c3ac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\costmap_subscriber.hpp",
+    "bytes": 3692,
+    "sha256": "bc5b0f09b5ccdce90f1d0e15e1d587f884aafb0da118b355c0f978f3b2ff421b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\costmap_topic_collision_checker.hpp",
+    "bytes": 3830,
+    "sha256": "fd679f8c17650ceb256e30b329d70dcfbe3a642cb99c31fe632d4dde83fd6797",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\denoise\\image.hpp",
+    "bytes": 6506,
+    "sha256": "5ace473071edcd83495545b552e6bf567466c69c14ddcfbca24c50a1c54022bf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\denoise\\image_processing.hpp",
+    "bytes": 36226,
+    "sha256": "a42924029ff67ebc9e81eb7875e21ecc91d70365bd1406f7d4e270c47014fe7c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\denoise_layer.hpp",
+    "bytes": 5063,
+    "sha256": "25adec11c52bef3c8478f8b9e8e302083b86de0fd4227bda5dabf9b27f47db47",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\distance_transform.hpp",
+    "bytes": 5896,
+    "sha256": "3295f47d61aebb289c3023f72070870f25f33a6647a9ece7528bea6743bc0340",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\exceptions.hpp",
+    "bytes": 2724,
+    "sha256": "7fb1ee2f2d42c796b2a224240710acfc38e832c7f1e69ccd8ed4c14c5bdc7de3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\footprint.hpp",
+    "bytes": 5174,
+    "sha256": "4ab5b2c06fca5054553317a34b1bba18fdc84bf1cfce93dffef2dfaca1ba8205",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\footprint_collision_checker.hpp",
+    "bytes": 2565,
+    "sha256": "379fb49a48ce17197d522bc15771ad7261d59ab53e43c8b5d13121ed98ca77e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\footprint_subscriber.hpp",
+    "bytes": 3518,
+    "sha256": "9617bfca559b1173834ee110b84a4935b4c37e04746ac8a62ccf7745461471a3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\inflation_layer.hpp",
+    "bytes": 7594,
+    "sha256": "030ae7a89c20a060f998a2d153cde279f6f5950b75d8b18047014930f4ff0b23",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\inflation_layer_interface.hpp",
+    "bytes": 3131,
+    "sha256": "c45b18b5a6c581aaa40780faa506c9a5e7459453e19660af2a22c81061490e6b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\layer.hpp",
+    "bytes": 7155,
+    "sha256": "c877b79c5b8000bf5a1431c598f5ffc322b5316cca825d92a03ea064998c6fa6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\layered_costmap.hpp",
+    "bytes": 7306,
+    "sha256": "bdd43d7530b7ccd11c929a77e0100b73d3d34492ec74c4ce3202c3a1f3431199",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\legacy_inflation_layer.hpp",
+    "bytes": 9035,
+    "sha256": "8beaba8d448eca124a444d8f9b5fa391522a2fc06a8df67a9efcc695133d7784",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\observation.hpp",
+    "bytes": 4179,
+    "sha256": "e118672aafe627aca97b348ae82a22fdcf70a2344a716d83777de1139ee865f4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\observation_buffer.hpp",
+    "bytes": 6381,
+    "sha256": "233342ba808c2c62d4f530cb3452f1757d41f8f6b8567ac18bc087586a1d5cea",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\obstacle_layer.hpp",
+    "bytes": 10930,
+    "sha256": "a480e8f472580cfe2078e2cf15c2d5d8139cc0b144d8031cffcd289e948fa2bd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\plugin_container_layer.hpp",
+    "bytes": 5237,
+    "sha256": "a4bb837f1ac21f3c9805af9730c66d8e8d5e0d3bf2d61aecfce6be5f5c1c074d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\range_sensor_layer.hpp",
+    "bytes": 7453,
+    "sha256": "a9a4f5163b5261e68e013ba5fc74441457685a8dfc1e7a65dfdba2265f3335e6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\static_layer.hpp",
+    "bytes": 8323,
+    "sha256": "91f51f18e1d583b2bcfc1b99df62d6d7a75058704eaa8e1eb76f54dae06fac99",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\include\\nav2_costmap_2d\\voxel_layer.hpp",
+    "bytes": 8467,
+    "sha256": "34fff067fe33055168b0948b06863b10182977008511f86be6345bca3f073693",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\package.xml",
+    "bytes": 2430,
+    "sha256": "60e3cfd4cdd2a153f7357e99b0f93f5554e800ebb45bf9462ecd5f46c3142efc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\plugins\\costmap_filters\\binary_filter.cpp",
+    "bytes": 9281,
+    "sha256": "dde014203b49f8f9ccb5d858e30f9e011cb67cdf107ea8eacc264e3201ffd0b5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\plugins\\costmap_filters\\costmap_filter.cpp",
+    "bytes": 7020,
+    "sha256": "55fa09b3702f1b9b4234605f19ef4684f4af5d35fab01faff0a52fcf4497f0b5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\plugins\\costmap_filters\\keepout_filter.cpp",
+    "bytes": 15920,
+    "sha256": "bf1447c187ea9a372a4ebc250861a7bdbd23b53dc4ed06f09a017737871c3412",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\plugins\\costmap_filters\\speed_filter.cpp",
+    "bytes": 10169,
+    "sha256": "e636d9dc87313824aeeb2d7bd0c78552ebc379f014cb3e3db43b4e0412a9312a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\plugins\\denoise_layer.cpp",
+    "bytes": 6263,
+    "sha256": "edf882474c8c228b2ed351c00b2349e4557ac6e5bdf8151af86aa5f4942a5f78",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\plugins\\inflation_layer.cpp",
+    "bytes": 15485,
+    "sha256": "d93dc4c43700fd5ffd6461c1eabef964897f99598133d3c9f80928e160f2255c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\plugins\\legacy_inflation_layer.cpp",
+    "bytes": 17534,
+    "sha256": "96c0a040f1b74bee93a11e2e3b359a51b2bb28d16e5a9775d727c5243a40117c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\plugins\\obstacle_layer.cpp",
+    "bytes": 31559,
+    "sha256": "ee8bb9fcc5348caac5b492ad5a3e7ead98d4e9c81ae213702a453afdc1743284",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\plugins\\plugin_container_layer.cpp",
+    "bytes": 7695,
+    "sha256": "1b47574525191152b1945154a7311a69dcbd093310e9483ff3811b7634104b06",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\plugins\\range_sensor_layer.cpp",
+    "bytes": 16950,
+    "sha256": "4c54e1b8be13d77bfc21c9b58555d21b64a157cd7c9b51c2b639fd192612d168",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\plugins\\static_layer.cpp",
+    "bytes": 20053,
+    "sha256": "71839fcdbeda81cf4e9decbd2579fbd97c2976f48ccc82971bcbef51d1d6081c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\plugins\\voxel_layer.cpp",
+    "bytes": 22476,
+    "sha256": "a391104820286be5d4ffd9dca6d27faba98153ef75bf07f86494e22952966c12",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\clear_costmap_service.cpp",
+    "bytes": 7382,
+    "sha256": "d9f4ca7cb6d868de07cb629db618170f3457ce5cf76fedd8519b6e058af4febe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\costmap_2d.cpp",
+    "bytes": 17598,
+    "sha256": "29583f4628205229892e541aa8c4a8bb1298a18f1f5d8070ee530a1ef7359003",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\costmap_2d_cloud.cpp",
+    "bytes": 8384,
+    "sha256": "bfc2408539b6f9ee9e7198359a96a038fe4ecba9ecd279e47d45634a0a84503b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\costmap_2d_markers.cpp",
+    "bytes": 5824,
+    "sha256": "c47d034b34d190b0fc14b5944dca8378a870f42febd8949964f89d0a861f50c1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\costmap_2d_node.cpp",
+    "bytes": 2234,
+    "sha256": "3d76814c63477a32576b3b86561c9bf26751a8a534331be4ceae6b3991004bb9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\costmap_2d_publisher.cpp",
+    "bytes": 11519,
+    "sha256": "4317cf3799183b3f59b1e44eab2f0823bf5095244d919b67088106465f332715",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\costmap_2d_ros.cpp",
+    "bytes": 33042,
+    "sha256": "dc8e202f3688cdb381b287a4cbd5d7153aeeafe54030274c9a6a89bf4c37061a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\costmap_layer.cpp",
+    "bytes": 8464,
+    "sha256": "f274b829e571273955a5fd0967bdd5503bd77f38bae267f3dab5ccac3f3e1bea",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\costmap_math.cpp",
+    "bytes": 2227,
+    "sha256": "f137a14c6c7def812c0c82286246b69ded7ed14917130c4c9f7856cb77eca887",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\costmap_subscriber.cpp",
+    "bytes": 4238,
+    "sha256": "66d8d42144fb9fd4953d3944f3aea2f7496a65152fa8e6dfbf453e3e58eea017",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\costmap_topic_collision_checker.cpp",
+    "bytes": 3965,
+    "sha256": "4502408d15b39d2870313a9a0c86ff235809e8a15aef13d47e3f7033111a3bc7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\footprint.cpp",
+    "bytes": 7810,
+    "sha256": "d22f032bfddc6edb02fbb133771b8ce1faa80db5913dfaf22206b9a39768eec0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\footprint_collision_checker.cpp",
+    "bytes": 4701,
+    "sha256": "8abfaf26f876e2c4791636e05270d0684e1a0a0353fb62257d3c810b7b59b43d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\footprint_subscriber.cpp",
+    "bytes": 2461,
+    "sha256": "54b17ecc04e35c5f10d205bb5306ae940cacb65aa4b7452cab21b319fa845a5a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\layer.cpp",
+    "bytes": 3115,
+    "sha256": "42060b3ca7b9feedc2d65bd4ea998ca2bbea2e138455c876ab3defbd8f794a65",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\layered_costmap.cpp",
+    "bytes": 11243,
+    "sha256": "c832664da447edff1496b9618b3450bf40d3718dc8284427e1c10aadd6491776",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_costmap_2d\\src\\observation_buffer.cpp",
+    "bytes": 9147,
+    "sha256": "99c015a46241154e01a5d83fa4b40bbfb72dda46a04a183d83f023dd114bac4b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\include\\opennav_docking\\controller.hpp",
+    "bytes": 6219,
+    "sha256": "0a73b5a57ad334eac5176c3ba2a6c69416c09388be0e4ef471c5a1c162285c9e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\include\\opennav_docking\\dock_database.hpp",
+    "bytes": 4311,
+    "sha256": "2d68e1574fb85f19c8b60a60606b902027b9cd90aaada2d2c504690cf99e634c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\include\\opennav_docking\\docking_server.hpp",
+    "bytes": 9201,
+    "sha256": "792d62a9c9f2d75bc380fa1378b89c9cdf42d62b11a459fcad67c85ff9d96348",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\include\\opennav_docking\\navigator.hpp",
+    "bytes": 2771,
+    "sha256": "61824b741cbaf67c21e7422c3be8321d359c62dc2062b2e1cc741898e81b46b1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\include\\opennav_docking\\parameter_handler.hpp",
+    "bytes": 3942,
+    "sha256": "17f6d1eeaedfa5d0a3e8700ec01557bea742d4e78dec4b2bd6dcba23a374d870",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\include\\opennav_docking\\pose_filter.hpp",
+    "bytes": 1663,
+    "sha256": "0ef771cd05e8483e9d884e375bb26fc1d63820bed5f8c57f603901fb74a50ca5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\include\\opennav_docking\\simple_charging_dock.hpp",
+    "bytes": 6172,
+    "sha256": "e99d56af57642a0bc86dc7ef047b2df5a3af75acc2e9559dd7a7de8e1bcbcc97",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\include\\opennav_docking\\simple_non_charging_dock.hpp",
+    "bytes": 5548,
+    "sha256": "c624488215a1975d297b433f0306b319afac247f71c1d78dc0e176fe05603aa0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\include\\opennav_docking\\types.hpp",
+    "bytes": 1646,
+    "sha256": "362244ca768dd6e152d24c1324d59a803334ba394b541354c1a584385152f7c2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\include\\opennav_docking\\utils.hpp",
+    "bytes": 6391,
+    "sha256": "c4e38aec7344a30f2bd3b0f0f4fde90dd5a935709f439f4ee427172c8adc6f7d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\package.xml",
+    "bytes": 1627,
+    "sha256": "829d678e0eee6db2584cacebd7a94e441454fc6bb0b37ba8058ed386c4efc95a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\plugins.xml",
+    "bytes": 804,
+    "sha256": "5c60823c7b557d432183a4c925952c3acd2bdcf3fd2e8bcf110705572c38a744",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\src\\controller.cpp",
+    "bytes": 12340,
+    "sha256": "8c7c0c0c2eeca70bc119f5d1fdff59b7cd0de12cf46609c9ee2a53f13749d367",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\src\\dock_database.cpp",
+    "bytes": 7134,
+    "sha256": "5f4885240cd802bdbcf46936c550934b5731f2f289b0bd686365e31964fa3a8e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\src\\docking_server.cpp",
+    "bytes": 30290,
+    "sha256": "50c772c700c9e89576a3bd28d560ad2241fc8c15b44009f4e9698a60f6ade919",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\src\\main.cpp",
+    "bytes": 939,
+    "sha256": "b0114f4525ce175f464498e496475aba41e4dd0cf81c2d77398eec267fdc9612",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\src\\navigator.cpp",
+    "bytes": 3803,
+    "sha256": "5b98a061b2b763214e26407bf0c4bd1715c07d6018a2b9d56d1b7e742b836a1e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\src\\parameter_handler.cpp",
+    "bytes": 5961,
+    "sha256": "8c9924de9bbefffe5963ffe94fda87ac4b81701c44defed0ca212b4650e9ef8a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\src\\pose_filter.cpp",
+    "bytes": 2045,
+    "sha256": "19f70f152e6767887cd90ee8315f975b35dd4dfcece70bd2db8c9f783a1cb2dd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\src\\simple_charging_dock.cpp",
+    "bytes": 16946,
+    "sha256": "310079cb252fd73fde6e466d9431cbe993ca48cd839267205ce3824b8d842449",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking\\src\\simple_non_charging_dock.cpp",
+    "bytes": 15653,
+    "sha256": "004e65b9e1b30d12a30050186641ea67c16cacf14740340fc4bea61ddb905f63",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking_bt\\include\\opennav_docking_bt\\dock_robot.hpp",
+    "bytes": 4112,
+    "sha256": "c976b7816e4244e41a46ae3494a53ea68d3f25082cb29cf305b21acedf93f495",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking_bt\\include\\opennav_docking_bt\\undock_robot.hpp",
+    "bytes": 3585,
+    "sha256": "9f004bd681db76fac779aabc59805dbcc72261555d00cf0f49943d540436fe22",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking_bt\\package.xml",
+    "bytes": 1082,
+    "sha256": "d850399cd1349f49924586a35dc6f38484456da1fc2b6f189fc0191cb918ab6a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking_bt\\src\\dock_robot.cpp",
+    "bytes": 2850,
+    "sha256": "c04677ab087c5cafe977ba63f1de2ab42f51233f519f2be54a1c852d1e68f4c2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking_bt\\src\\undock_robot.cpp",
+    "bytes": 2481,
+    "sha256": "a19475ce99bebd2c6b32193794a58e6f01cb4daa24745d129a08bfa1d92c9d7a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking_core\\include\\opennav_docking_core\\charging_dock.hpp",
+    "bytes": 5416,
+    "sha256": "db09626219af6c209c1e10499e7b1f8ea6ee8c40ae7eef14e6d578f12f53b2f4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking_core\\include\\opennav_docking_core\\docking_exceptions.hpp",
+    "bytes": 2684,
+    "sha256": "4da6f8ef799e43cf18f7b9cc09bfea49eb6d10003badde3640483ce40e8f3b4a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking_core\\include\\opennav_docking_core\\non_charging_dock.hpp",
+    "bytes": 4696,
+    "sha256": "c1a4d4963f188aaa0d4e2dd4b50af92801f01e9689d85719720d90999f818946",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_docking\\opennav_docking_core\\package.xml",
+    "bytes": 921,
+    "sha256": "27de2fc782555d125aca7d5496d42eea78bcfbd6fa44bcd134394b987ac42120",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\costmap_queue\\include\\costmap_queue\\costmap_queue.hpp",
+    "bytes": 6892,
+    "sha256": "8c4fbdc7cfdb4aab932fe40a2a0662fccb5b2f55c3388b594a16d6b837e3e5ff",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\costmap_queue\\include\\costmap_queue\\limited_costmap_queue.hpp",
+    "bytes": 2410,
+    "sha256": "65369369b7571b924c8240aebd426db30a49ff38d63b6416e9c83c67da68a49d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\costmap_queue\\include\\costmap_queue\\map_based_queue.hpp",
+    "bytes": 5863,
+    "sha256": "51d0f0e2bb9107f01d5b26762ec79318d43c49c4da7405f4e530af38d210a255",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\costmap_queue\\package.xml",
+    "bytes": 743,
+    "sha256": "3debff5699c0b22f1077d35b4c0f8bde64c6d0d2d01557eea1915aa2b97ab951",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\costmap_queue\\src\\costmap_queue.cpp",
+    "bytes": 4619,
+    "sha256": "cea066ebe70d1965aaa583c643ff1534d40d945ccaf95278ae27093b6db7cccd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\costmap_queue\\src\\limited_costmap_queue.cpp",
+    "bytes": 2126,
+    "sha256": "c57b28a6b11834c6230544c6de0790e28ea4df4bbb9c45d693f627ee1eacc2ef",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_core\\include\\dwb_core\\dwb_local_planner.hpp",
+    "bytes": 8176,
+    "sha256": "b4254450c9b6d312a679e9721943b85b28f2ee85c82fdc9977a5536be180d1fe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_core\\include\\dwb_core\\exceptions.hpp",
+    "bytes": 2437,
+    "sha256": "3f0dde78547efd1fc2df3ee5879fc6aa574ff53868a0045c8571b50b62b1a101",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_core\\include\\dwb_core\\illegal_trajectory_tracker.hpp",
+    "bytes": 2932,
+    "sha256": "324c7df7bad2d2ed42d3d6447c769e0153c83a4965c41fe7844a595bf0e09ff9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_core\\include\\dwb_core\\publisher.hpp",
+    "bytes": 4818,
+    "sha256": "4a442e434f1e25b497d3080a240f9404cd1a34f7eec8d139ee81830093a8e1f6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_core\\include\\dwb_core\\trajectory_critic.hpp",
+    "bytes": 7298,
+    "sha256": "70fe66c903b81567881f9d0d29dcb812e3420ba64fa8cf744074b320b840f905",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_core\\include\\dwb_core\\trajectory_generator.hpp",
+    "bytes": 5234,
+    "sha256": "5098d17db8ca5b3158b0e4a574b6ad543cdd4a6a69677e5d131e26ce666aa67f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_core\\include\\dwb_core\\trajectory_utils.hpp",
+    "bytes": 3098,
+    "sha256": "cbc616108fa3c602f0b697f2bf6cf1ab10b36a36e2ccfefe369961983faca433",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_core\\local_planner_plugin.xml",
+    "bytes": 217,
+    "sha256": "1836e02f5cfd38a5f49ec0605f1dec1977570481506bd5640e7098ce5469136b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_core\\package.xml",
+    "bytes": 1410,
+    "sha256": "2ac51c91b6f2f5b454677825d925c00cdf7e29bf7d2619fac46045f0a908b009",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_core\\src\\dwb_local_planner.cpp",
+    "bytes": 13189,
+    "sha256": "65954947863b2192371e640fb63a5f24409a0e4d58a2740e21ec66fa5ad5eff0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_core\\src\\illegal_trajectory_tracker.cpp",
+    "bytes": 3007,
+    "sha256": "0b08d617f40d11eda8661304c1a110e8f7a22cda9e7a3269a92eb052d6a9f281",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_core\\src\\publisher.cpp",
+    "bytes": 10594,
+    "sha256": "0e72c29a4443ee6fbbe9b1a151085d93e41f8cdc98b8a7e7ce9eaaaf147655a9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_core\\src\\trajectory_utils.cpp",
+    "bytes": 4729,
+    "sha256": "afc32c21369b7ad83bdd1da70b3a1cb3b07ba4b39375ebbad883fafe9ceccd99",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\default_critics.xml",
+    "bytes": 2423,
+    "sha256": "89b86f1554ea532a92e91bee3b6d5581a7896104251ab264fbc3be7e9e051a45",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\include\\dwb_critics\\alignment_util.hpp",
+    "bytes": 2307,
+    "sha256": "679bf5c39cce52c97dc71d3dfe0e552b1e911c23810d872acf14af3ab09e0266",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\include\\dwb_critics\\base_obstacle.hpp",
+    "bytes": 3395,
+    "sha256": "5a4dc6bf5fbef12bb2fe7493dd192b8922974bd0051c6ef0ceb47fc36f8e69fb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\include\\dwb_critics\\goal_align.hpp",
+    "bytes": 2843,
+    "sha256": "9e34c061011b2273521065e8e319803d9247d61e5ebe4a3906434ebb9f002528",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\include\\dwb_critics\\goal_dist.hpp",
+    "bytes": 2717,
+    "sha256": "17c95397d93e18f85170197146fd2ac730af26e37cc413abdfc7c0ea60500391",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\include\\dwb_critics\\line_iterator.hpp",
+    "bytes": 4962,
+    "sha256": "f2ea845ded3554d86bb95b87f644f4700448faa3fc8be9177473b74c2d94cb5f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\include\\dwb_critics\\map_grid.hpp",
+    "bytes": 5458,
+    "sha256": "595021521ba843292f8d40a3c4bd8c1ceba197e593f3a3ee5a0bf901f2198623",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\include\\dwb_critics\\obstacle_footprint.hpp",
+    "bytes": 4299,
+    "sha256": "07b0997f9064493e25025cf6a3ec7aba39f6287e25afaa08e73bac48c03bff08",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\include\\dwb_critics\\oscillation.hpp",
+    "bytes": 6615,
+    "sha256": "763d1f64b0cab52c89ec09b6e26253f318bab50d170a7bc98c79147a21566a3a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\include\\dwb_critics\\path_align.hpp",
+    "bytes": 3282,
+    "sha256": "563c26142c0ce49d805e3848dc18fb9b059001fce9fae8f6e36f5621e4d8296a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\include\\dwb_critics\\path_dist.hpp",
+    "bytes": 2284,
+    "sha256": "466837de5ca2e31cf3c7ff839614a09e7f72dab22b9d81f2bfc5c1f91e43bede",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\include\\dwb_critics\\prefer_forward.hpp",
+    "bytes": 2698,
+    "sha256": "ae56ae435c14b1095598a846f7fe7378fc5f02bd10586e44d58b757adf5ae323",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\include\\dwb_critics\\rotate_to_goal.hpp",
+    "bytes": 4954,
+    "sha256": "0a5721a38ccc69cb4e767cd421c7c4d9006b2f5a0ff1925a7b01561e2501a864",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\include\\dwb_critics\\twirling.hpp",
+    "bytes": 2541,
+    "sha256": "06d91bac91a9fde173846337dab977fcb684329f3d62e96c70ba605f463c21f5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\package.xml",
+    "bytes": 1121,
+    "sha256": "e661718521371a92f41d5621db316f9cfacc4ee840db34ab275e9f844744db85",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\src\\alignment_util.cpp",
+    "bytes": 2386,
+    "sha256": "61f45c2f9e61c3a728b14cb5a414c0954ddd0b217cc347dfbbe2b9fa79707ecc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\src\\base_obstacle.cpp",
+    "bytes": 4178,
+    "sha256": "2657dec9b48b9fd2df6317da39b798615967356b887486a10d09f0f51ba190d3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\src\\goal_align.cpp",
+    "bytes": 3472,
+    "sha256": "d7f3bf9e18ce23abf5ede98a9a428ae75386d1a39671105976d47732e0deddf2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\src\\goal_dist.cpp",
+    "bytes": 3921,
+    "sha256": "111ecd324dd4365c530e3a811ef212f0ed270fe10e5db4ebe5f9ae56c84badad",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\src\\map_grid.cpp",
+    "bytes": 6336,
+    "sha256": "c3b2d715df9329d78a8cac757a82eacfe49ea270489780a96dbf184ff0961896",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\src\\obstacle_footprint.cpp",
+    "bytes": 6282,
+    "sha256": "a58ad9f3560a82805c112a1fadfcecbdf0e2c870b485fe3a745a62ba5fc2a605",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\src\\oscillation.cpp",
+    "bytes": 6557,
+    "sha256": "3e1f51f217a803270c3be25081703a7f137ef8edd4398600b3500c1eff1dee93",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\src\\path_align.cpp",
+    "bytes": 3342,
+    "sha256": "127abe21eae64b5a7bdccf60b4fa723e414a5dc05758808bf53db105748d1227",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\src\\path_dist.cpp",
+    "bytes": 3712,
+    "sha256": "283b4b5a4d668cb7df047b6d53506831580370b6b1e177b5e91d69fddaf9acfb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\src\\prefer_forward.cpp",
+    "bytes": 3016,
+    "sha256": "33a6e1a08e709cef0ea327ff6ccbb615a77a4808498cf86b4b2c8eb0da0fa6e4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\src\\rotate_to_goal.cpp",
+    "bytes": 5257,
+    "sha256": "c6745e7bfba68f9b381a72eeba23ff613db3b737a39427aeaa90e99c500aae6a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_critics\\src\\twirling.cpp",
+    "bytes": 2380,
+    "sha256": "c9c08e6dabd3068e5302edc5db84e52f5551b3d9c2877c690e3e1e35d2f4d3db",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_msgs\\package.xml",
+    "bytes": 936,
+    "sha256": "01d514c55bfb2d2c0b21103985c523e50b157234956c5b1f434565566f377d58",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_plugins\\include\\dwb_plugins\\kinematic_parameters.hpp",
+    "bytes": 7286,
+    "sha256": "06431be9df95ca98664247ccd4bf32a91ce6ed691070807810fabd093cb943de",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_plugins\\include\\dwb_plugins\\limited_accel_generator.hpp",
+    "bytes": 3128,
+    "sha256": "3adfc9849d19ab849b2dd2abf616ad3ba9209c0fb7079f4b114a0dbf91f72e46",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_plugins\\include\\dwb_plugins\\one_d_velocity_iterator.hpp",
+    "bytes": 5254,
+    "sha256": "1c3f4c4f8cf7ee9a0f685323475b5e24ab155697040781d74a3d3b072daaf41f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_plugins\\include\\dwb_plugins\\standard_traj_generator.hpp",
+    "bytes": 7002,
+    "sha256": "4ea099627546de59947fab1918ed79b99d2c771d25b6b8b84b7235da991cedb9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_plugins\\include\\dwb_plugins\\velocity_iterator.hpp",
+    "bytes": 2502,
+    "sha256": "ec90f319cf3c8e9753b5efe7fe55efbde580c219e7596ae10370a632e4e80b6b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_plugins\\include\\dwb_plugins\\xy_theta_iterator.hpp",
+    "bytes": 2841,
+    "sha256": "97d56760bc3f6471456c2b3e87534cc0a0f8f1808119ade172676255f20b5eac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_plugins\\package.xml",
+    "bytes": 1151,
+    "sha256": "69b8d7ef80414698f1b65a64f406ce428efc3acf02ac6ebc54afe9cbc9b214bb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_plugins\\plugins.xml",
+    "bytes": 799,
+    "sha256": "794e7f8822c844acf7021e831a7d4e5fdb409f5b12c90515d8ac93371c05ba69",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_plugins\\src\\kinematic_parameters.cpp",
+    "bytes": 12061,
+    "sha256": "8a0af9ba2f3b47c5aeec00aa3001b2792c988e49b14ec1d4d326825e2449c605",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_plugins\\src\\limited_accel_generator.cpp",
+    "bytes": 3494,
+    "sha256": "46450b5aa954c13905f62a99e8b4f8d49456b700f2ff0487cc659ec09d920ccb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_plugins\\src\\standard_traj_generator.cpp",
+    "bytes": 8178,
+    "sha256": "b9f9a573b0002e55592076d45ff7ace089d2b6d269647c0fcb4fe502cb0fca9b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\dwb_plugins\\src\\xy_theta_iterator.cpp",
+    "bytes": 4099,
+    "sha256": "90d6545c987b4d1a0155621507c65322158cae085b2fc5068e43f614c8d28cfc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\nav2_dwb_controller\\package.xml",
+    "bytes": 1047,
+    "sha256": "5aaac77e736458c2db0cc4d0374ad4ac6caa070a589e772c9dce3441603cc4db",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\nav_2d_msgs\\package.xml",
+    "bytes": 867,
+    "sha256": "fe185db51233cb0a6b896e06c60ddfd66a93e4f39fa1189a4369fbe1159806ca",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\nav_2d_utils\\include\\nav_2d_utils\\conversions.hpp",
+    "bytes": 2503,
+    "sha256": "d5c9d623abbdd3c0ff39d0738365267e4b981109e572cc03cb1cf0f33e45a65c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\nav_2d_utils\\include\\nav_2d_utils\\path_ops.hpp",
+    "bytes": 2273,
+    "sha256": "8c2ebc1a101002f4bd292d68faa6304295832de83c6255b06e049fc2a975e0ba",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\nav_2d_utils\\package.xml",
+    "bytes": 1095,
+    "sha256": "4e008edbcb6d6536c7ed1518694d16d29409b5d94f5b1b75a748692fc35125c1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\nav_2d_utils\\src\\conversions.cpp",
+    "bytes": 3334,
+    "sha256": "b665d7eb7f954f6a44df7452cb8b0a16a1b3446973d1d30ba15d8c54e1f40a7d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_dwb_controller\\nav_2d_utils\\src\\path_ops.cpp",
+    "bytes": 4016,
+    "sha256": "00ee07d24c2b69a79b272751d5bf5512a5af59e9c06197ff898f0d29e311ba1c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_following\\opennav_following\\include\\opennav_following\\following_server.hpp",
+    "bytes": 8988,
+    "sha256": "76d3677d247fd801be35c04f84449e88c56f499fe3cb093be5db833cc2a65368",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_following\\opennav_following\\include\\opennav_following\\parameter_handler.hpp",
+    "bytes": 3871,
+    "sha256": "890be32c9c409efbf172cd8eb7837c7eaa8b0688849b15d69318db1bdef47c3f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_following\\opennav_following\\package.xml",
+    "bytes": 1264,
+    "sha256": "3fcea23f1eb4cfc34335d60b2bd34f999052c67404f1d004e5236418d1d5b794",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_following\\opennav_following\\src\\following_server.cpp",
+    "bytes": 26430,
+    "sha256": "63f4beb3865bfc9e231a2fa8645776ae42ad880dccab3bb53e740eed38c269c2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_following\\opennav_following\\src\\main.cpp",
+    "bytes": 953,
+    "sha256": "69ff292afcb3dc04995baa6a60075c9fca3cb8ab5a7e75b9ea05690bba727a3a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_following\\opennav_following\\src\\parameter_handler.cpp",
+    "bytes": 6560,
+    "sha256": "3b1538ebb42c9626cee2bf2589172f24161f6f5f550a216cb28b7bd6443bbe1f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_graceful_controller\\graceful_controller_plugin.xml",
+    "bytes": 298,
+    "sha256": "9de536190e5e5b1f3b051b7537ff6a1ed94b9c2cb7d7ff7a2a3b2c3a5468d8e1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_graceful_controller\\include\\nav2_graceful_controller\\ego_polar_coords.hpp",
+    "bytes": 2989,
+    "sha256": "72fd38200ece0d200aebc50d8e6b4fbca6430824365025e53a6ab9165b97b41c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_graceful_controller\\include\\nav2_graceful_controller\\graceful_controller.hpp",
+    "bytes": 9681,
+    "sha256": "99ceca9f96fd77a1723de82ad1de6f8cadb5f6ce0c5fdc6ee0b40f0f7c24e883",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_graceful_controller\\include\\nav2_graceful_controller\\parameter_handler.hpp",
+    "bytes": 3420,
+    "sha256": "3d6901e883750dfce15c2c7681938150ea7869b6c860a19c6bb4d628d740ced9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_graceful_controller\\include\\nav2_graceful_controller\\smooth_control_law.hpp",
+    "bytes": 7286,
+    "sha256": "3dc77c7da640c7849815e5f40b4bfa395f6e3328f0451068bec55c18b0ffa461",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_graceful_controller\\include\\nav2_graceful_controller\\utils.hpp",
+    "bytes": 1408,
+    "sha256": "1ac8e3f47117350f8330a47ebc8b7454d5b7b2529771c6c7c7d2160257715aa5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_graceful_controller\\package.xml",
+    "bytes": 1410,
+    "sha256": "a9f5764a98e4e08ee4f4ffa7350742106e99436d481c7fd076e2fb1976757d6e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_graceful_controller\\src\\graceful_controller.cpp",
+    "bytes": 25432,
+    "sha256": "f9fac753bb3ec9f9f6767fea111beab3ab30fe9a32b9dc98a170076e9604c942",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_graceful_controller\\src\\parameter_handler.cpp",
+    "bytes": 9548,
+    "sha256": "48342d232ff4cbf06e6aa64f8259d2497c3e17dbb4fd1b1682409f23a3a2213b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_graceful_controller\\src\\smooth_control_law.cpp",
+    "bytes": 5256,
+    "sha256": "f1e755a69e3e6ce1f36cb08431ca246464b5c87ad11f789bfd169b259ff147e2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_graceful_controller\\src\\utils.cpp",
+    "bytes": 1595,
+    "sha256": "8a8b51741459669ac07789e93f55af5f670eaf54b2aa31b99d8af69e5dc488db",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_lifecycle_manager\\include\\nav2_lifecycle_manager\\lifecycle_manager.hpp",
+    "bytes": 9236,
+    "sha256": "ef9bf816fd67611490b5d361409daba6efbb443a6ae1c1302aa39771a8b200bb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_lifecycle_manager\\include\\nav2_lifecycle_manager\\lifecycle_manager_client.hpp",
+    "bytes": 5045,
+    "sha256": "81c8bdd797c0152b30727d3579d7a1e3c1477a24469ecd612719719dc0f318ce",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_lifecycle_manager\\package.xml",
+    "bytes": 1308,
+    "sha256": "9c30e7a5f68eb792780290a2b11415192d8dbd0918f366600cbd8defa4fff846",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_lifecycle_manager\\src\\lifecycle_manager.cpp",
+    "bytes": 20097,
+    "sha256": "dc56dd9a94b21cf9c29f135e0718240cdbf0706c3c238ec241c0de6d3b523e8f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_lifecycle_manager\\src\\lifecycle_manager_client.cpp",
+    "bytes": 3704,
+    "sha256": "6e4d685455c1e535a577d0e2a93b98b91be2f4ed09783e071cb8d95cd23687a6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_lifecycle_manager\\src\\main.cpp",
+    "bytes": 930,
+    "sha256": "648afcd524512e3058d6640729dddcbe61273feb6f520199a23390e8abd56a82",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\include\\nav2_map_server\\costmap_filter_info_server.hpp",
+    "bytes": 2815,
+    "sha256": "621c19608ae7db5a96f329c4672d98745129040d2223dec990870724b5c38f39",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\include\\nav2_map_server\\map_io.hpp",
+    "bytes": 3242,
+    "sha256": "1d5811643f75e61800eff80224b105360b33e872a0f628f3ae87b64373db4754",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\include\\nav2_map_server\\map_mode.hpp",
+    "bytes": 2382,
+    "sha256": "f6d7177a8508701b1240a4ec386f5e4110469b814b8de6e54ca6f50ecff39403",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\include\\nav2_map_server\\map_saver.hpp",
+    "bytes": 4045,
+    "sha256": "5c14f08ee0d9880deca030fa0cf08f1ab65da3690be205512acd230f7a6734a9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\include\\nav2_map_server\\map_server.hpp",
+    "bytes": 5123,
+    "sha256": "7b34ed276ed8441175e520239b6ba007420352cc3d68084a9fa101349ad3c4bc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\include\\nav2_map_server\\vector_object_server.hpp",
+    "bytes": 8398,
+    "sha256": "d7626bf95e2c518ad63536742eb481b8eb2753d027d6c7f75392ce26d1ae6c2a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\include\\nav2_map_server\\vector_object_shapes.hpp",
+    "bytes": 13197,
+    "sha256": "e00e7dba5d9443033f6ad01e66fbe8e460b2d0a5f9fe2c697db1716bc8db43ac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\include\\nav2_map_server\\vector_object_utils.hpp",
+    "bytes": 4364,
+    "sha256": "2d7bae20cd43b20ef99d4b0b4c31bf549c01e3dc3197be925e36680d70b75a51",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\launch\\map_saver_server.launch.py",
+    "bytes": 2039,
+    "sha256": "f69a6b3de6b5d87c4eb3f04fe410317ecadd391f5214a931cfe24c1eef130ee2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\launch\\vector_object_server.launch.py",
+    "bytes": 6959,
+    "sha256": "26be6836183385f9a9cda0e75560cb4f9251c437fa7f4015a2336526c98f499a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\package.xml",
+    "bytes": 1491,
+    "sha256": "a2b8a886a7aab9fb2a85eff2a1ae865258355a131a51102989f1748a1d9152fa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\params\\vector_object_server_params.yaml",
+    "bytes": 707,
+    "sha256": "0f5d67be46aff349004a40be7b4c6b4de37a5c08eaf88a9c624274c766dc9498",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\src\\costmap_filter_info\\costmap_filter_info_server.cpp",
+    "bytes": 3597,
+    "sha256": "7154aa4ac77c738c8a8f073b8f4d9ac24b8b15e9d002b8c198aa7822392f1315",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\src\\costmap_filter_info\\main.cpp",
+    "bytes": 1102,
+    "sha256": "6e3eee67259b8093b8ddda0be977085ab0f0f3ad24a431fc325beca165dc9a99",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\src\\map_io.cpp",
+    "bytes": 25223,
+    "sha256": "b18be6c7be41b6a4f0004ec77e67e0f138cc42c62b0a833cd121921835d5706e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\src\\map_mode.cpp",
+    "bytes": 1449,
+    "sha256": "0f0fb840b94f4969abfcb38f083dbfa9a59aee4551098244b246f9808c9ef8eb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\src\\map_saver\\main_cli.cpp",
+    "bytes": 5156,
+    "sha256": "6fc3d0bb3d99426100fb6751a9b640da74c3300dbe0316bb608c7cf0bf96723e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\src\\map_saver\\main_server.cpp",
+    "bytes": 1088,
+    "sha256": "da2688dbb7132dcf12def40fe194cbe3b121a7e24c44d193fe3abcd84ffb88d8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\src\\map_saver\\map_saver.cpp",
+    "bytes": 8684,
+    "sha256": "0a12033145cd74d15b12d8cea3ba970f619a979199dd09a7244c06591d8b5a55",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\src\\map_server\\main.cpp",
+    "bytes": 997,
+    "sha256": "8f55ef08652bf0cfd9195d74a9d770fcb8820b837ac58928c21a13b0bd946104",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\src\\map_server\\map_server.cpp",
+    "bytes": 8989,
+    "sha256": "b3716cfb51f291388bbaf22e9e944186a3dee39afab4e9c9a464d9add0961c43",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\src\\vo_server\\main.cpp",
+    "bytes": 960,
+    "sha256": "0ec1bc0f01e67d9c78299fd86e6522b3ae38125b3643006ba0490c0b6560ff3b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\src\\vo_server\\vector_object_server.cpp",
+    "bytes": 19942,
+    "sha256": "bda62cf908fe459fc1adbe56caa517ae1da1210cd800c3bdf50744a4420cad7a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_map_server\\src\\vo_server\\vector_object_shapes.cpp",
+    "bytes": 15942,
+    "sha256": "5ac1beedd6ff90afb25430e75c474f7fe3f15eb4fbfce8f88f45eda6f4dd4b9a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\critics.xml",
+    "bytes": 2314,
+    "sha256": "c3864a2fc1069fc3a78651aa0f9e852f2c3a2fc74e87a6d739fa654f3615e25f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\controller.hpp",
+    "bytes": 4419,
+    "sha256": "5acb44d3bac790363513a392d821bc13f2c908727ff1382d63578d98d9941d12",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critic_data.hpp",
+    "bytes": 1892,
+    "sha256": "925bfb0d8da2f0ed4c8e20248a9274952e319695d749b4d03171f50675146e7e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critic_function.hpp",
+    "bytes": 3293,
+    "sha256": "244ba7ff5a99efe8983ee9d6b46e6f64b96489a12356547f9ad4e95f08ab1409",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critic_manager.hpp",
+    "bytes": 3702,
+    "sha256": "e1a3d8ccd8fa075221c92c1b558980d20f3375e19b9a2d15e184777667960a33",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critics\\constraint_critic.hpp",
+    "bytes": 1644,
+    "sha256": "c2acce13e1f25b2f2df78afcc4187488197b3088a7dac8c5556b2546e3b2136d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critics\\cost_critic.hpp",
+    "bytes": 4877,
+    "sha256": "2e432907338b4016056255542e9f4a51ce2a9a5e4fc1c17a32fe0eaaefaff633",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critics\\goal_angle_critic.hpp",
+    "bytes": 1740,
+    "sha256": "4ae56fdeb3fad08ba0e68aa5d04ddfd06d0afc66522727446da33084d6ceb03d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critics\\goal_critic.hpp",
+    "bytes": 1626,
+    "sha256": "93bad1e4f6935163909c9b52723f8a147cf24c809004edc9246e8e903ac39eff",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critics\\obstacles_critic.hpp",
+    "bytes": 3601,
+    "sha256": "306b32df2814f98989ffaee9debb9038631c9ef93a3aced1543cf8b8d8adc25f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critics\\path_align_critic.hpp",
+    "bytes": 1972,
+    "sha256": "f0243f8984a8110da5c6db6b1a77def408c7a9187fc119be4a1adca399992ee3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critics\\path_angle_critic.hpp",
+    "bytes": 2635,
+    "sha256": "ef7d62c1ab7714b4387687620742011bb207c52ad3622bc785a776db83737edf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critics\\path_follow_critic.hpp",
+    "bytes": 2114,
+    "sha256": "cade2ec1fb29f5ca7e9332e6d0192fb926749756456a8d04cdbd29cd8f1f8ca2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critics\\prefer_forward_critic.hpp",
+    "bytes": 1658,
+    "sha256": "ae16d860504f110d8846ee623f5b3d590edcd001f0584ebf3dcb5a5e8006d2e6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critics\\twirling_critic.hpp",
+    "bytes": 1602,
+    "sha256": "31a03b40e8d624183b643d992083f84445cbb55ed40c2e47f30aa588faedbfec",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\critics\\velocity_deadband_critic.hpp",
+    "bytes": 1695,
+    "sha256": "d6685823d001cc9e8bf78258fd1e09598dbad5037099aeeaca5322ae34d19460",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\models\\constraints.hpp",
+    "bytes": 1329,
+    "sha256": "ea7192082b74fa13275399f274b5c4c533049535635a2c915fbefc40e65e38f6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\models\\control_sequence.hpp",
+    "bytes": 1396,
+    "sha256": "ffbda47dc9436979257de92faf591f194d015c5f8feb8235512c488198981612",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\models\\optimizer_settings.hpp",
+    "bytes": 1716,
+    "sha256": "8bde599df0928a0776d6ded4ead52d72f473884c04f31a46c1bf29784781b8c6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\models\\path.hpp",
+    "bytes": 1222,
+    "sha256": "63e7329bd4ba65b5ccf8af024a1d5b5ed91d165e068b59643d116da5965de78c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\models\\state.hpp",
+    "bytes": 1739,
+    "sha256": "41af957512e09758e374e05db93032b305366fa711793793c1db945714dbf520",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\models\\trajectories.hpp",
+    "bytes": 1344,
+    "sha256": "ea76c17b37529107b1cac2820947e0a1e21801436886eaeff1294681445e88d0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\motion_models.hpp",
+    "bytes": 7050,
+    "sha256": "70a8836eaefa316617dbcf793f1a3bb76ce0d47eb6a14cb72e0653d6dc41f412",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\optimal_trajectory_validator.hpp",
+    "bytes": 6718,
+    "sha256": "9301f843ab90f2444d1483a37a6115f466d7b070edee2c969b1dcb276a4d0838",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\optimizer.hpp",
+    "bytes": 10790,
+    "sha256": "a31b10a7fcefec43d23bf1a0aae617fcf73db7f746a7f981de131c1efbd67cc4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\tools\\noise_generator.hpp",
+    "bytes": 3578,
+    "sha256": "09752ed8058e3bd071de1c2c18511631a7113dc090ea54731d664173c0138ad6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\tools\\parameters_handler.hpp",
+    "bytes": 10130,
+    "sha256": "c4abfcb2819cf67bd61203b4708a0825e0578a14e19526f4b4afaff998c733b6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\tools\\trajectory_visualizer.hpp",
+    "bytes": 4421,
+    "sha256": "1d86c935cadb80a549af51d16c35541243710562374934e7e2f2c9cc2eb6a148",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\include\\nav2_mppi_controller\\tools\\utils.hpp",
+    "bytes": 22718,
+    "sha256": "aa3f2d6a7b1e098e57fde0a5eaca82aee931ccd77f7069dab40f15cdff258912",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\motion_models.xml",
+    "bytes": 1064,
+    "sha256": "055fefeb3541edd9acad150dee3cbf1c0ad61e56581f7f203d096f03fe5680e2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\mppic.xml",
+    "bytes": 259,
+    "sha256": "4e248ffcbedd26070c6912ab531d2ecd52069d5211e6594da2644a392506a1d0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\package.xml",
+    "bytes": 1773,
+    "sha256": "1dcb583f44ebcef9edb4871ee4ce26db0de082d0a22135ee0f9f346d3fe2736a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\controller.cpp",
+    "bytes": 5768,
+    "sha256": "dd839682cfcc0a3a12fc359549754a2b5ff96dab81bc4f4282a1b79d20072626",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\critic_manager.cpp",
+    "bytes": 3947,
+    "sha256": "bcde406bb68317fd8ab80aedd13a50d8ca4f8396492ba7852df1137b84873904",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\critics\\constraint_critic.cpp",
+    "bytes": 3729,
+    "sha256": "4cb914e54c101df8e1bddcdb93190f909a332ff54b2c2c0c42874ca148120aa6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\critics\\cost_critic.cpp",
+    "bytes": 9637,
+    "sha256": "5a449f2d979eca12f32f0f5c60866d92c75653a14bdd0b3915fcb7de23a84406",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\critics\\goal_angle_critic.cpp",
+    "bytes": 2521,
+    "sha256": "8b2f31c95a52ee2dd1c7270957cf0dcae9b9910fa8d33d8b0d496db2bf8925d3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\critics\\goal_critic.cpp",
+    "bytes": 2052,
+    "sha256": "f35fe2c384195f05eb816ab44b722cfd8d44dd3248799e66721c78edaef7e0c0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\critics\\obstacles_critic.cpp",
+    "bytes": 9516,
+    "sha256": "99df2d85c2d03a82d68aaa91654706f1005b16c55e8a604a9e494013a170faae",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\critics\\path_align_critic.cpp",
+    "bytes": 6212,
+    "sha256": "b1db9c29567019f39166b59e436d06aa4fb034363047cbe29e12504b2d88d951",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\critics\\path_angle_critic.cpp",
+    "bytes": 5456,
+    "sha256": "14d310879e8fcfc83d5c0a41a952f24f1511bb18b2a2dadeded8aa66c8a8bffd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\critics\\path_follow_critic.cpp",
+    "bytes": 2726,
+    "sha256": "a1d2a339c1eca600f58fce32e140b52c6a6148baa05e6d0205eb768f6ea2e418",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\critics\\prefer_forward_critic.cpp",
+    "bytes": 1956,
+    "sha256": "d4403158cfcd2c37669fca0b4a5cb80cfb9a734ff02915f08975064eefc07b84",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\critics\\twirling_critic.cpp",
+    "bytes": 1991,
+    "sha256": "bde972b69b08511934deaed6a13cb6c5429345a1107416df610fab2452dbaba3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\critics\\velocity_deadband_critic.cpp",
+    "bytes": 3081,
+    "sha256": "e7000fa7cbb6f2f50eefce1f7f22149f84527a14c31559aebe3aa069ba41aed8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\motion_models.cpp",
+    "bytes": 916,
+    "sha256": "0940f8cfed067ac9f5adf2f3b07efc47d1e49d92b1ea8796739b31f027b6598b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\noise_generator.cpp",
+    "bytes": 3790,
+    "sha256": "393fe11f20d4fc7f69534d3c6d465b013adc0e9952f4d986246b98ec7e03da2c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\optimizer.cpp",
+    "bytes": 25513,
+    "sha256": "2202c94954fa39b68f03be6a2f07045c07a1c1c55d9e7e7a24a7d1d594a7e61f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\parameters_handler.cpp",
+    "bytes": 3677,
+    "sha256": "77a04d58174fb40da74a768da8c250244195a1f758ca76e2955104f4078d915a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\trajectory_validators\\optimal_trajectory_validator.cpp",
+    "bytes": 819,
+    "sha256": "3852983c84ec6397c8a8b86050daf0d04e6d5e58010b81f8f2f61e75f87cf618",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\src\\trajectory_visualizer.cpp",
+    "bytes": 6888,
+    "sha256": "890783e5d3f70b36acac608312566e97f4aeb77aed2de96b9b83abb12fddcdcd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_mppi_controller\\trajectory_validators.xml",
+    "bytes": 348,
+    "sha256": "d33f1fb020f7a4866c39e630263322b961ed49303ccdf7ddbb2b9da06fbcf82d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_msgs\\action\\__init__.py",
+    "bytes": 1502,
+    "sha256": "3cd9a2b043b522bbebb2f6b1282df016a1e70a59ddbb804626fa979059d874e1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_msgs\\msg\\__init__.py",
+    "bytes": 1161,
+    "sha256": "02372a33cc4a46b643af0cd03ccf4061853c82d060bc3c84db44fc6f58fc9305",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_msgs\\package.xml",
+    "bytes": 1233,
+    "sha256": "fd0cbb77acf9cb5285a363a52c95cd5de371c15538bdf90c84b8d0585da41e2a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_msgs\\srv\\__init__.py",
+    "bytes": 1112,
+    "sha256": "d8cea422203041dbdfc13ad0443415e08c11bab460993d11959d45fd5cb82aaa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_navfn_planner\\global_planner_plugin.xml",
+    "bytes": 185,
+    "sha256": "6c10a74a43f09c8bd5abc165c492336f12436f82c1be619c16b8ce5b49e4e690",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_navfn_planner\\include\\nav2_navfn_planner\\navfn.hpp",
+    "bytes": 10281,
+    "sha256": "2fc3873818c4bca15bfc32a93a43079ae5f52180dd3c144467257162d4590e7f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_navfn_planner\\include\\nav2_navfn_planner\\navfn_planner.hpp",
+    "bytes": 7034,
+    "sha256": "7d17bb647e4f3db56c7d0ff06a597ca00f4450107a55f5cd2e99919e0aba9d2f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_navfn_planner\\include\\nav2_navfn_planner\\parameter_handler.hpp",
+    "bytes": 3023,
+    "sha256": "ad3010585c575470d51a56ade9672a933f072791aeac48ce26af9a44c2e6557e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_navfn_planner\\package.xml",
+    "bytes": 1322,
+    "sha256": "8b5020bd9b02c8d7f841d219efc921873c0b3fe0cae51b4253ed1c98c5aefab6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_navfn_planner\\src\\navfn.cpp",
+    "bytes": 27786,
+    "sha256": "3cf7cfed013035b99084ad9259c9cc17c80145773de5f2c25a60038158280425",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_navfn_planner\\src\\navfn_planner.cpp",
+    "bytes": 16270,
+    "sha256": "5638473dd5f9888b867e871650127d61cd67f0c0e3ca010143407cab63a6561c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_navfn_planner\\src\\parameter_handler.cpp",
+    "bytes": 3544,
+    "sha256": "d59dfbd291c88c5245ec5c21531c02372acd1706e72745969b4f731a56328cc8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_planner\\include\\nav2_planner\\is_path_valid_service.hpp",
+    "bytes": 10612,
+    "sha256": "76d79669d2eb994c3eaee0fa8fb18e8f02918763f62333800810fa52f1fd151b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_planner\\include\\nav2_planner\\parameter_handler.hpp",
+    "bytes": 2891,
+    "sha256": "b45a90432ad45c98075809618471c063cfbd5250e35d568836d1043124eaaff3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_planner\\include\\nav2_planner\\planner_server.hpp",
+    "bytes": 8915,
+    "sha256": "044caae97e588b2e417437a1732a4af3401ca56c1de8bd378ef278e7b6d896d1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_planner\\package.xml",
+    "bytes": 1238,
+    "sha256": "e1585870e6472af214c686d1cdd7fbe63974cedc3aeab23d434f1135f4ff8d93",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_planner\\src\\main.cpp",
+    "bytes": 979,
+    "sha256": "5fc4394b9216ff343651bf5dd55d5b0c9007bd153c559013613e10fc8a6c558e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_planner\\src\\parameter_handler.cpp",
+    "bytes": 4589,
+    "sha256": "407de85653b1ef39131726d6366f140af8ed34d5c8b61f1fd1f764fe1dbcd222",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_planner\\src\\planner_server.cpp",
+    "bytes": 25245,
+    "sha256": "874eb4be581138925c35210008d05f3ece3dbe2f5cd9ed2c9e9eb165e9039940",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_regulated_pure_pursuit_controller\\include\\nav2_regulated_pure_pursuit_controller\\collision_checker.hpp",
+    "bytes": 3648,
+    "sha256": "6be64af775e8cfcf75122cdb9dbecafeab03a0dfa83082eb191e3e034fa24df4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_regulated_pure_pursuit_controller\\include\\nav2_regulated_pure_pursuit_controller\\dynamic_window_pure_pursuit_functions.hpp",
+    "bytes": 13213,
+    "sha256": "dafac214518d7ed58d92f5eb07832288d986539903f1ba482c7ffb3563835c32",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_regulated_pure_pursuit_controller\\include\\nav2_regulated_pure_pursuit_controller\\parameter_handler.hpp",
+    "bytes": 4046,
+    "sha256": "3e2452e0c907a1e3c0899e32323f9369ca9a65ef47e31313ee43d87e6f54f8a3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_regulated_pure_pursuit_controller\\include\\nav2_regulated_pure_pursuit_controller\\regulated_pure_pursuit_controller.hpp",
+    "bytes": 8201,
+    "sha256": "8e0c86bbfd8445bb6e00ff8a6f2bb67907c6006aa1fa0b63e9a5364506cd9a56",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_regulated_pure_pursuit_controller\\include\\nav2_regulated_pure_pursuit_controller\\regulation_functions.hpp",
+    "bytes": 5396,
+    "sha256": "c23c93e3e8cf91377d455d67bcb2916df81ca824949e98ab4ab536a046b25663",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_regulated_pure_pursuit_controller\\nav2_regulated_pure_pursuit_controller.xml",
+    "bytes": 380,
+    "sha256": "8c53e35ea8a9b4cbf698ed3dd37ffa6af828bd5fff604d4606e9a56feda454e2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_regulated_pure_pursuit_controller\\package.xml",
+    "bytes": 1525,
+    "sha256": "167dbea21b95cb8b117ee852156755d63aef0596b5628ff4d23cdc411a04813a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_regulated_pure_pursuit_controller\\src\\collision_checker.cpp",
+    "bytes": 7443,
+    "sha256": "3ecb4e1c4c2584b36d08c7dedc2691ce6df5a9145fbacc1a07048f4ed45e54ba",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_regulated_pure_pursuit_controller\\src\\parameter_handler.cpp",
+    "bytes": 16289,
+    "sha256": "1420b23eedc73afc46512253bebb6e4ae496f0d6858b676c1321960484063943",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_regulated_pure_pursuit_controller\\src\\regulated_pure_pursuit_controller.cpp",
+    "bytes": 16329,
+    "sha256": "d1cb47d26acd045302f22462d5e602ed0f861dc4759d85dcded213c72cf9b210",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_ros_common\\include\\nav2_ros_common\\action_client.hpp",
+    "bytes": 1155,
+    "sha256": "a71589ddbfca273bbbed2aaf4953619e2bf20d244317984f3a6b1f939cf20109",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_ros_common\\include\\nav2_ros_common\\interface_factories.hpp",
+    "bytes": 15642,
+    "sha256": "72f58680a3f500afb2ce48aa4d3e25cdf3b8bf06d304db550d0d2555502b3bc5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_ros_common\\include\\nav2_ros_common\\lifecycle_node.hpp",
+    "bytes": 16643,
+    "sha256": "6c1da477707f5e859f28ea9975278463678f0e224aecea5aef2ef0cb6844dab1",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "nav2_ros_common\\include\\nav2_ros_common\\node_thread.hpp",
+    "bytes": 2431,
+    "sha256": "2013232f6c4c4fe95e89e8cb131ec56c2da23da2f1f4a7d32d521197abe18ecc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_ros_common\\include\\nav2_ros_common\\node_utils.hpp",
+    "bytes": 17904,
+    "sha256": "709e2549659f8732a75f1bcec57016ae319b84194f24c2d0a0a6cc219fe866e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_ros_common\\include\\nav2_ros_common\\publisher.hpp",
+    "bytes": 1158,
+    "sha256": "f5f01804a3a1c565f84b8982500dabbdd9374cc8091a35b1512bbc52ceaa38ed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_ros_common\\include\\nav2_ros_common\\qos_profiles.hpp",
+    "bytes": 2895,
+    "sha256": "1c64c7e6a33366286eb4690d1f2a7540c2ec1ba52f0d85048774cff68c2f4b3d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_ros_common\\include\\nav2_ros_common\\rate.hpp",
+    "bytes": 2404,
+    "sha256": "0aef3b61cf39ae4b92b985cb2c8e5d61e40e562020ee1a59629caa2018535442",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_ros_common\\include\\nav2_ros_common\\service_client.hpp",
+    "bytes": 8943,
+    "sha256": "26d5784187715fd0ff02bf28c9d5a694e179865672fe87252d62977d4bef0146",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_ros_common\\include\\nav2_ros_common\\service_server.hpp",
+    "bytes": 2525,
+    "sha256": "abc29135c644d64f96111548b36e4515115e3b782da3b217d47133f3ca34756e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_ros_common\\include\\nav2_ros_common\\simple_action_server.hpp",
+    "bytes": 23025,
+    "sha256": "896d25207122f2934e69318e248e9c7cea1e46576c41e4b1868e6a03a2daafb2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_ros_common\\include\\nav2_ros_common\\subscription.hpp",
+    "bytes": 1139,
+    "sha256": "ff24afe495d27f32d013cb87fe9bd869e7470ede9c2c39f09bfb69c0404f9fd8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_ros_common\\include\\nav2_ros_common\\validate_messages.hpp",
+    "bytes": 6066,
+    "sha256": "d060a50e2bb8c567c3914ed0c4bb145d0f4a5a828b0822babacccfbcd368c81f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_ros_common\\package.xml",
+    "bytes": 1445,
+    "sha256": "e209c4d30f8d3b62b04a893192e8e773ec1e008cac13246aaf024575ff7a1a3a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rotation_shim_controller\\include\\nav2_rotation_shim_controller\\nav2_rotation_shim_controller.hpp",
+    "bytes": 6766,
+    "sha256": "9804cbb9fbb7637fc97a08ca6e907c9b024786a85129a849438f939603092db3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rotation_shim_controller\\include\\nav2_rotation_shim_controller\\parameter_handler.hpp",
+    "bytes": 3111,
+    "sha256": "f29966342155baf85ef27faa02de0ebeaafa603a93e70453deb714ccc723b4af",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rotation_shim_controller\\nav2_rotation_shim_controller.xml",
+    "bytes": 345,
+    "sha256": "95bd851ca9ce58d9976d4695b91e16b6d2161653a9b668e8169ca7812b5053ae",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rotation_shim_controller\\package.xml",
+    "bytes": 1451,
+    "sha256": "7c3544763e4d9c54aad47ff8bcac447c1e92e3102aee4bacf0990f0f1286d330",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rotation_shim_controller\\src\\nav2_rotation_shim_controller.cpp",
+    "bytes": 13117,
+    "sha256": "d1c16401c9268c378ad29663a61913d9655c47e1ed5ed51547523c5e7b0684f0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rotation_shim_controller\\src\\parameter_handler.cpp",
+    "bytes": 6362,
+    "sha256": "224a511e2f1e6412124fe372f859d8ed7f96791cae9da6ad46289dbaa1bfe1f5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\graphs\\scripts\\export_shapefiles.py",
+    "bytes": 2032,
+    "sha256": "fdf2c5e3e655838595441600e557fa9ebbee42e002d45855a71b067ec7a95bc0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\corner_smoothing.hpp",
+    "bytes": 6728,
+    "sha256": "9443aa1e0685a8ed538ee13239b8f582dfffbd40ac9ff82750703e3011f6eb9d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\edge_scorer.hpp",
+    "bytes": 2981,
+    "sha256": "c475415840113a9e17872ea36202b7a793e5632120f880519c084c901f6ce082",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\goal_intent_extractor.hpp",
+    "bytes": 4908,
+    "sha256": "553742473dd31189b113a8994b63da2d45ffc3a27ba293e13fe8728df6ed7f74",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\goal_intent_search.hpp",
+    "bytes": 8179,
+    "sha256": "f44535bac95d662e88895a0134ea256e69c3d7922663fde4121fc9ee71c6b032",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\graph_loader.hpp",
+    "bytes": 3613,
+    "sha256": "83df1d01e6e8f392241ce7922728847c3446c9b8f8ed26238d8393da0a927e60",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\graph_saver.hpp",
+    "bytes": 2723,
+    "sha256": "d4e73d1c6e5b431ef0e91962df42bdec7fe196a56a50540af8ab8392bf46863d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\interfaces\\edge_cost_function.hpp",
+    "bytes": 2736,
+    "sha256": "f573d9a68fbb8081ac73fda8723572d15d8623e18791779a5f1304136317d2f3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\interfaces\\graph_file_loader.hpp",
+    "bytes": 2102,
+    "sha256": "b3b97c4646f9775246e6c740bc0349bca784dfe987824446019cd3d7916cabd8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\interfaces\\graph_file_saver.hpp",
+    "bytes": 1838,
+    "sha256": "88f230e55abaa39e9e92ec4912fd1382c0237301ea9b25e3cc6b350aa8e29ef3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\interfaces\\route_operation.hpp",
+    "bytes": 5349,
+    "sha256": "0b8a756c172fd76edfefb1a3502f460d11b5076e21f9f5c5656ab64d23641744",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\node_spatial_tree.hpp",
+    "bytes": 3151,
+    "sha256": "5142f65ad4a086769bcac483b4acac9b7660d1822d87170958dfcdf86bbdd5e9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\operations_manager.hpp",
+    "bytes": 4513,
+    "sha256": "c324f2c0d197563f49a39dda11aa77890e34ea2848c50b23d218ecd5c4b43a01",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\path_converter.hpp",
+    "bytes": 2681,
+    "sha256": "d0e64dd3f587773bd6e4708beee599cac36157a416b00492c1fe3ecaec5ca8e6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\edge_cost_functions\\costmap_scorer.hpp",
+    "bytes": 2973,
+    "sha256": "f7b55c673a77fcb3cab111151acb2d09443c82225d9e2c00d6f2528ff427f5f3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\edge_cost_functions\\distance_scorer.hpp",
+    "bytes": 2394,
+    "sha256": "6f9b480f42ae13369c8c850174228b011249d9c8d7932c2db2ff129544767678",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\edge_cost_functions\\dynamic_edges_scorer.hpp",
+    "bytes": 3216,
+    "sha256": "424db6be479342d88be0ff8e3cd16158203259a0e1d38b383a0a01d48a620da9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\edge_cost_functions\\goal_orientation_scorer.hpp",
+    "bytes": 3034,
+    "sha256": "bec3522819f1590a4cd8756e6f8fc4af2f5db31b3720912115f7c6db597f5528",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\edge_cost_functions\\penalty_scorer.hpp",
+    "bytes": 2319,
+    "sha256": "19b1f20c7536a89fcd82d1add5ae49d9c100a17b2e53e7e943f61de0196fda7a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\edge_cost_functions\\semantic_scorer.hpp",
+    "bytes": 2881,
+    "sha256": "1d6c24728f21624c4bdfc26230881829401d7cd5a7aa407ccf9f5ee94ab41c86",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\edge_cost_functions\\start_pose_orientation_scorer.hpp",
+    "bytes": 3153,
+    "sha256": "747f33fe8897899930cfc172fb838b2db8173726ebda665e0a013eb7fc59a4d7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\edge_cost_functions\\time_scorer.hpp",
+    "bytes": 2452,
+    "sha256": "29da06ee6c82c0c3b3cd028eff1fd6d6e107a628b78f4db07d83795325f1df5a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\graph_file_loaders\\geojson_graph_file_loader.hpp",
+    "bytes": 5229,
+    "sha256": "90df06e3047b6296970ecba4f828ce49c8415a91327092e74ddd55daabc22915",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\graph_file_savers\\geojson_graph_file_saver.hpp",
+    "bytes": 3227,
+    "sha256": "0d0490dbd6edfe4432f0cf3c9e3cf6355aea0eff7dc29b3affecef68b3bf0025",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\route_operation_client.hpp",
+    "bytes": 8160,
+    "sha256": "358dd94c5b2f05cf23b4bb2ebb991a01c407c5c62dd76e2722d044e7e1dc3e97",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\route_operations\\adjust_speed_limit.hpp",
+    "bytes": 3392,
+    "sha256": "34f84bfbca43302b570cc09f3fea3cac7a8883d6aad594d53c95b71ee3d71355",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\route_operations\\collision_monitor.hpp",
+    "bytes": 5948,
+    "sha256": "da5aee79f8d35910575575694b67f613bede63376079ce65e1e20e21e76ed651",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\route_operations\\rerouting_service.hpp",
+    "bytes": 3728,
+    "sha256": "96fe30ba2b3e66ebc6f873bb0df6c5a1c3bd043c2a9d7f07f659442b72c40cf0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\route_operations\\time_marker.hpp",
+    "bytes": 3334,
+    "sha256": "2ee8d7987078deb0022d1a12d4b7bd02b84761c9be06f0cca4b790f3c2faa5ff",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\plugins\\route_operations\\trigger_event.hpp",
+    "bytes": 2202,
+    "sha256": "47ace27dfef0dcabe760d03e270438f3d7e44bc830dec7636d37b28ffeb04ec9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\route_planner.hpp",
+    "bytes": 5199,
+    "sha256": "1fc482e408cb71cfee75a468caecd8a1bf6d8a087671d63c4496ac73849f3085",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\route_server.hpp",
+    "bytes": 9094,
+    "sha256": "3dfe3136e8bdc5ae1118e21273fe2c28f70f90b51c0b5c16b9c7151e123bf32c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\route_tracker.hpp",
+    "bytes": 4785,
+    "sha256": "98fc0ed6d6f53b874592514b23867b6845193250e4fe5ae282bf7671d9b45251",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\types.hpp",
+    "bytes": 9460,
+    "sha256": "74f291d87a0459cffff5dbd10855adca338964e837a950ea98433dd6fafdcac2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\include\\nav2_route\\utils.hpp",
+    "bytes": 9075,
+    "sha256": "d6d95f340ea981f22a4a24bc323c505ee900d498e4b88da6da463028e902dff0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\package.xml",
+    "bytes": 1556,
+    "sha256": "0f373449edf7bbdc379314eee43ee585d97bbd028e42042f83b6b52b02f9e616",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\plugins.xml",
+    "bytes": 4272,
+    "sha256": "38e282ace07b593b68d61fd5bc286b7d0cd725a3200135e458ad1202674c06eb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\edge_scorer.cpp",
+    "bytes": 3055,
+    "sha256": "4d268f90c6fde8d70aa3a85180c5cdc8de0e38b96d5b641f1a43a024aaebd7b5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\goal_intent_extractor.cpp",
+    "bytes": 12455,
+    "sha256": "8fc41b0331b65c6a62af5d141cd477270e4fd979bc556dab41ec267e253e79dd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\graph_loader.cpp",
+    "bytes": 4490,
+    "sha256": "c6946f2f931bd475362020cac860f2ead5ff77e376d636a3eafb840b512cdd9b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\graph_saver.cpp",
+    "bytes": 4521,
+    "sha256": "27f11a4e48e1d03c472e2a3164580ca58cdc66af0ca3e9b4a5b57c737c7c5980",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\main.cpp",
+    "bytes": 925,
+    "sha256": "699f47cd277026fe6884650b83707b3dd75b5d97c7c437a8199b9f275067b5b9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\node_spatial_tree.cpp",
+    "bytes": 2154,
+    "sha256": "31c8d3443b6e297f88f03c623dba3105cc8723f4716b79f5fa4502d0d98bcf4b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\operations_manager.cpp",
+    "bytes": 6627,
+    "sha256": "370be6541c0681fd18b8035f5d1fb7acb868ac03fd06045965ef2fd63a7a7549",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\path_converter.cpp",
+    "bytes": 5799,
+    "sha256": "d4f1cd2387a3333d392078790070629983b15baea54bf11e957ebfd651ae41d7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\edge_cost_functions\\costmap_scorer.cpp",
+    "bytes": 4775,
+    "sha256": "f6893eff5d1676b7a5e172173c3004447526bbb0b48b98e832e37a9efdf461a4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\edge_cost_functions\\distance_scorer.cpp",
+    "bytes": 2119,
+    "sha256": "fc33807c8cf2d7d563ba8b926d3f9a3ccb4e77768e0c62358cac61fc39b4c812",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\edge_cost_functions\\dynamic_edges_scorer.cpp",
+    "bytes": 3007,
+    "sha256": "a02d9d109866570131a418b5929d87bac1fb0647d149b6371ce1adc8f382fd85",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\edge_cost_functions\\goal_orientation_scorer.cpp",
+    "bytes": 2647,
+    "sha256": "bca21c4d1d5c36907688707ed2559afff6f63a3de0a56b384d5e5ef224b89ccb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\edge_cost_functions\\penalty_scorer.cpp",
+    "bytes": 2013,
+    "sha256": "144ba7f0a4a6c9cc5c2ef85b7f7a3757cf27592926ce4c16258a19d42fdade13",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\edge_cost_functions\\semantic_scorer.cpp",
+    "bytes": 3282,
+    "sha256": "8148cfb3855358a6c04ad43d5e5730649271dfad5762098d8c3e998d2789771e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\edge_cost_functions\\start_pose_orientation_scorer.cpp",
+    "bytes": 2715,
+    "sha256": "870afad8d7f02ed8b48502d2215e6223c58e810dc757dc438ae3209fb8550c70",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\edge_cost_functions\\time_scorer.cpp",
+    "bytes": 2634,
+    "sha256": "14521905e115371e818537008da16d970b5908f5c385921ebfc46de76e3a8a63",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\graph_file_loaders\\geojson_graph_file_loader.cpp",
+    "bytes": 7546,
+    "sha256": "f1335b69782c883c3832739b9e858cd17189a75681c776a2ff809eba3ae341af",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\graph_file_savers\\geojson_graph_file_saver.cpp",
+    "bytes": 7051,
+    "sha256": "2e3a8ae96ab8eb8301288e39a11d9427c8d53d210c66cfa1fcc9b5ec0914ccdb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\route_operations\\adjust_speed_limit.cpp",
+    "bytes": 2311,
+    "sha256": "c577049bdf6311a876f2747cdd11e0ebe1e34b2d8dae42742d1804c0208c60c1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\route_operations\\collision_monitor.cpp",
+    "bytes": 7903,
+    "sha256": "d5a8989acb67bf2197ca6a7b829dfda3c131acf9e2669b9445606b26da90899b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\route_operations\\rerouting_service.cpp",
+    "bytes": 2264,
+    "sha256": "cfc41d1d06418986612ae1ebe1af4f37e07a6d2c130a9576951367af54c9eeeb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\route_operations\\time_marker.cpp",
+    "bytes": 2137,
+    "sha256": "79354e66ba9af16f33b3e5a78789bdf16bb73137fde9bcecb0a45dacea6cb9b3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\plugins\\route_operations\\trigger_event.cpp",
+    "bytes": 804,
+    "sha256": "976d13f607ba98a74910a9a01c41341ec57d326426af6a036676ae5462a85f34",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\route_planner.cpp",
+    "bytes": 6709,
+    "sha256": "bd23614bb4d2fd0fa42e46146f01e8b0e99f1688247889da52be07994a93dba3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\route_server.cpp",
+    "bytes": 15064,
+    "sha256": "fbfa484207013f5c5a99c8e1ef712015a043ba65ffbfbc9d74781277df646761",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_route\\src\\route_tracker.cpp",
+    "bytes": 9877,
+    "sha256": "648bd6d13306328ebf93f3f6a5d8c8658aee949c0a72a2e6ae68a57e10ca902e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\include\\nav2_rviz_plugins\\costmap_cost_tool.hpp",
+    "bytes": 2309,
+    "sha256": "4e17994cb278280d09b2e560d7e899ca4cc08f9d6743c587cacd2cf481c1231c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\include\\nav2_rviz_plugins\\docking_panel.hpp",
+    "bytes": 6858,
+    "sha256": "e99fbded4ca5e97cd27fcfdc4596413c291ca4e2c4155698274d1b303b8bfcb5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\include\\nav2_rviz_plugins\\goal_common.hpp",
+    "bytes": 904,
+    "sha256": "0bef98f4807c80fa73ae69ae9162c9fb9ed1a987e10689f7cc698be62f448c65",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\include\\nav2_rviz_plugins\\goal_pose_updater.hpp",
+    "bytes": 1244,
+    "sha256": "52cc1d9a38ea93c8c200bc93592a6e7eeaeddb4d0cb3cc858d81b937d6c1c166",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\include\\nav2_rviz_plugins\\goal_tool.hpp",
+    "bytes": 1327,
+    "sha256": "40a8e75fd48e93ca3358f81eb12af97c20e6e21adb43c35c7f9bfd418835aa3b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\include\\nav2_rviz_plugins\\nav2_panel.hpp",
+    "bytes": 11622,
+    "sha256": "4aa6371dbbd6e27233ba9d22fa2be1b5a42bda4b9dd16f81bf0eacf900cda943",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\include\\nav2_rviz_plugins\\particle_cloud_display\\flat_weighted_arrows_array.hpp",
+    "bytes": 3737,
+    "sha256": "d1f2c426d38bf11598abd8ed68861469d50cb198bb6377b639209d71778abbce",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\include\\nav2_rviz_plugins\\particle_cloud_display\\particle_cloud_display.hpp",
+    "bytes": 5550,
+    "sha256": "8865914d28d5640ffc6e4093f76df39eea1aed7445a04aacffd4de067c7f14d7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\include\\nav2_rviz_plugins\\ros_action_qevent.hpp",
+    "bytes": 1796,
+    "sha256": "3b62c7d92bdab035e004716b20ddd4c06d32510497a32a525dce4541cc17216c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\include\\nav2_rviz_plugins\\route_tool.hpp",
+    "bytes": 3831,
+    "sha256": "3f8211c9c915db0a65c0d8e20803acc9bfda11f0e056543c5fd2428e2f8e661b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\include\\nav2_rviz_plugins\\selector.hpp",
+    "bytes": 2809,
+    "sha256": "1cf029d1c5a3bc3236b8e9673e9bdb1988d4030c901a52405dca788fe0636b9f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\include\\nav2_rviz_plugins\\utils.hpp",
+    "bytes": 1828,
+    "sha256": "6d1848a9c624e72e30ca3971c123a23376bcbcbfe428942580a7898cd2ce97f8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\launch\\route_tool.launch.py",
+    "bytes": 2319,
+    "sha256": "20f1ce1e4ba5263359ccc7c9ae0e0e3c037273cc43bd84e4cc053f0e7ccda0d7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\package.xml",
+    "bytes": 1647,
+    "sha256": "405968305bc514a729e05d14fdec313aa0b8568a1b4409ff3eec491110eaa316",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\plugins_description.xml",
+    "bytes": 1675,
+    "sha256": "158582cd0cf7d75c8948a2f4629521e617536fa0322daeb349a65da177e6af38",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\src\\costmap_cost_tool.cpp",
+    "bytes": 5074,
+    "sha256": "4ff12219005ab64bc80f402d1fa095c19fb09f775fcb12a856b83f98a16652e6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\src\\docking_panel.cpp",
+    "bytes": 24160,
+    "sha256": "583bc18fe86d6d8dab468c71b388312d3b97e1c85b5529d23bfbc2aa4509abfe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\src\\goal_tool.cpp",
+    "bytes": 1552,
+    "sha256": "e2464808f6c91add19396585e31d031880518515cbac8f0ee2109f5a2e0b907c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\src\\nav2_panel.cpp",
+    "bytes": 71089,
+    "sha256": "b173775a202334f22b456ee762190cdb14a6a3d309cbe5152423b2199401d67a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\src\\particle_cloud_display\\flat_weighted_arrows_array.cpp",
+    "bytes": 5244,
+    "sha256": "dab74db37c062280373bfed9fe1d4bb2d259222fd717087a51f76dc1acab8d5f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\src\\particle_cloud_display\\particle_cloud_display.cpp",
+    "bytes": 13019,
+    "sha256": "3410b00105e244da40f6815515b90e72f1693f2c2b4c16f21a85e690edcec49a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\src\\route_tool.cpp",
+    "bytes": 10666,
+    "sha256": "caed1bdf0d227fc464b61f421c686f34c70f33ed5d39c2b8560b0f7fc2df0d33",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\src\\selector.cpp",
+    "bytes": 6967,
+    "sha256": "5f9924f05b4c49051d25eabde29a4997892fa50b63d6745cef23bc1221a4166b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_rviz_plugins\\src\\utils.cpp",
+    "bytes": 3910,
+    "sha256": "d2d0fc48cfad1f49124271db9a45adc22475d5f194bd5f023d755d8d097c4f65",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_simple_commander\\nav2_simple_commander\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_simple_commander\\nav2_simple_commander\\costmap_2d.py",
+    "bytes": 6273,
+    "sha256": "ec58f4b22c95680924190b063e2e95d01f71db4e853b94b60f6ce86c5d2203c1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_simple_commander\\nav2_simple_commander\\footprint_collision_checker.py",
+    "bytes": 7070,
+    "sha256": "ac00f60be5f1495b218bd1842d189ee44aa0bb0e7cf2eb1a6adc643f6539ba9f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_simple_commander\\nav2_simple_commander\\line_iterator.py",
+    "bytes": 5877,
+    "sha256": "39642fe311099c2b5e59a5e3bd94809fce2e75d093ae6d1e5f11894b45e9ce30",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_simple_commander\\nav2_simple_commander\\occupancy_grid.py",
+    "bytes": 6185,
+    "sha256": "6813af7ec3ecfc9b189d45d3be3fcc0bce2b2f29c1bfdbc17589c840f4965808",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_simple_commander\\nav2_simple_commander\\robot_navigator.py",
+    "bytes": 59404,
+    "sha256": "7876464cc0a23eb32f4978ae3c315758251544fa5f63f751ea25e6e804449656",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_simple_commander\\nav2_simple_commander\\utils.py",
+    "bytes": 2506,
+    "sha256": "38bf78cc9c1b9ec5e832032185c7e87c20ba2c8ae9854ac4030c8f2b86eb47f8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_simple_commander\\package.xml",
+    "bytes": 988,
+    "sha256": "0bb8825afbaba9f06a71ae50f2cc02c3ecf483d31d01e8bcf29b3972c57e9bc3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_simple_commander\\setup.py",
+    "bytes": 1608,
+    "sha256": "02a2ea85839416637b3aea97a49df47f0be6bd3a9c8206f9bd269a3fa086d734",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\a_star.hpp",
+    "bytes": 10381,
+    "sha256": "501e96f62ba0f0fbb389d45208b5afeec5ff984988960cb448d3c5c2d196c5ef",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\analytic_expansion.hpp",
+    "bytes": 6990,
+    "sha256": "5569b1f806a6070ff2894d90cdd339a703538542aca98c77a880fc1875e216d7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\collision_checker.hpp",
+    "bytes": 4920,
+    "sha256": "b65c8082b39957050e15c64af222768bfdd526b3e6c8cef12c57efc1dd60f0d9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\constants.hpp",
+    "bytes": 2698,
+    "sha256": "3344bfde04ab5620f4588cc791c648a851c6b833441c37081703fb5edcfc2887",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\costmap_downsampler.hpp",
+    "bytes": 3849,
+    "sha256": "f02aede6d5395a72d19d3a7d4c1b953da5404fe2b724668f0a4b7d078b760337",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\distance_heuristic.hpp",
+    "bytes": 2654,
+    "sha256": "716329def3f254299c59dc53c4b41ccbee23b7373f94b841ecc7341ee2e19a28",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\goal_manager.hpp",
+    "bytes": 9598,
+    "sha256": "703f51f6bddb6b662f03a56f791b3bb10c47dc19a3bb2ef62ba5e7daf41d1fb9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\node_2d.hpp",
+    "bytes": 7675,
+    "sha256": "1ceb9809656dd3b844e661002e48ffaaf7c9781797d046377a50177fb2b08ad2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\node_basic.hpp",
+    "bytes": 2263,
+    "sha256": "ff3b7e6a8bc6b22edecbc9515ab445e711fbef06edfdd1183412639c84507d3f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\node_hybrid.hpp",
+    "bytes": 11187,
+    "sha256": "5bb404ac6f32267cbb8533ddadc58d6729df3295ce51f8e46de4d5e18055ee3a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\node_lattice.hpp",
+    "bytes": 11445,
+    "sha256": "6ddb01c118a85b0ef8dd3253869eebbf357dc5b8a2df7866e5c40267c7d56344",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\obstacle_heuristic.hpp",
+    "bytes": 3140,
+    "sha256": "763e6ad3c66f60bc2eb6b5673d6ca69b4ddc6c6d4f8d51defd6a6e74390bf304",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\smac_planner_2d.hpp",
+    "bytes": 5037,
+    "sha256": "55189b49b53f8005af5dc65fd76d8c6bf214ca0625bf6a38a88622aab4e6249d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\smac_planner_hybrid.hpp",
+    "bytes": 5793,
+    "sha256": "633a5830da4865f44780ec5985eb5acae2b27852b167f32e7cb7ec1c1c374891",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\smac_planner_lattice.hpp",
+    "bytes": 5318,
+    "sha256": "9e036cacbe4a5316c2beb46ff6ca72dfedd46b6cd6df784d9929042986317632",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\smoother.hpp",
+    "bytes": 7135,
+    "sha256": "1ab3a7b09fe2175af15b43443ec6898a64076803036a657b9fecca0295dfbda0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\thirdparty\\robin_hood.h",
+    "bytes": 96785,
+    "sha256": "79b3ee1317962796e373e04af2363484b48592a184da42776759b4eaea43be14",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\types.hpp",
+    "bytes": 6606,
+    "sha256": "19dd37d15a96207921d665f97dc916d74db12496071866e9ed24f405d0ab1d58",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\include\\nav2_smac_planner\\utils.hpp",
+    "bytes": 8785,
+    "sha256": "453e708ea5d18390a959c14688c7d35eaa113e5af81376e8e39db7cf4fbe98d2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\lattice_primitives\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\lattice_primitives\\constants.py",
+    "bytes": 623,
+    "sha256": "89b17877c320f183fcb5b510ca6e676d064a9f358db42c76c6160a324435c880",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\lattice_primitives\\generate_motion_primitives.py",
+    "bytes": 8466,
+    "sha256": "a9aebffe326716894cf2422232df8c31090b49c63798f493fd8671cfd3efefd5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\lattice_primitives\\helper.py",
+    "bytes": 3530,
+    "sha256": "e4ab66badcbaead8d325960077eebe973947f60f48db1358a6fdb8d0affd7337",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\lattice_primitives\\lattice_generator.py",
+    "bytes": 31632,
+    "sha256": "98f9aefa77ec90c4ca1fabbc7cc490da0ae3bd686aa7cb5f3683ebd363ee56cd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\lattice_primitives\\trajectory.py",
+    "bytes": 5188,
+    "sha256": "4cad44a92be7edd4557a2d5e2d02637ecc20a62728c7ae7dcd633d47c16dbd6e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\lattice_primitives\\trajectory_generator.py",
+    "bytes": 20116,
+    "sha256": "bfc77e9691c4efab6153c0451a45003f3d4dced0cdb72ed0ac6c5c275d33fdd7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\package.xml",
+    "bytes": 1614,
+    "sha256": "6f3c4420e82f6a05db30efeb967dca14a0213c1ce2a219e415730a6276c00501",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\smac_plugin_2d.xml",
+    "bytes": 208,
+    "sha256": "ce346b35bff0e3df8bcf0e39d0d733904e5e1fca88da7b7afacc48750f765839",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\smac_plugin_hybrid.xml",
+    "bytes": 210,
+    "sha256": "6d33d66eb7970752aa4574067a9f6bfead7505f9645ca2de229a0f2dbbb14ea7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\smac_plugin_lattice.xml",
+    "bytes": 223,
+    "sha256": "51ccd695ec4299278aefba00b4520c976db3ac6ca3a078fbaf4e1bbca03c9e8d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\a_star.cpp",
+    "bytes": 19093,
+    "sha256": "ffc1f243085f67d5da9b88f9b50546458bb2a463424f380ac89b2464760e0d09",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\analytic_expansion.cpp",
+    "bytes": 18014,
+    "sha256": "76550b0990273940b089b647d995d7aa7143148203468421f6286b11e99a2a0e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\collision_checker.cpp",
+    "bytes": 6576,
+    "sha256": "3c002390c70c20951a3fec21813d3c44e1b89e2d69f7d6ce4c65819ae6577464",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\costmap_downsampler.cpp",
+    "bytes": 4511,
+    "sha256": "fd2fdbc0580bc7c77fb6a4d9c70805c9508707be82f0e8672f96479f00a886d3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\distance_heuristic.cpp",
+    "bytes": 9789,
+    "sha256": "bfa6db586800a0954ad6e77b5a781bb53ee1f7ca8b93f9a7de8cd9c120b7e8eb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\node_2d.cpp",
+    "bytes": 5448,
+    "sha256": "6f8deb06fdbec232b839a959811b1e71955f1025d1f7191832e949706b27d941",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\node_basic.cpp",
+    "bytes": 2533,
+    "sha256": "4604b6d00ee40facd21bd74d2c344090c9e8f943eec6840470f6d7744cb541e6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\node_hybrid.cpp",
+    "bytes": 21203,
+    "sha256": "c7f25cbf832d5f37787b2dc5955f2f8dd683adea4923a929ce4b696c0b7667f5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\node_lattice.cpp",
+    "bytes": 19535,
+    "sha256": "ed279d6a81fe0208546038efba3889d54232427f632e277673f4f8ab90e87a69",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\obstacle_heuristic.cpp",
+    "bytes": 9077,
+    "sha256": "6e4c1547fed1f7b1db9c1cc281c9ee87ed557049c8aa197c04e4da7f2e7ae00e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\smac_planner_2d.cpp",
+    "bytes": 17653,
+    "sha256": "528d42b90cf2918460c92e10108d7d4ffeb4d4b45ac4a9bb14323f4914e72b82",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\smac_planner_hybrid.cpp",
+    "bytes": 36282,
+    "sha256": "564e661a9854f89ecf4b3243184ea6a56b215e6b91e27e024b4d2842372b60c9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\smac_planner_lattice.cpp",
+    "bytes": 31484,
+    "sha256": "43b95cf1065deda55252614408ea071edb4089803fedca785ae22dbd55fd4215",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smac_planner\\src\\smoother.cpp",
+    "bytes": 15475,
+    "sha256": "51068a01401be2708953c807b786a69fd5e63fb6a6a4c3e459b2cb887bef66b3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smoother\\include\\nav2_smoother\\nav2_smoother.hpp",
+    "bytes": 6021,
+    "sha256": "efc10dca3fb9ea8c8b2d2fa09cd12999f7a775faf5cae6f200c0c5676c9f361f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smoother\\include\\nav2_smoother\\savitzky_golay_smoother.hpp",
+    "bytes": 3524,
+    "sha256": "cc544659fd1ca471f6ca2186373df29115ed1356489ade54f6b70ad740c53223",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smoother\\include\\nav2_smoother\\simple_smoother.hpp",
+    "bytes": 4092,
+    "sha256": "70b603878c3bec37f4597cef855b6ca88829138d883073a6247dfbd657adc30e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smoother\\package.xml",
+    "bytes": 1453,
+    "sha256": "724c91f88655225e39bcde0200d4e77515fbd110826091eb9c392f3a47c3e8a1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smoother\\plugins.xml",
+    "bytes": 514,
+    "sha256": "90c80823d70f70d226a9733d8c84bc7984b0e02e3b6366c1509784d18a83151a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smoother\\src\\main.cpp",
+    "bytes": 972,
+    "sha256": "6e310ae82f38e29633e46c7e9f1b353bbdba901ade4cbe1c5bf1d070e97a9a3b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smoother\\src\\nav2_smoother.cpp",
+    "bytes": 12549,
+    "sha256": "288cd0805af60d776e0b8b9b53c9910c61457be8a29f454487592b66b9768204",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smoother\\src\\savitzky_golay_smoother.cpp",
+    "bytes": 6659,
+    "sha256": "464cde9ac643a1bab3fb40491fa67be3bfa4747cac373c570f2a9ee4d81147e3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_smoother\\src\\simple_smoother.cpp",
+    "bytes": 7714,
+    "sha256": "6c0cae9787f6d31cdd491f247685571e4df88bca91e77407d68911ddf1a56878",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_theta_star_planner\\include\\nav2_theta_star_planner\\parameter_handler.hpp",
+    "bytes": 3292,
+    "sha256": "01c0a060f0205215b5b2a9cfa5819ce7805a135f8296f6076f06804d1a70b4af",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_theta_star_planner\\include\\nav2_theta_star_planner\\theta_star.hpp",
+    "bytes": 10960,
+    "sha256": "ef9a2c457e1efc382a5b101700c879b8649da6877068e67563fdbc4c0a8b7f09",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_theta_star_planner\\include\\nav2_theta_star_planner\\theta_star_planner.hpp",
+    "bytes": 3777,
+    "sha256": "795be95fbbd9c73a3c9afb4c675fa655380b99ec125638beebdfe5e3eaad7223",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_theta_star_planner\\package.xml",
+    "bytes": 1297,
+    "sha256": "6c32a7be33ebd4d18d6ed1f85d3dbcedf2e231964432a38786e1dce6b9175002",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_theta_star_planner\\src\\parameter_handler.cpp",
+    "bytes": 4954,
+    "sha256": "ce4229910b634d96c253102974e6f674880eb906c28481a2d973f403c63fc14e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_theta_star_planner\\src\\theta_star.cpp",
+    "bytes": 6967,
+    "sha256": "284969dbb383dcbc19cc7ff3d600e064acf1d0a45d7a80604f4d8a4abd22a4e4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_theta_star_planner\\src\\theta_star_planner.cpp",
+    "bytes": 8179,
+    "sha256": "dc6c1050249c4e4894629c9bc2b3c8e5ea1a2cc5e677c1c4f2f245bb352d8b71",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_theta_star_planner\\theta_star_planner.xml",
+    "bytes": 251,
+    "sha256": "18b0c3c19b8ff2c0f76654d408f3e436aee9eeaef90a9cb0a90d599c9d110acf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\array_parser.hpp",
+    "bytes": 2344,
+    "sha256": "7c8e5f1f34e76d3c33980056f0c2a888491f98f80e0647127451392cd8a30ffe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\controller_utils.hpp",
+    "bytes": 2414,
+    "sha256": "3ea3645a55ec7cefdde4877a68e494bfa5151fc0692dd738f44fb5cc79383c2a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\costmap.hpp",
+    "bytes": 4145,
+    "sha256": "5e39383608f3224d16f4bf186035255e7dbd073a5555159984d5053a699c4c23",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\execution_timer.hpp",
+    "bytes": 1636,
+    "sha256": "bc56bc95ef0bb976fc8e30db26eb10af8f88ed644c306b9eb88e08ca209d7966",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\geometry_utils.hpp",
+    "bytes": 10249,
+    "sha256": "824ef30d9a2a1f03ed57137bf3dd6340ef2bd27d0d184747f0129d78b30e32dd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\lifecycle_service_client.hpp",
+    "bytes": 2726,
+    "sha256": "eec558f0d84210c09515204bc40c9e3cc9b8c723a74b3e391b258b58ba2d07ff",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\line_iterator.hpp",
+    "bytes": 5727,
+    "sha256": "182f069976e379a81988e06e692eeede9fdafbfb45aa7a840d67d933269f7259",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\occ_grid_utils.hpp",
+    "bytes": 3931,
+    "sha256": "690e01e274e5c800f2065e62eaa72264fc8ae3ad238cd26ef5e676f06a88f7c2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\occ_grid_values.hpp",
+    "bytes": 2087,
+    "sha256": "adc77d809f5d5d6f2a1a9e248c0ef0d962400e0e1c45212ae7688cb1c8d0a425",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\odometry_utils.hpp",
+    "bytes": 5386,
+    "sha256": "f9fa2cfa948881a6e0cee02c6c14ef0873c4ab5338c83c5fd5d840c106300b6d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\parameter_handler.hpp",
+    "bytes": 4126,
+    "sha256": "4ed1ae2bb19f2d55a4b865d51096f3968abf5dcdcec2b15589684f67c61ce819",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\path_utils.hpp",
+    "bytes": 4861,
+    "sha256": "c4b795281ca2263acc2ab479624201b1658fe885693bfe723e166e03319399ad",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\raytrace_line_2d.hpp",
+    "bytes": 4834,
+    "sha256": "c53b10e58ad77755c136d2ea222f12f7889ad3be0553b7db4e2a7024b5841186",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\robot_utils.hpp",
+    "bytes": 6341,
+    "sha256": "7fb160545b82fcc99b2c579a5ae158311b2bf8f05c41a2ad660e4fd0f3ccf016",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\smoother_utils.hpp",
+    "bytes": 5327,
+    "sha256": "353fc258fadb9da8827e9c696718b783c59946b8266aeea0b183f488b99da640",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\string_utils.hpp",
+    "bytes": 1073,
+    "sha256": "364e751bd172672ef433d675f6e9b0765783737960860575e6306a4e53923430",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\twist_publisher.hpp",
+    "bytes": 3519,
+    "sha256": "02055b900798a22e8fecbc035fb57d90cf2e9e344c993ec351dec956fe517ed2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\include\\nav2_util\\twist_subscriber.hpp",
+    "bytes": 5931,
+    "sha256": "09a86c76f53c01d0c3d41a31311bb77161ab51640d5e0ee9ebcf597ec4b1db51",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\package.xml",
+    "bytes": 1566,
+    "sha256": "6a6e3afec1891e9b377dbae2cd4d63071474474b531f52ba47338857a2372d1f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\src\\array_parser.cpp",
+    "bytes": 3533,
+    "sha256": "56fb2524d4a1a0a37a1e524a38bafb6b9e0e245cbaf08b8435eb5838d38add3e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\src\\base_footprint_publisher.cpp",
+    "bytes": 906,
+    "sha256": "92483d25b0a2f1fc720c6e45ed7299d92dcff8e9f83acf264248cc73dfd4427d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\src\\base_footprint_publisher.hpp",
+    "bytes": 4592,
+    "sha256": "de3b6f4a5e41283942bacf65e5cc92b4c59c184d331600bf8917aadc75f9da90",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\src\\controller_utils.cpp",
+    "bytes": 6148,
+    "sha256": "a62cd2fa86bdcbbb4305400f1ad6d90882012453d73a57817483a10267cc90ef",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\src\\costmap.cpp",
+    "bytes": 9213,
+    "sha256": "e010cd6197971ff8749186d5af8046a541eec50f5d8d8805a7521dc0787186b5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\src\\lifecycle_bringup_commandline.cpp",
+    "bytes": 2921,
+    "sha256": "ded941489fad6046a0d5de1808093824a28604530ec538e9e03e5dea8c74f494",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\src\\lifecycle_service_client.cpp",
+    "bytes": 2136,
+    "sha256": "0f4345ef2b98b5568d9442aeb232bfd0dc8a56381f62d9202a1baac623e3de95",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\src\\odometry_utils.cpp",
+    "bytes": 3388,
+    "sha256": "dc808de3b1061f61e241476770fe3009fc1d45b2d1da593bf865c742ca0127d0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\src\\path_utils.cpp",
+    "bytes": 7960,
+    "sha256": "98e17e287f11e055fa140090c7b160c8eec36ae6a890f998f5b83cd68478d0ec",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\src\\robot_utils.cpp",
+    "bytes": 6766,
+    "sha256": "5263bcb624da22a3a90524657b23670b441d1918cedc98d05294e538b9fe7f61",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_util\\src\\string_utils.cpp",
+    "bytes": 1126,
+    "sha256": "9683dc716f51133164f69639994bba4cf06439fd1081a666ad694da19eff5fa4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_velocity_smoother\\include\\nav2_velocity_smoother\\velocity_smoother.hpp",
+    "bytes": 6332,
+    "sha256": "e0a28e3058692aca0bad2e4d867cdff2e4d15002dcfa7391eef135a109ba12cf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_velocity_smoother\\package.xml",
+    "bytes": 1051,
+    "sha256": "2ed17311564ab0a9bbd220da881fe0be547309d3ac683fec66fd12200dd9c6a6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_velocity_smoother\\src\\main.cpp",
+    "bytes": 956,
+    "sha256": "54e69d6e6f646d653b696aabf895f60d39d52b0821bcabd2800b7c0cc95e006b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_velocity_smoother\\src\\velocity_smoother.cpp",
+    "bytes": 23933,
+    "sha256": "9b1ee2edff48497b86542b7ba5e2c314b91cff0a4c2b83a963f1cf5d720c1a04",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_voxel_grid\\include\\nav2_voxel_grid\\voxel_grid.hpp",
+    "bytes": 14547,
+    "sha256": "657f3ef24ea73483fbf1826fed20b6965ad4df42fcfdd4051503c3e39cfbcfb8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_voxel_grid\\package.xml",
+    "bytes": 1313,
+    "sha256": "59f12f8fde72dea9c891a0f110696a3c2fb33c11ae07c7028e0105a436f0711d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_voxel_grid\\src\\voxel_grid.cpp",
+    "bytes": 7942,
+    "sha256": "172cbeca3e20ce080c629e22e211e15622c03dbac8407d1de531854069ca91d9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_waypoint_follower\\include\\nav2_waypoint_follower\\parameter_handler.hpp",
+    "bytes": 2777,
+    "sha256": "c21f90552776efa5454a869ce71d975dcb69e4babb71335b9b456b3888ea3068",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_waypoint_follower\\include\\nav2_waypoint_follower\\plugins\\input_at_waypoint.hpp",
+    "bytes": 2584,
+    "sha256": "a4372575ac26ff0e2c2037b1efbdd7815dd3c4a381e46f08c8ae5cad1ba9398e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_waypoint_follower\\include\\nav2_waypoint_follower\\plugins\\photo_at_waypoint.hpp",
+    "bytes": 3426,
+    "sha256": "9374bbd7b136c8edaa34d822c6d10942a1945e897ef6da57bdeebc4090f12412",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_waypoint_follower\\include\\nav2_waypoint_follower\\plugins\\wait_at_waypoint.hpp",
+    "bytes": 2632,
+    "sha256": "34cbca9a05a46cd90eb804687511f0808a1d8128392c8808b07747d22628d16b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_waypoint_follower\\include\\nav2_waypoint_follower\\waypoint_follower.hpp",
+    "bytes": 7679,
+    "sha256": "51300aac62c5fb9421b5f88e8e9f627d711b23827827a3b3dd15256ca9078abc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_waypoint_follower\\package.xml",
+    "bytes": 1449,
+    "sha256": "4cac2f8a0b53976ad2af71ff609e4b6e767998d3c6a2640eb754d465574cde4c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_waypoint_follower\\plugins.xml",
+    "bytes": 929,
+    "sha256": "f5e2562df53e08bd84fc94bfb3206f791e192f6acf53f4375b0445bc8cb5ec0d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_waypoint_follower\\plugins\\input_at_waypoint.cpp",
+    "bytes": 3190,
+    "sha256": "b6dc610ad1b02ce4750eca8adf11df96835f11eacab4aee30b22dfbeaadc6829",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_waypoint_follower\\plugins\\photo_at_waypoint.cpp",
+    "bytes": 5096,
+    "sha256": "9377a431532cfb85bf56a5260fb630ef7a50dfca75df65e392669e76dafa0926",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_waypoint_follower\\plugins\\wait_at_waypoint.cpp",
+    "bytes": 2376,
+    "sha256": "9294027e406c8fadc5c26e50a0d5f0abaaaeeb064fcc2cfc214768817ba7abed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_waypoint_follower\\src\\main.cpp",
+    "bytes": 964,
+    "sha256": "4003e7f611dad7280f722e7b32f311343487685ba02b7d7588028a90b4d25394",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_waypoint_follower\\src\\parameter_handler.cpp",
+    "bytes": 3575,
+    "sha256": "9fcc62a97311a95961775687606d9033713193f2d3bdc2673ef8c43cabffcef4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav2_waypoint_follower\\src\\waypoint_follower.cpp",
+    "bytes": 17548,
+    "sha256": "ae4ab0a39999e2e036e96ddbd75bacfca45b9376972b78e4e434ff805bc71c59",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "navigation2\\package.xml",
+    "bytes": 2417,
+    "sha256": "c84a5902926a1c645d4711be4aee04fc1117919ff06ca7bf50af2dca4cd8f212",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tools\\bt2img.py",
+    "bytes": 11921,
+    "sha256": "d0f3fb46f9b9fedab6e8604632829b923166734a47c8b8a20e385c2519c67f41",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tools\\planner_benchmarking\\100by100_10.yaml",
+    "bytes": 131,
+    "sha256": "5c533396ec73085adadbec6ed1c5d27e9b083be87148b2c14aaefd989112bddf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tools\\planner_benchmarking\\100by100_15.yaml",
+    "bytes": 131,
+    "sha256": "b595ac2e6615bab70e11df81e7e4dd75518844df9f164199f6d19db6f8b2b684",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tools\\planner_benchmarking\\100by100_20.yaml",
+    "bytes": 131,
+    "sha256": "96fe9fd678f1c011bc4b92f0248365e925c885eb00b1249d88c0023ac13229bd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tools\\planner_benchmarking\\metrics.py",
+    "bytes": 5395,
+    "sha256": "72ed53c7a647c0b877c8340745f2792de6873d9faa52a6043a75c3260edca553",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tools\\planner_benchmarking\\process_data.py",
+    "bytes": 5963,
+    "sha256": "9c90f4d79bc36a6ac9d3bdd5b892eb233b2e218fbb812ecc0906afe17e4b6265",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tools\\smoother_benchmarking\\maps\\smoothers_world.yaml",
+    "bytes": 129,
+    "sha256": "a06369e9aff41ed9bdb323dc3321e5ea1d9b65ce74900169e8283b2d270f2ca8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tools\\smoother_benchmarking\\metrics.py",
+    "bytes": 6157,
+    "sha256": "a9583d1e417f96134851b0da11de70e1b5a7f2fd544baacb8414b319c3ceb087",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tools\\smoother_benchmarking\\process_data.py",
+    "bytes": 11088,
+    "sha256": "8c535e42dc34f134b77e1aee4e04964f0b8013da4a06fb8c3794d48fe2446f20",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tools\\update_readme_table.py",
+    "bytes": 3987,
+    "sha256": "8d7e050d790ad21b71e5bc486022a807f009add31cc3c0a7b0637b084d659841",
+    "included_in_llm_prompt": false
+  }
+]

@@ -1,0 +1,1100 @@
+[
+  {
+    "path": ".github\\dependabot.yml",
+    "bytes": 1176,
+    "sha256": "17e3e156846f06f64d5bd1aff88a204544aa63b693d5162b11743813b224cc18",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\mergify.yml",
+    "bytes": 1722,
+    "sha256": "7688043c5e80d9e0dd175b7b6f0e0d9dc2e813543874d72c36ae30ba6d28e948",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\docker.yml",
+    "bytes": 2624,
+    "sha256": "40e5c3dc652bc8068acb45dd4b61534099cd7f9b7b67c14bf6a14e7732cd4ec4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-abi-compatibility.yml",
+    "bytes": 745,
+    "sha256": "b2345a12c7983a8d8b9171e07ad99fff29c2fd3137b1369365e166a4b6aface5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-binary-build.yml",
+    "bytes": 1308,
+    "sha256": "2e590068ffba23eccce0f9e44081e1eef6d18bad28f08620b397391c6662f2f7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-coverage-build.yml",
+    "bytes": 799,
+    "sha256": "dcdd46b90a75f94662fc6196d728c8af775e11fb03b3d20f141fbb2ded1b8d5a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-debian-build.yml",
+    "bytes": 957,
+    "sha256": "a6e6fc4d5d1f4cab9709b8a1f92f339536b0b7def3f273622c1eca63ac17af23",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-pre-commit.yml",
+    "bytes": 389,
+    "sha256": "315583e6e991a8cbd624380f7389ef8194f2ea5c96979d89e4d8fc45691f6f70",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-pre-release.yml",
+    "bytes": 1641,
+    "sha256": "9039d8487ce545e0aba41981ca7eb945031c116f603944f2d02d8e0310e8e8c0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-rhel-binary-build.yml",
+    "bytes": 1032,
+    "sha256": "b49fcdcfbefc692a24c7e9ce23d1d52eb7768806b1bfef902f693d2fc5845274",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-semi-binary-build.yml",
+    "bytes": 1631,
+    "sha256": "0589cf28012d0e55a60404c53d16382729580564a9ccecd0886c8942b4b27adf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-semi-binary-downstream-build.yml",
+    "bytes": 1130,
+    "sha256": "4117953ba53b5332cf4f6dc2dabc547b9e662025ad2b61c13e4ff854eca14838",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-source-build.yml",
+    "bytes": 770,
+    "sha256": "014b6fb2f0a91013c7ff066c14e6ce563b5d46122ad5ef8ec3409d934f2ff0f7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-abi-compatibility.yml",
+    "bytes": 740,
+    "sha256": "d1c9cbf49e414c80bd3e279e04c7cdd56530b6b0ee1492f879959b88fb33531c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-binary-build.yml",
+    "bytes": 1302,
+    "sha256": "1f10576834015f2e88cbca129a3b00452947ca2dc9af461f55b14cf9dbb0cfc7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-coverage-build.yml",
+    "bytes": 574,
+    "sha256": "1c478252f746365fc2a431d151cf6706851071c53bc2acfb42e0d16c73c43699",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-debian-build.yml",
+    "bytes": 1020,
+    "sha256": "2bb9a9843532eb5bb30001f97f1645dae8d321a3fc97f39fa29980e1fecedf36",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-pre-commit.yml",
+    "bytes": 385,
+    "sha256": "a45729a4b321e598b14c08c006071187562a007c1d4120e5f5d2f93ed619eef0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-pre-release.yml",
+    "bytes": 1638,
+    "sha256": "bd24dce715b8cb4dbd619a245df48ce20f265c810826a705a9b6bb301cbfe74c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-rhel-binary-build.yml",
+    "bytes": 1026,
+    "sha256": "55a9961dda96f0966deff1dc5def714f24e6a7f3d092cbcce131fa0b01e3ba05",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-semi-binary-build.yml",
+    "bytes": 1501,
+    "sha256": "20cada20cb2341b0031099a7b565ecff46083864172661dc55058e273526e0e5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-semi-binary-downstream-build.yml",
+    "bytes": 1122,
+    "sha256": "c37d949ec59daa003386e8f4fb4b3939e0b7df6283d9b5b3ef7677b544df8e57",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-source-build.yml",
+    "bytes": 743,
+    "sha256": "196f11e03ed3f38d1f7946654ecdfd8289aadb44ff09a72841cbde5ad1120716",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-abi-compatibility.yml",
+    "bytes": 745,
+    "sha256": "dd2414bd435fdb0723484f9cffed77c44fba3ea67fb015f16a013778ddf86df1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-binary-build.yml",
+    "bytes": 1308,
+    "sha256": "bc5464fd3a33b2e6fe76f214fa0e4e806c4c2756f451916b9e7ddfecc95e8d8b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-coverage-build.yml",
+    "bytes": 580,
+    "sha256": "9c00b080f6818822166e5847600371850296a88f7b4c3d9cd5d7b49b8e7a5420",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-debian-build.yml",
+    "bytes": 1026,
+    "sha256": "3f9c7b608c399b970340ad0422fb28473f84f57ab70a9763f1da6f95358aaed2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-pre-commit.yml",
+    "bytes": 389,
+    "sha256": "c55c363dba91b8a51d901e9812e5677c0548884f63b45e30e8cb9611df94d2a4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-pre-release.yml",
+    "bytes": 1641,
+    "sha256": "ffe8748ffde5c83323aa15885ebdaff0252c114eefe4035b7c7dba1fcae843ac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-rhel-binary-build.yml",
+    "bytes": 1032,
+    "sha256": "60f63d553ff90d64a7166bc4f43a6d1d646be6150fe7a244bfba4f28ed36b3a8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-semi-binary-build.yml",
+    "bytes": 1511,
+    "sha256": "a0c9f591073fbc44de666635780c21a044b7d9c81e548eb44ddec5a6ee937ddf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-semi-binary-downstream-build.yml",
+    "bytes": 1130,
+    "sha256": "afc364e8923bbb049d1165b6189f71b8f41301b2f44fe61786ba11e3cf8fd22b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-source-build.yml",
+    "bytes": 770,
+    "sha256": "a677686a5628a46a0a748dd3f57b7627a0e0f1a80be8b9eee54b90a8214abb01",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\reviewer_lottery.yml",
+    "bytes": 351,
+    "sha256": "33bf44c34b7ee64fcdc542a69a2cbc3adc3c6247d1ac5cddf5835c3b5637a51d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-abi-compatibility.yml",
+    "bytes": 911,
+    "sha256": "e1b31571f6dad8ef61295e9f54ae4f0c0e6b80316cacc2591a67ed4948c921f5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-binary-build.yml",
+    "bytes": 1371,
+    "sha256": "8ab96136f3cd03fc6765615ecca2b05eeaabb740c668ed2915ad298f624e3f47",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-compatibility-humble-binary-build.yml",
+    "bytes": 1051,
+    "sha256": "0b54df1724b9bd2651834ed3181c377f211f01ccdd994d08e1ef9c21a1f830bf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-compatibility-jazzy-binary-build.yml",
+    "bytes": 1046,
+    "sha256": "36dd45affaec1d01991a293d9649c900cf737319cbdb0b03d071d5cab8d6b328",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-compatibility-kilted-binary-build.yml",
+    "bytes": 1051,
+    "sha256": "d3e23ffba568ccd4873b4b7d7dbe95a10daa96747e33d1783670c0580f994f24",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-compatibility-lyrical-binary-build.yml",
+    "bytes": 1056,
+    "sha256": "f2e72d968aafdb3ccf658128bb33174d8f5693f45d3a020f4b3c5f5b088b1431",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-coverage-build.yml",
+    "bytes": 804,
+    "sha256": "be39d14602103d28982b909b0c68fdfea12a676d09c8bdd8ac709d87728f188c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-debian-build.yml",
+    "bytes": 1079,
+    "sha256": "9dc6463985ef9dddcd969248b56b9c1e5fed1ebea1e23bdff2f8defde61fc9d6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-pre-commit.yml",
+    "bytes": 502,
+    "sha256": "26f642dbf041748da4a894cf86cfeb5ca99ff00e99890e7c401c0e36a5bc13d1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-pre-release.yml",
+    "bytes": 1695,
+    "sha256": "f7e4797c63e43040c25840ac2367b8309149ca29fd9c6a14c2236db904fd9e25",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-rhel-binary-build.yml",
+    "bytes": 1081,
+    "sha256": "9f45328de5edb46fd1522d3f88e53f4219098b778dcc0a8d475d079f5766293f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-semi-binary-build-win.yml",
+    "bytes": 1046,
+    "sha256": "8e2df97082791cf8c1fa651d63ad095b6b9417c03472e93464ca2ca29fd93785",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-semi-binary-build.yml",
+    "bytes": 1803,
+    "sha256": "ee023f6c3465e7cb68c4916c321933f73f75c0ddca3296547841694436f21a12",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-semi-binary-downstream-build.yml",
+    "bytes": 1319,
+    "sha256": "4062ff67edf205896f618a9b00e7f798e1ec8de02bc68de2deaba932c5a7df64",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-source-build.yml",
+    "bytes": 924,
+    "sha256": "cfb31e3dfb08202e07a567e96f557c0fb1faaa660ca7fd6174b63009469a7d07",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rosdoc2.yml",
+    "bytes": 371,
+    "sha256": "5eb7f4ee0d308dd55c78c6e51b6b4965a3f359a5967de0cc2048f36b762fcdee",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\stale.yml",
+    "bytes": 1172,
+    "sha256": "cef89563c1fab612e61d9404f27e8fd4b8921a25d30c65870600136beb4da80e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\update-pre-commit.yml",
+    "bytes": 401,
+    "sha256": "ebfd1ce1e8f5f103437977fea3a0485ab192cc018a3072f8f10bd9aefc87a910",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".pre-commit-config.yaml",
+    "bytes": 3849,
+    "sha256": "e6234635503edb72d618116ead9c9a54555c2735f629c81913ba65e77a141742",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "codecov.yml",
+    "bytes": 467,
+    "sha256": "2e348844a960cf326699ea35ab12a3d80582beac6a10f9622a5ec5da4916888d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\controller_interface\\chainable_controller_interface.hpp",
+    "bytes": 8159,
+    "sha256": "164c72205909f7a6a407fba8228b362f36d3947322a8bf0bc04979a98861f8e5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\controller_interface\\controller_interface.hpp",
+    "bytes": 2107,
+    "sha256": "936119df07f90e4260e7c1660c102023301fb36d572a392dbe6d0ed2e1a29903",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\controller_interface\\controller_interface_base.hpp",
+    "bytes": 17912,
+    "sha256": "65b76aa88d9cea543d5864a40929f21872b93588d93cd187d751b7ed57512e23",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\controller_interface\\controller_interface_params.hpp",
+    "bytes": 2344,
+    "sha256": "c46f0e8026e34b35c10e1602034be55065ce2ea360cd8275793e16ac66b48ec4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\controller_interface\\helpers.hpp",
+    "bytes": 4103,
+    "sha256": "28796d51745243bd54d82c857a23deba8da8341936511d7d0736c69c01234e7f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\controller_interface\\tf_prefix.hpp",
+    "bytes": 1578,
+    "sha256": "0d84cbac1106a0a19bebb741718ee2b05954c5635e8b8dcbd90f9fcf68b9cfe5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\semantic_components\\force_torque_sensor.hpp",
+    "bytes": 5492,
+    "sha256": "b39af00397988a653eb29de77ef61105c6717e0ab8e60be3fc3f574ba60c9ea2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\semantic_components\\gps_sensor.hpp",
+    "bytes": 5065,
+    "sha256": "a0d2ee243dbf2b8ef06f952035116eee0e12572a5b57b957ea13db8ff6726fcb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\semantic_components\\imu_sensor.hpp",
+    "bytes": 4433,
+    "sha256": "747be9c1272c5a2a41d0d5e522484701a7d818b0b7ccfe09123e3fc0dcc418b9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\semantic_components\\led_rgb_device.hpp",
+    "bytes": 2985,
+    "sha256": "1467f031326c0c336d9c58bb34a7c6db8b689014476c5cfe3f7191c3beeb014e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\semantic_components\\magnetic_field_sensor.hpp",
+    "bytes": 2378,
+    "sha256": "d414bd2747c8f6eaee2293df363a2b7b27d8075ab7b77fbdd5de464e607a5b55",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\semantic_components\\pose_sensor.hpp",
+    "bytes": 3687,
+    "sha256": "c35f33ceb5f2a8cff7a58ab6121a1b499ef3e5f832cded167cb709c2db462a92",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\semantic_components\\range_sensor.hpp",
+    "bytes": 1841,
+    "sha256": "af64f5eb14e9b8d2abbd43c439864d4f732c428fa91bcf13af1fdeadac0a0d4f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\semantic_components\\semantic_component_command_interface.hpp",
+    "bytes": 3693,
+    "sha256": "4ec3e07df62d7c9943910d4ad270e12ec6f64ea58ddf1a907f67727b8cb661bb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\include\\semantic_components\\semantic_component_interface.hpp",
+    "bytes": 3994,
+    "sha256": "3de4cf9412e1984f0262672d62dbf8e588d4a5c56b10108d2a769b1a0ab3ce4c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\package.xml",
+    "bytes": 1638,
+    "sha256": "360bc59b91f00cb6329f906716696ea57d464a43e06bd77c9ec34eb2ade12d10",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\src\\chainable_controller_interface.cpp",
+    "bytes": 16677,
+    "sha256": "5e054b54d97ee082f70fa360cc472bc84794e654a44b05edaf2bf7158c1599e3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\src\\controller_interface.cpp",
+    "bytes": 1360,
+    "sha256": "523d2c25d93e2055949cf5e726827befef604653ab09e187df22692906a8b7cb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_interface\\src\\controller_interface_base.cpp",
+    "bytes": 17463,
+    "sha256": "15462b65afc20d9483cc3d89e9af970268bd80f3cb8612212402cd2b2e44ad59",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "controller_manager\\controller_manager\\__init__.py",
+    "bytes": 1569,
+    "sha256": "c13b139b38fb6d3fdb75aaae2444f13725b0d9af399b00dd70fe0476dae50cd2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_manager\\controller_manager\\controller_manager_services.py",
+    "bytes": 18398,
+    "sha256": "478612863398ad5a4f5c6b57bfcbb174b5fdd2711cfdb240b024fb74aebc9f9b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_manager\\controller_manager\\hardware_spawner.py",
+    "bytes": 7163,
+    "sha256": "dd4edbde609b1909cc55d0aec957701e417a42515e9b73b2b2325ee256fc329c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_manager\\controller_manager\\launch_utils.py",
+    "bytes": 10087,
+    "sha256": "141db32850c0a8ed7669e3b7cb3a431566d8b4586719dcc63cbf8ea2a9314abc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_manager\\controller_manager\\spawner.py",
+    "bytes": 24165,
+    "sha256": "88caaf8329ca9e5d15d4aa3d3b68548717ef18c6ea3459abfb5717219227250a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_manager\\controller_manager\\unspawner.py",
+    "bytes": 3133,
+    "sha256": "de297489a7c86c60fb470faed74adea7c0e33a6e86ce58509f888d89a0a6de42",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_manager\\include\\controller_manager\\controller_manager.hpp",
+    "bytes": 34667,
+    "sha256": "1b8e33cdd1930ad2c2e8aaa184cc4e281c3b29b0786ad83353f58166338b0717",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_manager\\include\\controller_manager\\controller_spec.hpp",
+    "bytes": 2175,
+    "sha256": "7b32d32470b413f5efbb9630e9e13ba82ba279d17faebb81387d20c020741fe5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_manager\\package.xml",
+    "bytes": 2332,
+    "sha256": "2fc37436059f63bff01d1f29ad302a71fc41872e79eea4d3d9eb0ab780c57874",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_manager\\src\\controller_manager.cpp",
+    "bytes": 208133,
+    "sha256": "620186b6e9853b7128449d29d41e8c211b282c666c2066bfdb40cbf26cc0b02d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_manager\\src\\controller_manager_parameters.yaml",
+    "bytes": 12362,
+    "sha256": "14d97edb4166a8302e558cbcd6303b8d621f0576437cc8f671b9b5d6b1075cba",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_manager\\src\\ros2_control_node.cpp",
+    "bytes": 7377,
+    "sha256": "e506799c92841b40432e185d8572b82123a9e7c6b56402e63c80a7dcb477321b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "controller_manager_msgs\\package.xml",
+    "bytes": 1383,
+    "sha256": "954784c4cfa1b83ab11f1baa390cf1c2a96b6903a2005165a997d655b1f496d9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\actuator.hpp",
+    "bytes": 978,
+    "sha256": "8242c294de9a995bd8333fbc1c17c53b2d83750379c7fd42affa6c25fe818470",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\actuator_interface.hpp",
+    "bytes": 2841,
+    "sha256": "182e82f3178b97edc150bf36fd23af8a7d848851b85cb9ffe5a7263a8896297b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\component_parser.hpp",
+    "bytes": 2860,
+    "sha256": "9102e1c6f692ebd0c6fa600e84458090b73eb9a7be49aa53b0b4e8a2228ceb05",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\controller_info.hpp",
+    "bytes": 1530,
+    "sha256": "c2d4193edb808309de23f4bd2bb6730b9740b5be4765c5bbe9e5b156b1f56889",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\handle.hpp",
+    "bytes": 27064,
+    "sha256": "a0ad77f53c5a55d76281582ea68494075c50385aeb9061495a8608bea1e768fc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\hardware_component.hpp",
+    "bytes": 3867,
+    "sha256": "dbc5f0f0784ef263f678dac467aef78961325e157dc1788f61966d7890053a73",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\hardware_component_info.hpp",
+    "bytes": 2330,
+    "sha256": "4f64717d398ef14bcac792437e21fe0a492989567fe6487f1d3d5b12680f56bd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\hardware_component_interface.hpp",
+    "bytes": 27141,
+    "sha256": "087a813cbdc6eb7384ba85fafe720b20d7f1518434f5e03feb8052854fb075aa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\hardware_info.hpp",
+    "bytes": 12880,
+    "sha256": "d49495a2c36b05f4dcd55af49a8847c44715ba0cbe43fab7a267acceec03d960",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\helpers.hpp",
+    "bytes": 7018,
+    "sha256": "a84ca36cd59237e58975d1dccea6252273546dbc21060fa46b7f4eeae71da3e5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\introspection.hpp",
+    "bytes": 3284,
+    "sha256": "8aa8d34fced61f8116f1a547b7dbf01d17daebc4af5be927d80ab543c2b56c2e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\lexical_casts.hpp",
+    "bytes": 6772,
+    "sha256": "9bb18e154704ddf434e37f7b04706976e3420f9ecc68bd6e54a3d9b806d718e6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\lifecycle_helpers.hpp",
+    "bytes": 1212,
+    "sha256": "afef96c975f1ad2e041f04ee0572c06baefb79a883fe2043ccdf998892e42ccb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\loaned_command_interface.hpp",
+    "bytes": 6976,
+    "sha256": "cd119fbaba7bcec11335d84a99e405826283d30427368af4147ec80b17f6447e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\loaned_state_interface.hpp",
+    "bytes": 4928,
+    "sha256": "70718a7c60ea83e396a25d6ab9b4543ec47a44441263675c3e8f83d8e2b3678e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\macros.hpp",
+    "bytes": 2390,
+    "sha256": "88e22449e634c3a3721597bc1e88322e9af327b2519113dcec187536344b2b7e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\resource_manager.hpp",
+    "bytes": 27071,
+    "sha256": "25a20c2d00300eb9a2ab7bc91baa35f8363cc74a955b4a1f339f2ed24d413224",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\sensor.hpp",
+    "bytes": 968,
+    "sha256": "dfd17db7810dcf42020abd4f32c4f270ce38b19fcbd00c0041ca3498ed1b1f00",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\sensor_interface.hpp",
+    "bytes": 2440,
+    "sha256": "ff85e8333c8d49766a1ec4725b8ea8dc6eb6df977c1049e6e591618c06898213",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\system.hpp",
+    "bytes": 968,
+    "sha256": "ae1baef31e5b0f0642b56f3e50cdfb381842e23c3f2329ccee54045322bed84f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\system_interface.hpp",
+    "bytes": 2934,
+    "sha256": "66f16e07ff96e2d04d60f509b351f3fbc2f489b3a5b7c1fb8a0fb28aa97ada68",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\types\\hardware_component_interface_params.hpp",
+    "bytes": 2049,
+    "sha256": "06504ecec089e4b2eb617ccf4bd7753e70799f50eb5477e9afe969cf7254379c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\types\\hardware_component_params.hpp",
+    "bytes": 2553,
+    "sha256": "be5afdb827cbfc3637b78df99b3c44b443b0c873ce08d7d5d4d04f107880c067",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\types\\hardware_interface_return_values.hpp",
+    "bytes": 1823,
+    "sha256": "fa759d0509d4656cce51bab33aa9641bb130022b113ec31c3a30b698c54a6fcb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\types\\hardware_interface_type_values.hpp",
+    "bytes": 2372,
+    "sha256": "4a62baad2ebc5fb67d1879effe62b364c627304cbef9bebb0f5f050c08a69a66",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\types\\lifecycle_state_names.hpp",
+    "bytes": 1300,
+    "sha256": "05eb43c5f8d04e13c84c9d5416e14c3c486069a1f8be76ed80a34e9e2b5827dd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\types\\resource_manager_params.hpp",
+    "bytes": 4465,
+    "sha256": "f14fc2d8d777b734f2990e319f7bcc02aa05d903880da9f70a9ca4d4b08f6e00",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\types\\statistics_types.hpp",
+    "bytes": 11192,
+    "sha256": "753432686296542e041175db1f15d099f01b9c00dcf0226789f8283537baee8c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\include\\hardware_interface\\types\\trigger_type.hpp",
+    "bytes": 910,
+    "sha256": "c47fe52e1b5f1b4908711e25c233da1b9b8fcf48938435458468f9df3c28ea6d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\package.xml",
+    "bytes": 1414,
+    "sha256": "8db55600e19076aff0b0d55b2eb6839282ca1d97edea97497f32d976cba1fab8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\src\\component_parser.cpp",
+    "bytes": 43400,
+    "sha256": "cd66d259fb06f0e60eac11bbc44391c652cf3726e57c55e0f30b5f0d3ce5478a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\src\\hardware_component.cpp",
+    "bytes": 15228,
+    "sha256": "86f729a0d2674cb7ce78d5e81eb478554c9f751b93c84152ba80d15803c7bfcc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\src\\hardware_component_interface.cpp",
+    "bytes": 22284,
+    "sha256": "a44d1266329df1ad7ca18e3c265cf48289cd94823b4b364dad1c053f8b347c1a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\src\\lexical_casts.cpp",
+    "bytes": 4058,
+    "sha256": "5f3968e904ddb76e75a280081a28ad45a8b21ba335251ce1671fcbbbb9eb5461",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface\\src\\resource_manager.cpp",
+    "bytes": 103272,
+    "sha256": "d466c02f19d4077ef117553fdb4feb828299e4ca17a022577d1872c4d7d05443",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "hardware_interface_testing\\package.xml",
+    "bytes": 1051,
+    "sha256": "c47dde080f6f25ab50afea1898771b2d3ed17172c087ede383abc5f6edc3ca5f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\include\\joint_limits\\data_structures.hpp",
+    "bytes": 4254,
+    "sha256": "a724497da85b54f728a72785db2ba5334dde913bc20465bb8150d497a4dd891b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\include\\joint_limits\\joint_limiter_interface.hpp",
+    "bytes": 10751,
+    "sha256": "34c6475d0d613e98d82f22bf3a7a7119682a246bae0a55dbbc5e04d930e210c8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\include\\joint_limits\\joint_limits.hpp",
+    "bytes": 5852,
+    "sha256": "c8f97c180fea6458850c64a400ec8280b1d791ceb0ad3aadfebc89e01aca5d21",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\include\\joint_limits\\joint_limits_helpers.hpp",
+    "bytes": 4378,
+    "sha256": "44189c93576377e592f5e02e60a0dbe539391a4ac5296d95c3544f4001463579",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\include\\joint_limits\\joint_limits_rosparam.hpp",
+    "bytes": 33272,
+    "sha256": "55350acb3ab40aa2d1a6a6f7492adfc697ae22e0eefa6214b4696ec899b3ce60",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\include\\joint_limits\\joint_limits_urdf.hpp",
+    "bytes": 2919,
+    "sha256": "a07dd634828dfc52ee297fad7caa67107ed436344dacc7f0d67eb791ea54fee0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\include\\joint_limits\\joint_saturation_limiter.hpp",
+    "bytes": 4285,
+    "sha256": "30679c9f65c1fa8fab0a671a70f9c36088e48a2bf44f8e11b3a5db4bc8e59de5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\include\\joint_limits\\joint_soft_limiter.hpp",
+    "bytes": 2418,
+    "sha256": "c1f30e45748108b7fceed80f3a7472a12b1967ca1bcb65f39e4dd088b4c60179",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\joint_limiters.xml",
+    "bytes": 1259,
+    "sha256": "9806e2fb7c3573702be60e636362c797d0e6f04dc441f7f171acea9306165593",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\package.xml",
+    "bytes": 1641,
+    "sha256": "3be8611ec3e44ba9469baea39a84cf1d3c417dc295f8ae4a0e89b374e09483b2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\src\\joint_limiter_interface.cpp",
+    "bytes": 790,
+    "sha256": "ec1f4756576198d0176cc9fda43147e2374fde65f24304ac4b24e2b12f9773ec",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\src\\joint_limits_helpers.cpp",
+    "bytes": 10260,
+    "sha256": "b4b931391cde588da2d51f8ca58e074d227b96e7ffe3fe5de1e0af28e3067de4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\src\\joint_range_limiter.cpp",
+    "bytes": 5476,
+    "sha256": "5ef2f646aa9b05d13f81a5bc4b3a99954cf34056798445fab32d2a223727cf97",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\src\\joint_saturation_limiter.cpp",
+    "bytes": 17035,
+    "sha256": "35db9eeeab6ba923c34ed95660b5b1b84296c426a902b275737c5bd811102a61",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_limits\\src\\joint_soft_limiter.cpp",
+    "bytes": 10295,
+    "sha256": "48220106c2652fc3612f76bcbff2942e12ecd5526f45d48f797cbceffb5e8f0b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2_control\\package.xml",
+    "bytes": 1173,
+    "sha256": "255370dc5026609259c9278a0f93e37fbb777cdbad4082ff7bb4794ff3e8946b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2_control\\rosdoc2.yaml",
+    "bytes": 442,
+    "sha256": "9b3a4e930bb46dcbea387014bede61c0c9ee0a743f6d5b1d5a942d38393c41a8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\package.xml",
+    "bytes": 1183,
+    "sha256": "f01df6df7be303640a5efff51b2f3454822d1d3cad6b5a5c6fddd692e7967fdb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\api\\__init__.py",
+    "bytes": 3919,
+    "sha256": "20b070ee975fc500ec2938978bcbfa8c722b71c33a4689d3dfb3b81aa7da4626",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\command\\control.py",
+    "bytes": 1355,
+    "sha256": "ddf59bad996168951a09dc24fa8c4a2b1944a50a844d9084dd29558196357916",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\cleanup_controller.py",
+    "bytes": 1844,
+    "sha256": "495be746789f5b94d9b97c5243c6a214c5befe38ee2692b64777d3ba1bb33f6b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\list_controller_types.py",
+    "bytes": 1446,
+    "sha256": "39878b0e9cd52a4a92846775050f60c44605f16dba000af6445342d27f8f5d18",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\list_controllers.py",
+    "bytes": 4971,
+    "sha256": "2ccefd0e46cb55e1c43d44dae0670fd1cfed5761281ed471a24198a99adf1991",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\list_hardware_components.py",
+    "bytes": 4325,
+    "sha256": "72d806730a6788c2ef60ea24e29de190df80c22e9a10051bd914b6568dc0f57a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\list_hardware_interfaces.py",
+    "bytes": 3107,
+    "sha256": "ea18f5946e213ff09941680487d95bc25d2a6664da44d19b43ef0ef3b893c234",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\load_controller.py",
+    "bytes": 4757,
+    "sha256": "c325ca23df6b920aeb2927f870b0c00eb85967e4c2e4c0033e61c5bbc7be7f04",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\reload_controller_libraries.py",
+    "bytes": 1616,
+    "sha256": "bbb546bd41d89747b003762a80670272c9f8e05992378bce2c499299257b0681",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\set_controller_state.py",
+    "bytes": 4515,
+    "sha256": "c98ac1e32ccce44b3b7c5b675969f5f11b6a8bf89198bc24e71425c68abd354b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\set_hardware_component_state.py",
+    "bytes": 3356,
+    "sha256": "63b1f2d68e2988f0ce6a6e55e8352b7a163d30e1e894bc2432cc0504e87f68b5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\switch_controllers.py",
+    "bytes": 3322,
+    "sha256": "39ff524bd6450aefd27e699eb7e372c5bc98f273218d0cff901456cefdc037f5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\unload_controller.py",
+    "bytes": 1836,
+    "sha256": "e3f377d59adbf4b7db035d61ef60b56c68937111afb2e290e008897d968e1768",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\view_controller_chains.py",
+    "bytes": 8265,
+    "sha256": "bc6d78b6b97f722059ef5705707da69ccfcb0846e3d8f915953c172103532940",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\ros2controlcli\\verb\\view_hardware_status.py",
+    "bytes": 6797,
+    "sha256": "614f169497c544d76fdfe0f0bdb18ab39bd12cd076e5f1ae29cd49431dc721fd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2controlcli\\setup.py",
+    "bytes": 3348,
+    "sha256": "18e352b088b4627795448e8e6e6a7b2404d08883f37596ea970bf488955c74c5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_controller_manager\\package.xml",
+    "bytes": 1748,
+    "sha256": "b1fe129f107c9377d08dc190461db4932cf312630539680c73997469f6b8758f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_controller_manager\\plugin.xml",
+    "bytes": 693,
+    "sha256": "3af55484420205b8f19818adab3b49cbc4aa40f12e8964085de53e9feb0d5eac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_controller_manager\\rqt_controller_manager\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_controller_manager\\rqt_controller_manager\\controller_manager.py",
+    "bytes": 26993,
+    "sha256": "960d2e3434b98ec290b487d7aa14b84263fbde4e6cebc42145feecec54d87178",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_controller_manager\\rqt_controller_manager\\main.py",
+    "bytes": 795,
+    "sha256": "88e11bdfdbe2b5e56f24b9e0f4d1f292d105d03de2ec6ae4ee015c140409abf0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_controller_manager\\rqt_controller_manager\\update_combo.py",
+    "bytes": 2019,
+    "sha256": "f63866f6d4cf142fed6838c78a1981f185056fea9837cbb4e237af84a75b5a83",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_controller_manager\\setup.py",
+    "bytes": 1604,
+    "sha256": "1c307929ede6e6192eeeb387003c8a804a62a5099f941bdd5acdd5441a864965",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\include\\transmission_interface\\accessor.hpp",
+    "bytes": 2174,
+    "sha256": "8fdc60acd87662092a1ae6cfb14fd273c6541404fa734459f9a91e93cf352cad",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\include\\transmission_interface\\differential_transmission.hpp",
+    "bytes": 23664,
+    "sha256": "d67977a8ec6a8e05fbb510d11aee787e556f4612ef973b71650c0e68c59eee3a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\include\\transmission_interface\\differential_transmission_loader.hpp",
+    "bytes": 1347,
+    "sha256": "75f46a671a11b11f60e6a80c808be59f68d8f374df9cb4ce70f485d2489431f9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\include\\transmission_interface\\exception.hpp",
+    "bytes": 1171,
+    "sha256": "4a506c6b7081906bfa974fed213dc02aa91caa05990127c219bcc6e06c296dac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\include\\transmission_interface\\four_bar_linkage_transmission.hpp",
+    "bytes": 14167,
+    "sha256": "4ffa2a520ce43fbf8e0831e8292b1eb94dd891718e070862e4ae6579a071f4e8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\include\\transmission_interface\\four_bar_linkage_transmission_loader.hpp",
+    "bytes": 1361,
+    "sha256": "6e5282c3c4f21b0448df7b478557c24f1187289dc7fc01b3607666b96feb73fc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\include\\transmission_interface\\handle.hpp",
+    "bytes": 2471,
+    "sha256": "c485d078774169d3e8f6451ba94698f71d2343ba8cef8adca45beb803cf54540",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\include\\transmission_interface\\simple_transmission.hpp",
+    "bytes": 11503,
+    "sha256": "93bb275b8d860a1874c2c225b3a649662340aadbd5c3bc52d765afed9032e33e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\include\\transmission_interface\\simple_transmission_loader.hpp",
+    "bytes": 1313,
+    "sha256": "704db28c86d5fb0e4bc002001d7fc00c0fcc695ceb7ec5818a59f3ef3c393fd4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\include\\transmission_interface\\transmission.hpp",
+    "bytes": 4681,
+    "sha256": "6f4489d8ba6529c82c7b83089efc40488ef86654ff287d478d61986e0b9b9a51",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\include\\transmission_interface\\transmission_interface_exception.hpp",
+    "bytes": 1222,
+    "sha256": "7ec506fda7355b55382e8cc7455449301ecd2bad1cae5dd841db894dc1fa7c2e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\include\\transmission_interface\\transmission_loader.hpp",
+    "bytes": 1396,
+    "sha256": "cd44d214a352f504905a35c56a0da385102b7eb4e23ec1f7125b316b20eca705",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\package.xml",
+    "bytes": 1233,
+    "sha256": "ea0b435a986a65323eb50cbc8e044c33b6589b3f1b8148e7e7b75db443357a27",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\ros2_control_plugins.xml",
+    "bytes": 1108,
+    "sha256": "dcc2fa76d98505fad80fb511e7b083200ac6b581f88543b992f28eaa5f96b47b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\src\\differential_transmission_loader.cpp",
+    "bytes": 2210,
+    "sha256": "2f24e23484543a583dc7bab7c8f99c45b4a8c63f07cd7d3025e73c3cb9c572df",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\src\\four_bar_linkage_transmission_loader.cpp",
+    "bytes": 2228,
+    "sha256": "5f02ba8e42dd22d9024d865f97e3d09b3aeca7a9cd5c0ff1bd53d6543b3cef3c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "transmission_interface\\src\\simple_transmission_loader.cpp",
+    "bytes": 1760,
+    "sha256": "a7f9679f538f5338542cddb8fede1a6fc4de996b9bb8966ec35caa7f36869a38",
+    "included_in_llm_prompt": false
+  }
+]

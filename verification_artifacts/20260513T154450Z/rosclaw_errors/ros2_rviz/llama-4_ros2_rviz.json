@@ -1,0 +1,51 @@
+{
+  "pair_key": "llama-4 :: ros2/rviz",
+  "repo": "ros2/rviz",
+  "actual_categories": [
+    "hallucinated_node",
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "hallucinated_node",
+      "missing_node"
+    ],
+    "AS2FM": [
+      "hallucinated_node",
+      "missing_node"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "llama-4_ros2_rviz__err_0001",
+      "category": "hallucinated_node",
+      "node": "robot_link",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros2_rviz__err_0002",
+      "category": "missing_node",
+      "node": "NodeObject",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros2_rviz__err_0003",
+      "category": "missing_node",
+      "node": "static_transform_publisher",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

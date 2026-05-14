@@ -1,0 +1,40 @@
+{
+  "format": "jani-property-specification-plan",
+  "purpose": "Property specifications for the ROS 2 LLM error taxonomy categories used in SQ3.",
+  "threshold": {
+    "precision": 0.7,
+    "recall": 0.7
+  },
+  "properties": [
+    {
+      "category": "interface_mismatch",
+      "informal_property": "Every predicted publisher/subscriber interface type must match the ground-truth topic type.",
+      "jani_intent": "No reachable architecture state contains topic_name_equal=true and msg_type_equal=false."
+    },
+    {
+      "category": "hallucinated_node",
+      "informal_property": "Every predicted node must exist in the ground-truth node set.",
+      "jani_intent": "No reachable architecture state contains predicted_node_present=true and ground_truth_node_present=false."
+    },
+    {
+      "category": "subsystem_boundary_confusion",
+      "informal_property": "Every matched node must be assigned to the same subsystem as the ground truth.",
+      "jani_intent": "No reachable architecture state contains node_equal=true and subsystem_equal=false."
+    },
+    {
+      "category": "missing_node",
+      "informal_property": "Every ground-truth node must appear in the LLM-generated architecture.",
+      "jani_intent": "No reachable architecture state contains ground_truth_node_present=true and predicted_node_present=false."
+    },
+    {
+      "category": "wrong_topic_name",
+      "informal_property": "Every predicted topic edge must match a ground-truth topic edge for the same node and direction.",
+      "jani_intent": "No reachable architecture state contains edge_direction_equal=true and topic_name_equal=false."
+    },
+    {
+      "category": "lifecycle_violation",
+      "informal_property": "Lifecycle-node status must match between generated architecture and ground truth.",
+      "jani_intent": "No reachable architecture state contains node_equal=true and lifecycle_equal=false."
+    }
+  ]
+}

@@ -52,6 +52,33 @@ def puml_text(value: Any) -> str:
     return text.replace("\\", "/").replace('"', "'").replace("\r", " ").replace("\n", "\\n")
 
 
+def diagram_id(prefix: str, value: str) -> str:
+    return f"{prefix}_{slugify(value).replace('.', '_').replace('-', '_')}"
+
+
+def node_topics(node: Dict[str, Any], key: str) -> List[Dict[str, str]]:
+    topics: List[Dict[str, str]] = []
+    for item in node.get(key, []) or []:
+        if isinstance(item, dict):
+            topic = str(item.get("topic", "")).strip()
+            msg_type = str(item.get("type", item.get("msg_type", "unknown"))).strip() or "unknown"
+        else:
+            topic = str(item).strip()
+            msg_type = str((node.get("msg_types") or {}).get(topic, "unknown"))
+        if topic:
+            topics.append({"topic": topic, "type": msg_type})
+    return topics
+
+
+def repo_architecture(results: Dict[str, Any], repo: str) -> Tuple[List[Dict[str, Any]], Dict[str, str]]:
+    nodes = list(results.get("ground_truth", {}).get(repo, []) or [])
+    topics: Dict[str, str] = {}
+    for node in nodes:
+        for edge in node_topics(node, "publishes") + node_topics(node, "subscribes"):
+            topics.setdefault(edge["topic"], edge["type"])
+    return nodes, topics
+
+
 def repo_error_counts(results: Dict[str, Any], repo: str) -> Dict[str, int]:
     counts: Dict[str, int] = {}
     for pair_key, comparison in results.get("comparisons", {}).items():
@@ -81,49 +108,51 @@ def repo_model_rows(results: Dict[str, Any], repo: str) -> List[str]:
 
 
 def build_repo_puml(results: Dict[str, Any], repo: str) -> str:
-    gt_summary = results.get("ground_truth_audit", {}).get("repo_summaries", {}).get(repo, {})
-    source_count = len(results.get("source_files_sent", {}).get(repo, []))
-    full_source_count = results.get("source_packages", {}).get("repositories", {}).get(repo, {}).get("source_file_count", 0)
-    yaml_count = len(results.get("yaml_evidence", {}).get(repo, []))
-    error_counts = repo_error_counts(results, repo)
-    model_rows = repo_model_rows(results, repo)
-    tcr = results.get("metrics", {}).get("m5_tcr", {})
-    tool_audit = results.get("tool_audit", {})
-    annotation = results.get("annotation_audit", {})
-    top_errors = sorted(error_counts.items(), key=lambda item: item[1], reverse=True)
-    if top_errors:
-        error_text = "\\n".join(f"{puml_text(cat)}: {count}" for cat, count in top_errors)
-    else:
-        error_text = "No classified errors"
-    model_text = "\\n".join(puml_text(row) for row in model_rows) or "No model outputs"
-    tools_text = "\\n".join(
-        f"{puml_text(name)}: {puml_text(data.get('status', 'unknown'))}"
-        for name, data in tool_audit.items()
-        if isinstance(data, dict)
-    ) or "No tool audit"
-    return "\n".join([
+    nodes, topics = repo_architecture(results, repo)
+    lines = [
         "@startuml",
         "!pragma layout smetana",
         "skinparam backgroundColor #FFFFFF",
         "skinparam defaultFontName Arial",
-        "skinparam rectangle {",
-        "  RoundCorner 8",
-        "  BorderColor #4B5563",
-        "}",
-        f"title ROS 2 LLM Architecture Recovery\\n{puml_text(repo)}",
-        f"rectangle \"INPUT\\nRepo: {puml_text(repo)}\\nFull source files: {full_source_count}\\nPrompt files: {source_count}\\nYAML evidence files: {yaml_count}\\nGT nodes/topics: {gt_summary.get('nodes', 0)}/{gt_summary.get('topics', 0)}\" as input #E0F2FE",
-        f"rectangle \"SQ1: LLM architecture recovery\\n{model_text}\" as sq1 #ECFDF5",
-        f"rectangle \"SQ2: Error taxonomy\\nTotal repo errors: {sum(error_counts.values())}\\n{error_text}\" as sq2 #FFF7ED",
-        f"rectangle \"SQ3: Tool detection\\nTCR: {pct(float(tcr.get('tcr', 0.0)))}\\n{tools_text}\" as sq3 #F5F3FF",
-        f"rectangle \"SQ4 / Outputs\\nAnnotation: {puml_text(annotation.get('status', 'not recorded'))}\\nRun: {puml_text(results.get('run_id', 'unknown'))}\\nTtV: {float(results.get('metrics', {}).get('m6_ttv_ms', 0.0)):.2f} ms\" as sq4 #F8FAFC",
-        "input --> sq1",
-        "sq1 --> sq2",
-        "sq2 --> sq3",
-        "sq3 --> sq4",
-        "footer Generated from metrics_results.json",
+        "skinparam componentStyle rectangle",
+        "skinparam packageStyle rectangle",
+        "skinparam shadowing false",
+        f"title ROS 2 Architecture\\n{puml_text(repo)}",
+    ]
+    by_subsystem: Dict[str, List[Dict[str, Any]]] = {}
+    for node in nodes:
+        by_subsystem.setdefault(str(node.get("subsystem") or "other"), []).append(node)
+    for subsystem, subsystem_nodes in sorted(by_subsystem.items()):
+        lines.append(f'package "{puml_text(subsystem)}" as {diagram_id("sub", subsystem)} {{')
+        for node in subsystem_nodes:
+            label = puml_text(node.get("name", "unnamed_node"))
+            if node.get("lifecycle") or node.get("has_lifecycle"):
+                label += "\\n<<lifecycle>>"
+            lines.append(f'  component "{label}" as {diagram_id("node", str(node.get("name", "unnamed_node")))} #E0F2FE')
+        lines.append("}")
+    for topic, msg_type in sorted(topics.items()):
+        lines.append(f'queue "{puml_text(topic)}\\n{puml_text(msg_type)}" as {diagram_id("topic", topic)} #FEF3C7')
+    for node in nodes:
+        node_id = diagram_id("node", str(node.get("name", "unnamed_node")))
+        for edge in node_topics(node, "publishes"):
+            lines.append(f'{node_id} --> {diagram_id("topic", edge["topic"])} : publishes')
+        for edge in node_topics(node, "subscribes"):
+            lines.append(f'{diagram_id("topic", edge["topic"])} --> {node_id} : subscribes')
+    if not nodes:
+        lines.append('note "No architecture nodes were extracted for this repository." as empty')
+    elif not topics:
+        lines.append('note bottom "No topic edges were extracted; diagram shows discovered ROS 2 nodes grouped by subsystem."')
+    lines.extend([
+        "legend right",
+        "  Blue = ROS 2 node",
+        "  Yellow = topic/interface",
+        "  Arrow = publish/subscribe relation",
+        "endlegend",
+        "footer Generated from ground-truth architecture in metrics_results.json",
         "@enduml",
         "",
     ])
+    return "\n".join(lines)
 
 
 def _render_repo_diagram_matplotlib(results: Dict[str, Any], repo: str, jpg_path: Path) -> bool:
@@ -231,6 +260,120 @@ def _render_repo_diagram_matplotlib(results: Dict[str, Any], repo: str, jpg_path
     return magic == b"\xff\xd8"
 
 
+def _render_architecture_diagram_matplotlib(results: Dict[str, Any], repo: str, jpg_path: Path) -> bool:
+    """Render the extracted ROS 2 architecture: subsystems, nodes, topics, and edges."""
+    try:
+        import matplotlib
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+        import matplotlib.patches as mpatches
+    except ImportError:
+        return False
+
+    nodes, topics = repo_architecture(results, repo)
+    subsystems = sorted({str(node.get("subsystem") or "other") for node in nodes}) or ["other"]
+    max_items = max(len(nodes), len(topics), 1)
+    width = max(12.0, min(22.0, 8.0 + max_items * 0.75))
+    height = max(7.0, min(18.0, 4.0 + max_items * 0.55))
+
+    fig, ax = plt.subplots(figsize=(width, height))
+    fig.patch.set_facecolor("#F8FAFC")
+    ax.set_facecolor("#FFFFFF")
+    ax.axis("off")
+    ax.set_xlim(0, 1)
+    ax.set_ylim(0, 1)
+    ax.set_title(f"ROS 2 Architecture\n{repo}", fontsize=15, fontweight="bold", pad=18)
+
+    if not nodes:
+        ax.text(0.5, 0.5, "No architecture nodes were extracted for this repository.",
+                ha="center", va="center", fontsize=12)
+    else:
+        left_min, left_max = 0.14, 0.48
+        subsystem_x = {
+            name: left_min + i * ((left_max - left_min) / max(len(subsystems) - 1, 1))
+            for i, name in enumerate(subsystems)
+        }
+        node_positions: Dict[str, Tuple[float, float]] = {}
+        topic_positions: Dict[str, Tuple[float, float]] = {}
+
+        for subsystem in subsystems:
+            subsystem_nodes = [node for node in nodes if str(node.get("subsystem") or "other") == subsystem]
+            x = subsystem_x[subsystem]
+            ax.add_patch(mpatches.FancyBboxPatch(
+                (x - 0.105, 0.14), 0.21, 0.74,
+                boxstyle="round,pad=0.012,rounding_size=0.018",
+                linewidth=1.1, edgecolor="#94A3B8", facecolor="#EFF6FF",
+            ))
+            ax.text(x, 0.855, subsystem, ha="center", va="center",
+                    fontsize=10, fontweight="bold", color="#1E3A8A")
+            count = max(len(subsystem_nodes), 1)
+            for idx, node in enumerate(subsystem_nodes):
+                y = 0.77 - idx * (0.58 / max(count - 1, 1)) if count > 1 else 0.50
+                name = str(node.get("name", "unnamed_node"))
+                node_positions[name] = (x, y)
+                label = name
+                if node.get("lifecycle") or node.get("has_lifecycle"):
+                    label += "\n<<lifecycle>>"
+                ax.add_patch(mpatches.FancyBboxPatch(
+                    (x - 0.078, y - 0.032), 0.156, 0.064,
+                    boxstyle="round,pad=0.01,rounding_size=0.012",
+                    linewidth=1.2, edgecolor="#2563EB", facecolor="#DBEAFE",
+                ))
+                ax.text(x, y, label, ha="center", va="center", fontsize=8, color="#0F172A")
+
+        topic_items = sorted(topics.items())
+        topic_x = 0.78
+        if topic_items:
+            for idx, (topic, msg_type) in enumerate(topic_items):
+                y = 0.78 - idx * (0.58 / max(len(topic_items) - 1, 1)) if len(topic_items) > 1 else 0.50
+                topic_positions[topic] = (topic_x, y)
+                ax.add_patch(mpatches.FancyBboxPatch(
+                    (topic_x - 0.115, y - 0.036), 0.23, 0.072,
+                    boxstyle="round,pad=0.01,rounding_size=0.012",
+                    linewidth=1.1, edgecolor="#D97706", facecolor="#FEF3C7",
+                ))
+                ax.text(topic_x, y + 0.011, topic, ha="center", va="center", fontsize=8, color="#111827")
+                ax.text(topic_x, y - 0.016, msg_type, ha="center", va="center", fontsize=6.5, color="#92400E")
+        else:
+            ax.text(topic_x, 0.50, "No topic edges extracted", ha="center", va="center",
+                    fontsize=10, color="#64748B",
+                    bbox=dict(boxstyle="round,pad=0.45", facecolor="#F8FAFC", edgecolor="#CBD5E1"))
+
+        for node in nodes:
+            name = str(node.get("name", "unnamed_node"))
+            if name not in node_positions:
+                continue
+            nx, ny = node_positions[name]
+            for edge in node_topics(node, "publishes"):
+                if edge["topic"] in topic_positions:
+                    tx, ty = topic_positions[edge["topic"]]
+                    ax.annotate("", xy=(tx - 0.12, ty), xytext=(nx + 0.083, ny),
+                                arrowprops=dict(arrowstyle="->", color="#16A34A", lw=1.2,
+                                                shrinkA=3, shrinkB=3, connectionstyle="arc3,rad=0.05"))
+                    ax.text((nx + tx) / 2, (ny + ty) / 2 + 0.012, "pub", fontsize=6.5, color="#15803D")
+            for edge in node_topics(node, "subscribes"):
+                if edge["topic"] in topic_positions:
+                    tx, ty = topic_positions[edge["topic"]]
+                    ax.annotate("", xy=(nx + 0.083, ny), xytext=(tx - 0.12, ty),
+                                arrowprops=dict(arrowstyle="->", color="#7C3AED", lw=1.2,
+                                                shrinkA=3, shrinkB=3, connectionstyle="arc3,rad=-0.05"))
+                    ax.text((nx + tx) / 2, (ny + ty) / 2 - 0.018, "sub", fontsize=6.5, color="#6D28D9")
+
+        legend_items = [
+            mpatches.Patch(facecolor="#DBEAFE", edgecolor="#2563EB", label="ROS 2 node"),
+            mpatches.Patch(facecolor="#FEF3C7", edgecolor="#D97706", label="Topic/interface"),
+            mpatches.Patch(facecolor="#EFF6FF", edgecolor="#94A3B8", label="Subsystem"),
+        ]
+        ax.legend(handles=legend_items, loc="lower center", bbox_to_anchor=(0.5, 0.02),
+                  ncol=3, fontsize=8, frameon=False)
+
+    jpg_path.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(str(jpg_path), format="jpeg", dpi=140, bbox_inches="tight", facecolor=fig.get_facecolor())
+    plt.close(fig)
+    with open(jpg_path, "rb") as f:
+        return f.read(2) == b"\xff\xd8"
+
+
 def write_result_diagrams(results: Dict[str, Any], output_root: Path | None = None) -> Dict[str, Any]:
     run_id = str(results.get("run_id", "unknown_run"))
     root = output_root or Path("results") / run_id
@@ -243,7 +386,7 @@ def write_result_diagrams(results: Dict[str, Any], output_root: Path | None = No
         puml_path = repo_dir / "architecture_metrics.puml"
         jpg_path = repo_dir / "architecture_metrics.jpg"
         puml_path.write_text(build_repo_puml(results, repo), encoding="utf-8")
-        jpg_rendered = _render_repo_diagram_matplotlib(results, repo, jpg_path)
+        jpg_rendered = _render_architecture_diagram_matplotlib(results, repo, jpg_path)
         manifest["repositories"][repo] = {
             "folder": str(repo_dir),
             "puml": str(puml_path),
@@ -357,10 +500,11 @@ def build_report(results: Dict[str, Any]) -> str:
         "## SQ3 - Automatic Detection Coverage",
         "",
         f"Detection method: **{tcr.get('method', 'unknown')}**",
-        f"Tool Coverage Ratio: **{pct(float(tcr.get('tcr', 0.0)))}**",
-        f"Covered categories: **{tcr.get('covered_count', 0)} / {tcr.get('total_categories', 0)}**",
+        f"Proposal Tool Coverage Ratio: **{pct(float(tcr.get('proposal_tcr', {}).get('tcr', tcr.get('tcr', 0.0))))}**",
+        f"Proposal covered categories: **{tcr.get('proposal_tcr', {}).get('covered_count', tcr.get('covered_count', 0))} / {tcr.get('proposal_tcr', {}).get('total_categories', tcr.get('total_categories', 0))}**",
+        f"Extended/local Tool Coverage Ratio: **{pct(float(tcr.get('extended_tcr', {}).get('tcr', tcr.get('tcr', 0.0))))}**",
         "",
-        "Category detector scores:",
+        "Proposal category detector scores:",
     ])
 
     category_scores = tcr.get("category_scores", {})
@@ -375,13 +519,19 @@ def build_report(results: Dict[str, Any]) -> str:
 
     lines.extend([
         "",
-        "Interpretation: categories with precision and recall above 70% count as automatically covered. This run records per-tool detection logs and counts a category as covered when at least one detector is adequate.",
+        "Interpretation: proposal TCR counts only AS2FM and ROSClaw. The extended/local TCR includes generated JANI-style property checks and the deterministic static validator as baseline evidence.",
     ])
 
-    adequate = tcr.get("adequate_detectors_by_category", {})
+    adequate = tcr.get("proposal_tcr", {}).get("adequate_detectors_by_category", tcr.get("adequate_detectors_by_category", {}))
     if adequate:
         lines.extend(["", "Adequate detector by category:"])
         for category, tools in adequate.items():
+            lines.append(f"- `{category}`: {', '.join(tools) if tools else 'none'}")
+
+    extended = tcr.get("extended_tcr", {})
+    if extended:
+        lines.extend(["", "Extended/local adequate detector by category:"])
+        for category, tools in extended.get("adequate_detectors_by_category", {}).items():
             lines.append(f"- `{category}`: {', '.join(tools) if tools else 'none'}")
 
     tool_details = detection_audit.get("tools", {})
@@ -420,6 +570,7 @@ def build_report(results: Dict[str, Any]) -> str:
         for name, data in tool_audit.items():
             if isinstance(data, dict):
                 lines.append(f"- `{name}`: {data.get('status', 'unknown')} - {data.get('purpose', '')}")
+        lines.append("- Note: external tool status records installation/smoke execution only; proposal TCR above records category-level detection.")
 
     if gt_audit:
         lines.extend([

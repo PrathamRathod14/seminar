@@ -1,0 +1,259 @@
+{
+  "jani-version": 1,
+  "name": "ros2_architecture_recovery_check",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "metadata": {
+    "ground_truth_nodes": [
+      {
+        "name": "Policy",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "moveit_py\\moveit\\policies\\policy.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "TeleopDevice",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "/servo_node/delta_twist_cmds",
+            "type": "TwistStamped"
+          }
+        ],
+        "subscribes": [
+          {
+            "topic": "/joy",
+            "type": "Joy"
+          }
+        ],
+        "lifecycle": false,
+        "source_files": [
+          "moveit_py\\moveit\\servo_client\\teleop.py"
+        ],
+        "msg_types": {
+          "/servo_node/delta_twist_cmds": "TwistStamped",
+          "/joy": "Joy"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "_",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "moveit_ros\\planning\\planning_scene_monitor\\src\\planning_scene_monitor.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "collision_updater",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "moveit_setup_assistant\\moveit_setup_assistant\\src\\collisions_updater.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "global_planner_component",
+        "subsystem": "navigation",
+        "publishes": [
+          {
+            "topic": "global_trajectory",
+            "type": "moveit_msgs::msg::MotionPlanResponse"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "moveit_ros\\hybrid_planning\\global_planner\\global_planner_component\\src\\global_planner_component.cpp"
+        ],
+        "msg_types": {
+          "global_trajectory": "moveit_msgs::msg::MotionPlanResponse"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "hybrid_planning_manager",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [
+          {
+            "topic": "global_trajectory",
+            "type": "moveit_msgs::msg::MotionPlanResponse"
+          }
+        ],
+        "lifecycle": false,
+        "source_files": [
+          "moveit_ros\\hybrid_planning\\hybrid_planning_manager\\hybrid_planning_manager_component\\src\\hybrid_planning_manager.cpp"
+        ],
+        "msg_types": {
+          "global_trajectory": "moveit_msgs::msg::MotionPlanResponse"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "local_planner_component",
+        "subsystem": "navigation",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "moveit_ros\\hybrid_planning\\local_planner\\local_planner_component\\src\\local_planner_component.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "moveit",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "moveit_core\\utils\\src\\logger.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "moveit_setup_assistant",
+        "subsystem": "control",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "moveit_setup_assistant\\moveit_setup_assistant\\launch\\setup_assistant.launch.py",
+          "moveit_setup_assistant\\moveit_setup_controllers\\launch\\control.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "moveit_simple_controller_manager",
+        "subsystem": "control",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "moveit_ros\\planning\\trajectory_execution_manager\\src\\trajectory_execution_manager.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "servo_node",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "moveit_ros\\moveit_servo\\src\\servo_node.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "srdf_publisher",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "robot_description_semantic",
+            "type": "std_msgs::msg::String"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "moveit_ros\\planning\\srdf_publisher_node\\src\\srdf_publisher_node.cpp"
+        ],
+        "msg_types": {
+          "robot_description_semantic": "std_msgs::msg::String"
+        },
+        "has_lifecycle": false
+      }
+    ],
+    "candidate_nodes": [
+      {
+        "name": "motion_planning_rviz_plugin",
+        "subsystem": "moveit_ros/visualization",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [],
+        "msg_types": {},
+        "has_lifecycle": false
+      }
+    ]
+  },
+  "properties": [
+    {
+      "name": "interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    }
+  ]
+}

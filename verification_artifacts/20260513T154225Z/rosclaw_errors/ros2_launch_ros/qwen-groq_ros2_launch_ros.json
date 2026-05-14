@@ -1,0 +1,48 @@
+{
+  "pair_key": "qwen-groq :: ros2/launch_ros",
+  "repo": "ros2/launch_ros",
+  "actual_categories": [
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "missing_node"
+    ],
+    "AS2FM": [
+      "missing_node"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "qwen-groq_ros2_launch_ros__err_0001",
+      "category": "missing_node",
+      "node": "ComposableNodeContainer",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_ros2_launch_ros__err_0002",
+      "category": "missing_node",
+      "node": "LifecycleNode",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_ros2_launch_ros__err_0003",
+      "category": "missing_node",
+      "node": "_WaitForTopicsNode",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

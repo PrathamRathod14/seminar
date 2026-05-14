@@ -1,0 +1,97 @@
+{
+  "run_id": "20260513T164445Z",
+  "root": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z",
+  "repositories": {
+    "navigation2": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\navigation2",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\navigation2\\full_source_manifest.json",
+      "source_file_count": 859,
+      "prompt_file_count": 1
+    },
+    "ros2/rclcpp": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros2_rclcpp",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros2_rclcpp\\full_source_manifest.json",
+      "source_file_count": 325,
+      "prompt_file_count": 1
+    },
+    "ros2/rclpy": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros2_rclpy",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros2_rclpy\\full_source_manifest.json",
+      "source_file_count": 146,
+      "prompt_file_count": 1
+    },
+    "ros2/launch_ros": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros2_launch_ros",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros2_launch_ros\\full_source_manifest.json",
+      "source_file_count": 66,
+      "prompt_file_count": 3
+    },
+    "ros2/rosbag2": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros2_rosbag2",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros2_rosbag2\\full_source_manifest.json",
+      "source_file_count": 237,
+      "prompt_file_count": 1
+    },
+    "ros2/geometry2": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros2_geometry2",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros2_geometry2\\full_source_manifest.json",
+      "source_file_count": 113,
+      "prompt_file_count": 1
+    },
+    "ros-perception/image_pipeline": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-perception_image_pipeline",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-perception_image_pipeline\\full_source_manifest.json",
+      "source_file_count": 117,
+      "prompt_file_count": 4
+    },
+    "ros-perception/laser_filters": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-perception_laser_filters",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-perception_laser_filters\\full_source_manifest.json",
+      "source_file_count": 26,
+      "prompt_file_count": 1
+    },
+    "ros-drivers/urg_node": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-drivers_urg_node",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-drivers_urg_node\\full_source_manifest.json",
+      "source_file_count": 10,
+      "prompt_file_count": 1
+    },
+    "ros-drivers/usb_cam": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-drivers_usb_cam",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-drivers_usb_cam\\full_source_manifest.json",
+      "source_file_count": 25,
+      "prompt_file_count": 1
+    },
+    "ros-controls/ros2_control": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-controls_ros2_control",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-controls_ros2_control\\full_source_manifest.json",
+      "source_file_count": 131,
+      "prompt_file_count": 1
+    },
+    "ros-controls/ros2_controllers": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-controls_ros2_controllers",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-controls_ros2_controllers\\full_source_manifest.json",
+      "source_file_count": 166,
+      "prompt_file_count": 1
+    },
+    "ros-planning/moveit2": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-planning_moveit2",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros-planning_moveit2\\full_source_manifest.json",
+      "source_file_count": 1274,
+      "prompt_file_count": 1
+    },
+    "gazebosim/ros_gz": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\gazebosim_ros_gz",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\gazebosim_ros_gz\\full_source_manifest.json",
+      "source_file_count": 92,
+      "prompt_file_count": 3
+    },
+    "ros2/rviz": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros2_rviz",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\ros2_rviz\\full_source_manifest.json",
+      "source_file_count": 482,
+      "prompt_file_count": 1
+    }
+  },
+  "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T164445Z\\source_package_manifest.json"
+}

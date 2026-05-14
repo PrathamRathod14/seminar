@@ -1,0 +1,38 @@
+{
+  "pair_key": "qwen-groq :: ros2/rviz",
+  "repo": "ros2/rviz",
+  "actual_categories": [
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "missing_node"
+    ],
+    "AS2FM": [
+      "missing_node"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "qwen-groq_ros2_rviz__err_0001",
+      "category": "missing_node",
+      "node": "NodeObject",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_ros2_rviz__err_0002",
+      "category": "missing_node",
+      "node": "static_transform_publisher",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

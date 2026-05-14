@@ -1,0 +1,199 @@
+{
+  "run_id": "20260513T175513Z",
+  "created_utc": "2026-05-13T17:57:53.605489+00:00",
+  "policy": "real_data_only",
+  "annotation_status": "source_parser_seed_for_manual_review",
+  "note": "This file contains the node/topic/subsystem annotation artifact used by the run. Reviewers can manually edit and re-run from this artifact for a fully hand-verified ground truth.",
+  "repositories": {
+    "ros2/rclcpp": [
+      {
+        "name": "my_node",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "chatter",
+            "type": "MsgT"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "rclcpp\\include\\rclcpp\\node.hpp"
+        ],
+        "msg_types": {
+          "chatter": "MsgT"
+        },
+        "has_lifecycle": false
+      }
+    ],
+    "ros2/rclpy": [
+      {
+        "name": "LifecycleNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "rclpy\\rclpy\\lifecycle\\node.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": true
+      }
+    ],
+    "ros2/launch_ros": [
+      {
+        "name": "ComposableNodeContainer",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "launch_ros\\launch_ros\\actions\\composable_node_container.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "LifecycleNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "launch_ros\\launch_ros\\actions\\lifecycle_node.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "_WaitForTopicsNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "launch_testing_ros\\launch_testing_ros\\wait_for_topics.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      }
+    ],
+    "ros2/rosbag2": [
+      {
+        "name": "benchmarking_results_writer",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "rosbag2_performance\\rosbag2_performance_benchmarking\\src\\results_writer.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      }
+    ],
+    "ros2/geometry2": [
+      {
+        "name": "tf_buffer",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "tf2_ros\\src\\buffer_server_main.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      }
+    ],
+    "ros2/rviz": [
+      {
+        "name": "NodeObject",
+        "subsystem": "mapping",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\map\\swatch.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "static_transform_publisher",
+        "subsystem": "visualization",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "rviz_visual_testing_framework\\include\\rviz_visual_testing_framework\\transform_publisher.hpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      }
+    ],
+    "ros2/composition": [],
+    "ros2/bond_core": [],
+    "ros2/diagnostics": [],
+    "ros2/common_interfaces": [],
+    "ros2/rcl": [],
+    "ros2/robot_state_publisher": [],
+    "ros2/teleop_twist_joy": [
+      {
+        "name": "joy_node",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "launch\\teleop-launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "teleop_node",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "launch\\teleop-launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "teleop_twist_joy_node",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "cmd_vel",
+            "type": "geometry_msgs::msg::TwistStamped"
+          },
+          {
+            "topic": "cmd_vel",
+            "type": "geometry_msgs::msg::Twist"
+          }
+        ],
+        "subscribes": [
+          {
+            "topic": "joy",
+            "type": "sensor_msgs::msg::Joy"
+          }
+        ],
+        "lifecycle": false,
+        "source_files": [
+          "src\\teleop_twist_joy.cpp"
+        ],
+        "msg_types": {
+          "cmd_vel": "geometry_msgs::msg::Twist",
+          "joy": "sensor_msgs::msg::Joy"
+        },
+        "has_lifecycle": false
+      }
+    ],
+    "ros2/message_filters": [],
+    "ros2/ros2cli": []
+  }
+}

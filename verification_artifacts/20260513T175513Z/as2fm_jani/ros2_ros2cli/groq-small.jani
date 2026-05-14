@@ -1,0 +1,145 @@
+{
+  "jani-version": 1,
+  "name": "ros2_architecture_recovery_check",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "metadata": {
+    "ground_truth_nodes": [],
+    "candidate_nodes": [
+      {
+        "name": "alService",
+        "subsystem": "action_service",
+        "publishes": [
+          {
+            "topic": "feedback",
+            "type": "action_module.Impl.FeedbackMessage"
+          },
+          {
+            "topic": "status",
+            "type": "action_module.Impl.GoalStatusMessage"
+          }
+        ],
+        "subscribes": [
+          {
+            "topic": "send_goal_event",
+            "type": "action_module.Impl.CancelGoalService.Event"
+          },
+          {
+            "topic": "cancel_goal_event",
+            "type": "action_module.Impl.GetResultService.Event"
+          },
+          {
+            "topic": "get_result_event",
+            "type": "action_module.Impl.GetResultService.Event"
+          },
+          {
+            "topic": "feedback",
+            "type": "action_module.Impl.FeedbackMessage"
+          },
+          {
+            "topic": "status",
+            "type": "action_module.Impl.GoalStatusMessage"
+          }
+        ],
+        "lifecycle": true,
+        "source_files": [],
+        "msg_types": {
+          "feedback": "action_module.Impl.FeedbackMessage",
+          "status": "action_module.Impl.GoalStatusMessage",
+          "send_goal_event": "action_module.Impl.CancelGoalService.Event",
+          "cancel_goal_event": "action_module.Impl.GetResultService.Event",
+          "get_result_event": "action_module.Impl.GetResultService.Event"
+        },
+        "has_lifecycle": true
+      },
+      {
+        "name": "output_msg_thread",
+        "subsystem": "output_thread",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "ros2action",
+        "subsystem": "verb",
+        "publishes": [
+          {
+            "topic": "send_goal_event",
+            "type": "action_module.Impl.SendGo"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [],
+        "msg_types": {
+          "send_goal_event": "action_module.Impl.SendGo"
+        },
+        "has_lifecycle": true
+      }
+    ],
+    "model_label": "groq-small",
+    "repo_label": "ros2/ros2cli",
+    "verification_adapter": "AS2FM/JANI architecture evidence artifact"
+  },
+  "properties": [
+    {
+      "name": "interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    }
+  ]
+}

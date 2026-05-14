@@ -1,0 +1,12 @@
+{
+  "pair_key": "groq-small :: ros2/bond_core",
+  "repo": "ros2/bond_core",
+  "actual_categories": [],
+  "detected_by_tool": {
+    "ROSClaw": [],
+    "AS2FM": []
+  },
+  "rosclaw_method": "static_validator \u2014 architecture structural check (before-call shape)",
+  "as2fm_method": "jani_property_check \u2014 per-category JANI forall-implication evaluation",
+  "error_records": []
+}

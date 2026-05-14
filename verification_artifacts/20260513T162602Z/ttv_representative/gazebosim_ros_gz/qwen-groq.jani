@@ -1,0 +1,174 @@
+{
+  "jani-version": 1,
+  "name": "ros2_architecture_recovery_check",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "metadata": {
+    "ground_truth_nodes": [
+      {
+        "name": "create",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "ros_gz_sim\\launch\\gz_spawn_model.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "entity_deleter",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "ros_gz_sim\\src\\delete_entity.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "entity_pose_setter",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "ros_gz_sim\\src\\set_entity_pose.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "entity_spawner",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "ros_gz_sim\\src\\spawn_entity.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "gzserver",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "ros_gz_sim\\src\\gzserver.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "remove",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "ros_gz_sim\\launch\\gz_remove_model.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "ros_gz_bridge",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "ros_gz_bridge\\src\\ros_gz_bridge.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      }
+    ],
+    "candidate_nodes": [
+      {
+        "name": "create",
+        "subsystem": "ros_gz_sim",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "remove",
+        "subsystem": "ros_gz_sim",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [],
+        "msg_types": {},
+        "has_lifecycle": false
+      }
+    ]
+  },
+  "properties": [
+    {
+      "name": "interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    }
+  ]
+}

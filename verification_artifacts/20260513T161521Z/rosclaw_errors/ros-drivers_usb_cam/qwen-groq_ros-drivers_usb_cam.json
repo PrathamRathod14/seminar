@@ -1,0 +1,48 @@
+{
+  "pair_key": "qwen-groq :: ros-drivers/usb_cam",
+  "repo": "ros-drivers/usb_cam",
+  "actual_categories": [
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "missing_node"
+    ],
+    "AS2FM": [
+      "missing_node"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "qwen-groq_ros-drivers_usb_cam__err_0001",
+      "category": "missing_node",
+      "node": "examine_image",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_ros-drivers_usb_cam__err_0002",
+      "category": "missing_node",
+      "node": "usb_cam",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_ros-drivers_usb_cam__err_0003",
+      "category": "missing_node",
+      "node": "usb_cam_node_exe",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "path": "include\\laser_filters\\angular_bounds_filter.h",
+    "bytes": 5245,
+    "sha256": "96763ff718dd1aca631d9ac4814f2380252ee141afe3c849d2873c966e9338b8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\angular_bounds_filter_in_place.h",
+    "bytes": 4064,
+    "sha256": "f8492c93c95b8cf4cf659435ac6838b188899c71fa5dccb7ff41e1d8ebdec60c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\array_filter.h",
+    "bytes": 4949,
+    "sha256": "04f82ab3283ff1a0014d46b071dc768b170e6da1c99fe64a8cc197f11cf13268",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\binning_filter.h",
+    "bytes": 4563,
+    "sha256": "f6a0bc77cbe0d10b5444e46cff98e60ac9e6692a7adec02fe0bcc1597a8c52e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\box_filter.h",
+    "bytes": 7370,
+    "sha256": "ca9a96e8b30a1cf670cdce5ae0c6e0f3d45bac89897515a89315f6e590bdbe2d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\footprint_filter.h",
+    "bytes": 5392,
+    "sha256": "1f10867b87350db0bc577b050ed0a09573394b63393454fefbb85e01f7daf94d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\intensity_filter.h",
+    "bytes": 7318,
+    "sha256": "68b273a2323512f32f48301bf0e78d15117261f30b2a621e2349358fcf344144",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\interpolation_filter.h",
+    "bytes": 4180,
+    "sha256": "4225edf0941d18efc6199632a8223075ce53638baad46121e61ca9b4c40d6e14",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\median_filter.h",
+    "bytes": 5680,
+    "sha256": "a62e640ef50d581726a922a5e6fa0d71fdc854cff98da18b5bba361347b48620",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\median_spatial_filter.h",
+    "bytes": 5807,
+    "sha256": "75d2955628904bd8f53deb87f04e06da0ed569182bbdf9a678b87bf314bf0358",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\polygon_filter.h",
+    "bytes": 21361,
+    "sha256": "cd3812711a0b4bc63a6a041951c74bda539cdf474d6f49cbdb54e27d0bf43518",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "include\\laser_filters\\range_filter.h",
+    "bytes": 4161,
+    "sha256": "67a4f5d84a8f1ab36cbd4243fd979d9668f3f79a53b4dd67ee9bce6de6982c14",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\scan_blob_filter.h",
+    "bytes": 5857,
+    "sha256": "3722fb4e37c9645ef89f0ca62fead84b49aa98eec4b3e9835795e82a8638959d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\scan_mask_filter.h",
+    "bytes": 4278,
+    "sha256": "09d7094030a3750f5345d3ca35ef7613e18c5a07d784a38b7518c25e714ad1d9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\scan_shadow_detector.h",
+    "bytes": 2989,
+    "sha256": "074d435c5af193be9c06bca1d5926fbd8bfd3a8d642236fc81a22054bc146b74",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\scan_shadows_filter.h",
+    "bytes": 9044,
+    "sha256": "bfd698e054395acd34df3d637884a952524f5528b1aa21fc08d6e151164f0c92",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\sector_filter.h",
+    "bytes": 5463,
+    "sha256": "87b3827920fee8356b59cadc484c791e8eda9c0a1a2e2ceb1dbca578f0994954",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\laser_filters\\speckle_filter.h",
+    "bytes": 11345,
+    "sha256": "01ceadba93253f61ccc081fc5fa345f5f3897994ab375f2bab1c919b45b5dd43",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "laser_filters_plugins.xml",
+    "bytes": 6545,
+    "sha256": "d335ee53a5da6f8380137c5713ed3f46dbdb55cde6528c55f6be5fd40c5169a2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "package.xml",
+    "bytes": 1133,
+    "sha256": "52b6a69f5491fa5b9ccc1f3312cd5beb236d67a69be8184c3a4e1e4d556647d1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\generic_laser_filter_node.cpp",
+    "bytes": 4886,
+    "sha256": "09a70e0ed29b6bb2177423974c2133f82b14c17b93539c12e932b313e376efe4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\laser_scan_filters.cpp",
+    "bytes": 4584,
+    "sha256": "5f2ccdd874c0edc7e61de2d4637f8442c13c42686cf9c04044783ea68d99b3b3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\scan_to_cloud_filter_chain.cpp",
+    "bytes": 7153,
+    "sha256": "d813fd1b25fd38165c744a871f2c5cd921e6c9c4bfbb2244d6b613d2e608f4f8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\scan_to_cloud_filter_chain.hpp",
+    "bytes": 3430,
+    "sha256": "8102cac97b1c3775a7c39cfe816c927c7e558b639594259499b8111499c995b3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\scan_to_scan_filter_chain.cpp",
+    "bytes": 5843,
+    "sha256": "d6a31180e09554b21ec019f2224bd85e156884e93926ff8b6b1e3f3b7b093fa3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\scan_to_scan_filter_chain.hpp",
+    "bytes": 3241,
+    "sha256": "102b1371d0fc4bab287827f54c5d0386559a3ecea812f5e6303fe9f4689952ea",
+    "included_in_llm_prompt": false
+  }
+]

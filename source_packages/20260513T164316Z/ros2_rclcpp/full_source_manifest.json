@@ -1,0 +1,1952 @@
+[
+  {
+    "path": "rclcpp\\include\\rclcpp\\allocator\\allocator_common.hpp",
+    "bytes": 5702,
+    "sha256": "2781def7bb56cc8ff1ff2299fe7b4dce1041edae3d132642d994ca602904f132",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\allocator\\allocator_deleter.hpp",
+    "bytes": 2794,
+    "sha256": "3a9bda9435ee13f7c16a86a377573096641aa44f6c1fd58c48fa55b9dc051b15",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\any_executable.hpp",
+    "bytes": 1777,
+    "sha256": "f0455cf55a0bf2552ec5262d68909a6b218eac3caaf06dfe81f76476ba4900c0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\any_service_callback.hpp",
+    "bytes": 8535,
+    "sha256": "d6e66cfae4c0f37b1b7662a4fc5fd4abc1c02d2ce1604f2c1418e4e2f4bdda1e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\any_subscription_callback.hpp",
+    "bytes": 51390,
+    "sha256": "522a5bb1ca39a131708b12e8c386ecf876f26e6bfe3ee6c947fe602c5f458d97",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\callback_group.hpp",
+    "bytes": 10088,
+    "sha256": "e3bbbf7eeb33028151dee17e6bf27c55e3930b28d9e25935e1e3e2819e7a4f0c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\client.hpp",
+    "bytes": 31275,
+    "sha256": "c1d9b76ca1a627ea81ef4626f103efff9c10b34756af82194cf9b0a025fd41b3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\clock.hpp",
+    "bytes": 12593,
+    "sha256": "8fe22773a61c7822f247a899dc2da4499c736e0774f80799097184feefc91dd5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\context.hpp",
+    "bytes": 15648,
+    "sha256": "5374fa0f5b29e4aaa6812e184364a57fad2d2e67298a39338df429b59ad90d48",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\contexts\\default_context.hpp",
+    "bytes": 1179,
+    "sha256": "6074fccf842a635ef35fff15447f2f93b0b8dd4beb1c65be8793fd62d2d0a963",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\copy_all_parameter_values.hpp",
+    "bytes": 3285,
+    "sha256": "43b45579200eddd047d1e8b76ef56a8587d598ea46a411787b17dd39d035a82a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\create_client.hpp",
+    "bytes": 2473,
+    "sha256": "d3f3c06e27798655dcaf5c7477cd5c391e85846416fa49d1defd357b0d3deab4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\create_generic_client.hpp",
+    "bytes": 3782,
+    "sha256": "60d93075f57101472d84e2f48b0548b5bea5fd95b78e6e5bb673b137d9392b04",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\create_generic_publisher.hpp",
+    "bytes": 2492,
+    "sha256": "dfe309422157fb66bf853ce7865e99f6d6b5e5f370e4bce922bba30232e3a45f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\create_generic_service.hpp",
+    "bytes": 4209,
+    "sha256": "25a5803af87563fd04564052ae66fcf078cd0d400a1e25369363e4c93398bda1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\create_generic_subscription.hpp",
+    "bytes": 3082,
+    "sha256": "a0c9817c725de663c7cef6245091b5394d6ef0b3d815986955d8630f36c22f1e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\create_publisher.hpp",
+    "bytes": 4441,
+    "sha256": "4a4e64245b934c3805ff3502f9a1cf9d69b19da7793ececfd46a639db514a81c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\create_service.hpp",
+    "bytes": 3216,
+    "sha256": "f609d28fb3e73b1f9a9d3a0c7be7950b2eaa3ba752bb83051fdb0af38fc620c2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\create_subscription.hpp",
+    "bytes": 8166,
+    "sha256": "f55791f433bf93bf658859b9dc1c8755000e138af86f7bec8ff408f270a39111",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\create_timer.hpp",
+    "bytes": 8129,
+    "sha256": "f3e981667cf19c329e632598b73924e1d22d49379bc1aaed5cf55012b4c7e2e1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\detail\\add_guard_condition_to_rcl_wait_set.hpp",
+    "bytes": 1320,
+    "sha256": "c09f7a5f01b33328b959247302988d00964ea977e60437edf8d7457426dbabc5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\detail\\cpp_callback_trampoline.hpp",
+    "bytes": 2565,
+    "sha256": "8c6bea90bad8bc9d297eae478b7ddbe798ff154b6ec3c3c885c8b64d0bfea489",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\detail\\qos_parameters.hpp",
+    "bytes": 12894,
+    "sha256": "d9d8872b7b96a2ba5710063935ff601940d9bda129a7a35441690c88398a9334",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\detail\\resolve_enable_topic_statistics.hpp",
+    "bytes": 1778,
+    "sha256": "403adf3acad1965fa5e1e4ae673ac0be94ba11c5f25d7517a10a2940ebbe5100",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\detail\\resolve_intra_process_buffer_type.hpp",
+    "bytes": 2066,
+    "sha256": "5201128017751e5b6887037d945d3291fd1e9120f341b49671da534f8fb54c8f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\detail\\resolve_use_intra_process.hpp",
+    "bytes": 1711,
+    "sha256": "096f011551213cc7d4ce55a5a9b5934909ac0aee51996eed6ba9d660fe22f232",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\detail\\rmw_implementation_specific_payload.hpp",
+    "bytes": 1770,
+    "sha256": "103b68179815dcb276e2ae5d63cbc2a7e381ba9ed5ae79c118cf404f83932569",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\detail\\rmw_implementation_specific_publisher_payload.hpp",
+    "bytes": 1827,
+    "sha256": "982305b83a86667c05a9206aeb374b72fa6f362640e19f512d2dbbaddd61bada",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\detail\\rmw_implementation_specific_subscription_payload.hpp",
+    "bytes": 1936,
+    "sha256": "2d5e39b009d937949b9eef66f8ee676f0b2ab7d3884c124878d6b621afe04e62",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\detail\\subscription_callback_type_helper.hpp",
+    "bytes": 5158,
+    "sha256": "f4374d4f087e0e9ca1aa58db30813282fa365fd83b3278ab9d57a69e45967921",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\detail\\template_contains.hpp",
+    "bytes": 1435,
+    "sha256": "f56e902d0306805e59d92fbd08082895cf32a627d1a12d29c265f60120ef5570",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\detail\\template_unique.hpp",
+    "bytes": 1445,
+    "sha256": "a56826de23569b5b59c2fa70c5c59dfb572bfc684e041669f480b92723b61d2d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\detail\\utilities.hpp",
+    "bytes": 1148,
+    "sha256": "01f39137d5a7daab9d90fa709290d9ede29fa5d79418e926fb90a67b005df47d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\duration.hpp",
+    "bytes": 4904,
+    "sha256": "10e3e962baa340ffd1bb17a6fa3fad7f5d587e7798b73ba8704646c43e53079e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\dynamic_typesupport\\dynamic_message.hpp",
+    "bytes": 2258,
+    "sha256": "6ab31dd455c8c58dc50596a5979e219bac26acb3ad979da7ad5ac49b7ea167c1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\dynamic_typesupport\\dynamic_message_type.hpp",
+    "bytes": 2081,
+    "sha256": "0aaba8b8304e13f0d400021457077cc2bac1db8c3852275fed17da77a9115eae",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\dynamic_typesupport\\dynamic_message_type_builder.hpp",
+    "bytes": 2175,
+    "sha256": "f082fd3d964a6513450e06044e70737b9115b59633dd71c5571b02a75767ef77",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\dynamic_typesupport\\dynamic_message_type_support.hpp",
+    "bytes": 2266,
+    "sha256": "06d81e34afaed3f606b922b2644cf9bed029dc980b810a3ee3cd67587fcb2071",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\dynamic_typesupport\\dynamic_serialization_support.hpp",
+    "bytes": 2004,
+    "sha256": "e30d78cd9365889fad1b53b5fc4d1603cda946b3e7a3eccc04291e0c3b647f75",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\event.hpp",
+    "bytes": 1567,
+    "sha256": "207ca71f54241357f0e9ba08d2bed5c1458957cee68c6b67b942604e92169b30",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\event_handler.hpp",
+    "bytes": 13717,
+    "sha256": "1b954a4d45d0f161a113f7b7e0afeea401bfa64f3a4016947a28ce6e838d1cbd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\exceptions.hpp",
+    "bytes": 780,
+    "sha256": "53dc91802adba112fc9db92894df2ba19e3def0473f73937d508bc64b0f0c53e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\exceptions\\exceptions.hpp",
+    "bytes": 11344,
+    "sha256": "a4a79c9a813900b55ac5b45ae48b33d8acdfc076bd96f44b90f022a4bf82883a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\executor.hpp",
+    "bytes": 26255,
+    "sha256": "ef08c77b3a62f9bd1b39a3f5bfd7f8ae2c383e74adf958faf512f6482e7be74d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\executor_options.hpp",
+    "bytes": 1475,
+    "sha256": "c2d70991c6c9a15b7ac2470d95612d9e58f631a96cc855194bc29adf482f449c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\executors.hpp",
+    "bytes": 8268,
+    "sha256": "e196a76a6668afb24c129f16578c190c3aa5d513f28e8a37057c9fead469b159",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\executors\\events_cbg_executor\\events_cbg_executor.hpp",
+    "bytes": 11004,
+    "sha256": "c83ce456c6204accee8b8b24b5d66d87db9493bd4b0fed061f10d6b3c52c9652",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\executors\\executor_entities_collection.hpp",
+    "bytes": 7765,
+    "sha256": "93dfe0f0c09d413a57e86421c2737b7a8c11077c095a09948d6716eaaa4a8b7d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\executors\\executor_entities_collector.hpp",
+    "bytes": 10191,
+    "sha256": "3b18a47c7651467764a1bc9308d0068b0443e00562362299ac24741887a3a5d5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\executors\\executor_notify_waitable.hpp",
+    "bytes": 5787,
+    "sha256": "2a19e241f3f4bc525df8d32895f737dfcc94c71a10ec78b7a3645a0c645dfdc0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\executors\\multi_threaded_executor.hpp",
+    "bytes": 2800,
+    "sha256": "805f95a3bee36ff9226f5ad20ad115f2995ec38b6df92520a73c568ae79e4efb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\executors\\single_threaded_executor.hpp",
+    "bytes": 2239,
+    "sha256": "c429099d47638ae8f56a169ea3dcc034931f79a908a1d48c1d9b1faf17e3014b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\expand_topic_or_service_name.hpp",
+    "bytes": 2616,
+    "sha256": "8be4c3caa8949bb43128551bef8e2f39de4367937d121a29163c58afba183dbc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\buffers\\buffer_implementation_base.hpp",
+    "bytes": 1399,
+    "sha256": "520a6b19ae986706948729f52d017858022712a75817ee3a552239f5e3c8417c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\buffers\\intra_process_buffer.hpp",
+    "bytes": 9783,
+    "sha256": "12ae56ffc318ebeec5d74c8e381f8cf4d43a41f86d77b5c1d1b22c7917dea72b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\buffers\\ring_buffer_implementation.hpp",
+    "bytes": 8857,
+    "sha256": "36980a0a9e953e838bca25b5c7a219af2e790e2594ef549bff72a041e20c65ce",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\create_intra_process_buffer.hpp",
+    "bytes": 3197,
+    "sha256": "a2f56b38f3861652deeabfba37e80ccc0402fcbab40986d4fe4d4b56676044c0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\executable_list.hpp",
+    "bytes": 2839,
+    "sha256": "8cdcd735fd19fcd3656c207d68c968f60f5be3405181123c1caf4b781e4884c1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\executors\\events_executor\\events_executor.hpp",
+    "bytes": 7847,
+    "sha256": "1ae141aa195b5e84f11d09d19bfcb064b09e2835d610babcf7cac82806e6b862",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\executors\\events_executor\\events_executor_event_types.hpp",
+    "bytes": 1356,
+    "sha256": "9f2f43f60c6fb8d0c3ca86b0f13ef37249b6bf50f37059c587ca8148fbfaf367",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\executors\\events_executor\\events_queue.hpp",
+    "bytes": 2934,
+    "sha256": "e3cb281a94b063ccd08258b111a871b15c7c82a875ae2a658df0d849a47d3f4f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\executors\\events_executor\\simple_events_queue.hpp",
+    "bytes": 3961,
+    "sha256": "4655e5aff90b96a28ef84c4cd7418ba2c1c7ec5415147efa7f3a6395f903e400",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\intra_process_manager.hpp",
+    "bytes": 28285,
+    "sha256": "a11f530ace2541fab7f8d251f1325f5fcec43433b23dc988089edba7089286da",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\ros_message_intra_process_buffer.hpp",
+    "bytes": 2317,
+    "sha256": "b1a910d73ac0b011b355a7341219f1232d9fa17ef8ac7bf43ba48b7438b96956",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\subscription_intra_process.hpp",
+    "bytes": 8405,
+    "sha256": "48a50adc0c1ec2ac59c30487f3a074bb3488642b3ccfe97b2ecfaa7fbbb495fd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\subscription_intra_process_base.hpp",
+    "bytes": 7191,
+    "sha256": "b0fb0e796a59db45ab15be420eab4d474bdc99444c64719c76fe02d8e35fe05b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\subscription_intra_process_buffer.hpp",
+    "bytes": 6988,
+    "sha256": "d31bd5d5e14209ef619d70e64e00dd13acd553fc748bf3fbe85e5e638e78a994",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\experimental\\timers_manager.hpp",
+    "bytes": 18789,
+    "sha256": "8db362cda7fb7d809f9f369d6e5d909dbc5c795062a337aafbf78d45cd4c4029",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\function_traits.hpp",
+    "bytes": 6905,
+    "sha256": "e7581b00064c85f45ec750f72fe4d1d19dd59738365c3fe6b7aefa3233552922",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\future_return_code.hpp",
+    "bytes": 1640,
+    "sha256": "ba0764aaebe36cb5fe890ea1973ecbb9dfd94586f0fd5d59050612c079bebed7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\generic_client.hpp",
+    "bytes": 10310,
+    "sha256": "be240a38038a35474c87414baf71ff9e38ba350a56470de5a4997d09ad511e18",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\generic_publisher.hpp",
+    "bytes": 4325,
+    "sha256": "c527fe7dd0a3280a4cf0cce87008a317e10b73eb3a2b380f571e82fd491df430",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\generic_service.hpp",
+    "bytes": 10506,
+    "sha256": "3a072d1d341388f084d47cca7ed40096bd11d59ab5185aeb471f756cf066a72f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\generic_subscription.hpp",
+    "bytes": 7372,
+    "sha256": "05be293f4dcc33eb8fc9d5ce994e0a8d5deebf1e513844b751a307eed3145680",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\get_message_type_support_handle.hpp",
+    "bytes": 3104,
+    "sha256": "6f968598960e06dd4759f1584b119e796a2cf1975cb8c21975857c6bb464aee4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\graph_listener.hpp",
+    "bytes": 6075,
+    "sha256": "3054a9f45f97fff2946f7cd47fd5e638899c35c5385a078934ced2bd2e6e34ee",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\guard_condition.hpp",
+    "bytes": 4922,
+    "sha256": "c0309417f3e4836e10f6861c70ed8ad94df296867eb5f71cf34d009e2bd66e52",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\init_options.hpp",
+    "bytes": 3141,
+    "sha256": "12c1077e547199993261868b7718d2dd11dedc22d2ff6c6b44bd412bdcb6e280",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\intra_process_buffer_type.hpp",
+    "bytes": 1296,
+    "sha256": "4b413a58f181695640731872e4485fd3c1a70838c6bb632e24bc1d085f79dd20",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\intra_process_setting.hpp",
+    "bytes": 1166,
+    "sha256": "16cd3cd3f5d2c6805ac765be51db4962b490049f9f36f6125fc1697242ddd780",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\is_ros_compatible_type.hpp",
+    "bytes": 1101,
+    "sha256": "d46b68d954727cf6515ab99fb1f6e7d2bb841bfe5d6591a52dc7733626a04afd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\loaned_message.hpp",
+    "bytes": 7331,
+    "sha256": "2f800d79e77cb05dfe96a160cdf60911e54377eb1f55e43dff7b8a2e6ba6df45",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\logger.hpp",
+    "bytes": 6133,
+    "sha256": "4639dd80b5fcbbd3bf88e36b586a5180e9a73ebd1b90b499fe9c7cdc11aef26d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\logging.hpp",
+    "bytes": 37657,
+    "sha256": "f21f8febf146466dd70217f003f7ec7bfbe2dd8e95a13d5a8b414f840dcad91a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\macros.hpp",
+    "bytes": 4260,
+    "sha256": "c940886aa8d37b6ed4e60bdd4d6f8ca605216263caa06cf374dfcfa390deb112",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\memory_strategy.hpp",
+    "bytes": 5582,
+    "sha256": "78866b3655cd4ae1b0ab995d71756ad04493f8e2ef7fca6dd419245173fda26b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\message_info.hpp",
+    "bytes": 1683,
+    "sha256": "ba0e19a616536ff156651f275a65aa8226ba04a41cebde22a0e5916379503c96",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\message_memory_strategy.hpp",
+    "bytes": 5488,
+    "sha256": "df5f4c6501a6dacbc02e4260fbd55975f9059203da29dac377bb265b73ffd175",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\network_flow_endpoint.hpp",
+    "bytes": 3433,
+    "sha256": "ea3034def240bf7e55e1813fc814e5ed103c5233049d645913eb2cef14e968e2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node.hpp",
+    "bytes": 75955,
+    "sha256": "51ffa2d44745c00cb83a2791819a40414edc54b6db61bae448884341b93be9e2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_impl.hpp",
+    "bytes": 10975,
+    "sha256": "cca82ba6461321332dd9411a02337006aa7a39c7059747a368e43142d8d9f1a4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\detail\\node_interfaces_helpers.hpp",
+    "bytes": 7626,
+    "sha256": "39c2ee2f9f7d29e659224794132630af515692b2cfbd975b171f1ce2278a69cc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_base.hpp",
+    "bytes": 4807,
+    "sha256": "8335aacffb28b2addbaf77e83a3714e8e63844b266bfc319aef0e4f93b275a27",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_base_interface.hpp",
+    "bytes": 5670,
+    "sha256": "bafc971dbf93c50541985e68a1e29a06e7f67e81bbb46b29788451f8804c3202",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_clock.hpp",
+    "bytes": 2777,
+    "sha256": "7ad844a26e5bdc4f1ddeb7a566d47103631a195a77344a8a9fff6143153b4768",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_clock_interface.hpp",
+    "bytes": 1734,
+    "sha256": "ab70f02386a4510e44671f26a113cfe9b2d023e428e093ca63cdba0f68d25195",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_graph.hpp",
+    "bytes": 5792,
+    "sha256": "de382b0de9ad0efe8b712b6422ff768e16dcda6b30ed63ab12efa3c68e2a8009",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_graph_interface.hpp",
+    "bytes": 19415,
+    "sha256": "813acf87df4e51e628b2359f7582d67fff1603d9f84e91bff5561b47b539b7fb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_interfaces.hpp",
+    "bytes": 6574,
+    "sha256": "aec738a44259d045089126989486b7af6afc19e47c5087a41b87dff5c9ca5c16",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_logging.hpp",
+    "bytes": 2283,
+    "sha256": "f124726897abf0007a7862a659f7b5e9a5803d10cd653f96942742a4dfbc6c6d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_logging_interface.hpp",
+    "bytes": 2079,
+    "sha256": "93eec1d46e900efc09587c28f3b7ef588c9e978aab06817a32ab6e1c2248d9af",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_parameters.hpp",
+    "bytes": 8798,
+    "sha256": "22c7e2611384c34e7ca77b2241afff8f4b90dcc628712ed0e11fd6c417fe6dd4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_parameters_interface.hpp",
+    "bytes": 9780,
+    "sha256": "fb45811cae9691e1459c0d96fb56a146c04bdbd6c7fbf6461f4834dcf09f00c7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_services.hpp",
+    "bytes": 2088,
+    "sha256": "2b697a111efd544c93b23d5069a17c7287a6694973dbb5694df3e7062fd76a40",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_services_interface.hpp",
+    "bytes": 2062,
+    "sha256": "974155c9837e38bc8a64c2cbeaacbd2dae4ea7df267baf0cbb102aea97c00f07",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_time_source.hpp",
+    "bytes": 3054,
+    "sha256": "769e4574412f546eadeef3a3293ac1a45a056caf5004050bb66a62d6e98522b8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_time_source_interface.hpp",
+    "bytes": 1449,
+    "sha256": "03fd1e566c5e10f52d862890f919ffb5f427826e95ffcb66f9865559a54b7a89",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_timers.hpp",
+    "bytes": 1764,
+    "sha256": "e9e925e9cefe5ca57b5788ed6b15648ad6acc7030f1b9260d30a2d630020f8ca",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_timers_interface.hpp",
+    "bytes": 1660,
+    "sha256": "3ec5d01574ddcf35104b66319c00ef8a6e8798369f8379e36a1c1918b79f2854",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_topics.hpp",
+    "bytes": 3133,
+    "sha256": "492fbb0211849cec5a3840105840b6f82227e5ade1d4dd13ccdac976c367f587",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_topics_interface.hpp",
+    "bytes": 3021,
+    "sha256": "fcf309955642d6108ce50fe1df413a8d8f09e5554ef5f5d18131c8ee88bfe211",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_type_descriptions.hpp",
+    "bytes": 2246,
+    "sha256": "c774874da05a2593111e7bfa06ee0f374d1160ca977b137c0228aa54263a5818",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_type_descriptions_interface.hpp",
+    "bytes": 1507,
+    "sha256": "95235b5436f438533efb49c56188bcdf995264d1b23d42460d649f1c2e8660cb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_waitables.hpp",
+    "bytes": 1931,
+    "sha256": "7107bd20ae485a145d9af4edcaa85eb32f1268195b4815b3835a11eb83db0cde",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_interfaces\\node_waitables_interface.hpp",
+    "bytes": 1906,
+    "sha256": "67440ba1c89ee0f72162566dd7085fddb92d1b51d870a9a46ce625cbaa0e48a0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\node_options.hpp",
+    "bytes": 15828,
+    "sha256": "429ec88de163081ea550730435639b0baf696339d1f7c6dd41f1e2b982b5813e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\parameter.hpp",
+    "bytes": 7860,
+    "sha256": "dd524f7a253dea4cbf980b476d555556dee3d51f1eef8f0456edd172f59a894f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\parameter_client.hpp",
+    "bytes": 22196,
+    "sha256": "31f563db19f6c2cddb957c6b5c09713ca43286a29dae0570510ef4253f6f4ef4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\parameter_descriptor_wrapper.hpp",
+    "bytes": 3122,
+    "sha256": "cbbedc1611263aba9b62a1ec9c4ba1aa2f6ec710e71195bdc88f0adf7e2d5c11",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\parameter_event_handler.hpp",
+    "bytes": 15797,
+    "sha256": "84ea97027650f1eb9e8e6555dae743ded9e4a3286bdb72b4f6c6bc78a4d03e24",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\parameter_events_filter.hpp",
+    "bytes": 2915,
+    "sha256": "dd3ea644367a4da67df3aa70a82568025bbcc352edf79dee995757849bf6aad0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\parameter_map.hpp",
+    "bytes": 3026,
+    "sha256": "23f1d94b223356483697ea4b27c6ad89959d37b1152aeeb4618d94b9edc85693",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\parameter_service.hpp",
+    "bytes": 2423,
+    "sha256": "9b756140429069e7ed28d7bbf38411fb26cef363daefce787d848a50f08172be",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\parameter_value.hpp",
+    "bytes": 12017,
+    "sha256": "ee2b9bfb72bb7786016136360362d0a0a7e86de999ca2d503fc3d7c97a94901e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\publisher.hpp",
+    "bytes": 24589,
+    "sha256": "2c44301c41028934eab7ca1d8114185e7b3015361eada2dfdbe4f9fab968f67c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\publisher_base.hpp",
+    "bytes": 13307,
+    "sha256": "714583037607217d91f2a41320bc308e90b2d0170755d32d106cc098573d92a4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\publisher_factory.hpp",
+    "bytes": 3364,
+    "sha256": "624aff69f7a8d923e5d36b43074b53ad8caaebadadcb33c25131d34c4b283815",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\publisher_options.hpp",
+    "bytes": 5521,
+    "sha256": "4bab05b2115aec4a1968950bfef554d174c87b94508aee36cc795db9ab46b172",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\qos.hpp",
+    "bytes": 16363,
+    "sha256": "7e5a3a9f74970c3f6b52bbe24385afba6e8df03b7e0034694707738098d5c366",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\qos_overriding_options.hpp",
+    "bytes": 4738,
+    "sha256": "7c70c2dbaa0d0b8057712a834a13660b668a6d15e059356d9bd087f002dc1ad0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\rate.hpp",
+    "bytes": 2282,
+    "sha256": "598e9a9fc72a891ec962a19a2299fdec3d0f816f9d3c2b77866efc293afb8f61",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\rclcpp.hpp",
+    "bytes": 6948,
+    "sha256": "19ec0851794251e959409f70f9d8e8e12f9ddf2ae91ae4e6e1a02b6f586d43d0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\serialization.hpp",
+    "bytes": 3071,
+    "sha256": "7e35be0f70e993c2f632e7efd10a96cc2c5590f8a84128f004377f0d6fe023b3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\serialized_message.hpp",
+    "bytes": 4385,
+    "sha256": "647de1df15941fc18e8205b637f6f329d367e0f399dcffe1245bd34440075786",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\service.hpp",
+    "bytes": 19464,
+    "sha256": "6d256fa1b4f24661dff893d3ce9b499f9052ffa34a05a6aa337c617fcba2be02",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\strategies\\allocator_memory_strategy.hpp",
+    "bytes": 22065,
+    "sha256": "6eb7c47ba10e9320ae4664d557c5019aab5b212586234dd74f45cb29d280b170",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\strategies\\message_pool_memory_strategy.hpp",
+    "bytes": 5261,
+    "sha256": "b4e0520a36c520f40d1759c36d790697b1f02baa7cf89b5cfde4065cbcccac21",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\subscription.hpp",
+    "bytes": 20416,
+    "sha256": "654ffd24d736aa6714d795ab2d2b968c60a5c0f8c8f538b51912f3db69270f99",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\subscription_base.hpp",
+    "bytes": 26163,
+    "sha256": "73299393a733247a6bfab19bd4652b2f3e485a489639488c93c40c54f0dc2d04",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\subscription_content_filter_options.hpp",
+    "bytes": 1359,
+    "sha256": "17669b4152cf59766588f9d3e8dcae650467dc61ef5d163bb7fc96b6e678a58a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\subscription_factory.hpp",
+    "bytes": 4990,
+    "sha256": "8292c7a58d2d6f867a1500e4907dd53ac5ad819acca85575bbe3de09464129a9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\subscription_options.hpp",
+    "bytes": 8354,
+    "sha256": "159480d521fa4745a0de7bfbfe2c436035efd23f425d9457039e963e21f3ec76",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\subscription_traits.hpp",
+    "bytes": 3542,
+    "sha256": "914050af1e2dd5425ffd5774ca0dfe4be1b288d385862e73cdfc39fb8fe26429",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\subscription_wait_set_mask.hpp",
+    "bytes": 1348,
+    "sha256": "6ac91353fc3284a0c2ae89901c2e0530b659752a80b7fd9b899b4b0a68fc6f82",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\time.hpp",
+    "bytes": 6445,
+    "sha256": "629537f9942aee558612c0c000c4c7eeae53253357cfcb1e737dd20d24d32cbd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\time_source.hpp",
+    "bytes": 5405,
+    "sha256": "e7a0ef2cf4c574999d57aef1ca99bcda026fe01a2f32306bcc21b3fcc7d4f1da",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\timer.hpp",
+    "bytes": 11967,
+    "sha256": "2061eacb2c1055a31758e8bc250ac11ac783bbab06efeba2f855e9fb65069e9c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\topic_statistics\\subscription_topic_statistics.hpp",
+    "bytes": 8416,
+    "sha256": "0b45d247970753125645f6afd476fd859aa11cb98507ec5ed62e2ccb43454c0b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\topic_statistics_state.hpp",
+    "bytes": 1179,
+    "sha256": "0ec7d87cbd76a82d65015c476ec8a2b524f096be6c3f6ab1f9fbc98feb0452c9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\type_adapter.hpp",
+    "bytes": 7927,
+    "sha256": "9827c393e7a290c25a2bce71dbaea420c6f45c3e6a12fb8cfee77a49bd4b110b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\type_support_decl.hpp",
+    "bytes": 2257,
+    "sha256": "38fb50d9c685bbe0932e9958b74c5a3ef5736721905bd8c8b3d84fada0a75162",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\typesupport_helpers.hpp",
+    "bytes": 5306,
+    "sha256": "b58749412e4d27ea60a25d282d7412f36bc5c9d535140323c62d6d4a3760362c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\utilities.hpp",
+    "bytes": 11472,
+    "sha256": "96ad8ec5c3f3ed680434c52df0044bb69d5ea5705910edf6ad06894a061db42f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\visibility_control.hpp",
+    "bytes": 2127,
+    "sha256": "203a9059e104dfa15a7f8e87e4ba676942f08474bfe7a1e6fb1ee7e1ae004577",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\wait_for_message.hpp",
+    "bytes": 4066,
+    "sha256": "54be339b167c2246ca5654dad42a50f882157d95a8fea51f21dce79de6f58bb9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\wait_result.hpp",
+    "bytes": 11240,
+    "sha256": "fc83bf96335d4efa6c8122715e4cc10dbf5154a087867dfd7da7e3c64d3bfe86",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\wait_result_kind.hpp",
+    "bytes": 1229,
+    "sha256": "da471207bc1cfaa9b039f606560d7fc7dd062dc928b59dde777c6c4fd8e5a723",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\wait_set.hpp",
+    "bytes": 3896,
+    "sha256": "83e0326e8db703f5edf40b142d2781c3dee2e057aa5562425f638be9b4f89a8f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\wait_set_policies\\detail\\storage_policy_common.hpp",
+    "bytes": 16192,
+    "sha256": "ca1c059f71a257cb060601d85e638c7e7d5e703a8a6694b63fbb6490c73e0c6f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\wait_set_policies\\detail\\synchronization_policy_common.hpp",
+    "bytes": 2473,
+    "sha256": "7d85a8f308e23aa5bec839a504b820cfe78efcd2ad5d76f086dd4fd5d1ee823d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\wait_set_policies\\detail\\write_preferring_read_write_lock.hpp",
+    "bytes": 7562,
+    "sha256": "6cc4f0b5d83be077619929122e3e8a1c7d6f69fc758152d5298ff56a03796e4c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\wait_set_policies\\dynamic_storage.hpp",
+    "bytes": 16590,
+    "sha256": "5c2b46a3dda42cc05928e94318a789f4cfedb60b45f07f78cdb608b85053d091",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\wait_set_policies\\sequential_synchronization.hpp",
+    "bytes": 10962,
+    "sha256": "407e859716665d475a57a48e1560e5942dd9116faa3aba14cd588e50b2376c4a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\wait_set_policies\\static_storage.hpp",
+    "bytes": 7533,
+    "sha256": "1a818ec52ea3dd070e4ca22a5624daa5fdb148b5727d5a1892fe5e93779c707c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\wait_set_policies\\thread_safe_synchronization.hpp",
+    "bytes": 15789,
+    "sha256": "83267cb4c4042dd25af4da13caffd9356151b52bf3485a253dd1871362dec824",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\wait_set_template.hpp",
+    "bytes": 33112,
+    "sha256": "bf6052e60bd4c482a4a50dd8df772ece806646856fb2dbdc2332940b4fd26ed5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\include\\rclcpp\\waitable.hpp",
+    "bytes": 9126,
+    "sha256": "439bfd3afb638ebf6b6fffc5168d2f1e9060dc77172845d3abcf45061bfb87f9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\package.xml",
+    "bytes": 2836,
+    "sha256": "cb92f1686cd0601d0edb71c7a31921b9194f7303afb3a941fbfacff167d44238",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\any_executable.cpp",
+    "bytes": 1233,
+    "sha256": "f4cb8b12a34b0cc50fbc025ec4ef251871101e874155d0dde83c1ded2d298d0e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\callback_group.cpp",
+    "bytes": 6635,
+    "sha256": "c5aa2c71003e400da2f84460c780cbb90b6334f4423a0e2c8291ec334a35f219",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\client.cpp",
+    "bytes": 8138,
+    "sha256": "7ceb7221e441536ac74bcecf7e174b7d82c7d25e90326ae317da10eaab02a5a3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\clock.cpp",
+    "bytes": 18518,
+    "sha256": "98b34fc9b387417e5a954db73de4d83d57d1d2d92a8bdfea18af8a5727f21b93",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\context.cpp",
+    "bytes": 17444,
+    "sha256": "55b225b87f64dfb3f0766bb5e845d42b9be256cd1230824831a015cbb97fd7e8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\contexts\\default_context.cpp",
+    "bytes": 955,
+    "sha256": "165a8e50db7ed51df355a9a2533e7e155b642d087803e7ac484786d054795f48",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\create_generic_client.cpp",
+    "bytes": 1593,
+    "sha256": "14c1a18f9c7b39a84291d92110fae3f0dc97a348d5be5539e99fc3afffd58ac4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\create_generic_service.cpp",
+    "bytes": 1669,
+    "sha256": "b372ce6b9d0c569ce667040010ade2362e595114089927438d624cd910a70d61",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\detail\\add_guard_condition_to_rcl_wait_set.cpp",
+    "bytes": 1237,
+    "sha256": "4660df8a0cdc538436d0c10a2c475275cca603a941d9ccd716b78e910a4e7a8f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\detail\\resolve_intra_process_buffer_type.cpp",
+    "bytes": 1170,
+    "sha256": "f27d950872a3448e7bd812636c8fa1627a53fcae292025b31f40279c5f8f9fcd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\detail\\resolve_parameter_overrides.cpp",
+    "bytes": 2576,
+    "sha256": "84f7cc8d380d314bf3cf5e09c39640865469d2281ca9711ab344ea6afa5b4c36",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\detail\\resolve_parameter_overrides.hpp",
+    "bytes": 1435,
+    "sha256": "ac482cc80c446eac66138aa372378ac9d1cb00868df8f7d310e326d3d34ca3bb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\detail\\rmw_implementation_specific_payload.cpp",
+    "bytes": 1040,
+    "sha256": "31d33b446c18a4fe0224049bed38ec29cf7243fd49746dcf2df01ba4a5a33a15",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\detail\\rmw_implementation_specific_publisher_payload.cpp",
+    "bytes": 1051,
+    "sha256": "998fee532bc06e7065ee29b13769593a25ff11693e9426c72d88d67722ee8085",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\detail\\rmw_implementation_specific_subscription_payload.cpp",
+    "bytes": 1072,
+    "sha256": "5f1910157da3e619c53ac7b49a41c0deb58e10a8ebc0ea2e02a9d53a550247b4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\detail\\utilities.cpp",
+    "bytes": 2071,
+    "sha256": "684be4479be3d596a5c62dfb7a017b0f730e2fdc603fe2972ca09c7adc9f4403",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\duration.cpp",
+    "bytes": 10404,
+    "sha256": "e588de992ffb42bcf91b45648adb8ee8c68879344ce7fc8a44f7027838675fb5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\dynamic_typesupport\\dynamic_message.cpp",
+    "bytes": 1587,
+    "sha256": "6596f6525af44ff2f700930eb674f369d33070d58ada01080e05042f8a3c8b7a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\dynamic_typesupport\\dynamic_message_type.cpp",
+    "bytes": 1543,
+    "sha256": "3bdee119d34331e3c3e863da10294a37f7c0f3ccd5af1db7648771ef21358a08",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\dynamic_typesupport\\dynamic_message_type_builder.cpp",
+    "bytes": 1555,
+    "sha256": "5fa824dc5d61eeeb5668fb2c28623d4bd8b74f9e7692df196d39480457c9593e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\dynamic_typesupport\\dynamic_message_type_support.cpp",
+    "bytes": 2111,
+    "sha256": "44132daf6e5afc763dcd62a825eeda505e9a6db15889fdf62e48af97c113ebde",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\dynamic_typesupport\\dynamic_serialization_support.cpp",
+    "bytes": 1761,
+    "sha256": "cb3b7c4620eea49f00243ef863ac3290a1e6ff790a41c130af5842958d6a90b2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\event.cpp",
+    "bytes": 935,
+    "sha256": "329ac23503b68526008b5f5088b7faab0ac33e63229cef29a22c5f40a355d4d5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\event_handler.cpp",
+    "bytes": 2648,
+    "sha256": "47dfecd6d82fa0148f798a13f6e65d9740a50bdf7d6e677faf9aebd997085cc0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\exceptions\\exceptions.cpp",
+    "bytes": 4365,
+    "sha256": "08d9f9b4eb357fcd5c57b56b7408fe76cabef18489fc2660b90ab53d185f4ecb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executable_list.cpp",
+    "bytes": 2115,
+    "sha256": "a56e7782922d73f1957d09fcce5e9783c6e72f13d798b461eb0982e3a6167863",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executor.cpp",
+    "bytes": 32776,
+    "sha256": "c63fe05e2511b2516ed9a9f21570e15c1376c5623c6dbc9b048c5158e0499bd2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executor_options.cpp",
+    "bytes": 1428,
+    "sha256": "f2e144a1142564b42543f32dcfdc334c92f23f08ed30b26af678a3f2a8f34d59",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors.cpp",
+    "bytes": 2255,
+    "sha256": "61a59f305c5112a48dde71556f3133ad14a88131ddebd6293bfdb1d8384e13d9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\events_cbg_executor\\events_cbg_executor.cpp",
+    "bytes": 23093,
+    "sha256": "345f598d88c53d57e902ff3b685952d88c13b78cff57a0b139065995c9aff229",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\events_cbg_executor\\first_in_first_out_scheduler.cpp",
+    "bytes": 6729,
+    "sha256": "72bb1f66cf85615de3d599dd091ed5e8d6df11ee6ac0cf008cb88c4b0cb7a0d5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\events_cbg_executor\\first_in_first_out_scheduler.hpp",
+    "bytes": 2789,
+    "sha256": "4e78950d1ff22ae15bfb9c67cf1e4d9f8c4d585efc24fb59f006ebe22c2f0125",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\events_cbg_executor\\global_event_id_provider.cpp",
+    "bytes": 870,
+    "sha256": "dbe881397f1a932b26902e637d5780904caca3cf38275227738155f2882b7deb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\events_cbg_executor\\global_event_id_provider.hpp",
+    "bytes": 1190,
+    "sha256": "7472081db8d64430cc11bc34e47f42c1c9d0fa7ad7558b6767c0edb447e89fa4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\events_cbg_executor\\ready_entity.hpp",
+    "bytes": 5612,
+    "sha256": "27057876598f412c43c897cfb59291cf91f86988a78531633b2908d3ce2476d7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\events_cbg_executor\\registered_entity_cache.hpp",
+    "bytes": 10299,
+    "sha256": "53757a92c54cb632d6441a5dce745c92a7381938ccfefbc2db52824ebab81ac2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\events_cbg_executor\\scheduler.hpp",
+    "bytes": 11007,
+    "sha256": "7d8d0f20faad91410950d421b38998ad6b001000049380897a31eaae54c18ffa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\events_cbg_executor\\timer_manager.hpp",
+    "bytes": 15102,
+    "sha256": "3a3cffcca08ddf71ab5b8bc1b3e43472b3a3aed016c732d1b7aa76d29e57392e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\executor_entities_collection.cpp",
+    "bytes": 7902,
+    "sha256": "992ed94e848a749f1716e43e678df05a62d417ca71331aeeb20cb5c2f456f749",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\executor_entities_collector.cpp",
+    "bytes": 16414,
+    "sha256": "d074b256b7d178ea8500bdc183410997ca98d7927eb8bed1169b0d1fe573b59a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\executor_notify_waitable.cpp",
+    "bytes": 7480,
+    "sha256": "6ac4d3a966035ec8d746780196ec70a664794a85423ce014084bb4dcd5c95ad9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\multi_threaded_executor.cpp",
+    "bytes": 3488,
+    "sha256": "0fc97b83d3d5141e44b480a4e3e9a3c6dbb5f9e2826baa8a1fafc3cfc9d9eba2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\executors\\single_threaded_executor.cpp",
+    "bytes": 1567,
+    "sha256": "d82fbd14862080daa4f976b23d29e46477480ee118564d690e600176f8bbbb4f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\expand_topic_or_service_name.cpp",
+    "bytes": 7652,
+    "sha256": "b1f9cfe445cfc3a18cdb426e5bc898e45bbd56bc13b9c4c6b9f2189a8a112030",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\experimental\\executors\\events_executor\\events_executor.cpp",
+    "bytes": 15977,
+    "sha256": "f63345d57015d5b7f0ad67dc8dcb22afbecf8f690b6a79a1699f5accbbf285f1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\experimental\\timers_manager.cpp",
+    "bytes": 10418,
+    "sha256": "df84f34b03cdfc2670b8e9c1ccada666860b6c11fb6e60ca28b842449de6707b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\future_return_code.cpp",
+    "bytes": 1558,
+    "sha256": "261cb3a7357d174cf16aecb40fceb156b35af532729dbc25978ddd1193f2170b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\generic_client.cpp",
+    "bytes": 6268,
+    "sha256": "a40deefccbabe6c54fc61a14c490f26cc1bba9e4c591be77487eac790c393696",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\generic_publisher.cpp",
+    "bytes": 2904,
+    "sha256": "81d5c66cf070e3af61355de401570e0e5c34d8bfd55fb76ff035da6e65441331",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\generic_service.cpp",
+    "bytes": 5732,
+    "sha256": "954009f06da0e0ea81d88294971d6918ccc5d978e7c5c719bd1658089e2ea9ee",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\generic_subscription.cpp",
+    "bytes": 4518,
+    "sha256": "08f282bb27a61b731f5a245e90de7212c0b67e353cbaa17abae15815d57ef1b4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\graph_listener.cpp",
+    "bytes": 11851,
+    "sha256": "6e1737e65e6592bc287bddbd4a6c74f3df0c397e8bbe44b0300063ef8b5307a2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\guard_condition.cpp",
+    "bytes": 3529,
+    "sha256": "0b6203d0c8751f509b167e8caf829c406f4a64e8ab9f472b1a7a078fd53d7381",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\init_options.cpp",
+    "bytes": 4337,
+    "sha256": "cfd8dfd352283b670bcbf3b4010cd2a4311509842cf4b41ca067beedc45b94f9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\intra_process_manager.cpp",
+    "bytes": 9509,
+    "sha256": "19de2abddf22cf5fb3b6b26f87df076a3364c7ee84b781ba7ff90b8cc1cd84db",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\logger.cpp",
+    "bytes": 4362,
+    "sha256": "ef9233f91b651b421ae6a4037393b1707ab582c27cccc5350b1ebbd1df69d9a6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\logging_mutex.cpp",
+    "bytes": 1025,
+    "sha256": "5a79051c543035b86887f5d93c00e6ed41a3a4b2468841080504a924f505b165",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\logging_mutex.hpp",
+    "bytes": 1468,
+    "sha256": "e7970a67b3dc506e4d33263a2ca0bc05be99ec34a4b40940308a40934c183fe8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\memory_strategy.cpp",
+    "bytes": 6970,
+    "sha256": "aa82d17a168c9d914e6df6e5d61226926239978c023f4d39b37b84b62ebecdc1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\message_info.cpp",
+    "bytes": 1069,
+    "sha256": "b896f040bdb905d347e07b175c160db2d2ef82abf6a1c5a84abd0353786646b7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\network_flow_endpoint.cpp",
+    "bytes": 2536,
+    "sha256": "c83b300cc9db7c90730edf37b0968b9128c866ce57beff65dccc3febd6c40b13",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\node.cpp",
+    "bytes": 20855,
+    "sha256": "90cd05c4132a11eb2037f2d56af51885ff66274c6a302b5956186fc8c7496af8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\node_interfaces\\node_base.cpp",
+    "bytes": 10765,
+    "sha256": "883307e45b7b5d99036930eafd9ee48e2b4f43a43b37a7d99d5c40ef450ea7d8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\node_interfaces\\node_clock.cpp",
+    "bytes": 1639,
+    "sha256": "d65e03333c075fa0e538150797303822fefe139e8b2cbfb2ea6bba078033169a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\node_interfaces\\node_graph.cpp",
+    "bytes": 33362,
+    "sha256": "390c1bd501d19e1284132fdece090cf167e41aa02715e1ee6cad53c79f426abe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\node_interfaces\\node_logging.cpp",
+    "bytes": 3307,
+    "sha256": "49a27d3c02198ee25e7c32ce9e14d747d0208b02610d6c63bef392906e5223fc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\node_interfaces\\node_parameters.cpp",
+    "bytes": 45200,
+    "sha256": "70f31c254a31d52638041de54bf8e48022c7db5a7fd984fd775c66f0e6bd126e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\node_interfaces\\node_services.cpp",
+    "bytes": 2620,
+    "sha256": "442e3fd6d56020d1b64417fe02a39582c047815adf29cfa5a3f157e2b3d64ebe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\node_interfaces\\node_time_source.cpp",
+    "bytes": 1973,
+    "sha256": "26024f1f8f78db270a4a92557cc01247c0876c6b8eadfb55b1467e210b4a02f3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\node_interfaces\\node_timers.cpp",
+    "bytes": 1827,
+    "sha256": "2f61839e929fb753a0b8f2f6a45d6a8c8e057dad32535adf8dc49ba3bb9e384a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\node_interfaces\\node_topics.cpp",
+    "bytes": 4921,
+    "sha256": "e74278474ff02c8c4cf050e526b2da59b95beb6b4595568b8caae5d6e46ea0b0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\node_interfaces\\node_type_descriptions.cpp",
+    "bytes": 6090,
+    "sha256": "5192e855e02c55590cd41649f1577ff88ef513c3a0c86b49cbaca766a53e7594",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\node_interfaces\\node_waitables.cpp",
+    "bytes": 2049,
+    "sha256": "1d5a69c517c6e89af6403c1bdb5c9dbef1cf3ce3d120e6fb50faf6eaf6a5ef1f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\node_options.cpp",
+    "bytes": 10769,
+    "sha256": "f13f5c7d1c1363d6875c7a05b087b9b6605d8f2d7ff1dfa181fd35729d4a9607",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\parameter.cpp",
+    "bytes": 4776,
+    "sha256": "f3f72c8e315911b9909363b60b36407fa8f917c3871bdfb1cf0bd199bafd1b1c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\parameter_client.cpp",
+    "bytes": 18478,
+    "sha256": "7b814103f0729fb632f3d7aa68782492fe8fc55274f833f089bea1081de57ba0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\parameter_descriptor_wrapper.cpp",
+    "bytes": 3297,
+    "sha256": "24fd1c3dec7b3c660067136b3fa73228eb348b9827c4fc8e83d8b1a0be761cdc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\parameter_event_handler.cpp",
+    "bytes": 7624,
+    "sha256": "29b83750ebf592641ed1727cc44659cade9814a9b83dc9c2d998f65ff88362bd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\parameter_events_filter.cpp",
+    "bytes": 2351,
+    "sha256": "bf1841147d949995cdfed6272c051a8026fef5cbf19cc14ca6014ed556b2dd03",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\parameter_map.cpp",
+    "bytes": 7258,
+    "sha256": "511d2b65e5e63d9e6b4159f3f56ce04b15acfc585f65afbf450d62fea9bde9ef",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\parameter_service.cpp",
+    "bytes": 7047,
+    "sha256": "8f99904f7664bd96f300c3fe26e36cb2fd27f662a38b9ffd27e35efd10f1864e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\parameter_service_names.hpp",
+    "bytes": 1342,
+    "sha256": "fa9ce4d2acf035ee9849e5e763fd515e5455df07081f0500e4ecc8484a036aab",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\parameter_value.cpp",
+    "bytes": 7423,
+    "sha256": "f009e1ed3ca0d3bd1aa19caa009ddfc33a4b8d96c77b3bcc74665d3372d01e99",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\publisher_base.cpp",
+    "bytes": 13826,
+    "sha256": "e357ecd223a98537b288d19c844ce51aea6c73c91e9284bb25d32f4ad22cc487",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\qos.cpp",
+    "bytes": 11370,
+    "sha256": "f3a69a50f8e294ec8e593dba5642cd5f8c99b62b89b709ca1982936610c5505b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\qos_overriding_options.cpp",
+    "bytes": 2269,
+    "sha256": "ac0a0f2535889fdeae54a70ce598450859dc78ae8b8a99e6c47ce3724c9af035",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\rate.cpp",
+    "bytes": 2963,
+    "sha256": "36a6c6a529a22eb23162cc7887eb41575a4bb9b3f20dda1b48042a131d4dbac6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\serialization.cpp",
+    "bytes": 2490,
+    "sha256": "a69328dd8892f38b99c4030162a451b993a1379453c6cc645d3545b0d601117f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\serialized_message.cpp",
+    "bytes": 5605,
+    "sha256": "249d0f3e9c4be14ac9e338199db39e51422bbe677440377b88359bf8a182f3fd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\service.cpp",
+    "bytes": 3653,
+    "sha256": "a4c6f5a7e63282ce9eea36ebdce1739eb5dd0ef85c449dda53f596b92e4bcaff",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\signal_handler.cpp",
+    "bytes": 11839,
+    "sha256": "e7a03ca95ad8068f045f9ecdb06320510a5b71b24b451fe1185716995deebb42",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\signal_handler.hpp",
+    "bytes": 6272,
+    "sha256": "1c5f6884f085d6ec093bcfc6b70d1a4e049b87760740d0471848a7984dcf5a51",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\subscription_base.cpp",
+    "bytes": 20112,
+    "sha256": "67125fdae938bd8c5944e9b12c1289b6590ca884641ffb153c243029e80b33af",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\subscription_intra_process_base.cpp",
+    "bytes": 1723,
+    "sha256": "abaad17484bad0ccbc1f786e06f2eb7f65bc23fc63d2f8c4cf624812effde79c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\time.cpp",
+    "bytes": 8555,
+    "sha256": "86e30b2f024966532978cc35440843dfac1602768c1f376d4d895e1eeb9c3f35",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\time_source.cpp",
+    "bytes": 19263,
+    "sha256": "7f60464cc66d2f6cbcb69e3c24e519326bd6abb69d19e00dea2a6780ce0d41cb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\timer.cpp",
+    "bytes": 6761,
+    "sha256": "9cadf31ebf6ee1db6fc43f9c6af3d61f25f33d3b0ba084a2d6778e45b6dafb80",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\type_support.cpp",
+    "bytes": 3572,
+    "sha256": "c2759a9bae07498cefaf9dcd1b7bf49a05eea1229e0e819b70dff2d1fc4202ed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\typesupport_helpers.cpp",
+    "bytes": 7295,
+    "sha256": "79fc38a7065318452357d338ade898d2fc7de59fa9fd950261c13aadade95ec2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\utilities.cpp",
+    "bytes": 5924,
+    "sha256": "ffcc5a811efe12046d445591ca660c0d6fe1359273b70f34be156a2eb2efc30d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\wait_set_policies\\detail\\write_preferring_read_write_lock.cpp",
+    "bytes": 3048,
+    "sha256": "fdfe19facf25bca40d2ae3678287d7259bbe8ef8ccefaa7c381adbf75162775f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp\\src\\rclcpp\\waitable.cpp",
+    "bytes": 1260,
+    "sha256": "79a169bdd626c5299884613c9bbe574ea36bb9737a1b2329c3dc573fc6ea801c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\client.hpp",
+    "bytes": 26729,
+    "sha256": "e3caef0e27b39f43d29bf501755275235863157b1aff09668b48b169df449eb2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\client_base.hpp",
+    "bytes": 10879,
+    "sha256": "9dc15b64cf85a35195d69834c1af1460bce799f7ed4c92806e24e27fb49000d8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\client_goal_handle.hpp",
+    "bytes": 5109,
+    "sha256": "777a4240472433684d786cde501c567663eb87c8d6fbc764773c343960fafd86",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\client_goal_handle_impl.hpp",
+    "bytes": 5124,
+    "sha256": "263177cbd4f0977068b71206d43d33882f630e98a8d732d26a3ca15f54490836",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\create_client.hpp",
+    "bytes": 5521,
+    "sha256": "9b5478cae151eca93b2b2b75169236844609c038d405a439d8f388b76a13f8eb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\create_generic_client.hpp",
+    "bytes": 4301,
+    "sha256": "23460a96344290a2fba379676fdbe7b62e38a1c0ecb588aad0d055cb941092a5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\create_server.hpp",
+    "bytes": 6479,
+    "sha256": "f566d9ff5f0ae622f2e9d4298dd2d1076cf7283f09600657c4303cb5be79059d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\exceptions.hpp",
+    "bytes": 1330,
+    "sha256": "ae75471e493e1b0161c760ac25e45c7ac23b0241639b4af26562e2fb21763a63",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\generic_client.hpp",
+    "bytes": 14070,
+    "sha256": "6bd9a17ff53629c7dfdfb99157be0b8168d58c622bea43037e9d657ac7c00fa5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\generic_client_goal_handle.hpp",
+    "bytes": 4681,
+    "sha256": "28e858a1904ab762c3d1fb70f40e888f41745da2e4b74af8c6fbf9fa59e6d522",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\qos.hpp",
+    "bytes": 998,
+    "sha256": "46181ffcec8c87c0c807b24fabb4da8941ad405fec145ad683f4d1a590eca8b1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\rclcpp_action.hpp",
+    "bytes": 1597,
+    "sha256": "5d697865a48db418ac255a2d28c40cfd036d042f7ad77316b742536cc4586537",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\server.hpp",
+    "bytes": 21085,
+    "sha256": "fc7c9b6fe6f14a9a78353ae1d2247a4c71f5c347af20fa8625fadfba47f85915",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\server_goal_handle.hpp",
+    "bytes": 10027,
+    "sha256": "187652f1c32508a13e2c363a7946f61a5bf647e91377e8b8f27d3aed57dc5a13",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\types.hpp",
+    "bytes": 2729,
+    "sha256": "1930de6257d35e2aa8e00266c053fd8b2e7f1382ca4421229dff58ff5613553c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\include\\rclcpp_action\\visibility_control.hpp",
+    "bytes": 2281,
+    "sha256": "1d106cf7d7506fedfe2ba49033cc03b745b77c6d23384beebb9dbfc9807157da",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\package.xml",
+    "bytes": 1366,
+    "sha256": "ae6b41d0eade7b9425fe32bebe8548317a381fdfb41979ff2c4a4557e24436ce",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\src\\client_base.cpp",
+    "bytes": 29524,
+    "sha256": "b171834a7376838c7461466a510126d757e5d1c3793453482a7d4846700017ff",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\src\\create_generic_client.cpp",
+    "bytes": 3119,
+    "sha256": "2e3a4773e7bc6d8ea0e56da56f4c98db0ddca86ba4aca7d16ace19b61050f9a8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\src\\generic_client.cpp",
+    "bytes": 21197,
+    "sha256": "247a69599f26e14c25640cfdae1cbe99d28f7e25fbbb054176048bf4148c0f12",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\src\\generic_client_goal_handle.cpp",
+    "bytes": 4414,
+    "sha256": "f3ef161baaeb266ac6fb9e66a7f4eac35c696f54f6e1a21cff8e7ac7ce5c3920",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\src\\qos.cpp",
+    "bytes": 986,
+    "sha256": "4aafe7b22ba73087cfc2955b61a2908084c62498299815bf6eb550cb233e3eb0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\src\\server.cpp",
+    "bytes": 32509,
+    "sha256": "abc377397af62ed5a2a8d71ed3640476f675163f6986ee63e6013ffbe3a91eee",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\src\\server_goal_handle.cpp",
+    "bytes": 4700,
+    "sha256": "f12633dc6b4b6f84c4c013c6fdab1554f491b7e89fc78b2a942e807f4f0769a3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_action\\src\\types.cpp",
+    "bytes": 1799,
+    "sha256": "30d1d20d46a9d3cec3daaa9706dfdd938db9888896e818d22cd4d8d4bf827e2a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_components\\include\\rclcpp_components\\component_manager.hpp",
+    "bytes": 8709,
+    "sha256": "f5dab11cab9a356823edf8e57a21e36ece5f4189b6774b68b043032444e8d8d9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_components\\include\\rclcpp_components\\component_manager_isolated.hpp",
+    "bytes": 6725,
+    "sha256": "5709d54c4ad8fb29de6ab9b66a824f1b067a238c39b2cb64dc15417276d937f7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_components\\include\\rclcpp_components\\node_factory.hpp",
+    "bytes": 1599,
+    "sha256": "371cbbe5610f4b68feb70bc4da99341e06b3736fe4ebf3f82eae41f18180fd7c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_components\\include\\rclcpp_components\\node_factory_template.hpp",
+    "bytes": 1894,
+    "sha256": "790f09b5317f618f7bdd14c469c8bae178add2cba1ea44ce37c2e4ba733e8fa6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_components\\include\\rclcpp_components\\node_instance_wrapper.hpp",
+    "bytes": 2306,
+    "sha256": "a0f76d558b523946b5c15548b892f1bd77eaeae400f5cc674b387340310aed83",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_components\\include\\rclcpp_components\\register_node_macro.hpp",
+    "bytes": 1708,
+    "sha256": "bdf2d97164786db18017c329a33c4d509843164eef504bbf7b18d3dd9ed54f52",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_components\\include\\rclcpp_components\\visibility_control.hpp",
+    "bytes": 2369,
+    "sha256": "f1c5bb536789a7c0f4ccbe4eeb381765ddf99329e4a38a3e1ac4492c314ed15b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_components\\package.xml",
+    "bytes": 1970,
+    "sha256": "e7b257c58c69fcf7cfade4a2244f7a66d083b5677617b8fed13aca2afd4433c0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_components\\src\\component_container.cpp",
+    "bytes": 7301,
+    "sha256": "d73ecce238d976293631c754b068a8bb892f687b0ece1ffc3ffcb32b38f13601",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_components\\src\\component_container_event.cpp",
+    "bytes": 1356,
+    "sha256": "e573a0dce91aa2ebb90b10f8e3e2fdc7da9d130b53220b6b97b36a6847ccf869",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_components\\src\\component_container_isolated.cpp",
+    "bytes": 2349,
+    "sha256": "7ee7f4f82db648433e983f301438911d8c6317850b45f0e3bc1ca59a664147bf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_components\\src\\component_container_mt.cpp",
+    "bytes": 1688,
+    "sha256": "03af078f91a8cb98f67f81404c2f35d0ed086fb90dd12fda2d4f66488c00919d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_components\\src\\component_manager.cpp",
+    "bytes": 14779,
+    "sha256": "e91442b9c620694494b8bd04f55c20769646b1f71632e691aa997ca305a7713f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\include\\rclcpp_lifecycle\\lifecycle_node.hpp",
+    "bytes": 38383,
+    "sha256": "2c932b1a19e4cb4ee8cf4848c4186933c000eb6c81d95df4a608c5847e5c8e4b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\include\\rclcpp_lifecycle\\lifecycle_node_impl.hpp",
+    "bytes": 9584,
+    "sha256": "d0d473cb226fd630fe11894cb766c6e73a6188c57e13bd33b65b9104cb47b28f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\include\\rclcpp_lifecycle\\lifecycle_publisher.hpp",
+    "bytes": 4435,
+    "sha256": "eae7497ef313d629e5acc5c1dd1c522bd4dcc1a58c79761b714933538614002f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\include\\rclcpp_lifecycle\\managed_entity.hpp",
+    "bytes": 1718,
+    "sha256": "c43ebb61cc81d24841735684858bdf2d46d52cc85427061ba53f47f2b955969b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\include\\rclcpp_lifecycle\\node_interfaces\\lifecycle_node_interface.hpp",
+    "bytes": 3881,
+    "sha256": "1648e3e7c31f729cd2b2b70be3e09a1aefa42a52bc9717cb3129085cef713a44",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\include\\rclcpp_lifecycle\\state.hpp",
+    "bytes": 2645,
+    "sha256": "544a0da23f61b0aa9d0b3f22a9690fa10d0796dc3550ad4e1485b7f34a9f4be2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\include\\rclcpp_lifecycle\\transition.hpp",
+    "bytes": 3594,
+    "sha256": "ac05125a0a62100f68cde285be2321825a1103585020372dcdf52943c08ff548",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\include\\rclcpp_lifecycle\\type_traits\\is_manageable_node.hpp",
+    "bytes": 1774,
+    "sha256": "4b5715b0802b5c03760ceaa70944a8459b1e896adf3a6d1d000f96fadc627eab",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\include\\rclcpp_lifecycle\\visibility_control.h",
+    "bytes": 2337,
+    "sha256": "7c5ee02cb1f1d8b308e8d5ad9a552560bbf1097b30199a26491fd38447407bb8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\package.xml",
+    "bytes": 1863,
+    "sha256": "0af70d292e803001b6db8ee037669c897fa5a017b839ee74f1dfeda8732d8999",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\src\\lifecycle_node.cpp",
+    "bytes": 20923,
+    "sha256": "8e2b27b63a2a3bd258995d3cdec056908120c685327da79f4d16d1a89c88631f",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "rclcpp_lifecycle\\src\\lifecycle_node_interface_impl.cpp",
+    "bytes": 24452,
+    "sha256": "111faa0e4bda65ee6bb958286baab88bbdef68e12682e347b350dae9e28c4f58",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\src\\lifecycle_node_interface_impl.hpp",
+    "bytes": 6752,
+    "sha256": "f7095068ece3d008606e78cf06552af7cb460653ff0b3a13c5d2463f850de0ba",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\src\\managed_entity.cpp",
+    "bytes": 986,
+    "sha256": "046fb14c1d35ae398d553a1c1daf5d927e5da7de2b3266f6bda84724e9f4139b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\src\\node_interfaces\\lifecycle_node_interface.cpp",
+    "bytes": 1829,
+    "sha256": "34d34c91ae2389948f65e0e32ae4310af32e5efa274621159b623a657783a651",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\src\\state.cpp",
+    "bytes": 4774,
+    "sha256": "7098d1f96f936d47125b43ddc04db8c4a658a1b98ffed1933d380d53c361fd2b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclcpp_lifecycle\\src\\transition.cpp",
+    "bytes": 8178,
+    "sha256": "8926dc40e5e2f967c328f23555151159080f9773bc2895d0fef2693ce4330d1c",
+    "included_in_llm_prompt": false
+  }
+]

@@ -1,0 +1,175 @@
+{
+  "jani-version": 1,
+  "name": "ros2_architecture_recovery_check",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "metadata": {
+    "ground_truth_nodes": [
+      {
+        "name": "hardware_spawner",
+        "subsystem": "control",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "controller_manager\\controller_manager\\hardware_spawner.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      }
+    ],
+    "candidate_nodes": [
+      {
+        "name": "ControllerInterfaceBase",
+        "subsystem": "Controller",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [],
+        "msg_types": {},
+        "has_lifecycle": true
+      },
+      {
+        "name": "ControllerManager",
+        "subsystem": "Controller Manager",
+        "publishes": [
+          {
+            "topic": "update_rate",
+            "type": "int"
+          }
+        ],
+        "subscribes": [
+          {
+            "topic": "is_async",
+            "type": "bool"
+          }
+        ],
+        "lifecycle": true,
+        "source_files": [],
+        "msg_types": {
+          "update_rate": "int",
+          "is_async": "bool"
+        },
+        "has_lifecycle": true
+      },
+      {
+        "name": "LifecycleNode",
+        "subsystem": "Lifecycle",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [],
+        "msg_types": {},
+        "has_lifecycle": true
+      },
+      {
+        "name": "controller_interface_base",
+        "subsystem": "controller_interface",
+        "publishes": [
+          {
+            "topic": "update_rate",
+            "type": "int"
+          },
+          {
+            "topic": "is_async",
+            "type": "bool"
+          },
+          {
+            "topic": "thread_priority",
+            "type": "int"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [],
+        "msg_types": {
+          "update_rate": "int",
+          "is_async": "bool",
+          "thread_priority": "int"
+        },
+        "has_lifecycle": true
+      },
+      {
+        "name": "realtime_tools::AsyncFunctionHandler",
+        "subsystem": "Async",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "realtime_tools::AsyncFunctionHandler<return_type>",
+        "subsystem": "Async",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [],
+        "msg_types": {},
+        "has_lifecycle": false
+      }
+    ],
+    "model_label": "groq-small",
+    "repo_label": "ros-controls/ros2_control",
+    "verification_adapter": "AS2FM/JANI architecture evidence artifact"
+  },
+  "properties": [
+    {
+      "name": "interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    }
+  ]
+}

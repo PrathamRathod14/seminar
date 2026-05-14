@@ -1,0 +1,318 @@
+{
+  "pair_key": "qwen-groq :: navigation2",
+  "repo": "navigation2",
+  "actual_categories": [
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "missing_node"
+    ],
+    "AS2FM": [
+      "missing_node"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "qwen-groq_navigation2__err_0001",
+      "category": "missing_node",
+      "node": "BasicNavigator",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0002",
+      "category": "missing_node",
+      "node": "_",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0003",
+      "category": "missing_node",
+      "node": "amcl",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0004",
+      "category": "missing_node",
+      "node": "base_footprint_publisher",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0005",
+      "category": "missing_node",
+      "node": "behavior_server",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0006",
+      "category": "missing_node",
+      "node": "bt_navigator",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0007",
+      "category": "missing_node",
+      "node": "collision_detector",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0008",
+      "category": "missing_node",
+      "node": "collision_monitor",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0009",
+      "category": "missing_node",
+      "node": "component_container_isolated",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0010",
+      "category": "missing_node",
+      "node": "controller_server",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0011",
+      "category": "missing_node",
+      "node": "costmap",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0012",
+      "category": "missing_node",
+      "node": "costmap_filter_info_server",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0013",
+      "category": "missing_node",
+      "node": "docking_server",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0014",
+      "category": "missing_node",
+      "node": "following_server",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0015",
+      "category": "missing_node",
+      "node": "lifecycle_bringup_client",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0016",
+      "category": "missing_node",
+      "node": "lifecycle_manager",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0017",
+      "category": "missing_node",
+      "node": "map_saver",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0018",
+      "category": "missing_node",
+      "node": "map_saver_server",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0019",
+      "category": "missing_node",
+      "node": "map_server",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0020",
+      "category": "missing_node",
+      "node": "nav2_rviz_docking_panel_node",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0021",
+      "category": "missing_node",
+      "node": "nav2_rviz_selector_node",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0022",
+      "category": "missing_node",
+      "node": "opennav_docking",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0023",
+      "category": "missing_node",
+      "node": "opennav_following",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0024",
+      "category": "missing_node",
+      "node": "planner_server",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0025",
+      "category": "missing_node",
+      "node": "route_server",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0026",
+      "category": "missing_node",
+      "node": "rviz2",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0027",
+      "category": "missing_node",
+      "node": "smoother_server",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0028",
+      "category": "missing_node",
+      "node": "vector_object_server",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0029",
+      "category": "missing_node",
+      "node": "velocity_smoother",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_navigation2__err_0030",
+      "category": "missing_node",
+      "node": "waypoint_follower",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

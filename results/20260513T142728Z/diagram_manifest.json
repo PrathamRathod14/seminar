@@ -1,0 +1,97 @@
+{
+  "run_id": "20260513T142728Z",
+  "root": "results\\20260513T142728Z",
+  "repositories": {
+    "navigation2": {
+      "folder": "results\\20260513T142728Z\\navigation2",
+      "puml": "results\\20260513T142728Z\\navigation2\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\navigation2\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "ros2/rclcpp": {
+      "folder": "results\\20260513T142728Z\\ros2_rclcpp",
+      "puml": "results\\20260513T142728Z\\ros2_rclcpp\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\ros2_rclcpp\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "ros2/rclpy": {
+      "folder": "results\\20260513T142728Z\\ros2_rclpy",
+      "puml": "results\\20260513T142728Z\\ros2_rclpy\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\ros2_rclpy\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "ros2/launch_ros": {
+      "folder": "results\\20260513T142728Z\\ros2_launch_ros",
+      "puml": "results\\20260513T142728Z\\ros2_launch_ros\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\ros2_launch_ros\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "ros2/rosbag2": {
+      "folder": "results\\20260513T142728Z\\ros2_rosbag2",
+      "puml": "results\\20260513T142728Z\\ros2_rosbag2\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\ros2_rosbag2\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "ros2/geometry2": {
+      "folder": "results\\20260513T142728Z\\ros2_geometry2",
+      "puml": "results\\20260513T142728Z\\ros2_geometry2\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\ros2_geometry2\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "ros-perception/image_pipeline": {
+      "folder": "results\\20260513T142728Z\\ros-perception_image_pipeline",
+      "puml": "results\\20260513T142728Z\\ros-perception_image_pipeline\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\ros-perception_image_pipeline\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "ros-perception/laser_filters": {
+      "folder": "results\\20260513T142728Z\\ros-perception_laser_filters",
+      "puml": "results\\20260513T142728Z\\ros-perception_laser_filters\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\ros-perception_laser_filters\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "ros-drivers/urg_node": {
+      "folder": "results\\20260513T142728Z\\ros-drivers_urg_node",
+      "puml": "results\\20260513T142728Z\\ros-drivers_urg_node\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\ros-drivers_urg_node\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "ros-drivers/usb_cam": {
+      "folder": "results\\20260513T142728Z\\ros-drivers_usb_cam",
+      "puml": "results\\20260513T142728Z\\ros-drivers_usb_cam\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\ros-drivers_usb_cam\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "ros-controls/ros2_control": {
+      "folder": "results\\20260513T142728Z\\ros-controls_ros2_control",
+      "puml": "results\\20260513T142728Z\\ros-controls_ros2_control\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\ros-controls_ros2_control\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "ros-controls/ros2_controllers": {
+      "folder": "results\\20260513T142728Z\\ros-controls_ros2_controllers",
+      "puml": "results\\20260513T142728Z\\ros-controls_ros2_controllers\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\ros-controls_ros2_controllers\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "ros-planning/moveit2": {
+      "folder": "results\\20260513T142728Z\\ros-planning_moveit2",
+      "puml": "results\\20260513T142728Z\\ros-planning_moveit2\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\ros-planning_moveit2\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "gazebosim/ros_gz": {
+      "folder": "results\\20260513T142728Z\\gazebosim_ros_gz",
+      "puml": "results\\20260513T142728Z\\gazebosim_ros_gz\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\gazebosim_ros_gz\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    },
+    "ros2/rviz": {
+      "folder": "results\\20260513T142728Z\\ros2_rviz",
+      "puml": "results\\20260513T142728Z\\ros2_rviz\\architecture_metrics.puml",
+      "jpeg": "results\\20260513T142728Z\\ros2_rviz\\architecture_metrics.jpg",
+      "jpeg_rendered": true
+    }
+  },
+  "manifest": "results\\20260513T142728Z\\diagram_manifest.json"
+}

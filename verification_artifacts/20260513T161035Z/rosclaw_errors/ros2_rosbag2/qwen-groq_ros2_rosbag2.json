@@ -1,0 +1,28 @@
+{
+  "pair_key": "qwen-groq :: ros2/rosbag2",
+  "repo": "ros2/rosbag2",
+  "actual_categories": [
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "missing_node"
+    ],
+    "AS2FM": [
+      "missing_node"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "qwen-groq_ros2_rosbag2__err_0001",
+      "category": "missing_node",
+      "node": "benchmarking_results_writer",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

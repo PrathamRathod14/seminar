@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ascxml
+    initial="idle"
+    version="1.0"
+    name="ros-planning_moveit2"
+    model_src=""
+    xmlns="http://www.w3.org/2005/07/scxml">
+
+    <datamodel>
+        <data id="architecture_valid" expr="true" type="bool" />
+    </datamodel>
+
+    <ros_topic_publisher topic="/servo_node/delta_twist_cmds" type="std_msgs/Int32" />
+    <ros_topic_subscriber topic="/joy" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="global_trajectory" type="std_msgs/Int32" />
+    <ros_topic_subscriber topic="global_trajectory" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="robot_description_semantic" type="std_msgs/Int32" />
+
+    <state id="idle">
+        <onentry>
+        </onentry>
+    </state>
+</ascxml>

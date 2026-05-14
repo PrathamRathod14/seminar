@@ -1,0 +1,215 @@
+{
+  "status": "recorded",
+  "method": "source parsing + prompt evidence collection + JANI artifact generation + category validation",
+  "root": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative",
+  "records": [
+    {
+      "repo": "navigation2",
+      "node_count": 30,
+      "source_files_sent": 1,
+      "source_blocks": 1,
+      "parse_ms": 1419.6928999735974,
+      "prompt_collection_ms": 661.6460999939591,
+      "translation_and_check_ms": 25.503799959551543,
+      "total_ttv_ms": 2106.851699994877,
+      "model_checks": {
+        "llama-4": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node",
+            "subsystem_boundary_confusion",
+            "wrong_topic_name"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\navigation2\\llama-4.jani"
+        },
+        "groq-large": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\navigation2\\groq-large.jani"
+        },
+        "groq-small": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\navigation2\\groq-small.jani"
+        },
+        "qwen-groq": {
+          "detected_categories": [
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\navigation2\\qwen-groq.jani"
+        }
+      }
+    },
+    {
+      "repo": "ros-perception/image_pipeline",
+      "node_count": 34,
+      "source_files_sent": 4,
+      "source_blocks": 4,
+      "parse_ms": 358.5416999994777,
+      "prompt_collection_ms": 186.73020001733676,
+      "translation_and_check_ms": 33.18489994853735,
+      "total_ttv_ms": 578.4696000046097,
+      "model_checks": {
+        "llama-4": {
+          "detected_categories": [
+            "hallucinated_node",
+            "lifecycle_violation",
+            "missing_node",
+            "subsystem_boundary_confusion",
+            "wrong_topic_name"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\ros-perception_image_pipeline\\llama-4.jani"
+        },
+        "groq-large": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node",
+            "subsystem_boundary_confusion",
+            "wrong_topic_name"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\ros-perception_image_pipeline\\groq-large.jani"
+        },
+        "groq-small": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node",
+            "subsystem_boundary_confusion",
+            "wrong_topic_name"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\ros-perception_image_pipeline\\groq-small.jani"
+        },
+        "qwen-groq": {
+          "detected_categories": [
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\ros-perception_image_pipeline\\qwen-groq.jani"
+        }
+      }
+    },
+    {
+      "repo": "ros-planning/moveit2",
+      "node_count": 12,
+      "source_files_sent": 1,
+      "source_blocks": 1,
+      "parse_ms": 2349.317600019276,
+      "prompt_collection_ms": 1002.6445999974385,
+      "translation_and_check_ms": 12.65450002392754,
+      "total_ttv_ms": 3364.624299982097,
+      "model_checks": {
+        "llama-4": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\ros-planning_moveit2\\llama-4.jani"
+        },
+        "groq-large": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\ros-planning_moveit2\\groq-large.jani"
+        },
+        "groq-small": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\ros-planning_moveit2\\groq-small.jani"
+        },
+        "qwen-groq": {
+          "detected_categories": [
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\ros-planning_moveit2\\qwen-groq.jani"
+        }
+      }
+    },
+    {
+      "repo": "gazebosim/ros_gz",
+      "node_count": 7,
+      "source_files_sent": 3,
+      "source_blocks": 3,
+      "parse_ms": 208.4420999744907,
+      "prompt_collection_ms": 115.70140003459528,
+      "translation_and_check_ms": 10.230799962300807,
+      "total_ttv_ms": 334.37970001250505,
+      "model_checks": {
+        "llama-4": {
+          "detected_categories": [
+            "missing_node",
+            "subsystem_boundary_confusion"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\gazebosim_ros_gz\\llama-4.jani"
+        },
+        "groq-large": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node",
+            "subsystem_boundary_confusion"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\gazebosim_ros_gz\\groq-large.jani"
+        },
+        "groq-small": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node",
+            "subsystem_boundary_confusion"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\gazebosim_ros_gz\\groq-small.jani"
+        },
+        "qwen-groq": {
+          "detected_categories": [
+            "missing_node",
+            "subsystem_boundary_confusion"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\gazebosim_ros_gz\\qwen-groq.jani"
+        }
+      }
+    },
+    {
+      "repo": "ros2/rviz",
+      "node_count": 2,
+      "source_files_sent": 1,
+      "source_blocks": 1,
+      "parse_ms": 504.8584000323899,
+      "prompt_collection_ms": 297.91339999064803,
+      "translation_and_check_ms": 9.192700032144785,
+      "total_ttv_ms": 811.9703000411391,
+      "model_checks": {
+        "llama-4": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\ros2_rviz\\llama-4.jani"
+        },
+        "groq-large": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\ros2_rviz\\groq-large.jani"
+        },
+        "groq-small": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\ros2_rviz\\groq-small.jani"
+        },
+        "qwen-groq": {
+          "detected_categories": [
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T154225Z\\ttv_representative\\ros2_rviz\\qwen-groq.jani"
+        }
+      }
+    }
+  ],
+  "average_total_ttv_ms": 1439.2591200070456
+}

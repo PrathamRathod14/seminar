@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ascxml
+    initial="idle"
+    version="1.0"
+    name="ros-drivers_usb_cam"
+    model_src=""
+    xmlns="http://www.w3.org/2005/07/scxml">
+
+    <datamodel>
+        <data id="architecture_valid" expr="true" type="bool" />
+    </datamodel>
+
+    <ros_topic_subscriber topic="image_raw" type="std_msgs/Bool" />
+    <ros_topic_publisher topic="camera_info" type="std_msgs/Bool" />
+
+    <state id="idle">
+        <onentry>
+        </onentry>
+    </state>
+</ascxml>

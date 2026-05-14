@@ -1,0 +1,40 @@
+{
+  "run_id": "20260513T164445Z",
+  "root": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z",
+  "as2fm_jani_files": [
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\navigation2\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\ros2_rclcpp\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\ros2_rclpy\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\ros2_launch_ros\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\ros2_rosbag2\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\ros2_geometry2\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\ros-perception_image_pipeline\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\ros-perception_laser_filters\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\ros-drivers_urg_node\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\ros-drivers_usb_cam\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\ros-controls_ros2_control\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\ros-controls_ros2_controllers\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\ros-planning_moveit2\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\gazebosim_ros_gz\\llama-4.jani",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\as2fm_jani\\ros2_rviz\\llama-4.jani"
+  ],
+  "rosclaw_error_files": [
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\navigation2\\llama-4_navigation2.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\ros2_rclcpp\\llama-4_ros2_rclcpp.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\ros2_rclpy\\llama-4_ros2_rclpy.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\ros2_launch_ros\\llama-4_ros2_launch_ros.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\ros2_rosbag2\\llama-4_ros2_rosbag2.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\ros2_geometry2\\llama-4_ros2_geometry2.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\ros-perception_image_pipeline\\llama-4_ros-perception_image_pipeline.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\ros-perception_laser_filters\\llama-4_ros-perception_laser_filters.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\ros-drivers_urg_node\\llama-4_ros-drivers_urg_node.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\ros-drivers_usb_cam\\llama-4_ros-drivers_usb_cam.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\ros-controls_ros2_control\\llama-4_ros-controls_ros2_control.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\ros-controls_ros2_controllers\\llama-4_ros-controls_ros2_controllers.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\ros-planning_moveit2\\llama-4_ros-planning_moveit2.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\gazebosim_ros_gz\\llama-4_gazebosim_ros_gz.json",
+    "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\rosclaw_errors\\ros2_rviz\\llama-4_ros2_rviz.json"
+  ],
+  "note": "Artifacts are generated from real repo architecture evidence and LLM outputs; AS2FM native conversion is audited separately in tool_audit.",
+  "manifest": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T164445Z\\verification_manifest.json"
+}

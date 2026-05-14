@@ -1,0 +1,95 @@
+{
+  "jani-version": 1,
+  "name": "ros2_architecture_recovery_check",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "metadata": {
+    "ground_truth_nodes": [
+      {
+        "name": "hardware_spawner",
+        "subsystem": "control",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "controller_manager\\controller_manager\\hardware_spawner.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      }
+    ],
+    "candidate_nodes": [
+      {
+        "name": "ControllerInterfaceBase",
+        "subsystem": "controller",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [],
+        "msg_types": {},
+        "has_lifecycle": true
+      }
+    ],
+    "model_label": "qwen-groq",
+    "repo_label": "ros-controls/ros2_control",
+    "verification_adapter": "AS2FM/JANI architecture evidence artifact"
+  },
+  "properties": [
+    {
+      "name": "interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    }
+  ]
+}

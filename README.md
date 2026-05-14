@@ -159,13 +159,12 @@ Main metrics:
 
 ### SQ3: Automatic Detection
 
-The current script includes a static validator that checks which error categories can be detected automatically.
+The script now reports SQ3 in two layers:
 
-Main metric:
+- **Proposal Tool Coverage Ratio:** counts only categories detected with adequate precision and recall by AS2FM or ROSClaw.
+- **Extended/local Tool Coverage Ratio:** also includes the generated JANI-style AS2FM adapter and the deterministic ROS 2 static architecture validator.
 
-- **Tool Coverage Ratio**
-
-The taxonomy coverage number is computed by the deterministic ROS 2 static architecture validator in this project. AS2FM and ROSClaw are downloaded into `tools/`, but their bundled local smoke inputs are tutorial/test/simulation fixtures, so they are skipped when `REAL_DATA_ONLY=1`.
+This distinction is important because the current real ROS 2 source repositories provide architecture graphs, but not repo-specific RoAML/ASCXML behaviour models that AS2FM can execute directly. Therefore the real AS2FM column is marked as not applicable for those inputs unless such behaviour models are supplied. The generated JANI-style adapter remains in the output as evidence that the category checks are formalizable, but it is not counted as real AS2FM proposal coverage.
 
 ### SQ4: Adoption Gap
 

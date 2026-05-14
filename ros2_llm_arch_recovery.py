@@ -1890,11 +1890,14 @@ def evaluate_detection_tools(
     for pair_key, comparison in comparisons.items():
         repo_label = pair_key.split(" :: ", 1)[1]
         actual = sorted({err["category"] for err in comparison["errors"]})
-        # ROSClaw: before-call DigitalTwinFirewall validator — structural architecture check
-        rosclaw_detected = sorted(static_validator(gt_by_repo[repo_label], pred_by_pair.get(pair_key, [])))
-        # AS2FM: independent JANI property evaluation against the architecture graph —
-        # uses as2fm_jani_property_check, NOT a copy of rosclaw_detected.
-        as2fm_detected = sorted(as2fm_jani_property_check(gt_by_repo[repo_label], pred_by_pair.get(pair_key, [])))
+        local_static_detected = sorted(static_validator(gt_by_repo[repo_label], pred_by_pair.get(pair_key, [])))
+        as2fm_adapter_detected = sorted(as2fm_jani_property_check(gt_by_repo[repo_label], pred_by_pair.get(pair_key, [])))
+        rosclaw_detected = sorted(
+            category
+            for category in actual
+            if rosclaw_before_call_validation(base, category).get("detected")
+        )
+        as2fm_detected: List[str] = []
         error_records = []
         for index, err in enumerate(comparison.get("errors", []), start=1):
             category = err.get("category", "unknown")
@@ -1907,6 +1910,8 @@ def evaluate_detection_tools(
                 "detected_by_tool": {
                     "ROSClaw": category in rosclaw_detected,
                     "AS2FM": category in as2fm_detected,
+                    "AS2FM_JANI_adapter": category in as2fm_adapter_detected,
+                    "LocalStaticValidator": category in local_static_detected,
                 },
                 "rosclaw_before_call": rosclaw_before_call,
             })
@@ -1917,42 +1922,84 @@ def evaluate_detection_tools(
             "detected_by_tool": {
                 "ROSClaw": rosclaw_detected,
                 "AS2FM": as2fm_detected,
+                "AS2FM_JANI_adapter": as2fm_adapter_detected,
+                "LocalStaticValidator": local_static_detected,
             },
-            "rosclaw_method": "static_validator — architecture structural check (before-call shape)",
-            "as2fm_method": "jani_property_check — per-category JANI forall-implication evaluation",
+            "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
+            "as2fm_method": "not_applicable_without_repo_behavior_models",
+            "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+            "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
             "error_records": error_records,
         })
 
-    tool_scores: Dict[str, Dict[str, Dict[str, Any]]] = {"ROSClaw": {}, "AS2FM": {}}
-    adequate_by_category: Dict[str, List[str]] = {category: [] for category in ERROR_CATEGORIES}
+    tool_scores: Dict[str, Dict[str, Dict[str, Any]]] = {
+        "ROSClaw": {},
+        "AS2FM": {},
+        "AS2FM_JANI_adapter": {},
+        "LocalStaticValidator": {},
+    }
+    proposal_adequate_by_category: Dict[str, List[str]] = {category: [] for category in ERROR_CATEGORIES}
+    extended_adequate_by_category: Dict[str, List[str]] = {category: [] for category in ERROR_CATEGORIES}
     for tool in tool_scores:
         for category in ERROR_CATEGORIES:
             score = detector_score_from_logs(logs, tool, category)
             tool_scores[tool][category] = score
-            if score["precision"] >= 0.70 and score["recall"] >= 0.70:
-                adequate_by_category[category].append(tool)
+            adequate = score["precision"] >= 0.70 and score["recall"] >= 0.70
+            if adequate and tool in {"ROSClaw", "AS2FM"}:
+                proposal_adequate_by_category[category].append(tool)
+            if adequate:
+                extended_adequate_by_category[category].append(tool)
 
-    covered = [category for category, tools in adequate_by_category.items() if tools]
+    proposal_covered = [category for category, tools in proposal_adequate_by_category.items() if tools]
+    extended_covered = [category for category, tools in extended_adequate_by_category.items() if tools]
     payload = {
-        "method": "per_tool_category_detection_logs",
+        "method": "proposal_tools_separated_from_local_adapters",
         "adequacy_threshold": {"precision": 0.70, "recall": 0.70},
         "tools": {
             "ROSClaw": {
                 "status": "run",
-                "mode": "ROSClaw before-call DigitalTwinFirewall — fetch-and-carry manipulation task interception logs + architecture structural validation",
+                "mode": "ROSClaw before-call DigitalTwinFirewall validation; adequate only where the validator actually intercepts the category",
                 "scores": tool_scores["ROSClaw"],
             },
             "AS2FM": {
-                "status": "run",
-                "mode": "AS2FM JANI property evaluation — forall-implication properties checked independently against architecture graph (arXiv:2508.18820)",
+                "status": "not_applicable_for_current_repo_inputs",
+                "mode": "Real AS2FM category detection requires repo-specific RoAML/ASCXML behaviour models; current ROS 2 source repositories provide architecture graphs, not executable AS2FM behaviour models.",
                 "scores": tool_scores["AS2FM"],
             },
+            "AS2FM_JANI_adapter": {
+                "status": "run",
+                "mode": "Generated JANI-style taxonomy property evaluation over architecture graph; evidence for formalizable checks, not counted as real AS2FM proposal TCR.",
+                "scores": tool_scores["AS2FM_JANI_adapter"],
+            },
+            "LocalStaticValidator": {
+                "status": "run",
+                "mode": "Deterministic ROS 2 architecture graph validator baseline; not counted as existing-tool proposal TCR.",
+                "scores": tool_scores["LocalStaticValidator"],
+            },
         },
-        "adequate_detectors_by_category": adequate_by_category,
-        "covered_categories": covered,
-        "covered_count": len(covered),
+        "adequate_detectors_by_category": proposal_adequate_by_category,
+        "covered_categories": proposal_covered,
+        "covered_count": len(proposal_covered),
         "total_categories": len(ERROR_CATEGORIES),
-        "tcr": len(covered) / len(ERROR_CATEGORIES),
+        "tcr": len(proposal_covered) / len(ERROR_CATEGORIES),
+        "proposal_tcr": {
+            "tools_counted": ["AS2FM", "ROSClaw"],
+            "adequate_detectors_by_category": proposal_adequate_by_category,
+            "covered_categories": proposal_covered,
+            "covered_count": len(proposal_covered),
+            "total_categories": len(ERROR_CATEGORIES),
+            "tcr": len(proposal_covered) / len(ERROR_CATEGORIES),
+            "note": "SQ3 proposal metric: only existing AS2FM and ROSClaw detections count.",
+        },
+        "extended_tcr": {
+            "tools_counted": ["AS2FM", "ROSClaw", "AS2FM_JANI_adapter", "LocalStaticValidator"],
+            "adequate_detectors_by_category": extended_adequate_by_category,
+            "covered_categories": extended_covered,
+            "covered_count": len(extended_covered),
+            "total_categories": len(ERROR_CATEGORIES),
+            "tcr": len(extended_covered) / len(ERROR_CATEGORIES),
+            "note": "Includes local adapters/baselines and shows which categories are automatically detectable in principle.",
+        },
         "logs_path": str(audit_dir / "tool_detection_logs.json"),
         "logs": logs,
     }
@@ -2713,7 +2760,7 @@ def main() -> int:
     metrics["m5_tcr"] = {
         "method": detection_audit["method"],
         "adequacy_threshold": detection_audit["adequacy_threshold"],
-        "note": "TCR is computed from per-tool category detection logs. At least one adequate detector per category counts as covered.",
+        "note": "Proposal TCR counts only AS2FM and ROSClaw. Extended TCR additionally reports local adapters/baselines.",
         "covered_categories": detection_audit["covered_categories"],
         "covered_count": detection_audit["covered_count"],
         "total_categories": detection_audit["total_categories"],
@@ -2723,6 +2770,13 @@ def main() -> int:
             for category in ERROR_CATEGORIES
         },
         "adequate_detectors_by_category": detection_audit["adequate_detectors_by_category"],
+        "proposal_tcr": detection_audit.get("proposal_tcr", {}),
+        "extended_tcr": detection_audit.get("extended_tcr", {}),
+        "tool_scores": {
+            tool: data.get("scores", {})
+            for tool, data in detection_audit.get("tools", {}).items()
+            if isinstance(data, dict)
+        },
     }
     check_elapsed = time.perf_counter() - check_start
     ttv_ms = (parse_elapsed + check_elapsed) * 1000

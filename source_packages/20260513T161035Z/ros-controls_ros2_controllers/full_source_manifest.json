@@ -1,0 +1,1304 @@
+[
+  {
+    "path": ".github\\dependabot.yml",
+    "bytes": 1176,
+    "sha256": "17e3e156846f06f64d5bd1aff88a204544aa63b693d5162b11743813b224cc18",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\mergify.yml",
+    "bytes": 1722,
+    "sha256": "7688043c5e80d9e0dd175b7b6f0e0d9dc2e813543874d72c36ae30ba6d28e948",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-abi-compatibility.yml",
+    "bytes": 767,
+    "sha256": "0a2faaf24b4353e155211520ecb15462a7f6aab81a864860ac4c5fb97585496e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-binary-build.yml",
+    "bytes": 1268,
+    "sha256": "27a3b90f5d7fa3ac6de4138b600299dac16110dc4848422f4776fee05e9d380f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-coverage-build.yml",
+    "bytes": 821,
+    "sha256": "3c9cd40b52334a5970f9133aa1a4c591aa0f4e7a715e8dc4e7e26c216d8c54cc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-debian-build.yml",
+    "bytes": 972,
+    "sha256": "19dd827c2a79630cdbe7206cefe44216eb7d9975c4ec7f699f9ba6fe46a6b88d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-pre-commit.yml",
+    "bytes": 389,
+    "sha256": "315583e6e991a8cbd624380f7389ef8194f2ea5c96979d89e4d8fc45691f6f70",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-pre-release.yml",
+    "bytes": 864,
+    "sha256": "c4a933cbd069e03f5b9b063f72798603c8ab987b8d686c099cf269586d6056b8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-rhel-semi-binary-build.yml",
+    "bytes": 988,
+    "sha256": "4294ecbec39fbabca39897770fe15182286526206a6cc6aef09688a08d05541e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-semi-binary-build.yml",
+    "bytes": 1511,
+    "sha256": "2cbc407117b808ba9003a14b6b41377fea2609407f9c43f7105fd1fbb313b252",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-semi-binary-downstream-build.yml",
+    "bytes": 1151,
+    "sha256": "760ec2ba80bd9e60e385314121903b3f062e06422b00f248d9826bcd52575d59",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\humble-source-build.yml",
+    "bytes": 794,
+    "sha256": "c379a211eaece757175a1c651ef454dd07493427a07983b6a11a89101263f868",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-abi-compatibility.yml",
+    "bytes": 745,
+    "sha256": "352439597578c0c255f349bc17ec0dea56bedcb03a209bf63a098a9c65fc526f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-binary-build.yml",
+    "bytes": 1305,
+    "sha256": "13dfde75caeee568011b629d4846b9f94eecf55cc567cc222e93c6aea6e4e547",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-coverage-build.yml",
+    "bytes": 835,
+    "sha256": "cc21d27d283b59e4d63984f44f88405db8d48e1be11ca46bf9cf55266c35ff0a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-debian-build.yml",
+    "bytes": 966,
+    "sha256": "90e1b500a65bae2e53472ed49c8532ad75f63d5a1f2229ac6d8d07dad6c77f1b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-pre-commit.yml",
+    "bytes": 385,
+    "sha256": "a45729a4b321e598b14c08c006071187562a007c1d4120e5f5d2f93ed619eef0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-pre-release.yml",
+    "bytes": 861,
+    "sha256": "3c38c527b307867deb4c667b70c6a20588399479d123d5a3de97cf50e2cc7dd4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-rhel-semi-binary-build.yml",
+    "bytes": 945,
+    "sha256": "09d848d55138c6a0fd4b16eb62d7055e478081ba980519fc19a4c3d3e6dc43bf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-semi-binary-build.yml",
+    "bytes": 1532,
+    "sha256": "45ad030765ad73b38e0fe5028178f5cd396528b46c2d75c3af5b94da2e4c47ee",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-semi-binary-downstream-build.yml",
+    "bytes": 1143,
+    "sha256": "aed4ee4ce4668c0b13c267da2ed85656445749ac3d828d91b4bbd567687cc963",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\jazzy-source-build.yml",
+    "bytes": 786,
+    "sha256": "e2b685fab4479e90056d419a5fdce5a0763aa983508a482df8de7a3bfbe407cf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-abi-compatibility.yml",
+    "bytes": 750,
+    "sha256": "78f370a3e3d03e32e0f2067cda8945386806f691f2abc579ae3cdf21d7a1b929",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-binary-build.yml",
+    "bytes": 1312,
+    "sha256": "4b303b5bb8092bf73601b44cfa90546dcc7628301883652cc9cf66bfdc7b4efb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-coverage-build.yml",
+    "bytes": 841,
+    "sha256": "1510d930a3bc2f200e58d491704dfe1a81bef5344adecce52eb5722459e3a8c0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-debian-build.yml",
+    "bytes": 973,
+    "sha256": "aba3ced6cc05f909d41bb186ae39a71ce251ca9fc2bca1af5d1a71c5fa069817",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-pre-commit.yml",
+    "bytes": 389,
+    "sha256": "c55c363dba91b8a51d901e9812e5677c0548884f63b45e30e8cb9611df94d2a4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-pre-release.yml",
+    "bytes": 864,
+    "sha256": "ff9e0a4b63205f6da3b23814d6a10fbbaf203b7fa33193478cfc9d98b007e17d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-rhel-semi-binary-build.yml",
+    "bytes": 952,
+    "sha256": "f36c1b626e55aae1f684589067a7fad387de7303e7700870abf7bafb8f7a46da",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-semi-binary-build.yml",
+    "bytes": 1542,
+    "sha256": "34dceda0db280183bfe248a48e5097fdbc41cdab02fc86fc32644009ab7610c9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-semi-binary-downstream-build.yml",
+    "bytes": 1151,
+    "sha256": "8f23d8e9b92633a4f8a91868d75001bd12f0520ab4818d24216a9c1278ff0c83",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\kilted-source-build.yml",
+    "bytes": 794,
+    "sha256": "7bc9b4a61ffbd28c0bd564fbdc402eff98e8efdf16015944d7e394e6368f83ae",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\reviewer_lottery.yml",
+    "bytes": 351,
+    "sha256": "33bf44c34b7ee64fcdc542a69a2cbc3adc3c6247d1ac5cddf5835c3b5637a51d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-abi-compatibility.yml",
+    "bytes": 920,
+    "sha256": "81a31f6213fb0d4ccf5446b046afc7b70cebdeb16d42ccb4f89a3911ddcd1448",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-binary-build.yml",
+    "bytes": 1446,
+    "sha256": "315bc6b463b4e33d5ad1c339ce3c403fa3066e32cec7a325adc472cb04407037",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-compatibility-humble-binary-build.yml",
+    "bytes": 1121,
+    "sha256": "9772843d6ff5ff2f10aae21a15e5ee36573b8c593f1419a34cef3c2d9aed9aab",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-compatibility-jazzy-binary-build.yml",
+    "bytes": 1116,
+    "sha256": "ea179417a28b384190f86ecdec289311b2773c97c60ddd64c3a389cf6fb68797",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-compatibility-kilted-binary-build.yml",
+    "bytes": 1121,
+    "sha256": "b408f2855e2b557da08ef60c4d2c83dfb7cd885e3e95ff32e46d2be2680973ad",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-compatibility-lyrical-binary-build.yml",
+    "bytes": 1126,
+    "sha256": "7b9220f426a75e54d274eddf1cf5c7a9317bca1152fcecbb3f608b0d0e4732d1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-coverage-build.yml",
+    "bytes": 826,
+    "sha256": "f3b071a78f221dd0f1d5e2d8e1feb323a3f75f137430c7e73ac4c47df6201800",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-debian-build.yml",
+    "bytes": 1148,
+    "sha256": "07aebc0724d9ff9a77897002ed47a5d9089254618c55d195b47d247c7f2ae5e2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-pre-commit.yml",
+    "bytes": 502,
+    "sha256": "26f642dbf041748da4a894cf86cfeb5ca99ff00e99890e7c401c0e36a5bc13d1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-pre-release.yml",
+    "bytes": 979,
+    "sha256": "3863e8dc9cdee95fcfe5dff95fcd60bc9dee815d5b215dbf7e8712a9b295c532",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-rhel-semi-binary-build.yml",
+    "bytes": 1127,
+    "sha256": "208bc72ff161902528caae5990499295cb2925fb5b5c78a1793c87858cac6f5d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-semi-binary-build-win.yml",
+    "bytes": 1043,
+    "sha256": "a4666f7575853049a334eff9dd272b94a6053250c56e463dd72b6dfef810c873",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-semi-binary-build.yml",
+    "bytes": 1847,
+    "sha256": "23b56b16963a76406b5f186ac83f4770b5ef1181c73924de0d686f0b817c4352",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-semi-binary-downstream-build.yml",
+    "bytes": 1340,
+    "sha256": "8b901930275ee1a23ed7e10578e8b234cdadad6ff63795c370e7c970f3c0f3dd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rolling-source-build.yml",
+    "bytes": 952,
+    "sha256": "392e14090fb4aa435485d8f0e8c3f4680b1b1838bf4e388f8bfce4e4f32fec9a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\rosdoc2.yml",
+    "bytes": 383,
+    "sha256": "488be156c9b437552fca2f7e7e9d021b08d80747fdc3ff91bea356a1a0a93479",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\stale.yml",
+    "bytes": 1172,
+    "sha256": "cef89563c1fab612e61d9404f27e8fd4b8921a25d30c65870600136beb4da80e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".github\\workflows\\update-pre-commit.yml",
+    "bytes": 401,
+    "sha256": "ebfd1ce1e8f5f103437977fea3a0485ab192cc018a3072f8f10bd9aefc87a910",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": ".pre-commit-config.yaml",
+    "bytes": 4018,
+    "sha256": "d6de9227ffd9a8f6286464db43b1fa23f7322fcd7626e85bc648dce3bf650909",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ackermann_steering_controller\\ackermann_steering_controller.xml",
+    "bytes": 432,
+    "sha256": "fa153f0493faa482199c37160cfe4c5df54824e0d49b97328b72bac5517a3a7c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ackermann_steering_controller\\include\\ackermann_steering_controller\\ackermann_steering_controller.hpp",
+    "bytes": 2398,
+    "sha256": "b576b79cbdfba06c72abe1119e0124bfeb6cd75e0007bdf87f90dd2f4bf68dca",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ackermann_steering_controller\\package.xml",
+    "bytes": 1934,
+    "sha256": "ed369076daefcc7149cde8813f34ca9523d8d671eb0f6e73114101682f3381b0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ackermann_steering_controller\\src\\ackermann_steering_controller.cpp",
+    "bytes": 4709,
+    "sha256": "dd52f18a83b216d8433025e1b0aefb274fadc54737ae3cf361d919c74fddebe6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ackermann_steering_controller\\src\\ackermann_steering_controller.yaml",
+    "bytes": 1020,
+    "sha256": "c31aa876b83dc2b50e1f51554ac1e80c1ce18a1b55788de7c9b9b26b5fead266",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "admittance_controller\\admittance_controller.xml",
+    "bytes": 357,
+    "sha256": "dc16e22d16e2d6570fa42ba9ef9bd64f37e97685681879a4c9c74f949c9a8324",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "admittance_controller\\include\\admittance_controller\\admittance_controller.hpp",
+    "bytes": 6822,
+    "sha256": "31e0687205c3deadb52189377792c05865cabbfad7c81c3cb11fee087cb63626",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "admittance_controller\\include\\admittance_controller\\admittance_rule.hpp",
+    "bytes": 7420,
+    "sha256": "449b7ed7fc35ce2249aea2b6eec3cb31d4feb914e003b684a5940f717d3f16a1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "admittance_controller\\include\\admittance_controller\\admittance_rule_impl.hpp",
+    "bytes": 17729,
+    "sha256": "771d32237bd3da54943ada789708fc7646b9edcb60e64b5e1da832db33c13dce",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "admittance_controller\\package.xml",
+    "bytes": 2245,
+    "sha256": "2dfc707a81d40bfc138512611b40cc37410709d20f8e7b5246f974032d399449",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "admittance_controller\\src\\admittance_controller.cpp",
+    "bytes": 24163,
+    "sha256": "c1c759af09f9cb1a6186cf2c32f82d4bc8b95dce0d9349dec48610bdbac11efb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "admittance_controller\\src\\admittance_controller_parameters.yaml",
+    "bytes": 4983,
+    "sha256": "41e4b856c80e44c2f119ff9951bfff78b00721ebd89765d38088bd66c5f11056",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "bicycle_steering_controller\\bicycle_steering_controller.xml",
+    "bytes": 408,
+    "sha256": "1326a5e24127be3049cca2d9a2241e71d1b7cf328f5cc3550a754a6ead3e476d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "bicycle_steering_controller\\include\\bicycle_steering_controller\\bicycle_steering_controller.hpp",
+    "bytes": 2127,
+    "sha256": "750014701dfa89d7f2eb78054468dddd8e5d6a11f462c111e4f9720954c01773",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "bicycle_steering_controller\\package.xml",
+    "bytes": 1922,
+    "sha256": "cd0860fd9b983fced92dafcde03f32d0a3a293ffe801c79b90fac6e83ff558de",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "bicycle_steering_controller\\src\\bicycle_steering_controller.cpp",
+    "bytes": 3354,
+    "sha256": "6eb12a8e2db7a4cfe55ce92967f5ee6e03e5383e84efbac501978cdaa1594740",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "bicycle_steering_controller\\src\\bicycle_steering_controller.yaml",
+    "bytes": 513,
+    "sha256": "07e8b80e18d92f5b3854e4e5f0b0dd4aff66a432408b76818e3e34371615c429",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "chained_filter_controller\\include\\chained_filter_controller\\chained_filter.hpp",
+    "bytes": 2380,
+    "sha256": "0ee9a31e69c8be5b6114551a6aff75cc8f690c77f9d16bfa502e54077feb2481",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "chained_filter_controller\\package.xml",
+    "bytes": 1779,
+    "sha256": "da8aab82211eecf4f2c60f2e70fceca8dba234b9bc61458783aca0abc398d5b0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "chained_filter_controller\\plugin_description.xml",
+    "bytes": 486,
+    "sha256": "1d68253b45f21b2e1361522b2f1ee12dee80108326560c3872801b289a50618e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "chained_filter_controller\\src\\chained_filter.cpp",
+    "bytes": 6360,
+    "sha256": "3e3b9ac0af03e0d1df53dc5063edee39d31b86d8b0d1c6d09b60c635859a8879",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "chained_filter_controller\\src\\chained_filter_parameters.yaml",
+    "bytes": 1510,
+    "sha256": "73f25cb9054288959cb70b3b5370ff83e3fa03721f55609b62aa7a068f7c0b57",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "codecov.yml",
+    "bytes": 282,
+    "sha256": "50ae7cbb74ee0d1bca932b5dd473ed6220c29fd59752a7260c6b66f425e48836",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "diff_drive_controller\\diff_drive_plugin.xml",
+    "bytes": 428,
+    "sha256": "896628bea7d1e64e43e318c9838f1dd8b67336e71c3c36b9a067ac4fa15ca548",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "diff_drive_controller\\include\\diff_drive_controller\\diff_drive_controller.hpp",
+    "bytes": 6533,
+    "sha256": "4f424e4d581733126906a467523f4f25676b124e66288001bc2d90e078bae739",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "diff_drive_controller\\include\\diff_drive_controller\\odometry.hpp",
+    "bytes": 4172,
+    "sha256": "3db40b0384559eeed1007023d2e3152e405175512dc3e975f69c654e3f4965c5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "diff_drive_controller\\include\\diff_drive_controller\\speed_limiter.hpp",
+    "bytes": 5343,
+    "sha256": "7c276171e5b14d37b1189741a70645a5926d41dff25cb8ad30bd44ecabf24c4d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "diff_drive_controller\\package.xml",
+    "bytes": 1925,
+    "sha256": "3cab384469d2f3ab238e418d35ad0c699b689e4a5673ee43785abd7a385eed87",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "diff_drive_controller\\src\\diff_drive_controller.cpp",
+    "bytes": 28160,
+    "sha256": "c2b0fd6857cfc39eaf3028d607d72b49924ad66a593867eb0fb7e0d80502f593",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "diff_drive_controller\\src\\diff_drive_controller_parameter.yaml",
+    "bytes": 8083,
+    "sha256": "b3c9f15878f04249291c5b3c7d2b75905d60bb9baddde504c810edec986043e5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "diff_drive_controller\\src\\odometry.cpp",
+    "bytes": 8086,
+    "sha256": "558ab404902413598f5dc2e0649185611954b1d2addf7260885fbe28c71f7eb7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "force_torque_sensor_broadcaster\\force_torque_sensor_broadcaster.xml",
+    "bytes": 447,
+    "sha256": "23f59779c7c9aafe37fa8a3ea392d1accd51f64dba2f88172ffd17a548e3915e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "force_torque_sensor_broadcaster\\include\\force_torque_sensor_broadcaster\\force_torque_sensor_broadcaster.hpp",
+    "bytes": 3653,
+    "sha256": "1fb484b6c26af5857c327cfad86dc7b8d0de0edce61e46a64619f2402c79fa3f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "force_torque_sensor_broadcaster\\include\\force_torque_sensor_broadcaster\\wrench_transformer.hpp",
+    "bytes": 3015,
+    "sha256": "0d545dd6daaaad5ebc2fbbf96f84e248ef09ebc5226fb7060dd3602fea21c231",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "force_torque_sensor_broadcaster\\package.xml",
+    "bytes": 1884,
+    "sha256": "c93b83d2eabbccb1e39821ad997e4ce582a7df7665e14256a51134fdadf28675",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "force_torque_sensor_broadcaster\\src\\force_torque_sensor_broadcaster.cpp",
+    "bytes": 11307,
+    "sha256": "9dead8d905bbd9b5860ab325df322cc81d01986d82ec184a9fdd09acada55287",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "force_torque_sensor_broadcaster\\src\\force_torque_sensor_broadcaster_parameters.yaml",
+    "bytes": 3720,
+    "sha256": "0c7f0631d60d8526e6cc8cb982bfd2acec0eda2b931c18fead1e5e601687f354",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "force_torque_sensor_broadcaster\\src\\wrench_transformer.cpp",
+    "bytes": 6472,
+    "sha256": "c7cd4686c26dcf8a645a1fc3971d8e4152bae0f988598674b8ec7736f1631a0a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "force_torque_sensor_broadcaster\\src\\wrench_transformer_main.cpp",
+    "bytes": 848,
+    "sha256": "09b543d7693b303ecb665bcbbfebe175d89a8cafb9bb04130ce4580dc1137d9d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "force_torque_sensor_broadcaster\\src\\wrench_transformer_parameters.yaml",
+    "bytes": 465,
+    "sha256": "4d351e0148bac5b1c3443b0e0a3013a1e13d0dd040e65b94a161ddf5c2e76978",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "forward_command_controller\\forward_command_plugin.xml",
+    "bytes": 721,
+    "sha256": "ea4711b12ef8ad9a775a82f721910da65c5e8134772c086d3dcf88dec6124991",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "forward_command_controller\\include\\forward_command_controller\\forward_command_controller.hpp",
+    "bytes": 1818,
+    "sha256": "24f6a2d5f25c3642d85fc7deec1c9b46169fc1d6479b764effe03995bf4b4bbc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "forward_command_controller\\include\\forward_command_controller\\forward_controllers_base.hpp",
+    "bytes": 3773,
+    "sha256": "b227b1ff12c1f59f12db3e71f126f1e1d983f9e45cc3d8a73f57574ec6dce46c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "forward_command_controller\\include\\forward_command_controller\\multi_interface_forward_command_controller.hpp",
+    "bytes": 2099,
+    "sha256": "9a98f3677197141a70832c9b00531bbb38b6a39fcb2bc659f832282ec4043267",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "forward_command_controller\\package.xml",
+    "bytes": 1582,
+    "sha256": "3ec4aa1990682746efc7aec42395e49a5fc718f298df2bbcde6e12eb846d55ed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "forward_command_controller\\src\\forward_command_controller.cpp",
+    "bytes": 1980,
+    "sha256": "689bbe6e561a2ac31a245f560ca62d858af183964a223810f0ce7772c24453d2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "forward_command_controller\\src\\forward_command_controller_parameters.yaml",
+    "bytes": 366,
+    "sha256": "cd1ec480c7db7ef005ba2c4bbc6573003a5ca3dd86777e578b5082034a57910b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "forward_command_controller\\src\\forward_controllers_base.cpp",
+    "bytes": 5746,
+    "sha256": "ed33b9ec2de175c8223008877f336d0e62e8a6f0bf60f721138d6f29c8bc012f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "forward_command_controller\\src\\multi_interface_forward_command_controller.cpp",
+    "bytes": 2037,
+    "sha256": "148e46725939b1c9d7bfb20d3b4b4e6ea1e99733f58c19082d0bee20a5a504a9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "forward_command_controller\\src\\multi_interface_forward_command_controller_parameters.yaml",
+    "bytes": 389,
+    "sha256": "a5e9a1d7abd6fd16931d0e500d09764172ea630b37ddb49d1ef1e9ea1d2cc697",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "gpio_controllers\\gpio_controllers_plugin.xml",
+    "bytes": 344,
+    "sha256": "99ae1c91b3347862a370ea111ba90c510896b901f2beb21d2a7ed2a013ebdd26",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "gpio_controllers\\include\\gpio_controllers\\gpio_command_controller.hpp",
+    "bytes": 4855,
+    "sha256": "a672e0429a2a9d223a7639404b6187a108488984013056f985996e5a87e31058",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "gpio_controllers\\package.xml",
+    "bytes": 1727,
+    "sha256": "abe6ad4ea3ab68333431d6c6a406faa69238e19801bf8e85dc6b9d0913babff8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "gpio_controllers\\src\\gpio_command_controller.cpp",
+    "bytes": 15339,
+    "sha256": "8ca409dfce2b1309698d25bd7f9167772f4e1c0864fa34cb85d6f7d1ea90029f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "gpio_controllers\\src\\gpio_command_controller_parameters.yaml",
+    "bytes": 816,
+    "sha256": "31678ca408343caac2a31a04cc415b03d189286a6ff37d3a201dea88ef1a25ae",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "gps_sensor_broadcaster\\gps_sensor_broadcaster.xml",
+    "bytes": 378,
+    "sha256": "8f5a13e453ea1a9c9ec7dd6fa824d98cf211270f28b499749d92e78f48875d07",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "gps_sensor_broadcaster\\include\\gps_sensor_broadcaster\\gps_sensor_broadcaster.hpp",
+    "bytes": 2996,
+    "sha256": "1cce866ee96df2fe545a7491627e34e92f60dee5c1cdff8e9963190f09e479e3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "gps_sensor_broadcaster\\package.xml",
+    "bytes": 1438,
+    "sha256": "f431cbc1f61dade0a19898183899827a2f1cc57496ae100bcaf9ea818132e2e7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "gps_sensor_broadcaster\\src\\gps_sensor_broadcaster.cpp",
+    "bytes": 5378,
+    "sha256": "021d0df12038a2ea19d1dffb702e95f08fc55a4cfc59eca9e726fc1c70aee6c2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "gps_sensor_broadcaster\\src\\gps_sensor_broadcaster_parameters.yaml",
+    "bytes": 922,
+    "sha256": "2d52fe3153f54f131b7542a145a9e22b2455244177550b5e8864755be9c5f346",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "imu_sensor_broadcaster\\imu_sensor_broadcaster.xml",
+    "bytes": 381,
+    "sha256": "3a3c58a351ed0dddcee2892f43e3d744e7016f298eaa52ae64dcc91b812b2cb8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "imu_sensor_broadcaster\\include\\imu_sensor_broadcaster\\imu_sensor_broadcaster.hpp",
+    "bytes": 2907,
+    "sha256": "10c84c26ea86fde8a1114d62d83d9bf1862f520fb78f3536476868f6cd774c6b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "imu_sensor_broadcaster\\include\\imu_sensor_broadcaster\\imu_transform.hpp",
+    "bytes": 3705,
+    "sha256": "32408028add2bf663ff2e1fd71b578af9cc09cd99e539f5f9ae6228a64e5315d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "imu_sensor_broadcaster\\package.xml",
+    "bytes": 1807,
+    "sha256": "da9f363ec5fc95d56bebdf8b4d2594f200614e789fed217605b6a844ce795495",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "imu_sensor_broadcaster\\src\\imu_sensor_broadcaster.cpp",
+    "bytes": 7173,
+    "sha256": "ba280d1630542dbf0f7f80df747071473e84715f9f09e659a9a8c58edfd5f6e1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "imu_sensor_broadcaster\\src\\imu_sensor_broadcaster_parameters.yaml",
+    "bytes": 2002,
+    "sha256": "3cb75b6f881012a0b88704851bfa27f8ea3e91f1bcef1382c7e1597c9f9060f1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_state_broadcaster\\include\\joint_state_broadcaster\\joint_state_broadcaster.hpp",
+    "bytes": 5589,
+    "sha256": "c46f1835e172b9be68a14e30b43745012504dbb484d4caceda643001c881431d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_state_broadcaster\\joint_state_plugin.xml",
+    "bytes": 367,
+    "sha256": "7a5fbed60b1a9c85fc03333e65447e3ea8a4cd16d37077119c20584d7e949cb6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_state_broadcaster\\package.xml",
+    "bytes": 1747,
+    "sha256": "d94183034c2d7cb99cb84f3491ac5f9a5a9d3a40a41ef87f475e9aff0297ba70",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_state_broadcaster\\src\\joint_state_broadcaster.cpp",
+    "bytes": 17257,
+    "sha256": "354e75d29bf9c570adcd64ca10a2673de593cc7e05df33f6fabb015255206fb3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_state_broadcaster\\src\\joint_state_broadcaster_parameters.yaml",
+    "bytes": 2901,
+    "sha256": "6e182a94502e3d6b37c1d452b57377c2826a802d32b066f56ccc4d86075b9f67",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_trajectory_controller\\include\\joint_trajectory_controller\\interpolation_methods.hpp",
+    "bytes": 4878,
+    "sha256": "6648dfca088a0ba600b5b43a8ad6a25b02e3228050dc631c153c1642561fe266",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_trajectory_controller\\include\\joint_trajectory_controller\\joint_trajectory_controller.hpp",
+    "bytes": 15463,
+    "sha256": "d0d2f9a06280bf711804d5346024b6f79328255057ef5e51842f6405395f3cf5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_trajectory_controller\\include\\joint_trajectory_controller\\tolerances.hpp",
+    "bytes": 13533,
+    "sha256": "14811d4bc8fe67fdbe920f80ad6f8ce08b01da2b7feeacb7273911a147f4b5d7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_trajectory_controller\\include\\joint_trajectory_controller\\trajectory.hpp",
+    "bytes": 9217,
+    "sha256": "886dca7314925e38c3d8592eec86952a56e49f77c9e91f1aa189ecc4aa571a74",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_trajectory_controller\\include\\joint_trajectory_controller\\validate_jtc_parameters.hpp",
+    "bytes": 3591,
+    "sha256": "0a132778273951ab62cd25ad83ce618d5b0ea9e47570350956f7ff0437bc3e4d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_trajectory_controller\\joint_trajectory_plugin.xml",
+    "bytes": 389,
+    "sha256": "848d7608aade5e5f260904a7f0243101aca77708ad3353127b8ef5b29062d984",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_trajectory_controller\\package.xml",
+    "bytes": 1753,
+    "sha256": "7dbb8b6efc093c7b3ad645263ae9d0e4df10dabd57c7f948f5d5a0e57cae69b1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_trajectory_controller\\src\\joint_trajectory_controller.cpp",
+    "bytes": 78603,
+    "sha256": "a03304752a0f4448b93193c8844bbded90bf0850f62609456936ad4047ca538f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_trajectory_controller\\src\\joint_trajectory_controller_parameters.yaml",
+    "bytes": 8806,
+    "sha256": "4750711267783a469eef2f5eec0e3a46924576a335f9b2cc56a706077f7e213f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "joint_trajectory_controller\\src\\trajectory.cpp",
+    "bytes": 15985,
+    "sha256": "7dc43b15fbdca46cd71925809c10e41fc7f514c95aae71729f319ff138293a7a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "mecanum_drive_controller\\include\\mecanum_drive_controller\\mecanum_drive_controller.hpp",
+    "bytes": 6413,
+    "sha256": "7a2e9bc7a55b0c7f4f27f0a33da1064b583fd2bd5aed20f03622e7737866a2ed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "mecanum_drive_controller\\include\\mecanum_drive_controller\\odometry.hpp",
+    "bytes": 4516,
+    "sha256": "7d0daa914753a590ebd863fde7c8609540726d834e3b4f0f07c82dae74badd72",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "mecanum_drive_controller\\mecanum_drive_controller.xml",
+    "bytes": 443,
+    "sha256": "a6dc4f7ad08d80e128e5c51607e83d4b3da48ad18aadc806cfab9d2880ad3582",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "mecanum_drive_controller\\package.xml",
+    "bytes": 1992,
+    "sha256": "5d916765f8d3c95a97eb9c167a4ed9dd7966ea014745129e4c14256ffee9647c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "mecanum_drive_controller\\src\\mecanum_drive_controller.cpp",
+    "bytes": 25225,
+    "sha256": "5274838a68a6698765f716f2038a1e98d19737a03c58079f760257932a27afd7",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "mecanum_drive_controller\\src\\mecanum_drive_controller.yaml",
+    "bytes": 5297,
+    "sha256": "8ad11a698e969ae455f6635a45d129656440f845637e488333e13a07a42e5b4c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "mecanum_drive_controller\\src\\odometry.cpp",
+    "bytes": 5676,
+    "sha256": "c97573d77d1ddb3cc44634f59fbef9412d6dd0ab7bb4f2fbdfb57fe791f77d38",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "motion_primitives_controllers\\controller_plugins.xml",
+    "bytes": 395,
+    "sha256": "7c99071a59ac52685a067523f0230e261fa90d2041a3a6ecd8393e9ce7137f5c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "motion_primitives_controllers\\include\\motion_primitives_controllers\\motion_primitives_base_controller.hpp",
+    "bytes": 3734,
+    "sha256": "a62e512105ec98d31cd270b5dffc0a738129e53173d209e63e4dff4cf90ef0cc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "motion_primitives_controllers\\include\\motion_primitives_controllers\\motion_primitives_forward_controller.hpp",
+    "bytes": 2938,
+    "sha256": "412c37b92f7f80c283016dd0956ee4a2bd374a11bf6356672bd5c9d55da3025d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "motion_primitives_controllers\\package.xml",
+    "bytes": 1736,
+    "sha256": "dc0c7ee24cd0a5ac144592bd1427a88e5bfae3166e96d6fd49d65b06ba74060e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "motion_primitives_controllers\\src\\motion_primitives_base_controller.cpp",
+    "bytes": 9463,
+    "sha256": "a933b54d80ff500ac2faee07dcc202742c7d14ac81ce9f597a90c682100d01dd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "motion_primitives_controllers\\src\\motion_primitives_forward_controller.cpp",
+    "bytes": 14225,
+    "sha256": "928b14017e60038fdddb829a6ebc31ea7174c3d091757163397034f798bf80f2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "motion_primitives_controllers\\src\\motion_primitives_forward_controller_parameter.yaml",
+    "bytes": 232,
+    "sha256": "a21f19b10ce23b3ee876ced12b21a9476dd3ac046af477ed6e16980939a44a66",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "omni_wheel_drive_controller\\include\\omni_wheel_drive_controller\\odometry.hpp",
+    "bytes": 2543,
+    "sha256": "5c7376527ac981df7efaf4bebd635ba81ee51082dea6db1815d11c9736b3cb7e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "omni_wheel_drive_controller\\include\\omni_wheel_drive_controller\\omni_wheel_drive_controller.hpp",
+    "bytes": 5286,
+    "sha256": "3ba3c0e790a6fe00a9572f5a77ee6e9fbe7039741d7ef1a0b0d5b8bcdbd338d1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "omni_wheel_drive_controller\\omni_wheel_drive_plugin.xml",
+    "bytes": 427,
+    "sha256": "1382c7b04e69329d0499d00007e1dd1fbf91a4edaa26c071fa9725f17ab9eee1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "omni_wheel_drive_controller\\package.xml",
+    "bytes": 1694,
+    "sha256": "b42846494def4103e38f580921ad6cc96010b46f1c21e238e43e0e5280bba06a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "omni_wheel_drive_controller\\src\\odometry.cpp",
+    "bytes": 5022,
+    "sha256": "cf694f33cc9999849f6e642d8c180709d0936eb96694daa8b6544d0680b59fb5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "omni_wheel_drive_controller\\src\\omni_wheel_drive_controller.cpp",
+    "bytes": 21371,
+    "sha256": "ebc606e8e1ce0474c4074d2a099f17c3cbd63fced9bbc40cb1881936d30f8abe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "omni_wheel_drive_controller\\src\\omni_wheel_drive_controller_parameters.yaml",
+    "bytes": 3914,
+    "sha256": "17a18f834653d58cef6e56803225d073dc4aa9019a99c185947b94bc502a1cc7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "parallel_gripper_controller\\include\\parallel_gripper_controller\\parallel_gripper_action_controller.hpp",
+    "bytes": 6313,
+    "sha256": "0ad3ba1c238caadb514e64a4d5fdcea301f794edad29384067c4ef23d23a0e2b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "parallel_gripper_controller\\include\\parallel_gripper_controller\\parallel_gripper_action_controller_impl.hpp",
+    "bytes": 17041,
+    "sha256": "496084b8f558f1cc8d4b3db0e375722334f84c8196ad56fa225d247da7f565ec",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "parallel_gripper_controller\\package.xml",
+    "bytes": 1733,
+    "sha256": "9e88e9e3d27039e18054fa7b9e62bdc6a675ec33c4e5497c15344e10897fa991",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "parallel_gripper_controller\\ros_control_plugins.xml",
+    "bytes": 344,
+    "sha256": "b6f3d8b9abf37f3efd548b2a4d9da3263f9db55aee85d6e55460aa9933cc9f78",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "parallel_gripper_controller\\src\\gripper_action_controller_parameters.yaml",
+    "bytes": 1801,
+    "sha256": "0a6bb3035e06d497f8a247bfce9e08e2654a8141db1beaaf76b3ad4cde0ae152",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "parallel_gripper_controller\\src\\parallel_gripper_action_controller.cpp",
+    "bytes": 985,
+    "sha256": "a40a0fe4cc04690a45ac23763417a4163881369ecc29084f1638dfdcf34ebe59",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "pid_controller\\include\\pid_controller\\pid_controller.hpp",
+    "bytes": 4342,
+    "sha256": "ce221c644840a28e034a170d26b545257bbc0ff83e20d71304933801d0628060",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "pid_controller\\package.xml",
+    "bytes": 1818,
+    "sha256": "525e5d767f534e2941a5cc067e1335b4f42e0a665137f071b4d0c30a1d855c21",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "pid_controller\\pid_controller.xml",
+    "bytes": 299,
+    "sha256": "7597cb50a60bda619439acd86082a1fe317f03398c59af478d75b0f568bf441c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "pid_controller\\src\\pid_controller.cpp",
+    "bytes": 22468,
+    "sha256": "3d8b894e7e73f37aba5da7026576e9353468ec8909f7178e0331c298b0831451",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "pid_controller\\src\\pid_controller.yaml",
+    "bytes": 4645,
+    "sha256": "3d2dfbd89301effc1e2714049f2bc4b37b6676c831a8117213b22ba36bbc9eac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "pose_broadcaster\\include\\pose_broadcaster\\pose_broadcaster.hpp",
+    "bytes": 2745,
+    "sha256": "e9875bca3741c0d0d6169b885f909946d5a408a2cdfed1d7d7e823fc2e981edf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "pose_broadcaster\\package.xml",
+    "bytes": 1670,
+    "sha256": "e9f24b4ef7815c39c93a6eb2aa9699fbb145f7ae394d21ca84f5c06835dfd3ab",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "pose_broadcaster\\pose_broadcaster.xml",
+    "bytes": 394,
+    "sha256": "06e2e7ee885bbd7c9172e78c7db35e8cca24b19c7c4b4fd21459159fc75e1bce",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "pose_broadcaster\\src\\pose_broadcaster.cpp",
+    "bytes": 6415,
+    "sha256": "1440e2ec0f93751832f7f80d82eaf9977d19c05217581e29fa1bef6359bc8f0d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "pose_broadcaster\\src\\pose_broadcaster_parameters.yaml",
+    "bytes": 811,
+    "sha256": "85d39e8ee85fa314a8e8d1a608eb38c5e7e09103bfee6f310119350c9623494f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "range_sensor_broadcaster\\include\\range_sensor_broadcaster\\range_sensor_broadcaster.hpp",
+    "bytes": 2542,
+    "sha256": "4b1357c940493ff10a9ca1b7d4e6e3e4e044705fff181789f821d04f083cbec3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "range_sensor_broadcaster\\package.xml",
+    "bytes": 1695,
+    "sha256": "730dd0c2fee74df5c7e5bbc2ada42d1227857567aec5b173e8365cffc7f6e1e6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "range_sensor_broadcaster\\range_sensor_broadcaster.xml",
+    "bytes": 386,
+    "sha256": "7659e7c6879d219f189568f74165c10a32b681701c21bfbccea09f68f3cfbe33",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "range_sensor_broadcaster\\src\\range_sensor_broadcaster.cpp",
+    "bytes": 4771,
+    "sha256": "cd15c2b71954b2c419df28db9c6d6f74239c582b11d25653267912f625d8f7ca",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "range_sensor_broadcaster\\src\\range_sensor_broadcaster_parameters.yaml",
+    "bytes": 895,
+    "sha256": "d3da6fc8bef421a79f94f560acd7c7339104d2fc683216c496937ecf84a35451",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2_controllers\\package.xml",
+    "bytes": 2184,
+    "sha256": "d337e6aba973925d601c26c35fcbe8a6ae8a5f97d827b8b159d6503f6e45cfa1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2_controllers\\rosdoc2.yaml",
+    "bytes": 446,
+    "sha256": "2abe071f1b7f74b3b168865ef701ca3c258884e9ba32a3d2441965179e6fdcf4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_joint_trajectory_controller\\package.xml",
+    "bytes": 1730,
+    "sha256": "48645d3579ccf97691948f0bf70b5688b472bc570f1444096c5ab42584df8fb8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_joint_trajectory_controller\\plugin.xml",
+    "bytes": 769,
+    "sha256": "7b0fd34d79e8aa865f588e3167a568dcbfa9b5e5344ce5a9c6a12d1b5df6c53f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_joint_trajectory_controller\\rqt_joint_trajectory_controller\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_joint_trajectory_controller\\rqt_joint_trajectory_controller\\double_editor.py",
+    "bytes": 3974,
+    "sha256": "16c0f5479a92ab2ea1aaf373c030b6299d50069d0490275d7d9da2f2e706ddf8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_joint_trajectory_controller\\rqt_joint_trajectory_controller\\joint_limits_urdf.py",
+    "bytes": 7316,
+    "sha256": "6437dd8c2722b82d7ebea313e9c9917cdca65bc27412b207735387e974bc4d91",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_joint_trajectory_controller\\rqt_joint_trajectory_controller\\joint_trajectory_controller.py",
+    "bytes": 20556,
+    "sha256": "7bb80a8f94a3572aeaf38c92bc0e139d511850f6043a2ab375a95dabb5b33b7b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_joint_trajectory_controller\\rqt_joint_trajectory_controller\\rqt_joint_trajectory_controller.py",
+    "bytes": 760,
+    "sha256": "7f0427e28caabc2fb4a650269683ab8ea23337c491a1968bc84dde64ee42da73",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_joint_trajectory_controller\\rqt_joint_trajectory_controller\\update_combo.py",
+    "bytes": 2173,
+    "sha256": "90b9f6e1e8cbb60ae4527d61ff3db1308b3c04b03435dd3ccc7d74469fb88314",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_joint_trajectory_controller\\rqt_joint_trajectory_controller\\utils.py",
+    "bytes": 16160,
+    "sha256": "0de7861ad56e4b7582f110de2f17838d3cc1b859b13f64f44e328171181bd75d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rqt_joint_trajectory_controller\\setup.py",
+    "bytes": 1683,
+    "sha256": "815104520161f7b41734e8ec73bea59aed81339a1e29bf690cd826a8a7a0a976",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "state_interfaces_broadcaster\\include\\state_interfaces_broadcaster\\state_interfaces_broadcaster.hpp",
+    "bytes": 3317,
+    "sha256": "a5debd308152077a27c03ad291aae70e20cf1d59b8065f08617478735b054a1d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "state_interfaces_broadcaster\\package.xml",
+    "bytes": 1560,
+    "sha256": "a548dda1d4d5b9d11d1ce492ac700901d5ccad91e5de2b33128aa7b4055b03d6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "state_interfaces_broadcaster\\src\\state_interfaces_broadcaster.cpp",
+    "bytes": 4598,
+    "sha256": "728e7a2294152abe85228e4101d629a2af4c0ae0532f4098dee7523c2fe7de5a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "state_interfaces_broadcaster\\src\\state_interfaces_broadcaster_parameters.yaml",
+    "bytes": 291,
+    "sha256": "affd50ba502c6f14cccd34ce3ef492661c8e14e9e3aaec5ba3563b8e49fff717",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "state_interfaces_broadcaster\\state_interfaces_broadcaster_plugin.xml",
+    "bytes": 417,
+    "sha256": "1370fe34ca97a4288dc5d1154b9b66144101deeed88f27884b2642c1fca4f63a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "steering_controllers_library\\include\\steering_controllers_library\\steering_controllers_library.hpp",
+    "bytes": 6593,
+    "sha256": "f29f10d2c309a4bb4bdac5b3d35ba234a90546d984614e8d16abddc9aab5ff2e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "steering_controllers_library\\include\\steering_controllers_library\\steering_kinematics.hpp",
+    "bytes": 11586,
+    "sha256": "0a2a012be864af5e688aa7705da489cc5a6ad4a18003b2e55499b36f0e06caf2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "steering_controllers_library\\include\\steering_controllers_library\\steering_odometry.hpp",
+    "bytes": 4467,
+    "sha256": "740025997d6e1ad64c02b26ee7fa52cb9939b007bb04610d971b7fa419370de7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "steering_controllers_library\\package.xml",
+    "bytes": 2054,
+    "sha256": "a9b1445db33e3f10f5fadff545740b44ec43a5d5f74346d3ea423696b0ffcb0d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "steering_controllers_library\\src\\steering_controllers_library.cpp",
+    "bytes": 28482,
+    "sha256": "e1bcad4b04d3cf2d0663487ffe24c211aa8f9d95786e8be73693e6e90b853320",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "steering_controllers_library\\src\\steering_controllers_library.yaml",
+    "bytes": 4114,
+    "sha256": "4579b793b6b7b49538aa47bb0661b244ea5299e9c5e9df2b535c2b4f2b61f871",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "steering_controllers_library\\src\\steering_kinematics.cpp",
+    "bytes": 13462,
+    "sha256": "ec812d615004cdbaae59db703e994e25089542966763fefd7daa8d6ec4384b2b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "steering_controllers_library\\src\\steering_odometry.cpp",
+    "bytes": 3992,
+    "sha256": "9c9f7817a46725e8c9611bccd7ad7d3db808aa82219213983d0314affdba5524",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_controller\\config\\tricycle_drive_controller.yaml",
+    "bytes": 1893,
+    "sha256": "1427f7fa06f88e54660c993f54e45f6cc5bdc0a4d4edc31ed9292375e2de41df",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_controller\\include\\tricycle_controller\\odometry.hpp",
+    "bytes": 2837,
+    "sha256": "75e8c078289f7e37198ad8a304acd631c55ca64092ad76f8ce6c3c1d109a0d8a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_controller\\include\\tricycle_controller\\steering_limiter.hpp",
+    "bytes": 3071,
+    "sha256": "c81fe5fcc3e0201202f86996ce7e959018bce9f8c8408949f99767d77bfa0f99",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_controller\\include\\tricycle_controller\\traction_limiter.hpp",
+    "bytes": 3851,
+    "sha256": "9eb50f7ef3f42a2fe681368b727590fa2acfd036c67ffe55f41c4c8353ed7d69",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_controller\\include\\tricycle_controller\\tricycle_controller.hpp",
+    "bytes": 5915,
+    "sha256": "fc481f47bf7f1c59bebb7c415c5c1b0d82fb3ace0eeb33422e66661bf8127fcc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_controller\\package.xml",
+    "bytes": 1919,
+    "sha256": "34eec8fb5293a849c684adfd94dd7fb7c956b6e36088ce06df79954383620799",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_controller\\src\\odometry.cpp",
+    "bytes": 3435,
+    "sha256": "9045156047e3fbcbaf5068f4de36b5e899f4614fbbf1e7c797ef2c9c7c19e32e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_controller\\src\\steering_limiter.cpp",
+    "bytes": 3815,
+    "sha256": "e7d76ab61fd714aa52f75e9d7d431c235460726bcadb7bdd1b9f9002614dbe0e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_controller\\src\\traction_limiter.cpp",
+    "bytes": 5097,
+    "sha256": "db1f44f1a1e8c27bc2bb71b4ff9dc57ec8778c04352d7c7929ce6c4cd88bbfbe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_controller\\src\\tricycle_controller.cpp",
+    "bytes": 21301,
+    "sha256": "5777088ef0509911ce58081315a07c27ac98f8a7c9590c7f625a8b663e1fab4e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_controller\\src\\tricycle_controller_parameter.yaml",
+    "bytes": 4677,
+    "sha256": "62f09870a032c5ad953cddb1bd9ca6a0e839dbc18113fb47305e4c507e8ce353",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_controller\\tricycle_controller.xml",
+    "bytes": 412,
+    "sha256": "9a174e6bb3888e003c5a9107c60acecf4e6f7a5701f35e8376b380bf2dc7379b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_steering_controller\\include\\tricycle_steering_controller\\tricycle_steering_controller.hpp",
+    "bytes": 2265,
+    "sha256": "df364eac515b98c8ab69dbb70c62b247d83c240a89cc2a5235c644e3b76ba5a4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_steering_controller\\package.xml",
+    "bytes": 1994,
+    "sha256": "23debeb6e4fbfbb51b307ab1be187eb5db082dd1f9820ea8773bf3b6d46df4bf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_steering_controller\\src\\tricycle_steering_controller.cpp",
+    "bytes": 3888,
+    "sha256": "807caeeb3206430720ef0ae28e3006f8da243790e662945fc994fde1bd6e1538",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_steering_controller\\src\\tricycle_steering_controller.yaml",
+    "bytes": 716,
+    "sha256": "e6f6773123bc4adaa8f4bc7de13378bca3c50c5bb78134885532eb8ba0ca0ad3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tricycle_steering_controller\\tricycle_steering_controller.xml",
+    "bytes": 414,
+    "sha256": "ab13ecfa3d36a534fb0d2cf51525cfab22a13c7bdaaf50cb204960be9a1700d2",
+    "included_in_llm_prompt": false
+  }
+]

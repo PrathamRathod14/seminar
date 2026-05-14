@@ -1,0 +1,41 @@
+{
+  "pair_key": "llama-4 :: ros2/geometry2",
+  "repo": "ros2/geometry2",
+  "actual_categories": [
+    "hallucinated_node",
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "hallucinated_node",
+      "missing_node"
+    ],
+    "AS2FM": [
+      "hallucinated_node",
+      "missing_node"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "llama-4_ros2_geometry2__err_0001",
+      "category": "hallucinated_node",
+      "node": "transform_listener",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros2_geometry2__err_0002",
+      "category": "missing_node",
+      "node": "tf_buffer",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

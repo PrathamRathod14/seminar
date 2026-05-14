@@ -1,0 +1,664 @@
+{
+  "jani-version": 1,
+  "name": "ros2_architecture_recovery_check",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "metadata": {
+    "ground_truth_nodes": [
+      {
+        "name": "BasicNavigator",
+        "subsystem": "navigation",
+        "publishes": [
+          {
+            "topic": "initialpose",
+            "type": "PoseWithCovarianceStamped"
+          }
+        ],
+        "subscribes": [
+          {
+            "topic": "amcl_pose",
+            "type": "PoseWithCovarianceStamped"
+          }
+        ],
+        "lifecycle": false,
+        "source_files": [
+          "nav2_simple_commander\\nav2_simple_commander\\robot_navigator.py"
+        ],
+        "msg_types": {
+          "initialpose": "PoseWithCovarianceStamped",
+          "amcl_pose": "PoseWithCovarianceStamped"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "_",
+        "subsystem": "visualization",
+        "publishes": [
+          {
+            "topic": "waypoints",
+            "type": "visualization_msgs::msg::MarkerArray"
+          }
+        ],
+        "subscribes": [
+          {
+            "topic": "navigate_to_pose/_action/feedback",
+            "type": "nav2_msgs::action::NavigateToPose::Impl::FeedbackMessage"
+          },
+          {
+            "topic": "navigate_through_poses/_action/feedback",
+            "type": "nav2_msgs::action::NavigateThroughPoses::Impl::FeedbackMessage"
+          },
+          {
+            "topic": "navigate_to_pose/_action/status",
+            "type": "action_msgs::msg::GoalStatusArray"
+          },
+          {
+            "topic": "navigate_through_poses/_action/status",
+            "type": "action_msgs::msg::GoalStatusArray"
+          }
+        ],
+        "lifecycle": false,
+        "source_files": [
+          "nav2_rviz_plugins\\src\\nav2_panel.cpp"
+        ],
+        "msg_types": {
+          "waypoints": "visualization_msgs::msg::MarkerArray",
+          "navigate_to_pose/_action/feedback": "nav2_msgs::action::NavigateToPose::Impl::FeedbackMessage",
+          "navigate_through_poses/_action/feedback": "nav2_msgs::action::NavigateThroughPoses::Impl::FeedbackMessage",
+          "navigate_to_pose/_action/status": "action_msgs::msg::GoalStatusArray",
+          "navigate_through_poses/_action/status": "action_msgs::msg::GoalStatusArray"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "amcl",
+        "subsystem": "localization",
+        "publishes": [
+          {
+            "topic": "particle_cloud",
+            "type": "nav2_msgs::msg::ParticleCloud"
+          },
+          {
+            "topic": "amcl_pose",
+            "type": "geometry_msgs::msg::PoseWithCovarianceStamped"
+          }
+        ],
+        "subscribes": [
+          {
+            "topic": "initialpose",
+            "type": "geometry_msgs::msg::PoseWithCovarianceStamped"
+          }
+        ],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_amcl\\src\\amcl_node.cpp",
+          "nav2_bringup\\launch\\localization_launch.py"
+        ],
+        "msg_types": {
+          "particle_cloud": "nav2_msgs::msg::ParticleCloud",
+          "amcl_pose": "geometry_msgs::msg::PoseWithCovarianceStamped",
+          "initialpose": "geometry_msgs::msg::PoseWithCovarianceStamped"
+        },
+        "has_lifecycle": true
+      },
+      {
+        "name": "base_footprint_publisher",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "nav2_util\\src\\base_footprint_publisher.hpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "behavior_server",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_behaviors\\src\\behavior_server.cpp",
+          "nav2_bringup\\launch\\navigation_launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": true
+      },
+      {
+        "name": "bt_navigator",
+        "subsystem": "navigation",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_bringup\\launch\\navigation_launch.py",
+          "nav2_bt_navigator\\src\\bt_navigator.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": true
+      },
+      {
+        "name": "collision_detector",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "collision_detector_state",
+            "type": "nav2_msgs::msg::CollisionDetectorState"
+          },
+          {
+            "topic": "~/collision_points_marker",
+            "type": "visualization_msgs::msg::MarkerArray"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_collision_monitor\\launch\\collision_detector_node.launch.py",
+          "nav2_collision_monitor\\src\\collision_detector_node.cpp"
+        ],
+        "msg_types": {
+          "collision_detector_state": "nav2_msgs::msg::CollisionDetectorState",
+          "~/collision_points_marker": "visualization_msgs::msg::MarkerArray"
+        },
+        "has_lifecycle": true
+      },
+      {
+        "name": "collision_monitor",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "~/collision_points_marker",
+            "type": "visualization_msgs::msg::MarkerArray"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_bringup\\launch\\navigation_launch.py",
+          "nav2_collision_monitor\\launch\\collision_monitor_node.launch.py",
+          "nav2_collision_monitor\\src\\collision_monitor_node.cpp"
+        ],
+        "msg_types": {
+          "~/collision_points_marker": "visualization_msgs::msg::MarkerArray"
+        },
+        "has_lifecycle": true
+      },
+      {
+        "name": "component_container_isolated",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "nav2_bringup\\launch\\bringup_launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "controller_server",
+        "subsystem": "control",
+        "publishes": [
+          {
+            "topic": "transformed_global_plan",
+            "type": "nav_msgs::msg::Path"
+          },
+          {
+            "topic": "tracking_feedback",
+            "type": "nav2_msgs::msg::TrackingFeedback"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_bringup\\launch\\navigation_launch.py",
+          "nav2_controller\\src\\controller_server.cpp"
+        ],
+        "msg_types": {
+          "transformed_global_plan": "nav_msgs::msg::Path",
+          "tracking_feedback": "nav2_msgs::msg::TrackingFeedback"
+        },
+        "has_lifecycle": true
+      },
+      {
+        "name": "costmap",
+        "subsystem": "mapping",
+        "publishes": [
+          {
+            "topic": "published_footprint",
+            "type": "geometry_msgs::msg::PolygonStamped"
+          }
+        ],
+        "subscribes": [
+          {
+            "topic": "footprint",
+            "type": "geometry_msgs::msg::PolygonStamped"
+          },
+          {
+            "topic": "footprint",
+            "type": "geometry_msgs::msg::Polygon"
+          }
+        ],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_costmap_2d\\src\\costmap_2d_ros.cpp"
+        ],
+        "msg_types": {
+          "published_footprint": "geometry_msgs::msg::PolygonStamped",
+          "footprint": "geometry_msgs::msg::Polygon"
+        },
+        "has_lifecycle": true
+      },
+      {
+        "name": "costmap_filter_info_server",
+        "subsystem": "mapping",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_bringup\\launch\\keepout_zone_launch.py",
+          "nav2_bringup\\launch\\speed_zone_launch.py",
+          "nav2_map_server\\launch\\vector_object_server.launch.py",
+          "nav2_map_server\\src\\costmap_filter_info\\costmap_filter_info_server.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": true
+      },
+      {
+        "name": "docking_server",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_docking\\opennav_docking\\src\\docking_server.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": true
+      },
+      {
+        "name": "following_server",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "filtered_dynamic_pose",
+            "type": "geometry_msgs::msg::PoseStamped"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_following\\opennav_following\\src\\following_server.cpp"
+        ],
+        "msg_types": {
+          "filtered_dynamic_pose": "geometry_msgs::msg::PoseStamped"
+        },
+        "has_lifecycle": true
+      },
+      {
+        "name": "lifecycle_bringup_client",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "nav2_util\\src\\lifecycle_bringup_commandline.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "lifecycle_manager",
+        "subsystem": "localization",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "nav2_bringup\\launch\\keepout_zone_launch.py",
+          "nav2_bringup\\launch\\localization_launch.py",
+          "nav2_bringup\\launch\\navigation_launch.py",
+          "nav2_bringup\\launch\\slam_launch.py",
+          "nav2_bringup\\launch\\speed_zone_launch.py",
+          "nav2_collision_monitor\\launch\\collision_detector_node.launch.py",
+          "nav2_collision_monitor\\launch\\collision_monitor_node.launch.py",
+          "nav2_lifecycle_manager\\src\\lifecycle_manager.cpp",
+          "nav2_map_server\\launch\\map_saver_server.launch.py",
+          "nav2_map_server\\launch\\vector_object_server.launch.py",
+          "nav2_rviz_plugins\\launch\\route_tool.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "map_saver",
+        "subsystem": "mapping",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_map_server\\src\\map_saver\\map_saver.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": true
+      },
+      {
+        "name": "map_saver_server",
+        "subsystem": "mapping",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "nav2_bringup\\launch\\slam_launch.py",
+          "nav2_map_server\\launch\\map_saver_server.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "map_server",
+        "subsystem": "mapping",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_bringup\\launch\\keepout_zone_launch.py",
+          "nav2_bringup\\launch\\localization_launch.py",
+          "nav2_bringup\\launch\\speed_zone_launch.py",
+          "nav2_map_server\\src\\map_server\\map_server.cpp",
+          "nav2_rviz_plugins\\launch\\route_tool.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": true
+      },
+      {
+        "name": "nav2_rviz_docking_panel_node",
+        "subsystem": "visualization",
+        "publishes": [],
+        "subscribes": [
+          {
+            "topic": "dock_robot/_action/feedback",
+            "type": "Dock::Impl::FeedbackMessage"
+          },
+          {
+            "topic": "dock_robot/_action/status",
+            "type": "action_msgs::msg::GoalStatusArray"
+          },
+          {
+            "topic": "undock_robot/_action/status",
+            "type": "action_msgs::msg::GoalStatusArray"
+          }
+        ],
+        "lifecycle": false,
+        "source_files": [
+          "nav2_rviz_plugins\\src\\docking_panel.cpp"
+        ],
+        "msg_types": {
+          "dock_robot/_action/feedback": "Dock::Impl::FeedbackMessage",
+          "dock_robot/_action/status": "action_msgs::msg::GoalStatusArray",
+          "undock_robot/_action/status": "action_msgs::msg::GoalStatusArray"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "nav2_rviz_selector_node",
+        "subsystem": "visualization",
+        "publishes": [
+          {
+            "topic": "controller_selector",
+            "type": "std_msgs::msg::String"
+          },
+          {
+            "topic": "planner_selector",
+            "type": "std_msgs::msg::String"
+          },
+          {
+            "topic": "goal_checker_selector",
+            "type": "std_msgs::msg::String"
+          },
+          {
+            "topic": "smoother_selector",
+            "type": "std_msgs::msg::String"
+          },
+          {
+            "topic": "progress_checker_selector",
+            "type": "std_msgs::msg::String"
+          },
+          {
+            "topic": "path_handler_selector",
+            "type": "std_msgs::msg::String"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "nav2_rviz_plugins\\src\\selector.cpp"
+        ],
+        "msg_types": {
+          "controller_selector": "std_msgs::msg::String",
+          "planner_selector": "std_msgs::msg::String",
+          "goal_checker_selector": "std_msgs::msg::String",
+          "smoother_selector": "std_msgs::msg::String",
+          "progress_checker_selector": "std_msgs::msg::String",
+          "path_handler_selector": "std_msgs::msg::String"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "opennav_docking",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "nav2_bringup\\launch\\navigation_launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "opennav_following",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "nav2_bringup\\launch\\navigation_launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "planner_server",
+        "subsystem": "navigation",
+        "publishes": [
+          {
+            "topic": "plan",
+            "type": "nav_msgs::msg::Path"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_bringup\\launch\\navigation_launch.py",
+          "nav2_planner\\src\\planner_server.cpp"
+        ],
+        "msg_types": {
+          "plan": "nav_msgs::msg::Path"
+        },
+        "has_lifecycle": true
+      },
+      {
+        "name": "route_server",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "route_graph",
+            "type": "visualization_msgs::msg::MarkerArray"
+          },
+          {
+            "topic": "route",
+            "type": "nav2_msgs::msg::Route"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_bringup\\launch\\navigation_launch.py",
+          "nav2_route\\src\\route_server.cpp"
+        ],
+        "msg_types": {
+          "route_graph": "visualization_msgs::msg::MarkerArray",
+          "route": "nav2_msgs::msg::Route"
+        },
+        "has_lifecycle": true
+      },
+      {
+        "name": "rviz2",
+        "subsystem": "visualization",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "nav2_bringup\\launch\\rviz_launch.py",
+          "nav2_rviz_plugins\\launch\\route_tool.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "smoother_server",
+        "subsystem": "control",
+        "publishes": [
+          {
+            "topic": "plan_smoothed",
+            "type": "nav_msgs::msg::Path"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_bringup\\launch\\navigation_launch.py",
+          "nav2_smoother\\src\\nav2_smoother.cpp"
+        ],
+        "msg_types": {
+          "plan_smoothed": "nav_msgs::msg::Path"
+        },
+        "has_lifecycle": true
+      },
+      {
+        "name": "vector_object_server",
+        "subsystem": "mapping",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_map_server\\launch\\vector_object_server.launch.py",
+          "nav2_map_server\\src\\vo_server\\vector_object_server.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": true
+      },
+      {
+        "name": "velocity_smoother",
+        "subsystem": "control",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_bringup\\launch\\navigation_launch.py",
+          "nav2_velocity_smoother\\src\\velocity_smoother.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": true
+      },
+      {
+        "name": "waypoint_follower",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "nav2_bringup\\launch\\navigation_launch.py",
+          "nav2_waypoint_follower\\src\\waypoint_follower.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": true
+      }
+    ],
+    "candidate_nodes": [
+      {
+        "name": "nav2_ros_common",
+        "subsystem": "nav2",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [],
+        "msg_types": {},
+        "has_lifecycle": true
+      }
+    ],
+    "model_label": "groq-large",
+    "repo_label": "navigation2",
+    "verification_adapter": "AS2FM/JANI architecture evidence artifact"
+  },
+  "properties": [
+    {
+      "name": "interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    }
+  ]
+}

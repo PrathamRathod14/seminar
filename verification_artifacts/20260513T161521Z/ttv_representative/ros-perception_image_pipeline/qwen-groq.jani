@@ -1,0 +1,586 @@
+{
+  "jani-version": 1,
+  "name": "ros2_architecture_recovery_check",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "metadata": {
+    "ground_truth_nodes": [
+      {
+        "name": "CalibrationNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "camera_calibration\\src\\camera_calibration\\camera_calibrator.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "CameraCheckerNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "camera_calibration\\src\\camera_calibration\\camera_checker.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "ConvertMetricNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "depth_image_proc\\src\\convert_metric.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "CropForemostNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "depth_image_proc\\src\\crop_foremost.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "CropNonZeroNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_proc\\src\\crop_decimate.cpp",
+          "image_proc\\src\\crop_non_zero.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "DebayerNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_proc\\src\\debayer.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "DisparityNode",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "left/disparity",
+            "type": "stereo_msgs::msg::DisparityImage"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "depth_image_proc\\src\\disparity.cpp"
+        ],
+        "msg_types": {
+          "left/disparity": "stereo_msgs::msg::DisparityImage"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "ImageFlipNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_rotate\\src\\image_flip.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "ImagePublisher",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_publisher\\src\\image_publisher.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "ImageRotateNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_rotate\\src\\image_rotate_node.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "PointCloudXyzNode",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "points",
+            "type": "PointCloud2"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "depth_image_proc\\src\\point_cloud_xyz.cpp"
+        ],
+        "msg_types": {
+          "points": "PointCloud2"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "PointCloudXyzRadialNode",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "points",
+            "type": "sensor_msgs::msg::PointCloud2"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "depth_image_proc\\src\\point_cloud_xyz_radial.cpp"
+        ],
+        "msg_types": {
+          "points": "sensor_msgs::msg::PointCloud2"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "PointCloudXyziNode",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "points",
+            "type": "PointCloud"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "depth_image_proc\\src\\point_cloud_xyzi.cpp"
+        ],
+        "msg_types": {
+          "points": "PointCloud"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "PointCloudXyziRadialNode",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "points",
+            "type": "sensor_msgs::msg::PointCloud2"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "depth_image_proc\\src\\point_cloud_xyzi_radial.cpp"
+        ],
+        "msg_types": {
+          "points": "sensor_msgs::msg::PointCloud2"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "PointCloudXyzrgbNode",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "points",
+            "type": "PointCloud2"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "depth_image_proc\\src\\point_cloud_xyzrgb.cpp"
+        ],
+        "msg_types": {
+          "points": "PointCloud2"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "PointCloudXyzrgbRadialNode",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "points",
+            "type": "PointCloud2"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "depth_image_proc\\src\\point_cloud_xyzrgb_radial.cpp"
+        ],
+        "msg_types": {
+          "points": "PointCloud2"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "RectifyNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_proc\\src\\rectify.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "RegisterNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "depth_image_proc\\src\\register.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "ResizeNode",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_proc\\src\\resize.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "TrackMarkerNode",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "tracked_pose",
+            "type": "geometry_msgs::msg::PoseStamped"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_proc\\src\\track_marker.cpp"
+        ],
+        "msg_types": {
+          "tracked_pose": "geometry_msgs::msg::PoseStamped"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "component_container",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "depth_image_proc\\launch\\convert_metric.launch.py",
+          "depth_image_proc\\launch\\crop_foremost.launch.py",
+          "depth_image_proc\\launch\\disparity.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyz.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyz_radial.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyzi.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyzi_radial.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyzrgb.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyzrgb_radial.launch.py",
+          "depth_image_proc\\launch\\register.launch.py",
+          "image_proc\\launch\\image_proc.launch.py",
+          "image_publisher\\launch\\image_publisher_component_file.launch.py",
+          "stereo_image_proc\\launch\\stereo_image_proc.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "disparity_node",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "disparity",
+            "type": "stereo_msgs::msg::DisparityImage"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "stereo_image_proc\\src\\stereo_image_proc\\disparity_node.cpp"
+        ],
+        "msg_types": {
+          "disparity": "stereo_msgs::msg::DisparityImage"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "disparity_view_node",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_view\\src\\disparity_view_node.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "extract_images_node",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_view\\src\\extract_images_node.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "image_flip",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_rotate\\launch\\image_flip.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "image_publisher_node",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_publisher\\launch\\image_publisher_file.launch.py",
+          "image_publisher\\launch\\image_publisher_mono.launch.py",
+          "image_publisher\\launch\\image_publisher_stereo.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "image_rotate",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_rotate\\launch\\image_rotate.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "image_saver_node",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_view\\src\\image_saver_node.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "image_view_node",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "output",
+            "type": "sensor_msgs::msg::Image"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_view\\src\\image_view_node.cpp"
+        ],
+        "msg_types": {
+          "output": "sensor_msgs::msg::Image"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "point_cloud_node",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "points2",
+            "type": "sensor_msgs::msg::PointCloud2"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "stereo_image_proc\\src\\stereo_image_proc\\point_cloud_node.cpp"
+        ],
+        "msg_types": {
+          "points2": "sensor_msgs::msg::PointCloud2"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "realsense2_camera_node",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "depth_image_proc\\launch\\convert_metric.launch.py",
+          "depth_image_proc\\launch\\crop_foremost.launch.py",
+          "depth_image_proc\\launch\\disparity.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyz.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyz_radial.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyzi.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyzi_radial.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyzrgb.launch.py",
+          "depth_image_proc\\launch\\register.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "rviz2",
+        "subsystem": "visualization",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "depth_image_proc\\launch\\convert_metric.launch.py",
+          "depth_image_proc\\launch\\crop_foremost.launch.py",
+          "depth_image_proc\\launch\\disparity.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyz.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyz_radial.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyzi.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyzi_radial.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyzrgb.launch.py",
+          "depth_image_proc\\launch\\point_cloud_xyzrgb_radial.launch.py",
+          "depth_image_proc\\launch\\register.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "stereo_view_node",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_view\\src\\stereo_view_node.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "video_recorder_node",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "image_view\\src\\video_recorder_node.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      }
+    ],
+    "candidate_nodes": []
+  },
+  "properties": [
+    {
+      "name": "interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    }
+  ]
+}

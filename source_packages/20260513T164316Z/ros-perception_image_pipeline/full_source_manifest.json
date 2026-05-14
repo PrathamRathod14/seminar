@@ -1,0 +1,704 @@
+[
+  {
+    "path": "camera_calibration\\package.xml",
+    "bytes": 1642,
+    "sha256": "abbba715bdd0ddca17ea17381b3106e1b6bbddc74a9fad0a1526a67bdbc29a8b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "camera_calibration\\rosdoc2.yaml",
+    "bytes": 3200,
+    "sha256": "0f6c7d219f58950b053b8f051015febbe99438b96b6a98d5cc1184ec4c2d30bf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "camera_calibration\\setup.py",
+    "bytes": 1316,
+    "sha256": "fd7e68bb1638778a89ed85b1ab96a559d8e1f823395501c5874809f5bab3371b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "camera_calibration\\src\\camera_calibration\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "camera_calibration\\src\\camera_calibration\\calibrator.py",
+    "bytes": 30770,
+    "sha256": "378edad69e9dd3cdeabba744e156cc1f7989931ce9e2a0c1290733523e6f739c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "camera_calibration\\src\\camera_calibration\\camera_calibrator.py",
+    "bytes": 17938,
+    "sha256": "d57d633fabcbe766f50222cad826b889b7bb8b5e4703eb07ab5ebafc52c7244e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "camera_calibration\\src\\camera_calibration\\camera_checker.py",
+    "bytes": 7979,
+    "sha256": "0dbf3385d9d4faf0743c568178ceae5b066cd1f7d8f3d2d8a376b47d66464208",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "camera_calibration\\src\\camera_calibration\\mono_calibrator.py",
+    "bytes": 16852,
+    "sha256": "e4bebcfd93a64a22f10d9a157be668182db69bec0a3c1a54dd37bf8db87a337b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "camera_calibration\\src\\camera_calibration\\nodes\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "camera_calibration\\src\\camera_calibration\\nodes\\cameracalibrator.py",
+    "bytes": 11325,
+    "sha256": "2ef3abb9ea1f9ca0882f1c371e8b367409e2dd6a43b12be8cd3c3368626ca72a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "camera_calibration\\src\\camera_calibration\\nodes\\cameracheck.py",
+    "bytes": 2661,
+    "sha256": "6a7fa5749a544ea52d429c7dd236182242cd2eaf0377aa19282ae374f1068703",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "camera_calibration\\src\\camera_calibration\\nodes\\tarfile_calibration.py",
+    "bytes": 10797,
+    "sha256": "e5fa984c1655d8089f388f3884e1a2e363b02b34dc82c245b7a24f564bcb767f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "camera_calibration\\src\\camera_calibration\\stereo_calibrator.py",
+    "bytes": 22815,
+    "sha256": "a0a69ef27cb405cffb48b53ab824dab6dd18ae47f40fc4bd846e1b264fd915aa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\include\\depth_image_proc\\conversions.hpp",
+    "bytes": 6352,
+    "sha256": "41a92175c18d5c01075418568da580177be4520873cac0b02184b7c25edcaaa9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\include\\depth_image_proc\\convert_metric.hpp",
+    "bytes": 2426,
+    "sha256": "3dea52f08d08ac4128595b96e3ae586569a01e1296adf14f1e3d1bb9a99dfb0e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\include\\depth_image_proc\\depth_traits.hpp",
+    "bytes": 2988,
+    "sha256": "8f31ae0b3f03b967b56a7c2a53a9093d59c259f51322ae9030ab10fae092cc74",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\include\\depth_image_proc\\point_cloud_xyz.hpp",
+    "bytes": 3107,
+    "sha256": "9fcf3e84a325b3b1e219eafdd18803f5076e5039ef759e474cf9e66b8cc2fa5d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\include\\depth_image_proc\\point_cloud_xyz_radial.hpp",
+    "bytes": 2967,
+    "sha256": "48629674fec519e81acdea47958eed57d089cf04c80063e606d760b4eda1f911",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\include\\depth_image_proc\\point_cloud_xyzi.hpp",
+    "bytes": 3425,
+    "sha256": "fa84514b379c420d9a1f81e52f61b04f660b77906ac702b825832d4a819a539b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\include\\depth_image_proc\\point_cloud_xyzi_radial.hpp",
+    "bytes": 3556,
+    "sha256": "c5b8273698903739f8b1ca71b571e2037ec487dc52c5aa747c10cb9b3998bd7a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\include\\depth_image_proc\\point_cloud_xyzrgb.hpp",
+    "bytes": 3710,
+    "sha256": "d485fd4d3f71cbf19e358fd573b88da3f3d73df2ca788f7f6a1ae4483a4296f7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\include\\depth_image_proc\\point_cloud_xyzrgb_radial.hpp",
+    "bytes": 3939,
+    "sha256": "fa73672b2260934104feb71fef7049eb8c2421a598cf837ba6081723b29f53a3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\include\\depth_image_proc\\visibility.h",
+    "bytes": 3008,
+    "sha256": "7415a3d7568b9a16f58cd0e8f74500af16dc4a4c609ed5fca67bc92a61f86f6a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\launch\\convert_metric.launch.py",
+    "bytes": 3256,
+    "sha256": "fa96a6d7bd5e7a9e4dd961545c772d99bb2b8b4679ffa2da37b8aa03abadbe74",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "depth_image_proc\\launch\\crop_foremost.launch.py",
+    "bytes": 3191,
+    "sha256": "dbd86f4b10e762775a34d5106364ba4147c455e86c84a4ad3fd1031a01ddeabd",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "depth_image_proc\\launch\\disparity.launch.py",
+    "bytes": 3538,
+    "sha256": "7c7edb9e993cba8dbc71082dfd26b1b3d21d410c88b0a9a0fea720ae7a5ddc3e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\launch\\point_cloud_xyz.launch.py",
+    "bytes": 3259,
+    "sha256": "557843cf791ba78311ce1bcb3b55c47c87a263b25aa08ed123ef90d3c1d68ced",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\launch\\point_cloud_xyz_radial.launch.py",
+    "bytes": 3284,
+    "sha256": "11bc52752daadd988b6fa9e302a1f28487151026304832e46a13a1f6e9352e3c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\launch\\point_cloud_xyzi.launch.py",
+    "bytes": 3488,
+    "sha256": "6513a57d664a6e671ee838d9f74ec8a222ddd3902507bdbedcd6940dcfbf6e08",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\launch\\point_cloud_xyzi_radial.launch.py",
+    "bytes": 3524,
+    "sha256": "70e5bbbd1ac88afe715ce62624008513481ce42cc8d0ae2941718963668d9e11",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\launch\\point_cloud_xyzrgb.launch.py",
+    "bytes": 3477,
+    "sha256": "a6753a527318e004419c03b89115cbc4accecdaa1ca76959ae88b980c2e1ae6c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\launch\\point_cloud_xyzrgb_radial.launch.py",
+    "bytes": 3843,
+    "sha256": "f7033467d2a81420334a8302e1b248855c2c3b9293e39fcb2c44646920f85f3f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\launch\\register.launch.py",
+    "bytes": 3589,
+    "sha256": "94df97aef733307d35926e344a43cc73e4c3fcff45145da9b0d578b226fa0581",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\package.xml",
+    "bytes": 1941,
+    "sha256": "b3a8bba47745b3bf507041c7955de660b4b29c68ac49822931ad9afc8238f3f8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\src\\conversions.cpp",
+    "bytes": 3959,
+    "sha256": "544605d5610203c2552fe6e34496cfc03867b89beca3e96203471263418eaddd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\src\\convert_metric.cpp",
+    "bytes": 7264,
+    "sha256": "7d1ff5272b157a499740b3da0b780a7b4e1b2715ca3fce6b40768ddca8bd186f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\src\\crop_foremost.cpp",
+    "bytes": 6176,
+    "sha256": "1ff2aa9f98c7217323bfe04a2bb8a6f55965ef06f6237afe995caa449716a566",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\src\\disparity.cpp",
+    "bytes": 7777,
+    "sha256": "8f046153db718d8b4346a78fcd0af8466a07eb7b3724885111562f933959c1a6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\src\\point_cloud_xyz.cpp",
+    "bytes": 7738,
+    "sha256": "75b268327931b82f03a8629067277d27f6f50f3dee520c205c3112e5a3c8954c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\src\\point_cloud_xyz_radial.cpp",
+    "bytes": 5718,
+    "sha256": "9d79d25c46db9392024e69683ad06031296ddae280c468089115efe1f5d43fb5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\src\\point_cloud_xyzi.cpp",
+    "bytes": 10183,
+    "sha256": "0433599a71f27f39576bbcad67740e4c9f2ca386d93ea04ff02ece4c2796497f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\src\\point_cloud_xyzi_radial.cpp",
+    "bytes": 7923,
+    "sha256": "86f31624fab612414eba38af3bcaa6b243a3a8f25fcd6a91b2c8f7c0f709c33f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\src\\point_cloud_xyzrgb.cpp",
+    "bytes": 13364,
+    "sha256": "3f985aee846c98288e924fc2dffc6979cd42831f3c13a72c9e5c6f20bbe11092",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\src\\point_cloud_xyzrgb_radial.cpp",
+    "bytes": 13029,
+    "sha256": "6b1503f974ee4b11da324b45d663c9cd01f670723241d963fde01119c47dc9fc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "depth_image_proc\\src\\register.cpp",
+    "bytes": 14301,
+    "sha256": "70d323856410c500f765ec6eec063ece581e23e449bcc08a88de211a921b5aa6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_pipeline\\package.xml",
+    "bytes": 1677,
+    "sha256": "692707b90d393ac14b3207243ed04780cda6149071eeb05c3e44426749f591e2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_pipeline\\rosdoc2.yaml",
+    "bytes": 405,
+    "sha256": "691b3794586cb61c3f49e16a0d3c9a8f1242532268c912d853a7da528a17f66f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\include\\image_proc\\crop_decimate.hpp",
+    "bytes": 2895,
+    "sha256": "21c1f86e30f384a796722d8568295e161244738d28f15c50886eff2f038630b4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\include\\image_proc\\crop_non_zero.hpp",
+    "bytes": 2388,
+    "sha256": "18971130c52a2369983d7f2526cec078cde08f3020548fada53bf74b0b57862b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\include\\image_proc\\debayer.hpp",
+    "bytes": 2495,
+    "sha256": "0a1a3157ced49de7037166d15b79778464d39c08fa8c546246a5e9514882d614",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\include\\image_proc\\edge_aware.hpp",
+    "bytes": 2097,
+    "sha256": "c5cb2baa8c154bc45b26c0fc5a635828c1c300cfe375df42f736d7b58526361f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\include\\image_proc\\processor.hpp",
+    "bytes": 2595,
+    "sha256": "7ca9cb8757aa6566503ec4fb71888e24e974e7f3228031b205ede89c9c8e82e4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\include\\image_proc\\rectify.hpp",
+    "bytes": 2667,
+    "sha256": "8cbfde0a5f5d8d50a3823b89421f5bc5bd87bd61cb3256338b8e6ce4bf5e3b35",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\include\\image_proc\\resize.hpp",
+    "bytes": 2634,
+    "sha256": "bfcf417c51dc0e96cddbc25dd5b35082b9206957a5438a2513b3547d17e24703",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\include\\image_proc\\track_marker.hpp",
+    "bytes": 2690,
+    "sha256": "efb0ff7c3d51a44447cf3fa814f3ca99750a2a1635d2099985cd01e65a8b1ffc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\include\\image_proc\\utils.hpp",
+    "bytes": 2908,
+    "sha256": "6a9b3926d4d2f089289c9333a5c22296f411434b8ca78052143d1458392ecd77",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\launch\\image_proc.launch.py",
+    "bytes": 4598,
+    "sha256": "2c8cf35dbdfee4ca5191eec8fe2d72f369a1b971c0a4eda7c4cde7aa1e28d443",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\package.xml",
+    "bytes": 1659,
+    "sha256": "2740faee795c2fc99335c24a66116c22c2a48185321ea7e3b36837e3ed2e74bf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\src\\crop_decimate.cpp",
+    "bytes": 13644,
+    "sha256": "487b6848131d599092d6ff5cf408f8326157c55f68ba4725545ff5425c4f8c88",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\src\\crop_non_zero.cpp",
+    "bytes": 5898,
+    "sha256": "305cc5a93050150ea22eee76029aba4d7bec8e92787545b2bbcfab8084a3c5d4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\src\\debayer.cpp",
+    "bytes": 11111,
+    "sha256": "da0d83a47291221527a9d8d9322b6a1296743386b0f85fd06b700272b34309de",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\src\\edge_aware.cpp",
+    "bytes": 35204,
+    "sha256": "d5dfbcdf61391c430fee942c298743eeb94cb7adfa6edf667ddce3b3ea208664",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\src\\image_proc\\processor.cpp",
+    "bytes": 5604,
+    "sha256": "536fe75f50974bc4cbd8a112c0d8c9599551fd46e89331d2a2eb06d53ae38aae",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\src\\rectify.cpp",
+    "bytes": 6573,
+    "sha256": "2ea81941ffd26280a006e3b6cd1487dbbd872bcd7ab3281f4dceab67145699f9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\src\\resize.cpp",
+    "bytes": 7610,
+    "sha256": "431684c94c83093091de5e4b571655ffd08985db7cb3cf2720fe990707f12106",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_proc\\src\\track_marker.cpp",
+    "bytes": 6666,
+    "sha256": "d5cdd9f758ee5528afab551b66cecc33e77822fed08911ac11118e72554a8786",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_publisher\\include\\image_publisher\\image_publisher.hpp",
+    "bytes": 2940,
+    "sha256": "215d9db11cbdf819b00d7f41b1a93a775ea4b1dfaf0b578dcc05142e9c1aa73f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_publisher\\include\\image_publisher\\visibility.h",
+    "bytes": 2986,
+    "sha256": "b72f444b705d8a61454d2744e70c35a047e827790fcc194cce48cfba5cde3d87",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_publisher\\launch\\image_publisher_component_file.launch.py",
+    "bytes": 3237,
+    "sha256": "3b38a15d9c60da764e78dd3092997baa3c8af60353f8cba1fb60fd6c4c79edfd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_publisher\\launch\\image_publisher_file.launch.py",
+    "bytes": 2642,
+    "sha256": "b414901269f255f8eb9cabab30a69b003c3d8167b2cd45c1bf4dc5f4cd28d22d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_publisher\\launch\\image_publisher_mono.launch.py",
+    "bytes": 2450,
+    "sha256": "7a67431366c452f91e00056370ce8c6ae1b99b7aa7aea592aa8619b27723090e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_publisher\\launch\\image_publisher_stereo.launch.py",
+    "bytes": 2977,
+    "sha256": "de3aedd8c36e0ef71ca18749843a6b176d4c19b0106c6f00d2eac59046437154",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_publisher\\package.xml",
+    "bytes": 1473,
+    "sha256": "62a905a1cb4cb85de62e2b9723c3fc46a0a7228cd2203d34e378de8485f3ee16",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_publisher\\src\\image_publisher.cpp",
+    "bytes": 11314,
+    "sha256": "a7d29c635efe429c682bc2cff0ac406edf1d8f22c9770ca87a92930e99d599cf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_publisher\\src\\image_publisher_node.cpp",
+    "bytes": 2255,
+    "sha256": "1ee5c1e1c47753e8619f1249431c2826e03e8deeb356399b77cc987837db65f9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_rotate\\include\\image_rotate\\image_flip.hpp",
+    "bytes": 3819,
+    "sha256": "248c1644b52add14f90a5f436cd9dce4da0de721fee2fb2151233e62bb3af3bd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_rotate\\include\\image_rotate\\image_rotate_node.hpp",
+    "bytes": 3909,
+    "sha256": "977235a89f237488a1dc502a863786ecd438c65f13230c65eb7778504cd3489f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_rotate\\include\\image_rotate\\visibility.h",
+    "bytes": 2844,
+    "sha256": "4df90ddb7a96de7b0d4b590fa8ef7ca7858372c061ffcdce3b17c0bd5a281285",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_rotate\\launch\\image_flip.launch.py",
+    "bytes": 2375,
+    "sha256": "3a7722d157f3a90ddf11f26fc5c59b32ac34ea9e80833a184fe8291588385827",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_rotate\\launch\\image_rotate.launch.py",
+    "bytes": 2077,
+    "sha256": "69ed5f0615242a02e70cff8324ccee91bf6e4f941c30576da5c8e7b5f4625c19",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_rotate\\package.xml",
+    "bytes": 2472,
+    "sha256": "a76af179ec610ceffd72dd2ba6b33a0dcf0ad78d3ea70392d048f4b649384c56",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_rotate\\src\\image_flip.cpp",
+    "bytes": 10565,
+    "sha256": "2c66e03a1d2498865724075df837dce113f4b302aec96bcf6af67f1ce83a0dab",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_rotate\\src\\image_rotate.cpp",
+    "bytes": 2019,
+    "sha256": "429a430eae16fc1fd9ead8d3f9af32486dca4cdc0817a5dd4ebf5c36d4ff1baa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_rotate\\src\\image_rotate_node.cpp",
+    "bytes": 14987,
+    "sha256": "4245a27b903516f9e4f4283c65c48d23b4dac58bc4635dd9413c5e4eb04b4145",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\include\\image_view\\disparity_view_node.hpp",
+    "bytes": 1729,
+    "sha256": "5891a8bab666c6df9eeae4c5488a4c35abdc94a09ccd263defdc4138534cedd8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\include\\image_view\\extract_images_node.hpp",
+    "bytes": 3239,
+    "sha256": "d859e4985335c126f275f33305bcf1c7bae7591a5679e87448649b0138009242",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\include\\image_view\\image_saver_node.hpp",
+    "bytes": 4555,
+    "sha256": "cf99dbaab4f53452e2ef4eee4c3b9a9dabdffda2d418474c6d8d544fd937f4e6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\include\\image_view\\image_view_node.hpp",
+    "bytes": 2570,
+    "sha256": "7a050e15d5290506e2b605525a3f025148943fa25f15550bc5ebdc1abf526344",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\include\\image_view\\stereo_view_node.hpp",
+    "bytes": 8428,
+    "sha256": "ec34ee82209bcb0cddf581e48beb6c1ced74fd0e2978de98eec7e00d16e4dbd5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\include\\image_view\\video_recorder_node.hpp",
+    "bytes": 1853,
+    "sha256": "bcd0ac0ec69e6b4deb37f985c47fa4af397a6e69f65326fe8cb2f45994b7a012",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\package.xml",
+    "bytes": 1586,
+    "sha256": "38283cae924bcf35ac49d09c6e80dc540fa3576f5d99f1b3c33b03d35a6d81ef",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\rosdoc.yaml",
+    "bytes": 110,
+    "sha256": "d58325ab1a47e6993024a5330bc136a62b839a6935e62fa1b5d739c02e0b05ac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\src\\disparity_view.cpp",
+    "bytes": 2762,
+    "sha256": "1919b36460253dc7dcf720d20770e9238bce2fb0a717e4e6d588d70571c4a497",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\src\\disparity_view_node.cpp",
+    "bytes": 9999,
+    "sha256": "ab73f72acb2eb7b4cabfe13dbb61ab4970f629c27e97519144c91f5af47f56da",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\src\\extract_images.cpp",
+    "bytes": 2758,
+    "sha256": "5d1bd7a92ba1c0fac3711f233297d209677ee4aae018b7c2a6da1b665ae84544",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\src\\extract_images_node.cpp",
+    "bytes": 5735,
+    "sha256": "82b5ac011d1067456bd5e2489cf4af7b5dd6d815e3c0ed235ae4fb9260f45390",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\src\\image_saver.cpp",
+    "bytes": 2742,
+    "sha256": "ba57034c074fe3134d3fad0bde6a857abcf6df772bf6928cd43b817807b80f66",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\src\\image_saver_node.cpp",
+    "bytes": 9666,
+    "sha256": "761b12c87ac6be46c7bda90cf2328f34028b22cbadea29fe8bd93543e40995aa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\src\\image_view.cpp",
+    "bytes": 2779,
+    "sha256": "a803d220d5ca87a930fd2d5fd2735daae18b6e46f66176d6f9230b002ead35a8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\src\\image_view_node.cpp",
+    "bytes": 12148,
+    "sha256": "b116bdb87afb02b720c65f8b3da14d93f2a0b2fcced3dd55b7575cc2b8ad5572",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\src\\stereo_view.cpp",
+    "bytes": 2749,
+    "sha256": "e0e0d273c5f178f9b5860875870db4843c00bb17e14bacffce320671e6fdbe39",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\src\\stereo_view_node.cpp",
+    "bytes": 12984,
+    "sha256": "9ef83644a6e7783e9d913f8e81ea06fa2c6afb10295e645cd678c5e729893adf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\src\\utils.hpp",
+    "bytes": 1406,
+    "sha256": "f38099fb9d045ac54c890e3bbb8c66f7ed737297b1d631782dc548bfe4577d95",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\src\\video_recorder.cpp",
+    "bytes": 1005,
+    "sha256": "d113fa116b3a34f6580a0af03678eafa523fd56b3cab4c5ed428c2b44115d7c7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "image_view\\src\\video_recorder_node.cpp",
+    "bytes": 5541,
+    "sha256": "72df1b9d3b6eb3b2ba4ce45f63f6b3df7e274493176d439c89a79c13164615fc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "stereo_image_proc\\include\\stereo_image_proc\\stereo_processor.hpp",
+    "bytes": 8726,
+    "sha256": "b37d723d98f46683dff62b823739e6f4dd00d07676234929c782ad9cb161fa29",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "stereo_image_proc\\launch\\stereo_image_proc.launch.py",
+    "bytes": 12412,
+    "sha256": "ee37f02e65cf6b3ac3637292ff8717676eb48f154c29c405a96e5e82821e2e30",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "stereo_image_proc\\package.xml",
+    "bytes": 1938,
+    "sha256": "ee2526cd27e4e0b0469ce4d1d25e4bc38e1e43784ca71cd4ed95367f0aec7fe5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "stereo_image_proc\\src\\stereo_image_proc\\disparity_node.cpp",
+    "bytes": 18216,
+    "sha256": "ab54aee3ed5732ad17a9ecf0d572bb18c834a6cdc3fb142c35658f0df3a7feb0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "stereo_image_proc\\src\\stereo_image_proc\\point_cloud_node.cpp",
+    "bytes": 15034,
+    "sha256": "fc026f115dcb2d24cf13d014c275aa5c9458675d27eee8f7638ed66176e53532",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "stereo_image_proc\\src\\stereo_image_proc\\stereo_processor.cpp",
+    "bytes": 15615,
+    "sha256": "e563539e912b110b6aa3074f32644b6d578ec611bc33f2293eb9faca9c874a42",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tracetools_image_pipeline\\include\\tracetools_image_pipeline\\tp_call.h",
+    "bytes": 3988,
+    "sha256": "ff1fa485ed9cd0069cc6d29b58a891e6382cb469389909844a7db47c7b5bb190",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tracetools_image_pipeline\\include\\tracetools_image_pipeline\\tracetools.h",
+    "bytes": 4457,
+    "sha256": "3c74a8a4f0b18061bcaaed8a6935db8fab4a19b9ae34cbddbef54311177d2d58",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tracetools_image_pipeline\\include\\tracetools_image_pipeline\\utils.hpp",
+    "bytes": 2151,
+    "sha256": "68289113c8aa729e26e33e208b290e433ebff2af11b0d62f5daf6a4b34afa9da",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tracetools_image_pipeline\\include\\tracetools_image_pipeline\\visibility_control.hpp",
+    "bytes": 2315,
+    "sha256": "0baae1280611dded485d118cecc3d7b08a21f4c65d6be6abcbd2bb44580ed659",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tracetools_image_pipeline\\package.xml",
+    "bytes": 890,
+    "sha256": "54072a52dda4de853e4f813b538f7c7856c9ebc8c5686007919d145ae93003f8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tracetools_image_pipeline\\src\\utils.cpp",
+    "bytes": 1588,
+    "sha256": "f31aa97831a227ebbb7f0e4a7eb186af751cec8934e02e377d8fcd26ec0280b5",
+    "included_in_llm_prompt": false
+  }
+]

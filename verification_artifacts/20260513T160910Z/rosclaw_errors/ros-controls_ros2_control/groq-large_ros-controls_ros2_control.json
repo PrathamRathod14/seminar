@@ -1,0 +1,41 @@
+{
+  "pair_key": "groq-large :: ros-controls/ros2_control",
+  "repo": "ros-controls/ros2_control",
+  "actual_categories": [
+    "hallucinated_node",
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "hallucinated_node",
+      "missing_node"
+    ],
+    "AS2FM": [
+      "hallucinated_node",
+      "missing_node"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "groq-large_ros-controls_ros2_control__err_0001",
+      "category": "hallucinated_node",
+      "node": "controller_interface_base",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-large_ros-controls_ros2_control__err_0002",
+      "category": "missing_node",
+      "node": "hardware_spawner",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

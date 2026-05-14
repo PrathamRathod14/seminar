@@ -1,0 +1,111 @@
+{
+  "pair_key": "groq-small :: ros2/rosbag2",
+  "repo": "ros2/rosbag2",
+  "actual_categories": [
+    "hallucinated_node",
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "hallucinated_node",
+      "missing_node"
+    ],
+    "AS2FM": [
+      "hallucinated_node",
+      "missing_node"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "groq-small_ros2_rosbag2__err_0001",
+      "category": "hallucinated_node",
+      "node": "Rosbag2QoS",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rosbag2__err_0002",
+      "category": "hallucinated_node",
+      "node": "adapt_request_to_offers",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rosbag2__err_0003",
+      "category": "hallucinated_node",
+      "node": "convert",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rosbag2__err_0004",
+      "category": "hallucinated_node",
+      "node": "decode",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rosbag2__err_0005",
+      "category": "hallucinated_node",
+      "node": "decode_for_version",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rosbag2__err_0006",
+      "category": "hallucinated_node",
+      "node": "encode",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rosbag2__err_0007",
+      "category": "hallucinated_node",
+      "node": "rosbag2_storage",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rosbag2__err_0008",
+      "category": "hallucinated_node",
+      "node": "to_string",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rosbag2__err_0009",
+      "category": "missing_node",
+      "node": "benchmarking_results_writer",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "pair_key": "groq-small :: ros2/rviz",
+  "repo": "ros2/rviz",
+  "actual_categories": [
+    "hallucinated_node",
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "hallucinated_node",
+      "missing_node"
+    ],
+    "AS2FM": [
+      "hallucinated_node",
+      "missing_node"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "groq-small_ros2_rviz__err_0001",
+      "category": "hallucinated_node",
+      "node": "RobotLink",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rviz__err_0002",
+      "category": "hallucinated_node",
+      "node": "resource_retriever::Retriever",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rviz__err_0003",
+      "category": "hallucinated_node",
+      "node": "rviz_default_plugins::robot::RobotLink",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rviz__err_0004",
+      "category": "hallucinated_node",
+      "node": "rviz_default_plugins::robot::RobotLinkSelectionHandler",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rviz__err_0005",
+      "category": "hallucinated_node",
+      "node": "rviz_rendering::MaterialManager",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rviz__err_0006",
+      "category": "missing_node",
+      "node": "NodeObject",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros2_rviz__err_0007",
+      "category": "missing_node",
+      "node": "static_transform_publisher",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

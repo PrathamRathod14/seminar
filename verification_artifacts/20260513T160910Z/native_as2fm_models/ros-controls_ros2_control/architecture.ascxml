@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ascxml
+    initial="idle"
+    version="1.0"
+    name="ros-controls_ros2_control"
+    model_src=""
+    xmlns="http://www.w3.org/2005/07/scxml">
+
+    <datamodel>
+        <data id="architecture_valid" expr="true" type="bool" />
+    </datamodel>
+
+    <ros_topic_publisher topic="architecture_present" type="std_msgs/Bool" />
+
+    <state id="idle">
+        <onentry>
+        </onentry>
+    </state>
+</ascxml>

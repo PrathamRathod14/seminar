@@ -1,0 +1,680 @@
+[
+  {
+    "path": "geometry2\\package.xml",
+    "bytes": 1340,
+    "sha256": "a93a3393b75cf3ac890743e8e56dcb8e22bed3d2cee6d3610fc561b953fc703a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\LinearMath\\Matrix3x3.hpp",
+    "bytes": 22110,
+    "sha256": "33a8fbc9692c1b9dbf4ad7d179cdc211bca87018654945ac2baa9bda332f178c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\LinearMath\\MinMax.hpp",
+    "bytes": 1872,
+    "sha256": "28546332ec6b5dba34694b51f371ea7dca82f806a47470b2a2a4145b1604e16f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\LinearMath\\QuadWord.hpp",
+    "bytes": 6365,
+    "sha256": "88e3477191209fea5f37767f675c8b7b29d4562e152d0c573b7f04974968f446",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\LinearMath\\Quaternion.hpp",
+    "bytes": 18346,
+    "sha256": "2d460d16d958f1f5595c0979a8baaa2a6b584034ea2124a7e4d6cefba4d9b936",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\LinearMath\\Scalar.hpp",
+    "bytes": 13898,
+    "sha256": "d2840932afe170a33e7fc8366c27b2d59358d8591486644b9e9de9fb3e887413",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\LinearMath\\Transform.hpp",
+    "bytes": 9304,
+    "sha256": "6f163373dd37a9a9fa987c19b5356def464d10cb632f50c6ce8823cca397695a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\LinearMath\\Vector3.hpp",
+    "bytes": 21122,
+    "sha256": "790fb5b70e4ddff67544ecb01c0b35802b0a2e4453541f5ad0d0fc09030645d9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\buffer_core.hpp",
+    "bytes": 20337,
+    "sha256": "0ba1dcf804f5d19c4fa13b7ebcee5295c51139d2d566e89c4d84dcb6c5546eb8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\buffer_core_interface.hpp",
+    "bytes": 5583,
+    "sha256": "ecebfd337bcd823f51c5e58026d04fa3816faf4592538bcd064e0bd49f7bc066",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\convert.hpp",
+    "bytes": 6952,
+    "sha256": "c3ebc9438fefdad2ea4e8b8ba34c4bf96eba3adae963f7c125f3e4458d80ab87",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\exceptions.hpp",
+    "bytes": 5878,
+    "sha256": "e0bbe6f71de63fdad21bbcde8922222701e6cbae014ae4654e34cfbb619bd8da",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\impl\\convert.hpp",
+    "bytes": 2897,
+    "sha256": "7cc9a3731cdaf588f8542278fcd828624bef331ebb433324a40f41438117f44b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\impl\\utils.hpp",
+    "bytes": 5053,
+    "sha256": "d512596d6c840c3c7146bc4cec148c3a41ab5646a1b22139e9476fdc22524612",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\time.hpp",
+    "bytes": 2506,
+    "sha256": "eeaa29970373535d921f7213483d755fc40a638123a3c0a9ec88fcaf32f9c81a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\time_cache.hpp",
+    "bytes": 6747,
+    "sha256": "ebaa4dda3c0dbba07cd82c6fcfc8ade6b28f5e466830d7ffa5a2dd5d6d68ec6e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\transform_datatypes.hpp",
+    "bytes": 5036,
+    "sha256": "7ac738dde0d73668c1d6c173b613e48dea279a71fddf61235f0ffd48b54f29dd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\transform_storage.hpp",
+    "bytes": 3302,
+    "sha256": "3e3293286653fdee4f015bad955001b6a44c97e3f329d0355d56e85226810f77",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\utils.hpp",
+    "bytes": 2179,
+    "sha256": "7572d89b8213cdc4b97eac45a71bd90b52db5cac32c72b7f3cf4aa1ff74efdb8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\include\\tf2\\visibility_control.h",
+    "bytes": 2688,
+    "sha256": "7d91a0ddc9f18c8d212afa8759e44a17e4b611a22354419583618e11d13af540",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\package.xml",
+    "bytes": 1782,
+    "sha256": "87e4eac1f5d34847a547fde74b50ef514df70d986ad607937cea000b1116e61b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\rosdoc2.yaml",
+    "bytes": 4591,
+    "sha256": "fdf2f95bdc2d2ad77d0b5d0cd254c1fcd83afb857738ce721e8856c60756c760",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\src\\buffer_core.cpp",
+    "bytes": 58414,
+    "sha256": "e17ab14833c6884450959f64c6c693f67424c82735ae5783ef5af002fd173081",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\src\\cache.cpp",
+    "bytes": 10537,
+    "sha256": "4c0d5df97019fca8c339a192873d23a4f77fb96c6f555ad2dcf80824b3bacfe0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\src\\static_cache.cpp",
+    "bytes": 3057,
+    "sha256": "53ed75878cb14d17d7e7104688a47f521570d070f2f195592f3eec09d5552598",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2\\src\\time.cpp",
+    "bytes": 4202,
+    "sha256": "9e025ceac06924d1701e99c0173c11b53aaa2810fca7478542578a9afedd2dde",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_bullet\\include\\tf2_bullet\\tf2_bullet.hpp",
+    "bytes": 5865,
+    "sha256": "ab05d1abcc6cf3f33a3b890f39bb728929a8c498dd0a39a8f5cc5e27794fabb1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_bullet\\package.xml",
+    "bytes": 1132,
+    "sha256": "1c6805c03606f33d8aeb4f6ba1187fce0663a25765381f464558227d2592f1ac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_bullet\\rosdoc2.yaml",
+    "bytes": 4615,
+    "sha256": "03a4295fb3fe33ead16785c3ed30931039ff1398366b5cd69a6d38061597b221",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_eigen\\include\\tf2_eigen\\tf2_eigen.hpp",
+    "bytes": 27387,
+    "sha256": "0f8155898012c2c21086c6e085690c3e038dad1263ecbfb72efbab155605b8fa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_eigen\\package.xml",
+    "bytes": 940,
+    "sha256": "d33d2e3a3ec8d032656f90518265860eced1dda763596a0032a524fa010e5a39",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_eigen\\rosdoc2.yaml",
+    "bytes": 4612,
+    "sha256": "a77ea1238e145da066e9f8b886af461128612844c869301b34525e9895ce5ac3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_eigen_kdl\\include\\tf2_eigen_kdl\\tf2_eigen_kdl.hpp",
+    "bytes": 6425,
+    "sha256": "cb18bd40ee362d5bea96bd576cf0c0f0b42529f33916228088bbd5ab5343ce02",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_eigen_kdl\\include\\tf2_eigen_kdl\\visibility_control.h",
+    "bytes": 2908,
+    "sha256": "e0a943cad4267981f9a783f51cba60f4c6af644ea3259e713dd04e8013dcdd3f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_eigen_kdl\\package.xml",
+    "bytes": 1069,
+    "sha256": "6dd79b6215604595b9d550c7cdf39e0806b9811cce515da2b32a0dbc24629d4e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_eigen_kdl\\rosdoc2.yaml",
+    "bytes": 4624,
+    "sha256": "6f7890603c50d7b329b887f933e713570d76069134c8b30c9396233bc8fae504",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_eigen_kdl\\src\\tf2_eigen_kdl.cpp",
+    "bytes": 4021,
+    "sha256": "032e719bf20ca6f1eabedf1d48ac22cd0478dcc44ae1aa1c2caa495b8fe6a0ae",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_geometry_msgs\\include\\tf2_geometry_msgs\\tf2_geometry_msgs.hpp",
+    "bytes": 54648,
+    "sha256": "58b3ade5b33aee70fa0859e3768b232ca8e4ce805c47a582ffffc9f6796d1dd5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_geometry_msgs\\package.xml",
+    "bytes": 1209,
+    "sha256": "c003972ff1a58d38639c91f20e13de2722c240ad8af2076f5e2860c6d79cdaca",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_geometry_msgs\\rosdoc.yaml",
+    "bytes": 174,
+    "sha256": "2ffe3b9c241f0266b672c92faa80b3e5ce5734040ac54c7f2edce222146cfac1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_geometry_msgs\\src\\tf2_geometry_msgs\\__init__.py",
+    "bytes": 1620,
+    "sha256": "f377d2f676179b53c5a386861ba8383cfbdd41925f1a269f61f17907ba0fbe85",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_geometry_msgs\\src\\tf2_geometry_msgs\\tf2_geometry_msgs.py",
+    "bytes": 15686,
+    "sha256": "f2df38caef3ed101b9b2cb50bef06c75f2ebd136c41c6d4da6673fd93da80c71",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_kdl\\include\\tf2_kdl\\tf2_kdl.hpp",
+    "bytes": 12835,
+    "sha256": "55c19b3e91da9102f7d3fdbf005476aae42f543b4068f6351a5c2893e6a4009c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_kdl\\package.xml",
+    "bytes": 1321,
+    "sha256": "ed27044799290e7c00d67c54dfbcc9d5466f4ebe1ed89b0f3388ac934f890a1a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_kdl\\rosdoc2.yaml",
+    "bytes": 4608,
+    "sha256": "afd826405b836b32eaef323901ddb201ec3ae9531b1a352370ac721fa7682136",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_kdl\\src\\tf2_kdl\\__init__.py",
+    "bytes": 1610,
+    "sha256": "e0b87c422d3f3069fd4c9efa0730dc789c1ad35e2df9643aa5306831bd7af6bc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_kdl\\src\\tf2_kdl\\tf2_kdl.py",
+    "bytes": 6326,
+    "sha256": "7f40362ad2747c6e9956bbb39c1f1fde59a3bd1668b1f24e34608f332c51662f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_msgs\\package.xml",
+    "bytes": 1164,
+    "sha256": "a2ba70a45ea284c009f8f88817390f6eadde618bdcf9514ae350f0d11110062d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_msgs\\tfmessage_bridge_mapping_rule.yaml",
+    "bytes": 286,
+    "sha256": "1b8909d4eb7dc611f85868bdcd53cba5f277f3ae603f1e2794e0d7e690415df0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_py\\package.xml",
+    "bytes": 1335,
+    "sha256": "09b3504ca320626a4c6aaa6992be5236c82cdfaadb1cb3a17ce968194ea7000f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_py\\src\\tf2_py.cpp",
+    "bytes": 36975,
+    "sha256": "9e2038ec714ae0c084e3261490d5f7538b3d6d6cc4d1679eeb9958add6a4812a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_py\\tf2_py\\__init__.py",
+    "bytes": 2114,
+    "sha256": "1ed149db8d3d7a691d9643c8f3294992037eb4380b66df003f1acbd349aa4763",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\async_buffer_interface.h",
+    "bytes": 2136,
+    "sha256": "7276b31cf451659f29b3abdefeb86826f2f1c3528a4fdafa85ac9029ddeb4682",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\async_buffer_interface.hpp",
+    "bytes": 4550,
+    "sha256": "cf60e484ef135bd04961c3770393caebdd297c6caf797e1abddab2843fb2bd72",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\buffer.h",
+    "bytes": 2021,
+    "sha256": "acb765ca38a061269665205dedda9c622a5eb349ba49337073d5b94768689c39",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\buffer.hpp",
+    "bytes": 15733,
+    "sha256": "245d91eec006258a62b4d790205b4aab858b1a293cabe16013d119c97e47bcf9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\buffer_client.h",
+    "bytes": 2251,
+    "sha256": "e68ffe93de80c55c161fffff21319e4023ec5186cf6e890845a945c0547b7997",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\buffer_client.hpp",
+    "bytes": 9945,
+    "sha256": "6ad669ad495a7b106d3f2fcfdb3fc93eaefb86b9a8c96a2df07bbba771c43c57",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\buffer_interface.h",
+    "bytes": 2101,
+    "sha256": "824e132e585d8b28b6c5d132b8f7c26c175b9e52178ed47b6e1c738f12c29897",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\buffer_interface.hpp",
+    "bytes": 16697,
+    "sha256": "c86df75a2cc78ada0dc9766af0b8287a8188cc47a6837dcee54c640ac4717dfc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\buffer_server.h",
+    "bytes": 2251,
+    "sha256": "6c6cde9b406da07bc69998855c2c8771a9ab8ebd2e70a5ad5db0379a4749a66d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\buffer_server.hpp",
+    "bytes": 4836,
+    "sha256": "c5f941c9bcbc50cd5c982dae2b63c6640bd72e642a36788374e956bdf7239553",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\create_timer_interface.h",
+    "bytes": 2136,
+    "sha256": "6ad49645fa7a484d2a9e917d30a56bb617fb41c886b3157897105915a9b51ea3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\create_timer_interface.hpp",
+    "bytes": 4516,
+    "sha256": "05382ec4894daa9783e3293bdfbfba010aca546d6ac377ce1fd59fdc96385099",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\create_timer_ros.h",
+    "bytes": 2088,
+    "sha256": "cd5d087b9d0121c234adc917249fd8c9795a23cdaa6c0e4d87e5b92394f19d41",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\create_timer_ros.hpp",
+    "bytes": 5074,
+    "sha256": "45faaac72afc0e68160d00dfd224cdb6957d60269ac163520a7cf91b7f6fb74a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\message_filter.h",
+    "bytes": 2083,
+    "sha256": "f3866c75122ee55dd80049ed940e9d1fb3acee3fcd6a201d18365e1ba4fd1402",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\message_filter.hpp",
+    "bytes": 31374,
+    "sha256": "9d6cd784290f140970285eda53ba6caa939a08d2e6181b0c7aa97243e0123078",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\qos.hpp",
+    "bytes": 2566,
+    "sha256": "6ea456faa8500925af46263ed1a5dd40e1e84cb18fa48d604083e8f75896a9a0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\static_transform_broadcaster.h",
+    "bytes": 2198,
+    "sha256": "4fa1cebc016db3882c4aee7d4b76c37299672a48dd66147f010cd8763111ae71",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\static_transform_broadcaster.hpp",
+    "bytes": 6326,
+    "sha256": "75b72a4cc75b43debd106f61640c7f87ba2b668ee72bedd0888a4aacf6874e0e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\static_transform_broadcaster_node.hpp",
+    "bytes": 2448,
+    "sha256": "1756c4d864471b0b74b8a702d13a866c80526dc0f44da8af26421a9a3eadfeb6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\static_transform_broadcaster_visibility_control.h",
+    "bytes": 2314,
+    "sha256": "20372fee266703922e82b3429ea020f76660f3bebd6cce5cbd9609b9cda05d04",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\static_transform_broadcaster_visibility_control.hpp",
+    "bytes": 3271,
+    "sha256": "56027fa50c70fe579432bcf24dd0ba214a8148689e669d9c83184f4899233f6a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\transform_broadcaster.h",
+    "bytes": 2142,
+    "sha256": "c11a880ae6ddaae4003dd0b5aa4772f47c019c271c17aef857299989e0088c15",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\transform_broadcaster.hpp",
+    "bytes": 6629,
+    "sha256": "d73a16c982bb1d75693d73ad674fd9799c47ab3704924ffdcc01aceec72329e9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\transform_listener.h",
+    "bytes": 2116,
+    "sha256": "231b38ec57d5a17502187cc1ff01876e617a550cf95509d1f04e8a0796e9b17e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\transform_listener.hpp",
+    "bytes": 15337,
+    "sha256": "7cc264303d5c3de8b104836139381c7d34d7eb0dd87c7366e1d689bc36ccf2d4",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\visibility_control.h",
+    "bytes": 2103,
+    "sha256": "2d8085da978ba98d85cf4c54eb8972feffe5c82a7c951addb8b4ffc54c92833d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\include\\tf2_ros\\visibility_control.hpp",
+    "bytes": 2785,
+    "sha256": "058f59690e5b4a034cff893afc6cc1754756e316a35b5724e5178707bd551962",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\package.xml",
+    "bytes": 1272,
+    "sha256": "65502168234b0d30d98484393d1534cd135bdb6623b14461fa4fcfbef481bec1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\rosdoc2.yaml",
+    "bytes": 4606,
+    "sha256": "fc6f4ddffd0e17e78df516efbe0edae182281a126e512b5139b89f34ab7e9d8c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\src\\buffer.cpp",
+    "bytes": 12770,
+    "sha256": "5b4eb499223a3479c057d159dc5b5ecc690a1841c9658c303da24af050951d4f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\src\\buffer_client.cpp",
+    "bytes": 7857,
+    "sha256": "e6b9668a9449e35dfe7f11f075cbc4e338d7ab19aac5e37ac5a82b3a99d3102f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\src\\buffer_server.cpp",
+    "bytes": 9024,
+    "sha256": "4b70715c28cdd4768e4447512ec1644b902e01c7d51303ddb8f4473c5ceda21b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\src\\buffer_server_main.cpp",
+    "bytes": 2560,
+    "sha256": "cb68022a12a3d0d3c9577978ecd835a8da4a980d1098a10a0a3698477507130f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\src\\create_timer_ros.cpp",
+    "bytes": 4538,
+    "sha256": "f25799649771a27352ccb048fae9a9eee4ba2a9dbebf967c462d15f9a1f821d0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\src\\static_transform_broadcaster.cpp",
+    "bytes": 2761,
+    "sha256": "dcfbe0d4fcdb33026ac1c0a86fb29de671f35e85a7f783438ff4fc06b1c82b3a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\src\\static_transform_broadcaster_node.cpp",
+    "bytes": 4491,
+    "sha256": "a4bc7e0f12617132457ec14055dba317bcc8e5c6afa694a1a14f70b86689b091",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\src\\static_transform_broadcaster_program.cpp",
+    "bytes": 10357,
+    "sha256": "0e5d128d5d6a2d4e8aa2568011dab3738f6e565ea563b336d2b0d4a55e0f97c2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\src\\tf2_echo.cpp",
+    "bytes": 8956,
+    "sha256": "3a8555ef2ef06bc4ccf2305ef49b22dc0d86bebd32c2162bc6a5fc5d06aab934",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\src\\tf2_monitor.cpp",
+    "bytes": 11763,
+    "sha256": "7a9f11e606a483a41031c22482346d1b42bf5430cb2f5318e8b17d9e70524d4e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\src\\transform_broadcaster.cpp",
+    "bytes": 2483,
+    "sha256": "0e5b6a1d45762af03b5163ee283cbc317aae23d70048296672d274f1dc6e229d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros\\src\\transform_listener.cpp",
+    "bytes": 3944,
+    "sha256": "db6420e0bba531b1005c0cc4fce12c765284f4a4941f7232a8f1ee389a61965d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros_py\\package.xml",
+    "bytes": 1171,
+    "sha256": "849d60cc84a526b725cf82e9d7b7f97179bc5e382c005c128d22801284854ff8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros_py\\rosdoc2.yaml",
+    "bytes": 4598,
+    "sha256": "9faa2b6e63e80762e8093fe239793b591d940509956cd52267788bdf083f2514",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros_py\\setup.py",
+    "bytes": 1034,
+    "sha256": "5915531da3ba8df408eb93447611e67ef128a831ad3b1515ed7712362603143b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros_py\\tf2_ros\\__init__.py",
+    "bytes": 2001,
+    "sha256": "4cbb6e745e19b2c82fb3030e88d09f12a10d42764599858f9e7fb5b062112540",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros_py\\tf2_ros\\buffer.py",
+    "bytes": 16113,
+    "sha256": "69443b2d76c3034ed02d2f551513917c1e8c1719d10c5c02b74e3fc5d79ae2b0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros_py\\tf2_ros\\buffer_client.py",
+    "bytes": 11271,
+    "sha256": "04e11d671e4309832a1fb8641fab99de3edd8c1685f10d510894d2f53c67dcfe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros_py\\tf2_ros\\buffer_interface.py",
+    "bytes": 13426,
+    "sha256": "60e444df999da47be054fffe48561df0d77d7fbdec43c862455668c97a06bae0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros_py\\tf2_ros\\static_transform_broadcaster.py",
+    "bytes": 3527,
+    "sha256": "3adff1e579dcaa05d73808e26793b968b48459cee911c6b8d4a788f9f837d679",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros_py\\tf2_ros\\static_transform_listener.py",
+    "bytes": 4554,
+    "sha256": "2831c6cde1626c1e9bf531dde7411a2c22d7fb18b74c0b0c74f2ef3bef82429d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros_py\\tf2_ros\\transform_broadcaster.py",
+    "bytes": 3030,
+    "sha256": "e08331b323a63915bcb37674ebe68382afb93bd936620b24d8d33fb94b24be8b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_ros_py\\tf2_ros\\transform_listener.py",
+    "bytes": 6831,
+    "sha256": "6a77eb9bf3b1092b451edfde682f91bd6d9eed98644ff55ff9f104afd95d5556",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_sensor_msgs\\include\\tf2_sensor_msgs\\tf2_sensor_msgs.hpp",
+    "bytes": 11462,
+    "sha256": "48f0bb184f498e4db78b941df30804ba599a1a62f0a86cf53e8341d2624c9b43",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_sensor_msgs\\package.xml",
+    "bytes": 1496,
+    "sha256": "f1066d4220de4eab0a9a1ca364ada6a4a5d324ae2e00afcc06fedae8e13352a4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_sensor_msgs\\tf2_sensor_msgs\\__init__.py",
+    "bytes": 1742,
+    "sha256": "cbb24b7ecc954feff13d94f71433c376ba45b4891ed52d3bad9c5eee5514d07a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_sensor_msgs\\tf2_sensor_msgs\\tf2_sensor_msgs.py",
+    "bytes": 6782,
+    "sha256": "7eee6d8c6978514152f917811137218a8064765dff414a348ebeca0e7724955c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_tools\\package.xml",
+    "bytes": 1396,
+    "sha256": "39ca5b8289d7811c8a71b8eb8e1da2a6d53e342db7b7e2c460efcc0f6f4ba534",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_tools\\setup.py",
+    "bytes": 1039,
+    "sha256": "4486003277d5419b35785cbebc8bf367169891ea182b2036a42890c94198e4d7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_tools\\tf2_tools\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "tf2_tools\\tf2_tools\\view_frames.py",
+    "bytes": 5967,
+    "sha256": "ce496d9c66ae7ba9ceab6ddca76ee06a51c42390a1fbf0eceb2a2bcebb0c85f5",
+    "included_in_llm_prompt": false
+  }
+]

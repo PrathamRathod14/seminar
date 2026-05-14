@@ -1,0 +1,97 @@
+{
+  "pair_key": "llama-4 :: ros-perception/laser_filters",
+  "repo": "ros-perception/laser_filters",
+  "actual_categories": [
+    "interface_mismatch",
+    "missing_node",
+    "subsystem_boundary_confusion",
+    "wrong_topic_name"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "interface_mismatch",
+      "missing_node",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ],
+    "AS2FM": [
+      "interface_mismatch",
+      "missing_node",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "llama-4_ros-perception_laser_filters__err_0001",
+      "category": "missing_node",
+      "node": "laser_scan_box_filter",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros-perception_laser_filters__err_0002",
+      "category": "missing_node",
+      "node": "laser_scan_footprint_filter",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros-perception_laser_filters__err_0003",
+      "category": "missing_node",
+      "node": "scan_to_cloud_filter_chain",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros-perception_laser_filters__err_0004",
+      "category": "missing_node",
+      "node": "scan_to_scan_filter_chain",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros-perception_laser_filters__err_0005",
+      "category": "subsystem_boundary_confusion",
+      "node": "laser_scan_polygon_filter",
+      "detail": "gt=other; predicted=laser_filters",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros-perception_laser_filters__err_0006",
+      "category": "interface_mismatch",
+      "node": "laser_scan_polygon_filter",
+      "detail": "publishes polygon: gt=geometry_msgs::msg::PolygonStamped; predicted=geometry_msgs/msg/PolygonStamped",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros-perception_laser_filters__err_0007",
+      "category": "wrong_topic_name",
+      "node": "laser_scan_polygon_filter",
+      "detail": "subscribes topic differs: footprint_topic (parameter)",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

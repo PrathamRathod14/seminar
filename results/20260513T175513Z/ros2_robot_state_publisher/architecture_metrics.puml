@@ -1,0 +1,16 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam componentStyle rectangle
+skinparam packageStyle rectangle
+skinparam shadowing false
+title ROS 2 Architecture\nros2/robot_state_publisher
+note "No architecture nodes were extracted for this repository." as empty
+legend right
+  Blue = ROS 2 node
+  Yellow = topic/interface
+  Arrow = publish/subscribe relation
+endlegend
+footer Generated from ground-truth architecture in metrics_results.json
+@enduml

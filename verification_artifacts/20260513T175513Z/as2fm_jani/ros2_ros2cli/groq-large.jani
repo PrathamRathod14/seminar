@@ -1,0 +1,109 @@
+{
+  "jani-version": 1,
+  "name": "ros2_architecture_recovery_check",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "metadata": {
+    "ground_truth_nodes": [],
+    "candidate_nodes": [
+      {
+        "name": "ros2action",
+        "subsystem": "ros2action",
+        "publishes": [],
+        "subscribes": [
+          {
+            "topic": "/_action/send_goal/_service_event",
+            "type": "EventMessage"
+          },
+          {
+            "topic": "/_action/cancel_goal/_service_event",
+            "type": "EventMessage"
+          },
+          {
+            "topic": "/_action/get_result/_service_event",
+            "type": "EventMessage"
+          },
+          {
+            "topic": "/_action/feedback",
+            "type": "FeedbackMessage"
+          },
+          {
+            "topic": "/_action/status",
+            "type": "GoalStatusMessage"
+          }
+        ],
+        "lifecycle": false,
+        "source_files": [],
+        "msg_types": {
+          "/_action/send_goal/_service_event": "EventMessage",
+          "/_action/cancel_goal/_service_event": "EventMessage",
+          "/_action/get_result/_service_event": "EventMessage",
+          "/_action/feedback": "FeedbackMessage",
+          "/_action/status": "GoalStatusMessage"
+        },
+        "has_lifecycle": false
+      }
+    ],
+    "model_label": "groq-large",
+    "repo_label": "ros2/ros2cli",
+    "verification_adapter": "AS2FM/JANI architecture evidence artifact"
+  },
+  "properties": [
+    {
+      "name": "interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    }
+  ]
+}

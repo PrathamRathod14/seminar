@@ -1,0 +1,153 @@
+{
+  "jani-version": 1,
+  "name": "ros2_architecture_recovery_check",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "metadata": {
+    "ground_truth_nodes": [
+      {
+        "name": "laser_scan_box_filter",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "include\\laser_filters\\box_filter.h"
+        ],
+        "msg_types": {},
+        "has_lifecycle": true
+      },
+      {
+        "name": "laser_scan_footprint_filter",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "include\\laser_filters\\footprint_filter.h"
+        ],
+        "msg_types": {},
+        "has_lifecycle": true
+      },
+      {
+        "name": "laser_scan_polygon_filter",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "polygon",
+            "type": "geometry_msgs::msg::PolygonStamped"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": true,
+        "source_files": [
+          "include\\laser_filters\\polygon_filter.h"
+        ],
+        "msg_types": {
+          "polygon": "geometry_msgs::msg::PolygonStamped"
+        },
+        "has_lifecycle": true
+      },
+      {
+        "name": "scan_to_cloud_filter_chain",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "cloud_filtered",
+            "type": "sensor_msgs::msg::PointCloud2"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "src\\scan_to_cloud_filter_chain.cpp"
+        ],
+        "msg_types": {
+          "cloud_filtered": "sensor_msgs::msg::PointCloud2"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "scan_to_scan_filter_chain",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "scan_filtered",
+            "type": "sensor_msgs::msg::LaserScan"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "src\\scan_to_scan_filter_chain.cpp"
+        ],
+        "msg_types": {
+          "scan_filtered": "sensor_msgs::msg::LaserScan"
+        },
+        "has_lifecycle": false
+      }
+    ],
+    "candidate_nodes": [],
+    "model_label": "qwen-groq",
+    "repo_label": "ros-perception/laser_filters",
+    "verification_adapter": "AS2FM/JANI architecture evidence artifact"
+  },
+  "properties": [
+    {
+      "name": "interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    }
+  ]
+}

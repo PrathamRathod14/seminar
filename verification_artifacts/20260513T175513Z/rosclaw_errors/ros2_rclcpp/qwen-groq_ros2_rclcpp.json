@@ -1,0 +1,93 @@
+{
+  "pair_key": "qwen-groq :: ros2/rclcpp",
+  "repo": "ros2/rclcpp",
+  "actual_categories": [
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "missing_node"
+    ],
+    "AS2FM": [
+      "missing_node"
+    ]
+  },
+  "rosclaw_method": "static_validator \u2014 architecture structural check (before-call shape)",
+  "as2fm_method": "jani_property_check \u2014 per-category JANI forall-implication evaluation",
+  "error_records": [
+    {
+      "id": "qwen-groq_ros2_rclcpp__err_0001",
+      "category": "missing_node",
+      "node": "my_node",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-missing_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  2.5,
+                  0.0,
+                  0.3,
+                  -0.4,
+                  -1.1,
+                  1.2
+                ],
+                [
+                  2.0,
+                  -0.2,
+                  0.5,
+                  -0.6,
+                  -1.2,
+                  0.8
+                ],
+                [
+                  1.0,
+                  -0.8,
+                  1.1,
+                  -1.2,
+                  -1.5,
+                  0.4
+                ],
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "missing_node",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 0.5473000346682966,
+        "detected": false,
+        "validation_result": {
+          "is_safe": true,
+          "collision_detected": false,
+          "joint_limit_violated": false,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 2.5,
+          "min_distance_to_collision": 0.0,
+          "simulation_steps": 40,
+          "violation_details": []
+        }
+      }
+    }
+  ]
+}

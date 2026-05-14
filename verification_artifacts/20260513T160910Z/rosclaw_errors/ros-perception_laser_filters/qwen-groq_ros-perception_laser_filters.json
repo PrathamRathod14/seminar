@@ -1,0 +1,68 @@
+{
+  "pair_key": "qwen-groq :: ros-perception/laser_filters",
+  "repo": "ros-perception/laser_filters",
+  "actual_categories": [
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "missing_node"
+    ],
+    "AS2FM": [
+      "missing_node"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "qwen-groq_ros-perception_laser_filters__err_0001",
+      "category": "missing_node",
+      "node": "laser_scan_box_filter",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_ros-perception_laser_filters__err_0002",
+      "category": "missing_node",
+      "node": "laser_scan_footprint_filter",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_ros-perception_laser_filters__err_0003",
+      "category": "missing_node",
+      "node": "laser_scan_polygon_filter",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_ros-perception_laser_filters__err_0004",
+      "category": "missing_node",
+      "node": "scan_to_cloud_filter_chain",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_ros-perception_laser_filters__err_0005",
+      "category": "missing_node",
+      "node": "scan_to_scan_filter_chain",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

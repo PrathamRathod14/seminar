@@ -1,0 +1,1430 @@
+[
+  {
+    "path": ".github\\workflows\\lint.yml",
+    "bytes": 3374,
+    "sha256": "bebd1d587f3821ed20682db4b773ee5d66ef1ce373dc99d0bddb0b193f415ef5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "lz4_cmake_module\\package.xml",
+    "bytes": 946,
+    "sha256": "6e42210f997625d15eaac7a76eb1538f52da73efdcafde2e036dcd922db5f978",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "mcap_vendor\\package.xml",
+    "bytes": 880,
+    "sha256": "42010f616623fac90341ab3e93a48b461f76e588ccba24dc61a3e6b02d4be2cd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "mcap_vendor\\src\\main.cpp",
+    "bytes": 691,
+    "sha256": "0e5fa925ed4997d9eea770a9fa0d617986e0b1dbe6e57267ad09df6127fff63c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\package.xml",
+    "bytes": 1547,
+    "sha256": "19bc1a4887256381cbaace6f9ab471204a0986d89667539332b451c7c6f41e0e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\ros2bag\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\ros2bag\\api\\__init__.py",
+    "bytes": 12336,
+    "sha256": "056ddea22165d94e8ffdc21fba9c95d858c9f3f74c1267340da562b6a51e9a28",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\ros2bag\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\ros2bag\\command\\bag.py",
+    "bytes": 1377,
+    "sha256": "a242353afc3c20ec272c9f63ceb07bb2380bcb595e1381e3828db8c2e9e19350",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\ros2bag\\verb\\__init__.py",
+    "bytes": 1372,
+    "sha256": "196f96e2202224efee58a3ebe26fc291cd924ded6ab42ed5b42768b30ddbd97d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\ros2bag\\verb\\burst.py",
+    "bytes": 6793,
+    "sha256": "908a2c76bd29632de11405dbe59342df169b3753c335ef3831898c0fda989188",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\ros2bag\\verb\\convert.py",
+    "bytes": 2420,
+    "sha256": "a5cb8b13abf8b17c732cbbfa589578fbad13cce76ef660a5e1855fa79bc3b593",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\ros2bag\\verb\\info.py",
+    "bytes": 2229,
+    "sha256": "89c9edade12ebab55ad26f98974c3413a8881cd013c0e2c9fda45c7025d78a31",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\ros2bag\\verb\\list.py",
+    "bytes": 3766,
+    "sha256": "6b21110fb5ab3299f550d24e70c03a5f4b29f3d0a0c1cb9b79180bd69dbc210b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\ros2bag\\verb\\play.py",
+    "bytes": 19771,
+    "sha256": "8a9616deacfd42ea366e99a4e002c33b1dd74961886e1e12f017fdc40af572e3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\ros2bag\\verb\\record.py",
+    "bytes": 26236,
+    "sha256": "05b13ac8ee3752fe395aa6cea61457e8c3f490e17f15ebde984706011541096f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\ros2bag\\verb\\reindex.py",
+    "bytes": 1624,
+    "sha256": "a0e71598c3ee2e800832e21bde2d16f9282af0e449d6920e1469e4992dd1d1aa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2bag\\setup.py",
+    "bytes": 1694,
+    "sha256": "6e6c7be8b6ce81e1869cb1389c3081acbf169486fe408e50c4c72c41485fc509",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2\\package.xml",
+    "bytes": 1236,
+    "sha256": "cc566391eb1349396b22bcc37dd1a917b4733c0548917158ff2ebe9bb4bd75a7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\include\\rosbag2_compression\\base_compressor_interface.hpp",
+    "bytes": 3135,
+    "sha256": "cad25934106e4f8575662e535f31ddd940e61ce8c3b1ed08a600ba3e4b1dc2e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\include\\rosbag2_compression\\base_decompressor_interface.hpp",
+    "bytes": 3043,
+    "sha256": "dd94d97a73b0454e451ef86a54882123f439f60efaab753574eb07ddce030ba5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\include\\rosbag2_compression\\compression_factory.hpp",
+    "bytes": 2785,
+    "sha256": "0401cb2a217659ddbbc736fd151201cbaa6d685743d0afdbd531d37a516d6e40",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\include\\rosbag2_compression\\compression_options.hpp",
+    "bytes": 2729,
+    "sha256": "fd66035e149d270b751f9d37c70cb1137f517ca910c183a1caa5f84f972f8594",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\include\\rosbag2_compression\\sequential_compression_reader.hpp",
+    "bytes": 3693,
+    "sha256": "de85c1c7419ffc0fbf68110bc7c39895decf8e947fb5d6ab0ab75d8dda70d40b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\include\\rosbag2_compression\\sequential_compression_writer.hpp",
+    "bytes": 8834,
+    "sha256": "df51b90acb9943516b6fae147a299663e753a558d9531a1934cd77d0f87a41ec",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\include\\rosbag2_compression\\visibility_control.hpp",
+    "bytes": 2072,
+    "sha256": "eb773231ff867016a8da879fa2ca20d09ce6bc8612d686af3f354fd2eb63904e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\package.xml",
+    "bytes": 1275,
+    "sha256": "e668c440b39ca832719ed4c3352badca97f95aefbc285f9126d6724f2d90b041",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\src\\rosbag2_compression\\compression_factory.cpp",
+    "bytes": 1587,
+    "sha256": "62f6cb1c9dde9251814658cbfc729018b66c511c70d05dfc9afdf15dd9ad24cd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\src\\rosbag2_compression\\compression_factory_impl.hpp",
+    "bytes": 4639,
+    "sha256": "66f78c400a40efaccc803d67e6bc678055af3f30860610529b1ac41d74d0f4bb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\src\\rosbag2_compression\\compression_options.cpp",
+    "bytes": 2421,
+    "sha256": "2e82d217fe465239c241abf40fc8dffc974d652a1b754bda2003f82f4ca6e514",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\src\\rosbag2_compression\\logging.hpp",
+    "bytes": 2293,
+    "sha256": "051f981f8260480625595660d3b7aa3d38715d9d3b7dd537f8ce930c051ce1c8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\src\\rosbag2_compression\\sequential_compression_reader.cpp",
+    "bytes": 4732,
+    "sha256": "52f57056adff059b759db02f8d23202ac09d0f4b45909e306ba5acd183839f8a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression\\src\\rosbag2_compression\\sequential_compression_writer.cpp",
+    "bytes": 19949,
+    "sha256": "864d9731f89fc5b2f87ac3e1e3c43102ccd758119f1b5767c7dbde97ce4cd87c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression_zstd\\include\\rosbag2_compression_zstd\\visibility_control.hpp",
+    "bytes": 2201,
+    "sha256": "cf5ba0db9624e72aa9b123741688e9dfc88717d385b5e29548c53432751491df",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression_zstd\\include\\rosbag2_compression_zstd\\zstd_compressor.hpp",
+    "bytes": 1798,
+    "sha256": "622e9b6dbb9eabdb83b1780f7e413da8d5f814ffc4bdc42c19952967ec55f57b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression_zstd\\include\\rosbag2_compression_zstd\\zstd_decompressor.hpp",
+    "bytes": 1753,
+    "sha256": "dab1f5fc18956b9320c87114ccc3a9c304f66f1bccfc90950358b0cbf2e14419",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression_zstd\\package.xml",
+    "bytes": 1234,
+    "sha256": "f4df354249e68db1d1ff6b0d79ee831d28ba07fbc9fd400b091f3f89cd25f724",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression_zstd\\plugin_description.xml",
+    "bytes": 533,
+    "sha256": "2b1470a7a94b020646c1cf02b22d6baa651a00cbb77699719047a305a72b0d2f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression_zstd\\src\\rosbag2_compression_zstd\\compression_utils.cpp",
+    "bytes": 4469,
+    "sha256": "d0564a7e300476240e017683344045653067d4606b55897345ec76f6180a49e1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression_zstd\\src\\rosbag2_compression_zstd\\compression_utils.hpp",
+    "bytes": 3900,
+    "sha256": "8e642a2c74e26c2aca11d65a66fdac8567811187b363fb96c1f51e7eb279b7f0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression_zstd\\src\\rosbag2_compression_zstd\\logging.hpp",
+    "bytes": 2398,
+    "sha256": "64413200db4c2fcc586f4290cc948b0d83f481b56c6a7730992b88ad77f6fb8c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression_zstd\\src\\rosbag2_compression_zstd\\zstd_compressor.cpp",
+    "bytes": 5431,
+    "sha256": "cebaf39a345af6ed4426a67bf2d5a76aeffd16ea031fdc13a82a9889847fff16",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_compression_zstd\\src\\rosbag2_compression_zstd\\zstd_decompressor.cpp",
+    "bytes": 5380,
+    "sha256": "9df9f37f1abd50ba039be8afa4b8c90fc124fdfc42953d2d82a6bc4159c15180",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\action_utils.hpp",
+    "bytes": 3753,
+    "sha256": "3760513e1b68e53735d703f98784891facee5b9acbe62ec24546cd5751d03db1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\bag_events.hpp",
+    "bytes": 6191,
+    "sha256": "39fcc3d3c955f6cc3a03b664be26d6addac30f7c0b80fd7723f893a7ad7171a0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\cache\\cache_buffer_interface.hpp",
+    "bytes": 2420,
+    "sha256": "813fef920775a2d8b408f1ea5600127bded8722470c1530ea79d6e0c28b0cb20",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\cache\\cache_consumer.hpp",
+    "bytes": 3523,
+    "sha256": "099207507cca0025ab15e0d4d796ae87a96f4642141cff76ae15028816a8de03",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\cache\\circular_message_cache.hpp",
+    "bytes": 4741,
+    "sha256": "b72ed34ed2caf71a58e2b3ffc87d0fd3cf7d6755903252939c73a99698e4b381",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\cache\\message_cache.hpp",
+    "bytes": 5410,
+    "sha256": "95cfdcd45847f6fadbbc9326ff0184eb79b380a9ccb553fc6f039463f2a1a01e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\cache\\message_cache_buffer.hpp",
+    "bytes": 4556,
+    "sha256": "56b62fb43e8393b1e19ceaa4c163c35fef26af8e961b1f1442acc34a73f63fd6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\cache\\message_cache_circular_buffer.hpp",
+    "bytes": 4681,
+    "sha256": "ef3817ac1a191bc8e0d7a9c6d03bc02d2ff38f6d5340e4aeb2c6e555e8759306",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\cache\\message_cache_interface.hpp",
+    "bytes": 3462,
+    "sha256": "b87e3115a39720c053e342b641c4076838f89033213dfe2c25d6af005efbf6ab",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\cache\\transient_local_messages_cache.hpp",
+    "bytes": 3777,
+    "sha256": "0ec6505f96489c3eceda689455e82167dfa728d1c4e870cc3c63375b1eb8588e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\clocks\\player_clock.hpp",
+    "bytes": 4818,
+    "sha256": "abfe359d7264f7aab63f48a50755371e24f0885a6f9efb3cf14cf2afd1e07740",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\clocks\\time_controller_clock.hpp",
+    "bytes": 5590,
+    "sha256": "694bc13138085ee671b0ef76a687ec3ae56c0a357bb820c59182d1093caf0c71",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\converter.hpp",
+    "bytes": 3919,
+    "sha256": "ca8fd8d327cf844c699b91d6c218352ee34844622a94fff5b5f610c5d0168825",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\converter_interfaces\\serialization_format_converter.hpp",
+    "bytes": 1802,
+    "sha256": "7558a8d633c200ebac13f7fc3b67160403a26bc2f26289867f64e921226d73da",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\converter_interfaces\\serialization_format_deserializer.hpp",
+    "bytes": 1865,
+    "sha256": "5a04dfc291b5c0a74654bd47745e1cdaf29159ad89c50a019091e54023885ce7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\converter_interfaces\\serialization_format_serializer.hpp",
+    "bytes": 1851,
+    "sha256": "3127b550c1bb30d93b847707e591cc57a32151752a05b7eed3c20cb79e898688",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\converter_options.hpp",
+    "bytes": 966,
+    "sha256": "24e105a24c8fe452831668023ef3a27fa4aa31d8eadc8ad033d29877bfb63448",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\info.hpp",
+    "bytes": 2284,
+    "sha256": "fe113bd3f0af2f002cfc85ec7d4de876dc9337c78e012ae80b5fd2ce97fbce35",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\logging.hpp",
+    "bytes": 2126,
+    "sha256": "2a228e31f6731cd00502bdaaf85dbed45b4b3675ad445b392c051b8850134c4c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\message_definitions\\local_message_definition_source.hpp",
+    "bytes": 6797,
+    "sha256": "5718f8755828bfc5d1e022b9ecd4e264854e737ea7446ec3463daf878c4c9bf5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\plugins\\plugin_utils.hpp",
+    "bytes": 1563,
+    "sha256": "7aef9cd6ae317ebe8e6dd44d0649608fc10faa36824dd6c17330f5d7efe597b5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\reader.hpp",
+    "bytes": 7606,
+    "sha256": "a423f4323fa085d4eb74141c6dde411ab7829b6b33e94462c36465a5de7961e7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\reader_interfaces\\base_reader_interface.hpp",
+    "bytes": 2924,
+    "sha256": "1159c9ee3a7b61d8dd0255464c070f0177b35971fde1e293d2b92892ac6cbb57",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\readers\\sequential_reader.hpp",
+    "bytes": 8081,
+    "sha256": "9b2c7b25ecf301ae0ab987d0c04a9c675827d545e1f8cc333c8827213c393c6c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\reindexer.hpp",
+    "bytes": 4871,
+    "sha256": "6ee7cf044f113c2cbff4d099adec28afeb054bac6297392cc14eb05c66478be3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\rmw_implemented_serialization_format_converter.hpp",
+    "bytes": 2710,
+    "sha256": "7906ce68f483c04450b8a7665728cd3453d1f6c4b19937da18ac3f4feaf0f231",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\serialization_format_converter_factory.hpp",
+    "bytes": 2093,
+    "sha256": "8eac6594a60cbe4ae3760976780d2e30413932a31fc03ccf61f07985b5cf0370",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\serialization_format_converter_factory_interface.hpp",
+    "bytes": 1626,
+    "sha256": "ea9661bc94cfa5515f0cc58246f9c5ced7761d75f0a00140443a1f17b28cd3fc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\service_utils.hpp",
+    "bytes": 1853,
+    "sha256": "970bf7dfeb50566b2d32da258e086f31e4202bca34f451f7ac553af88897e196",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\types.hpp",
+    "bytes": 787,
+    "sha256": "4611b6433d5cea07153b31ebfe84350956f0fd312621bde6d1ea2c80fa775f1e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\types\\introspection_message.hpp",
+    "bytes": 1977,
+    "sha256": "b3f312a07299b0363c7e38e289597170f4d11ac649612d80e742807320688353",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\visibility_control.hpp",
+    "bytes": 1922,
+    "sha256": "d4c09fa4ac8e1e92940f688e551e9d398787667b9a62ca6b16c1917ee31adcdc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\writer.hpp",
+    "bytes": 10879,
+    "sha256": "e1507ed280ecd7f6ff2d63549fd8ebe1af8237023999deec44ce12cf6c858a5e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\writer_interfaces\\base_writer_interface.hpp",
+    "bytes": 3091,
+    "sha256": "fb57aada3eb37ea2b3e33e7f44e2782e4fd8e1b6faa73dcb588efb4a2beb334b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\include\\rosbag2_cpp\\writers\\sequential_writer.hpp",
+    "bytes": 13806,
+    "sha256": "8040fd8a8383c32eadf9f528f5c200efa94daa5d083cc14511cebe1454b15bd7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\package.xml",
+    "bytes": 1584,
+    "sha256": "928003eaea28189491ed7b7e3e34a31e2a06e16363daee2ad7312b0bd92e26e1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\action_utils.cpp",
+    "bytes": 5373,
+    "sha256": "d196f55aa0c162a8022a1b65fd10c3efb20227633f69991d19ca3a508cdac8ac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\cache\\cache_consumer.cpp",
+    "bytes": 2257,
+    "sha256": "3670cc01aab8f3666d4156602d56220924f960b884a14d1e759de0ff1e6f5fa1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\cache\\circular_message_cache.cpp",
+    "bytes": 3286,
+    "sha256": "b631b2c3a77f518f872d9a803c164a15941867135e12653aab01f000937652e3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\cache\\message_cache.cpp",
+    "bytes": 4653,
+    "sha256": "8ee4d509eb0545f515c0a752c26a5668a4b6461dad99b94f98005edb0f95d5a6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\cache\\message_cache_buffer.cpp",
+    "bytes": 3951,
+    "sha256": "6d6a9c755f2b2f0c5a0be2323a1c3eb6cbe6d6398cbc304ceb99f004a16c91b8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\cache\\message_cache_circular_buffer.cpp",
+    "bytes": 5049,
+    "sha256": "49591e8db7e4cbc4d91898ad66e6cae00a0b9d2557fcdc9edfb74a5eb1bee34b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\cache\\transient_local_messages_cache.cpp",
+    "bytes": 3689,
+    "sha256": "b60613e6f810cb0e73c2dabe0505cd9e2a9e391bb0e15194c0a59a55feb6f3e4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\clocks\\time_controller_clock.cpp",
+    "bytes": 8997,
+    "sha256": "8251d4b9a0ceb2097572c3dff49404907ebdb92a4de772c399d31afd57601164",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\converter.cpp",
+    "bytes": 4715,
+    "sha256": "3fe5e54bbaca625f1fad16b07f2d72717d72a69bd0b2ead0d3f38b030f2d3e5f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\info.cpp",
+    "bytes": 14070,
+    "sha256": "ada8bbe168018b27ec03253de38891f797cb1a855d7724c38bce1b40f94ee2f5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\message_definitions\\local_message_definition_source.cpp",
+    "bytes": 21944,
+    "sha256": "abc9761e2b950bce7c9170740b88b2e5e0be9eab7ab8838eddc8730cb5c6c5d8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\reader.cpp",
+    "bytes": 3098,
+    "sha256": "139cda8d1ae1802b357a46f99bb20fdb25559e9f9510401851fb50b0cac6618e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\readers\\sequential_reader.cpp",
+    "bytes": 12716,
+    "sha256": "d92d6199efd68b5ee80cb421708f3615ad6ff1fa01edac2e690625249fdc7fe8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\reindexer.cpp",
+    "bytes": 11683,
+    "sha256": "89bd5c8cb668ee22776df184c8c01455b1b6612673148afa86582804bc525b53",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\rmw_implemented_serialization_format_converter.cpp",
+    "bytes": 6040,
+    "sha256": "fedbe89b86d3aea74a9bbfe980c9d8c47067dbbf4cbd9ce562b8dac8ae5f55c9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\serialization_format_converter_factory.cpp",
+    "bytes": 1700,
+    "sha256": "dbc9fda3971aea05d211ecb5642eeaabe3c5a770435ead54e78efdaf4a51a956",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\serialization_format_converter_factory_impl.hpp",
+    "bytes": 5866,
+    "sha256": "b2b99fb0d5a5027841b30705f525a5a70e39dc423c1c801324e5bdad8ff16076",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\service_utils.cpp",
+    "bytes": 4427,
+    "sha256": "0515ea6b4f62208e57e698ad36a2f3b732729831188de7f3b2289fc5fdade9dd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\types\\introspection_message.cpp",
+    "bytes": 2869,
+    "sha256": "0ce12f7dbfa72cc26361fbb6a0aa702e6629fc778036dce8856c9415fbf38bf0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\writer.cpp",
+    "bytes": 6285,
+    "sha256": "342aaa32fe7c9326714e3e119e489a7d8db9cdaecc04f302ff9d913d503afe3c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_cpp\\src\\rosbag2_cpp\\writers\\sequential_writer.cpp",
+    "bytes": 35264,
+    "sha256": "74c1581abe5cff40973a00edb0d2a9c536dc227fc022bdf34d02d96acb594364",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_interfaces\\package.xml",
+    "bytes": 1247,
+    "sha256": "1a1bcd02f814f2d4bd8fd8f933f4c834a3fe55f05701426cdd8185b7561e7095",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\config\\producers\\100MBs_raw.yaml",
+    "bytes": 483,
+    "sha256": "fc8be230557a40d5c6e9f873bcbcd24cafdba1cf188b84eec3b6012c7e305c7e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\config\\producers\\200MBs_raw.yaml",
+    "bytes": 483,
+    "sha256": "ffa994ba83531416de4fbd918046e1aa26c9f486d921f7ecb9f2b6dee38c3db9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\config\\producers\\300MBs_raw.yaml",
+    "bytes": 483,
+    "sha256": "dee22698aca2e99c46c4a77f1bd260da511ec38f7d20cf2c61eb613317e6c0bd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\config\\producers\\automotive.yaml",
+    "bytes": 1918,
+    "sha256": "fbe723ed1084bd46344880acbb2a7311337342b4a798491d692f90754633cd98",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\config\\producers\\mixed_110Mbs.yaml",
+    "bytes": 935,
+    "sha256": "5f26f25347e2a84fde3a13bd906dce56640d47a15c26dd33b02ef5d1060285a7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\config\\producers\\mixed_110Mbs_low_pubs_count.yaml",
+    "bytes": 936,
+    "sha256": "e04a24ba2ed507d8b6df3bb0121cfcd2b8bce5d90a970af170ca8c6a89b9fd02",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\config\\storage\\storage_optimized.yaml",
+    "bytes": 157,
+    "sha256": "87bbe92df3717f45be05b47762f5e86e0d85bdfe5fb336224c544b93d9c8f8c0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\config\\storage\\storage_resilient.yaml",
+    "bytes": 67,
+    "sha256": "82c8b41f75562db1bba0ecfa271630d5d2dd53750049270ab7d1a955a51c0ac2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\include\\msg_utils\\helpers.hpp",
+    "bytes": 1218,
+    "sha256": "555351a3bddff95943d76fd3812b0cae73fd77740e2d0ca1eada041f16f34ff8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\include\\msg_utils\\message_producer.hpp",
+    "bytes": 3162,
+    "sha256": "7d3a18f1802183c1b7a93cb23f17d3f6bb211383cc5e429ab9135352471a5fa9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\include\\msg_utils\\message_producer_factory.hpp",
+    "bytes": 4577,
+    "sha256": "7adf8c6d47aaf4869b0f2d51b9e6ba6b9b77cd6583f545d6270aaf6ad377bd86",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\include\\rosbag2_performance_benchmarking\\bag_config.hpp",
+    "bytes": 1056,
+    "sha256": "90895b8b2e655c3fc80894590ca3d9a65fa75e5387b579fc8a031253de4a6611",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\include\\rosbag2_performance_benchmarking\\byte_producer.hpp",
+    "bytes": 2763,
+    "sha256": "fe56509f8d38e754199e473058f2d74307c120a45897ecc2e5ee45086aaad792",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\include\\rosbag2_performance_benchmarking\\config_utils.hpp",
+    "bytes": 1916,
+    "sha256": "81f76d4ecda9065b7f97dc6a9255f7288640eadaca537f84a83995e2e9074c19",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\include\\rosbag2_performance_benchmarking\\message_queue.hpp",
+    "bytes": 2505,
+    "sha256": "9611611ff5b5cf386f27a9e3119645e708f87c1b1083673841018e49a636cac6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\include\\rosbag2_performance_benchmarking\\producer_config.hpp",
+    "bytes": 982,
+    "sha256": "5dad0d63ea76d06884cd928430f03c73630af92a2d8d43dee95621b1d3170a16",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\include\\rosbag2_performance_benchmarking\\publisher_group_config.hpp",
+    "bytes": 1145,
+    "sha256": "128b8070558caef51fce51aafcbdb351eac8e5ed620bd3c6cf2abae42517d499",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\include\\rosbag2_performance_benchmarking\\result_utils.hpp",
+    "bytes": 1697,
+    "sha256": "2915ac367ff513e5cb47fdda448660fb53e955b3f20a1dd54dbc0854678ae0f7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\include\\rosbag2_performance_benchmarking\\thread_pool.hpp",
+    "bytes": 2384,
+    "sha256": "c79bdb95d78885a1d83a3cc85a3685c03839dbd9d487d05be2281f28b37d64b8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\package.xml",
+    "bytes": 1598,
+    "sha256": "e89a107b709b55565ac2bac450d9bf835dbd0f5f01eca752b179b9f0fb2885f9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\scripts\\report_gen.py",
+    "bytes": 10120,
+    "sha256": "01d146b013e54b46e69e15af61171b8aa1b0fb9038e7be498d38bc5d88fc26b5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\src\\config_utils.cpp",
+    "bytes": 6631,
+    "sha256": "f9fc1c457625bc9064515b245e479c8441d7651080d53c033d2b74a768b07ace",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\src\\msg_utils\\helpers.cpp",
+    "bytes": 1671,
+    "sha256": "f1a9a1e7718c59481534650903e322cffd830c6056d5cf2e568d2b3102ef45ba",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\src\\result_utils.cpp",
+    "bytes": 6909,
+    "sha256": "db7ae2e16744eb1198255321171596babebb527d26a9c427400c1e6431980545",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking\\src\\results_writer.cpp",
+    "bytes": 1292,
+    "sha256": "64bc8fd59cf4902c5777136b7d6c5779d2b8adeed4f49a33c80a312ffa271707",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_performance\\rosbag2_performance_benchmarking_msgs\\package.xml",
+    "bytes": 1123,
+    "sha256": "a2a90196c891b1528a0f341e4575c11d02e4aeec39de75b2af3ef7e0ae8968b7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\package.xml",
+    "bytes": 1830,
+    "sha256": "4deb89f891a1fd7c3b10387e4cc1fcd826e6f5311f3d9be0c06c95eb9e9a8d71",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\rosbag2_py\\__init__.py",
+    "bytes": 3247,
+    "sha256": "d9691e4fb968059d22f216bbfd9ecc9da6bc578d51197d650d20b333a7eca023",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\_compression_options.cpp",
+    "bytes": 2398,
+    "sha256": "9e058ae301f6d1cc00b0e4bfcbc78add2ad15964a534abae072e4c6079ae5e4c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\_info.cpp",
+    "bytes": 5142,
+    "sha256": "fbc3b839bea3503c3fcd14ca41dd955cc78c37914794e0200c02a15497becce0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\_message_definitions.cpp",
+    "bytes": 1568,
+    "sha256": "5f6deea4ac58e9bd13e929e968ddc429d592782f1d3383c3e105ce903eae143e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\_reader.cpp",
+    "bytes": 5946,
+    "sha256": "968d120be36bd2e427f3a3a53a44effea2e2ba98c8a81f8d1f2d35f153fdc6a1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\_reindexer.cpp",
+    "bytes": 1724,
+    "sha256": "5d87458eece6fa468b49809088196ea09dc4f819127cccaa1f4578ad24b820e1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\_storage.cpp",
+    "bytes": 20737,
+    "sha256": "36f66390fff00a6827b32d4f89a492d63d476de4277903accbcb3da2b2d753dd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\_transport.cpp",
+    "bytes": 51129,
+    "sha256": "bccce48be2e5315e9703ef626ea38232c9afbe0dfc9b6bf138457786c000ab7e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\_writer.cpp",
+    "bytes": 7033,
+    "sha256": "326f6bf8d7b8b08c09ca8473c7881f070955ee48cf0ce478044301d2997d73d9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\action_info.hpp",
+    "bytes": 1221,
+    "sha256": "a0cd2b826f65c6bf59175598e79b504c11cc6483f37e4081265a61ef866e6f3f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\format_action_info.cpp",
+    "bytes": 3613,
+    "sha256": "126c2f9ee7ccfd1df1433bc5f48267ed576896cedf8e8d579309e8d8460c5477",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\format_action_info.hpp",
+    "bytes": 1246,
+    "sha256": "890cf51bc3a345f102f37a338c9c2fbeebabd7ede8e892c5374b367e64ff6306",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\format_bag_metadata.cpp",
+    "bytes": 16295,
+    "sha256": "d454fe24e2f950a2d3a0730736af85f05fe69632ff13fe81242655b17423c70b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\format_bag_metadata.hpp",
+    "bytes": 1234,
+    "sha256": "89f3bc3497f2593365c75152918922d36d57850ef908745dabf9217448ec42e4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\format_service_info.cpp",
+    "bytes": 2815,
+    "sha256": "adc87e206fddd8f231ef384809f73479189efc06a450b6da33b4ffcb8699a4ae",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\format_service_info.hpp",
+    "bytes": 1257,
+    "sha256": "001f468ca86be1cb61f519debe73be0d76e2ad7a251b425077e0288cce146904",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\format_utils.cpp",
+    "bytes": 1348,
+    "sha256": "a8de97aa2ece4bc64e27467795818d6ac09036be01c5e9592ed55ebaaa5d41e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\format_utils.hpp",
+    "bytes": 884,
+    "sha256": "78f662261009fd59756993b2c40329d017b84eea606a90d6807cbde96bd41ab9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\info_sorting_method.cpp",
+    "bytes": 8122,
+    "sha256": "ffc4ac462e8c478532c5bdbf3cc30c94a45ef4c4156f937b87f48831d2b5a4bb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\info_sorting_method.hpp",
+    "bytes": 2476,
+    "sha256": "2235a07b67beaebd8c1098931c051a31f030cd48786d48948a8377a8d3660607",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\pybind11.hpp",
+    "bytes": 1132,
+    "sha256": "68824a5bd49dd79a0d756fa3afcdd31a2914abb6446b80d595dae2a204f07483",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_py\\src\\rosbag2_py\\service_event_info.hpp",
+    "bytes": 1074,
+    "sha256": "c75d29e2115438827c93da654c7624f52a7c7cb79074786c0110c616274d9046",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\bag_metadata.hpp",
+    "bytes": 1940,
+    "sha256": "67d61c9b03354dd0ed82717848f01770b4c80b44ca0fe9c0ae9ea277c835dc21",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\default_storage_id.hpp",
+    "bytes": 1000,
+    "sha256": "076612a9d6e13542901f0c6cb353e0d161546509d726fe93a3c829eed02f831a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\logging.hpp",
+    "bytes": 2186,
+    "sha256": "335d014a539f411e4207e5a641fb41331e520ae07b20980fc950562a60b5a4f6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\message_definition.hpp",
+    "bytes": 2149,
+    "sha256": "d57f724a13a7df84625f38a7c3460e247da6c5bcb7d5bd629b8989bb763c6668",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\metadata_io.hpp",
+    "bytes": 1683,
+    "sha256": "ac15d96f0dcae62e9fa63bdc7fe903d27ae3f704d4ec187a947d0611fedab899",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\qos.hpp",
+    "bytes": 7576,
+    "sha256": "abaac850795f417ff150dec3300cd1c5ce765a528e04b1fb4f5d7b947e6649eb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\ros_helper.hpp",
+    "bytes": 1178,
+    "sha256": "4e88c6f6b3160ae8a0c7bfe4b49a7df9bae4d59b4afece07f771d83815ca1f1a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\serialized_bag_message.hpp",
+    "bytes": 2066,
+    "sha256": "39561ceb573f096bd4076203e2f598ebc08e76d79b443b6d1dbe7a2a45ad784f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\storage_factory.hpp",
+    "bytes": 2035,
+    "sha256": "bd848ad686d518a1334e674cea158c8803d1e5206beea35a849836c2936a33d8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\storage_factory_interface.hpp",
+    "bytes": 1492,
+    "sha256": "e2d8a63fd0d3c7926dff4391bed1b4fb1d2894603ed2771125cd6d2d880d6ee9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\storage_filter.hpp",
+    "bytes": 3224,
+    "sha256": "fad6e9f31e270eecaee252ffadde072ef53d254d7c44321dfda365ee6956d942",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\storage_interfaces\\base_info_interface.hpp",
+    "bytes": 1809,
+    "sha256": "385e41165e9b3aac413b9393b41f1e7ef0f24184b0f44a045609a7773b8d98c6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\storage_interfaces\\base_io_interface.hpp",
+    "bytes": 2577,
+    "sha256": "0768c42c16527f6445d01a4654326f722579e8636355769b0d7a2a71393f8303",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\storage_interfaces\\base_read_interface.hpp",
+    "bytes": 2767,
+    "sha256": "aea824ab5d5d706838d6bdf60df2492db6354b8ed20679d7c05665279d965095",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\storage_interfaces\\base_write_interface.hpp",
+    "bytes": 4582,
+    "sha256": "ea8ad9502b45b9b676fd04521ea743c3b46fb5528f24a4001cdfc490d93aa78b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\storage_interfaces\\read_only_interface.hpp",
+    "bytes": 3480,
+    "sha256": "ed13fcec0c50b9249f82320247a26be75e7a68820057fa6233366f1c1a1debc9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\storage_interfaces\\read_write_interface.hpp",
+    "bytes": 2139,
+    "sha256": "d6bf9eae19335b6ef1fb863c5be87200f6dd3c23135709290baa71d67e62faa0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\storage_options.hpp",
+    "bytes": 3700,
+    "sha256": "6ca77a63797ae69cf6d3ca385afa43bddb918b37aa363854e515b5962ec7af91",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\storage_traits.hpp",
+    "bytes": 1663,
+    "sha256": "bd474181ef5c153a89d86a43e75d7b1723e5f866a6c0dd67edb4abef2b46f4ba",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\topic_metadata.hpp",
+    "bytes": 1529,
+    "sha256": "34a64ca64245be24c75762de53480352cc9581c5b21d2b942e8c38e7c0826aec",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\visibility_control.hpp",
+    "bytes": 2321,
+    "sha256": "6255df176c56591d7e40062d2802c593a588d8e5728cacee2d727ab07fe2941c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\include\\rosbag2_storage\\yaml.hpp",
+    "bytes": 11228,
+    "sha256": "87a730e53a88078d03689baad7ccfd169adfed823224eecba3b0c960bb997ccf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\package.xml",
+    "bytes": 1147,
+    "sha256": "2bf5484ff9bf3b01ca60357548ac2c45555ecd68d43734e020661d34e50b5e75",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\src\\rosbag2_storage\\base_io_interface.cpp",
+    "bytes": 886,
+    "sha256": "9c400ec88154184082b1a559202ad552c033555ee2873ea22e553adb4188ed82",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\src\\rosbag2_storage\\default_storage_id.cpp",
+    "bytes": 820,
+    "sha256": "25c235f3f271e49e218db394cd820fc795c16dae7975aa5c0b7395e1707353e1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\src\\rosbag2_storage\\impl\\storage_factory_impl.hpp",
+    "bytes": 8621,
+    "sha256": "38530cc6522d18425c1e0d2b20c0ce4831876d3ec4b7924fd0bb43dd395e0a87",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\src\\rosbag2_storage\\metadata_io.cpp",
+    "bytes": 2683,
+    "sha256": "3588d9b02892570a8305106d7fe3ef2acc0a686bed4519689777089e2a280cab",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\src\\rosbag2_storage\\qos.cpp",
+    "bytes": 17038,
+    "sha256": "8bcdde038abd38f90c9642495d17822f4d87554fa711f18a31392223f23f658c",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "rosbag2_storage\\src\\rosbag2_storage\\ros_helper.cpp",
+    "bytes": 2205,
+    "sha256": "f881ecea03a28f5bed7bb3a069af33edf31a1010a1cf423c547774924662cfb4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\src\\rosbag2_storage\\storage_factory.cpp",
+    "bytes": 1679,
+    "sha256": "dc53b5f385c4f67d1a80889799d96664c339674c9b5a693f5114f2141909dea7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage\\src\\rosbag2_storage\\storage_options.cpp",
+    "bytes": 3124,
+    "sha256": "49e696d062df30ebf38f23dbe3716991a064406a11839541c26ebe3fd7952935",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_default_plugins\\package.xml",
+    "bytes": 918,
+    "sha256": "df487fea7394b3f02887383d950495807c74af1915b0ae36765c26f96524a1fc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_mcap\\include\\rosbag2_storage_mcap\\visibility_control.hpp",
+    "bytes": 2003,
+    "sha256": "80a2c420c41bbd5e93a2a8440919f539daf974bd116ba0af4903f93eb4c4669e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_mcap\\package.xml",
+    "bytes": 1224,
+    "sha256": "394dc482d66050d4b88490e86bad0c2a9c2e7949460b36cbda91f6b19b11f63c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_mcap\\plugin_description.xml",
+    "bytes": 305,
+    "sha256": "b08523c3f82d689bc3c4dbc836a94533ecc48359e875d4f7582a1a115b84bdf1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_mcap\\ros2bag_mcap_cli\\__init__.py",
+    "bytes": 979,
+    "sha256": "9ed35acac1ada43bd2139c08473463706c3bb964cc959c47ddeb4a249e4ef73b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_mcap\\src\\mcap_storage.cpp",
+    "bytes": 39793,
+    "sha256": "51f59b7ffe0738550340ee6c93719163839b5fd7f831a786a82ee735eda166f3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_sqlite3\\include\\rosbag2_storage_sqlite3\\sqlite_exception.hpp",
+    "bytes": 1771,
+    "sha256": "7dbbe6f9aab7d904ae858f1b85715791b223c9f8e0b64ca24042441945baff7c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_sqlite3\\include\\rosbag2_storage_sqlite3\\sqlite_pragmas.hpp",
+    "bytes": 1843,
+    "sha256": "cb121f03cfca8027f2eec3ee4a2d358b8a23293cc3772d543e931522fb212b2a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_sqlite3\\include\\rosbag2_storage_sqlite3\\sqlite_statement_wrapper.hpp",
+    "bytes": 8323,
+    "sha256": "07e6253abbfa01f2b0a1725a6106bb51478009622eba4dd27fc9c08d203ba35a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_sqlite3\\include\\rosbag2_storage_sqlite3\\sqlite_storage.hpp",
+    "bytes": 6976,
+    "sha256": "93a6c3e7d9ede56715e061eadb2ad8662c104cafe545a253a980be727766d62c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_sqlite3\\include\\rosbag2_storage_sqlite3\\sqlite_wrapper.hpp",
+    "bytes": 2302,
+    "sha256": "aa5d885a638ce35d781d1b9e57b04084fdf2b4545aee6c05a2aa98a907200698",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_sqlite3\\include\\rosbag2_storage_sqlite3\\visibility_control.hpp",
+    "bytes": 2338,
+    "sha256": "28262973a6574795ecb111989010f7a5674de1fa6bbee8ac88e91a6eac81b9ad",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_sqlite3\\package.xml",
+    "bytes": 1213,
+    "sha256": "3f408ae4c743c1fd9bcc34f4d046b671d0e75858d158aca7f2c5da3d99330589",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_sqlite3\\plugin_description.xml",
+    "bytes": 300,
+    "sha256": "6ab74136c58112a8fdf38dd9f752fc93decae31701cee94affffa39da6a60876",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_sqlite3\\ros2bag_sqlite3_cli\\__init__.py",
+    "bytes": 839,
+    "sha256": "f30096231088d7f48d2475201e868d3aa7d118dcf77d009fe2a6addc95f86246",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_sqlite3\\src\\rosbag2_storage_sqlite3\\logging.hpp",
+    "bytes": 2514,
+    "sha256": "d5e40a7b295c5da0425cde9dcf208381f11e3c8b1762b227a3e10a0b7e097723",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_sqlite3\\src\\rosbag2_storage_sqlite3\\sqlite_statement_wrapper.cpp",
+    "bytes": 6570,
+    "sha256": "ccf57849b8b1dc3e68ef26e59de14788dae328d362b82cde514bad4464e32459",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_sqlite3\\src\\rosbag2_storage_sqlite3\\sqlite_storage.cpp",
+    "bytes": 43898,
+    "sha256": "487438a1ae854909b9267bb5b2788af019c1d5596fbeb2dd0a86822629056997",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_storage_sqlite3\\src\\rosbag2_storage_sqlite3\\sqlite_wrapper.cpp",
+    "bytes": 6856,
+    "sha256": "4eaed684535b0ae8bc4714fd839174e9f724366807305c4ffeb7654ee5cc7909",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\bag_rewrite.hpp",
+    "bytes": 2251,
+    "sha256": "061a2609b43f5b9de16b6e0f0be41e93279dc743c7d92d5f304a702fb3e593ed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\config_options_from_node_params.hpp",
+    "bytes": 1372,
+    "sha256": "174ac96435c9cbe124f5de1f1ef20c0e744173b03bcd9159412b4530a68d0527",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\delayed_action_task_runner.hpp",
+    "bytes": 3255,
+    "sha256": "811de0ff8536f4d42f3fdacd2b8918d4377cda4977b3f407265fb1e9b06f9b39",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\play_options.hpp",
+    "bytes": 7541,
+    "sha256": "e52ad12a988c60bfebd5ceb63f61fcb6bbb6abf34802fb28aa168b4e19dd378b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\player.hpp",
+    "bytes": 19293,
+    "sha256": "3a1660f7c09f189cf45918f4c9bdd406cb82a7d6d2f3363d73360920edca05e5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\player_action_client.hpp",
+    "bytes": 7385,
+    "sha256": "caff3c9177e7d90dc487c16001fd9de654797b0b2b8240f0fe5d06279747cf8d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\player_progress_bar.hpp",
+    "bytes": 4819,
+    "sha256": "e783e820f87ee4ca01c99969abe98d46d762a885e6fe17ff16f6d1990d5c804a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\player_service_client.hpp",
+    "bytes": 5269,
+    "sha256": "13f83598c55d6b496c4f78ff93d12fd21dea33c9990c38f7d0731d21fc2b3b13",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\rclcpp_publisher_wrapper.hpp",
+    "bytes": 3061,
+    "sha256": "2569429fb9833650f925b882c59ffdd450c1c8e37c4f82e2ac68d7bfc35b80fe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\reader_writer_factory.hpp",
+    "bytes": 1588,
+    "sha256": "0ad549cb3a1c4be030ee95dffb4fd8dfeee0d633244e79498e9d0d138038427a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\readers_manager.hpp",
+    "bytes": 5940,
+    "sha256": "d5853b45780bc05c3dcad830de22a4d3b5dba8076a5978c04c37e490a5b2eb66",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\record_options.hpp",
+    "bytes": 5977,
+    "sha256": "e6917a46a332346128ba13f322cfc0057ba60a2fe8810db03af50e16e6f138aa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\recorder.hpp",
+    "bytes": 14125,
+    "sha256": "cc1322969e3a7edb3f4d72c797c445cacaf138cbc37403f39593b55a7d2c48c4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\recorder_event_notifier.hpp",
+    "bytes": 6478,
+    "sha256": "7ae31d384ae94ba673be4a699f3bf0d4fbea95701ce1ff361f8e6ecb93ea9a89",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\topic_filter.hpp",
+    "bytes": 6724,
+    "sha256": "c7377a588c6148110f83d034a78f296ed7c7c95218c41956b55bd35cb8af0fcf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\include\\rosbag2_transport\\visibility_control.hpp",
+    "bytes": 2369,
+    "sha256": "20946e0679feac256a7dd8701966bdbd87bdf806ecc1ae018027a01386d32b3f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\package.xml",
+    "bytes": 1781,
+    "sha256": "d377293466ad24ef68bb7532a49821069713aa96d3ab95d992fc708321bb8022",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\bag_rewrite.cpp",
+    "bytes": 10108,
+    "sha256": "c4110b8ac0ab1f001e04c24b4091975edd2ac85792cc61aae0b4eb0f75f039c0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\config_options_from_node_params.cpp",
+    "bytes": 22286,
+    "sha256": "597bd911fbb32efbb64c22118aa725f5d928d88fcbe4b9e31e3df5d6f52771a9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\delayed_action_task_runner.cpp",
+    "bytes": 1410,
+    "sha256": "b6a06959fb7d53e6a142958b5fff8f8fdf1c42b672fe56d7dbdb15a20b7e8821",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\delayed_action_task_runner_impl.hpp",
+    "bytes": 7287,
+    "sha256": "1b89457498f63e21e25ad770e9f99ad4f855d3030d577c7d922460681a9897de",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\locked_priority_queue.hpp",
+    "bytes": 5637,
+    "sha256": "673df894f3047e9b3824972eaa787be5251a06a270e65c11fc6d74c9412a4653",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\logging.hpp",
+    "bytes": 2252,
+    "sha256": "fe40ba32df80277ee129be16fc42f2e719def303bce1672aa8512f1c101df24b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\play_options.cpp",
+    "bytes": 6078,
+    "sha256": "52a1ddfce45156e007e93419b15670952f124f8a31b33e104386d82ce3e0c65d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\player.cpp",
+    "bytes": 99008,
+    "sha256": "0f6532f8842e3af6b750b8d6ac60b585d622f163470483cd8d4037006fb37625",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\player_action_client.cpp",
+    "bytes": 22128,
+    "sha256": "d3b3d2f05ee9ac375c50abb7a175c510428e3ed304fcf0cfd1423437d7e1b82a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\player_progress_bar.cpp",
+    "bytes": 1888,
+    "sha256": "2bd45d18557fdc1ffff313d6275e8951e3b55b3019d37de45ffcd26b3eb97516",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\player_progress_bar_impl.hpp",
+    "bytes": 6999,
+    "sha256": "e5da6e62a3c383cec8eb91f2b06d44f7f2aea8a487c13fea1596bc8b53f981f4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\player_service_client.cpp",
+    "bytes": 12231,
+    "sha256": "794a8329b79bf8ed6f64a6604375630594f67c6da760fd5067ee23d9a6557ab3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\reader_writer_factory.cpp",
+    "bytes": 2851,
+    "sha256": "63f2188ec2a6a1dd1ecceea3aa2c9b00670276d1c83d9cf3a44aff0f884757c4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\readers_manager.cpp",
+    "bytes": 2425,
+    "sha256": "9665c110dfc2e791f9d589713bff6f521c41e49c571f42781a085751a36f610e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\readers_manager_impl.hpp",
+    "bytes": 7700,
+    "sha256": "03a1c1122b92634a799437c1e5341bfb1cc1d721c10a28c348e0a874d7e3a9db",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\record_options.cpp",
+    "bytes": 8881,
+    "sha256": "f546a6d38a64928602770393e6d2b5a9de2cff3f4bfbd7525a886d23446655f6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\recorder.cpp",
+    "bytes": 92351,
+    "sha256": "ca8c7cb99eff79b322233c265ab92521d05f43e43ebd2b4ccadebd6fc80652b0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\recorder_event_notifier.cpp",
+    "bytes": 3860,
+    "sha256": "66e932891a8513e4dd5636cd02e1ffb85320314ee568cd86838cc143e57e5ca7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\recorder_event_notifier_impl.hpp",
+    "bytes": 14447,
+    "sha256": "076785a701f8b704b2fe82afc74c8000066797b20d654ce713c57b5a39fc8c7a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosbag2_transport\\src\\rosbag2_transport\\topic_filter.cpp",
+    "bytes": 13156,
+    "sha256": "383297e7db89631f4e87af5369a622f025b6d3f1a23da6bbbcaaad409098bd6c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "zstd_cmake_module\\package.xml",
+    "bytes": 964,
+    "sha256": "ad22dcf3833ae28841f5cd6514b2e964c817446e3dfbb7a168412365b4257b6e",
+    "included_in_llm_prompt": false
+  }
+]

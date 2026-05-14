@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ascxml
+    initial="idle"
+    version="1.0"
+    name="navigation2"
+    model_src=""
+    xmlns="http://www.w3.org/2005/07/scxml">
+
+    <datamodel>
+        <data id="architecture_valid" expr="true" type="bool" />
+    </datamodel>
+
+    <ros_topic_publisher topic="initialpose" type="std_msgs/Int32" />
+    <ros_topic_subscriber topic="amcl_pose" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="waypoints" type="std_msgs/Int32" />
+    <ros_topic_subscriber topic="navigate_to_pose/_action/feedback" type="std_msgs/Int32" />
+    <ros_topic_subscriber topic="navigate_through_poses/_action/feedback" type="std_msgs/Int32" />
+    <ros_topic_subscriber topic="navigate_to_pose/_action/status" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="particle_cloud" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="amcl_pose" type="std_msgs/Int32" />
+    <ros_topic_subscriber topic="initialpose" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="collision_detector_state" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="~/collision_points_marker" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="~/collision_points_marker" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="transformed_global_plan" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="tracking_feedback" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="published_footprint" type="std_msgs/Int32" />
+    <ros_topic_subscriber topic="footprint" type="std_msgs/Int32" />
+    <ros_topic_subscriber topic="footprint" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="filtered_dynamic_pose" type="std_msgs/Int32" />
+    <ros_topic_subscriber topic="dock_robot/_action/feedback" type="std_msgs/Int32" />
+    <ros_topic_subscriber topic="dock_robot/_action/status" type="std_msgs/Int32" />
+    <ros_topic_subscriber topic="undock_robot/_action/status" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="controller_selector" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="planner_selector" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="goal_checker_selector" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="plan" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="route_graph" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="route" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="plan_smoothed" type="std_msgs/Int32" />
+
+    <state id="idle">
+        <onentry>
+        </onentry>
+    </state>
+</ascxml>

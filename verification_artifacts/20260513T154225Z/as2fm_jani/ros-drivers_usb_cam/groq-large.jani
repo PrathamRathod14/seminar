@@ -1,0 +1,150 @@
+{
+  "jani-version": 1,
+  "name": "ros2_architecture_recovery_check",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "metadata": {
+    "ground_truth_nodes": [
+      {
+        "name": "examine_image",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [
+          {
+            "topic": "image_raw",
+            "type": "Image"
+          }
+        ],
+        "lifecycle": false,
+        "source_files": [
+          "scripts\\show_image.py"
+        ],
+        "msg_types": {
+          "image_raw": "Image"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "usb_cam",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "camera_info",
+            "type": "sensor_msgs::msg::CameraInfo"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "src\\usb_cam_node.cpp"
+        ],
+        "msg_types": {
+          "camera_info": "sensor_msgs::msg::CameraInfo"
+        },
+        "has_lifecycle": false
+      },
+      {
+        "name": "usb_cam_node_exe",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "launch\\camera.launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      }
+    ],
+    "candidate_nodes": [
+      {
+        "name": "usb_cam",
+        "subsystem": "camera",
+        "publishes": [
+          {
+            "topic": "image_raw",
+            "type": "sensor_msgs/msg/Image"
+          },
+          {
+            "topic": "image_raw/compressed",
+            "type": "sensor_msgs/msg/CompressedImage"
+          },
+          {
+            "topic": "camera_info",
+            "type": "sensor_msgs/msg/CameraInfo"
+          }
+        ],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [],
+        "msg_types": {
+          "image_raw": "sensor_msgs/msg/Image",
+          "image_raw/compressed": "sensor_msgs/msg/CompressedImage",
+          "camera_info": "sensor_msgs/msg/CameraInfo"
+        },
+        "has_lifecycle": false
+      }
+    ],
+    "model_label": "groq-large",
+    "repo_label": "ros-drivers/usb_cam",
+    "verification_adapter": "AS2FM/JANI architecture evidence artifact"
+  },
+  "properties": [
+    {
+      "name": "interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    }
+  ]
+}

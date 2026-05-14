@@ -1,0 +1,114 @@
+{
+  "pair_key": "groq-small :: gazebosim/ros_gz",
+  "repo": "gazebosim/ros_gz",
+  "actual_categories": [
+    "hallucinated_node",
+    "missing_node",
+    "subsystem_boundary_confusion"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "hallucinated_node",
+      "missing_node",
+      "subsystem_boundary_confusion"
+    ],
+    "AS2FM": [
+      "hallucinated_node",
+      "missing_node",
+      "subsystem_boundary_confusion"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "groq-small_gazebosim_ros_gz__err_0001",
+      "category": "hallucinated_node",
+      "node": "bridge1",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_gazebosim_ros_gz__err_0002",
+      "category": "hallucinated_node",
+      "node": "ros_gz_container",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_gazebosim_ros_gz__err_0003",
+      "category": "missing_node",
+      "node": "entity_deleter",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_gazebosim_ros_gz__err_0004",
+      "category": "missing_node",
+      "node": "entity_pose_setter",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_gazebosim_ros_gz__err_0005",
+      "category": "missing_node",
+      "node": "entity_spawner",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_gazebosim_ros_gz__err_0006",
+      "category": "missing_node",
+      "node": "gzserver",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_gazebosim_ros_gz__err_0007",
+      "category": "subsystem_boundary_confusion",
+      "node": "create",
+      "detail": "gt=other; predicted=gz_sim",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_gazebosim_ros_gz__err_0008",
+      "category": "subsystem_boundary_confusion",
+      "node": "remove",
+      "detail": "gt=other; predicted=gz_sim",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_gazebosim_ros_gz__err_0009",
+      "category": "subsystem_boundary_confusion",
+      "node": "ros_gz_bridge",
+      "detail": "gt=other; predicted=actions",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "pair_key": "llama-4 :: ros-drivers/usb_cam",
+  "repo": "ros-drivers/usb_cam",
+  "actual_categories": [
+    "interface_mismatch",
+    "missing_node",
+    "subsystem_boundary_confusion",
+    "wrong_topic_name"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "interface_mismatch",
+      "missing_node",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ],
+    "AS2FM": [
+      "interface_mismatch",
+      "missing_node",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "llama-4_ros-drivers_usb_cam__err_0001",
+      "category": "missing_node",
+      "node": "examine_image",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros-drivers_usb_cam__err_0002",
+      "category": "missing_node",
+      "node": "usb_cam_node_exe",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros-drivers_usb_cam__err_0003",
+      "category": "subsystem_boundary_confusion",
+      "node": "usb_cam",
+      "detail": "gt=other; predicted=perception",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros-drivers_usb_cam__err_0004",
+      "category": "interface_mismatch",
+      "node": "usb_cam",
+      "detail": "publishes camera_info: gt=sensor_msgs::msg::CameraInfo; predicted=sensor_msgs/msg/CameraInfo",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros-drivers_usb_cam__err_0005",
+      "category": "wrong_topic_name",
+      "node": "usb_cam",
+      "detail": "publishes topic differs: image_raw",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "llama-4_ros-drivers_usb_cam__err_0006",
+      "category": "wrong_topic_name",
+      "node": "usb_cam",
+      "detail": "publishes topic differs: image_raw/compressed",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

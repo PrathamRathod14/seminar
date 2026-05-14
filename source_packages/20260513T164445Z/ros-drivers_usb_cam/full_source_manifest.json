@@ -1,0 +1,152 @@
+[
+  {
+    "path": "config\\camera_info.yaml",
+    "bytes": 675,
+    "sha256": "a78f608dd248ad25b87a55e6806c8dc60ab345bd794528da9cf07f9317f36db1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "config\\params_1.yaml",
+    "bytes": 665,
+    "sha256": "7bdbb47d20c68749c607bf66d479bd91615f20b373c560bf75c7bf3ea23206a8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "config\\params_2.yaml",
+    "bytes": 696,
+    "sha256": "b30016ae3114659261c8767e5c19ec0a1643e23696c6deadfb422224be7d7923",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\constants.hpp",
+    "bytes": 7089,
+    "sha256": "639eddf3c6f0e79ad3b2c1d17fda4a38169229a9574e0832a7331ffad3b4fa63",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\conversions.hpp",
+    "bytes": 2202,
+    "sha256": "85b09f6b516b8710bfd71647960b9740eccbf12afd7fdf650b71ae228fe514d1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\formats\\av_pixel_format_helper.hpp",
+    "bytes": 66653,
+    "sha256": "b7c89c422d85b7df43e7b9bb58b53039e4efc09fe0f718c8f99aaad57c67961f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\formats\\m420.hpp",
+    "bytes": 2785,
+    "sha256": "5dfd212a88db625857f551fd2cd04de11a6abf80159e5aef38d118cd9d423c50",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\formats\\mjpeg.hpp",
+    "bytes": 8240,
+    "sha256": "69efd5269d4e1336bb13d03b63d7df068965c407ac5b4b35631fb6a3f6c36405",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\formats\\mono.hpp",
+    "bytes": 3583,
+    "sha256": "94db019c0cc6bd7426912ae7cba623e68d7043e471f6b1d319325ebba9577a5b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\formats\\pixel_format_base.hpp",
+    "bytes": 7992,
+    "sha256": "44da78974e3bf6bff0388d71bce5d4f6fe443ab417d9221e9b86df70375db1d2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\formats\\rgb.hpp",
+    "bytes": 2213,
+    "sha256": "1f80195aad6aabe8d396cac3f9b660a9056d992fbc45df6e5dfdd97bff471643",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\formats\\utils.hpp",
+    "bytes": 4025,
+    "sha256": "6d0fb0d1f7d8da2fb5a72b0f5a34d5715af40de759fae22d7c0e3e2e6e5f108f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\formats\\uyvy.hpp",
+    "bytes": 3923,
+    "sha256": "a17b2a25dcec5cfc39d9dc6e4f02a9f05732c0c11cca58dff11391bcb58c9bc4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\formats\\yuyv.hpp",
+    "bytes": 3889,
+    "sha256": "e2a111cd4457f09a6546928bd53390c0b16b47d8493ab3ec88dfdca4d0040539",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\usb_cam.hpp",
+    "bytes": 13776,
+    "sha256": "e42881e7954c26bbcc06d6c4f7c7048b3b21284cd83cd6f920b1b75a02053343",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\usb_cam_node.hpp",
+    "bytes": 3850,
+    "sha256": "04cfd40a8c3c8586c0a6e38c12a23ca2439475db490cfb0a4213887bf6923b17",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\usb_cam\\utils.hpp",
+    "bytes": 6780,
+    "sha256": "3b085137ef327140bdea195505e3f06b2267245f813191cdd2ffae49c5729b7a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch\\camera.launch.py",
+    "bytes": 3012,
+    "sha256": "c76dc2d775997bdf9977601da0fe88517726ec7947626f20ad15351e81883d6a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch\\camera_config.py",
+    "bytes": 2899,
+    "sha256": "33aee106724b0f93a96bf16b8e10cb0b00cb3d640ee5b765fa859593cf6d5083",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "mkdocs.yml",
+    "bytes": 338,
+    "sha256": "c95bcff789d166d9146b5c04c8f1846451eb30dcbe5a5f8ea05136fd58ec8444",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "package.xml",
+    "bytes": 1785,
+    "sha256": "e45e757be79d8a51964fd2f6e20c5f459eb10e90c41d018bcbdfc315fabd3f25",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "scripts\\show_image.py",
+    "bytes": 3588,
+    "sha256": "c3261a1e6ace600fc1426ae8bafb5c1a05a5d1f5974eda51c8e0019483c2c251",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\usb_cam.cpp",
+    "bytes": 22030,
+    "sha256": "69fc9b8c31261240987a2f03417ed8a5e21998230d419159096147aa2bf8882e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\usb_cam_node.cpp",
+    "bytes": 19436,
+    "sha256": "0803eca3723266f7b9f5f9bd59a9fe4c6f27d67c150fdbd4dd041b938cd5520f",
+    "included_in_llm_prompt": true
+  }
+]

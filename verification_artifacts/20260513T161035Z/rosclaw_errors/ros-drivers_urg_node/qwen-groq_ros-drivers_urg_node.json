@@ -1,0 +1,51 @@
+{
+  "pair_key": "qwen-groq :: ros-drivers/urg_node",
+  "repo": "ros-drivers/urg_node",
+  "actual_categories": [
+    "interface_mismatch",
+    "subsystem_boundary_confusion"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "interface_mismatch",
+      "subsystem_boundary_confusion"
+    ],
+    "AS2FM": [
+      "interface_mismatch",
+      "subsystem_boundary_confusion"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "qwen-groq_ros-drivers_urg_node__err_0001",
+      "category": "subsystem_boundary_confusion",
+      "node": "urg_node",
+      "detail": "gt=other; predicted=laser_scanner",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_ros-drivers_urg_node__err_0002",
+      "category": "interface_mismatch",
+      "node": "urg_node",
+      "detail": "publishes laser_status: gt=urg_node_msgs::msg::Status; predicted=urg_node_msgs/msg/Status",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "qwen-groq_ros-drivers_urg_node__err_0003",
+      "category": "interface_mismatch",
+      "node": "urg_node",
+      "detail": "publishes scan: gt=sensor_msgs::msg::LaserScan; predicted=sensor_msgs/msg/LaserScan",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

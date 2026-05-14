@@ -1,0 +1,398 @@
+[
+  {
+    "path": "launch_ros\\launch_ros\\__init__.py",
+    "bytes": 968,
+    "sha256": "5abb62df1b77bf6641cd9110d247f145c5a53833e60345d4c7f03a01e433bead",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\actions\\__init__.py",
+    "bytes": 1641,
+    "sha256": "37c94a708fc4811c5bca4afa81f62d13df5280422ecf299f246b60e31a119069",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\actions\\composable_node_container.py",
+    "bytes": 5029,
+    "sha256": "c1892ed656f28d7a859eda21ecc6882611cd3b19928f000704b108781f5e9393",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\actions\\lifecycle_node.py",
+    "bytes": 5464,
+    "sha256": "7d1647ec0e4ec6e7d82f0786499386669dcc8c264abc414a9f46e8a1d9e7d165",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "launch_ros\\launch_ros\\actions\\lifecycle_transition.py",
+    "bytes": 10094,
+    "sha256": "e8842d4e0ab54c0d18b1e237f8cbaab4e1d9f8e503f0f3feccb8254961d0b42a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\actions\\load_composable_nodes.py",
+    "bytes": 15762,
+    "sha256": "62d1316863657047b62f6db7cfaa499ebe0317989fb017da61e20e0cb79e7425",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\actions\\node.py",
+    "bytes": 27393,
+    "sha256": "643241aa5c8882b5ec73deb03738d7176979eb402d5d1253d331584d9db68178",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\actions\\push_ros_namespace.py",
+    "bytes": 3125,
+    "sha256": "ad7b92082872d26fc606d9c2a13a995998aa28b08287c7dd8dc61137da97b625",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\actions\\ros_timer.py",
+    "bytes": 4257,
+    "sha256": "c40678fcfc0d7ab1e574cb5b5b6ceb7e8aec314a04592ba55a8d82256f485741",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\actions\\set_parameter.py",
+    "bytes": 3474,
+    "sha256": "e80d50e8fb9fa668002edc616f63640ea796e3803c9c373232b72d3afc446e7a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\actions\\set_parameters_from_file.py",
+    "bytes": 3041,
+    "sha256": "044e403ea5e2ec3caaf377d646694babbb0d28f275fa7918d427753f58d28d86",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\actions\\set_remap.py",
+    "bytes": 3239,
+    "sha256": "1334fe356a121e073921046d9e9de1fc3d5402708aa4bd00bf879dc2f2b49853",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\actions\\set_ros_log_dir.py",
+    "bytes": 3303,
+    "sha256": "385ea35c6590bb0ffb54c8aeba7c345880b97c82fabe24489cad2407a83ca09f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\actions\\set_use_sim_time.py",
+    "bytes": 2586,
+    "sha256": "3732a623d510ddea220eb03da33e84383528a4e977dc7b9a76ae80aa8a0829bf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\descriptions\\__init__.py",
+    "bytes": 1046,
+    "sha256": "f6ac577f7bf9ff80c429a5b34f64326878edd19f3a0e44843886f138e71fc19c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\descriptions\\composable_lifecycle_node.py",
+    "bytes": 4674,
+    "sha256": "c367d62d1d1f38346bc4a2ca5770cb71e63b462d5f829cb4acc39a2cda948878",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "launch_ros\\launch_ros\\descriptions\\composable_node.py",
+    "bytes": 7636,
+    "sha256": "c90e51da126512e0a05a068dd2cac8e346c9e9c6044feb0d140271f59f4bfe73",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\event_handlers\\__init__.py",
+    "bytes": 749,
+    "sha256": "2bdebd5f52c2927bd76d0460791ba34364dde93c2777c9c94f43b865f807fb03",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\event_handlers\\on_state_transition.py",
+    "bytes": 4378,
+    "sha256": "deadc47384e5f6e53788a0350be670351cc32d448e47eae09792c9c4a8f05002",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "launch_ros\\launch_ros\\events\\__init__.py",
+    "bytes": 768,
+    "sha256": "01633888e58ba0ada7d8f3c9db8671c09c0c0ea8f1a864144b6a18e6dfc42758",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\events\\lifecycle\\__init__.py",
+    "bytes": 890,
+    "sha256": "b12fa9ef11d7ed81ed0eea131d18e2468894c30a52aa7b6644913258e716cd83",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\events\\lifecycle\\change_state.py",
+    "bytes": 4547,
+    "sha256": "5c058a001aac0ecd715a6dbd8445b829ae41255d700724328af7819e922b60cf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\events\\lifecycle\\lifecycle_node_matchers.py",
+    "bytes": 1405,
+    "sha256": "5d716f562d7cc42cd9e4f647a59dec79257e38636fa059e2f2dc390b50a2df23",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\events\\lifecycle\\state_transition.py",
+    "bytes": 2486,
+    "sha256": "e261b374d78799682082969255f1af89e20d7329a55dc2c9be7a5ca805b1fa99",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\events\\matchers\\__init__.py",
+    "bytes": 743,
+    "sha256": "33ab036ee54f15cacc069d7d28a900c138665f2f3a58780fd9dfafa93471d6fd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\events\\matchers\\matches_node_name.py",
+    "bytes": 1146,
+    "sha256": "df29fa7d7eb3421eba0465e39ca740fc0831ebd3456a6a5a39dbacd12cfbfb6d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\parameter_descriptions.py",
+    "bytes": 10378,
+    "sha256": "c20cd3bc66cbcfca986af3c72a23aee06f8ec949e59cd3b32b77e4810e8a1414",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\parameters_type.py",
+    "bytes": 3101,
+    "sha256": "2f368254f4c71689381c831912b5f118b3fcbc8875ff04164dbee0186719886a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\remap_rule_type.py",
+    "bytes": 1043,
+    "sha256": "349251dfabcbc9fda10faa45b537da69b58a957214076d23367432fc94b660a1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\ros_adapters.py",
+    "bytes": 4464,
+    "sha256": "a85d537128a10a6a57082a269ac4107d15127ee439f43111a7d08a2bb34652be",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\substitutions\\__init__.py",
+    "bytes": 1002,
+    "sha256": "fb12d29a5635c45d0ece271c81209446fabebbe37eab4cee32deedf861d5653c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\substitutions\\executable_in_package.py",
+    "bytes": 3785,
+    "sha256": "c1819073594f25cef769cdfc97cedb09827a9fd35396ff5f56ab571f866a1c56",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\substitutions\\find_package.py",
+    "bytes": 3964,
+    "sha256": "2c141b1646acbe5766a2b8dd8882d54da366f389ca8e17efb3c7555228a4f52d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\substitutions\\parameter.py",
+    "bytes": 4149,
+    "sha256": "d7059f7b0342cfff4fe2f2f4e4c3296befb46473391586de30338e12d910310a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\utilities\\__init__.py",
+    "bytes": 1825,
+    "sha256": "8c57fade23b21b14a84142957c4bce9fcf99cce1ec9f44524bd66db97dc97f27",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\utilities\\evaluate_parameters.py",
+    "bytes": 8326,
+    "sha256": "f1b1607913388cbdb280b6bbb713b42407f53e38cfe943fa40e725de959ccc5f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\utilities\\lifecycle_event_manager.py",
+    "bytes": 5646,
+    "sha256": "4aaab8686f0f4a9f160270d4f58045a0dc1d0ce8c16dbd87a8dba7e739657678",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\utilities\\namespace_utils.py",
+    "bytes": 3040,
+    "sha256": "6906d4d4a7fa981a03c63bbafa8f35fe4899ddca94e815ce81b844d0811dca22",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\utilities\\normalize_parameters.py",
+    "bytes": 8885,
+    "sha256": "79fa25adb4da08267f65cea7058a9e91689068781c715d3f4668ce1224dd5c33",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\utilities\\normalize_remap_rule.py",
+    "bytes": 1640,
+    "sha256": "01fc4a38fa69ee96743121dae4dc6ea5c49c2d62b20aa2736aa9b312dc9963b4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\utilities\\plugin_support.py",
+    "bytes": 1892,
+    "sha256": "a63322ffb4adcf68ffcd390455ca92d3c4579d405330b70e7763e411be49bfdc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\utilities\\to_parameters_list.py",
+    "bytes": 5135,
+    "sha256": "b65199b60fe419e88a49e0d91eb9db93b1c2552b343a0a768f29d7710a647ecf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\launch_ros\\utilities\\track_node_names.py",
+    "bytes": 1885,
+    "sha256": "810c623b7ec2906ab7083d201156a818971d834abbf7874e88c3758f8913b25b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\package.xml",
+    "bytes": 1401,
+    "sha256": "b071421a4d04dc96723e16279536555012a316f67a1316e325b3f81e4ae33e80",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_ros\\setup.py",
+    "bytes": 1520,
+    "sha256": "024fb66c7551eb475a23f643f79351196877c132131debf91db02eac05101969",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_testing_ros\\launch_testing_ros\\__init__.py",
+    "bytes": 912,
+    "sha256": "a050808b0294f5e011771bb77aa5cfa2b5bf3fa14ca77e90021eb1d527f4e2a4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_testing_ros\\launch_testing_ros\\actions\\__init__.py",
+    "bytes": 715,
+    "sha256": "7e3acbeb35256e7e2a765d2d4d214c7f4714dce8716b1f43c52efc779212c387",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_testing_ros\\launch_testing_ros\\actions\\enable_rmw_isolation.py",
+    "bytes": 1718,
+    "sha256": "d269dafe259bc4ed181ad18610b10e969e4dbe222605a700956bc6baf858387b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_testing_ros\\launch_testing_ros\\data_republisher.py",
+    "bytes": 2693,
+    "sha256": "8abab2c0c140064cb25687fdb680cc7bba37e211e72f10b8200a762372dcba91",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_testing_ros\\launch_testing_ros\\message_pump.py",
+    "bytes": 1471,
+    "sha256": "f637c1cbd02ed02cc7c2cbbfe228e110569221c1b6c2f72c45e2899f3befa1fb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_testing_ros\\launch_testing_ros\\pytest\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_testing_ros\\launch_testing_ros\\pytest\\hooks.py",
+    "bytes": 1232,
+    "sha256": "7ee5bc44c63476c1139b55a4cea799c80cf14e95e72effcdf497fa5444500400",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_testing_ros\\launch_testing_ros\\tools\\__init__.py",
+    "bytes": 702,
+    "sha256": "c004fefedd0de3bcbe818bad4f42271cbc963ab36f2b69d656714733c3f3d001",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_testing_ros\\launch_testing_ros\\tools\\output.py",
+    "bytes": 3001,
+    "sha256": "cd5b151c30b037e83618a44ee6581d6b43126f13b8d466a1d67a9452b02d3cf8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_testing_ros\\launch_testing_ros\\wait_for_topics.py",
+    "bytes": 9014,
+    "sha256": "a63eb5dd93d5ea58366f1ce4abe920f5f3432586b896800fa985f2fa87d60e9b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_testing_ros\\launch_testing_ros_pytest_entrypoint.py",
+    "bytes": 2041,
+    "sha256": "35a39999d68611646d44871b34ce19035cb71b1c32a5ed4d42bb2fc4c294ed81",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_testing_ros\\package.xml",
+    "bytes": 1379,
+    "sha256": "c2f2fb326688c1b5bcc3660eacd06db270d47864756606b8d7b42c32b2b1d749",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch_testing_ros\\setup.py",
+    "bytes": 1435,
+    "sha256": "465b4669471eb9e37ab26f60eda9ec5ca667cffbe7cd481b12eddb766acc3d79",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2launch\\package.xml",
+    "bytes": 1614,
+    "sha256": "7930d3f47aeccd16324c56060e398fb1e21415c1f97dcae5a8316b9160e9a26a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2launch\\ros2launch\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2launch\\ros2launch\\api\\__init__.py",
+    "bytes": 1523,
+    "sha256": "f433b205a1a1a4241f592696c823123769535ee85206968801b506ccce6cfc60",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2launch\\ros2launch\\api\\api.py",
+    "bytes": 8719,
+    "sha256": "ab9702c0ad46634114459fc38231d35955888f8e9fcdc0a09f293f6a49f4ef07",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2launch\\ros2launch\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2launch\\ros2launch\\command\\launch.py",
+    "bytes": 7894,
+    "sha256": "0fce10c2555a08a0c84240a25732d2c5a75c667e2c64d5156acb496eb0c80ada",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2launch\\ros2launch\\option\\__init__.py",
+    "bytes": 2582,
+    "sha256": "027b80e05a1056343447bb4cd23a476a6b6c71bb3f8f93d18417ef0bc791ff28",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2launch\\setup.py",
+    "bytes": 1359,
+    "sha256": "7bf45163af50b27cb4a6f5b5655193825b58b7a58efd4639cfa879c26670181a",
+    "included_in_llm_prompt": false
+  }
+]

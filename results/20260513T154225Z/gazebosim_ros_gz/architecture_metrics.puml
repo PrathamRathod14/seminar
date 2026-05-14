@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam rectangle {
+  RoundCorner 8
+  BorderColor #4B5563
+}
+title ROS 2 LLM Architecture Recovery\ngazebosim/ros_gz
+rectangle "INPUT\nRepo: gazebosim/ros_gz\nSource files sent: 3\nYAML evidence files: 0\nGT nodes/topics: 7/0" as input #E0F2FE
+rectangle "SQ1: LLM architecture recovery\nllama-4: precision 100.00%, SBRG 42.86 percentage points, TP/FP/FN 3/0/4\ngroq-large: precision 66.67%, SBRG 28.57 percentage points, TP/FP/FN 2/1/5\ngroq-small: precision 60.00%, SBRG 42.86 percentage points, TP/FP/FN 3/2/4\nqwen-groq: precision 100.00%, SBRG 28.57 percentage points, TP/FP/FN 2/0/5" as sq1 #ECFDF5
+rectangle "SQ2: Error taxonomy\nTotal repo errors: 31\nmissing_node: 18\nsubsystem_boundary_confusion: 10\nhallucinated_node: 3" as sq2 #FFF7ED
+rectangle "SQ3: Tool detection\nTCR: 100.00%\nAS2FM: run\nROSClaw: run" as sq3 #F5F3FF
+rectangle "SQ4 / Outputs\nAnnotation: source_parser_seed_for_manual_review\nRun: 20260513T154225Z\nTtV: 21469.60 ms" as sq4 #F8FAFC
+input --> sq1
+sq1 --> sq2
+sq2 --> sq3
+sq3 --> sq4
+footer Generated from metrics_results.json
+@enduml

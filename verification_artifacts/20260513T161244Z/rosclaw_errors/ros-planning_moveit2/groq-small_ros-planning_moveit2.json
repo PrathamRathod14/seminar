@@ -1,0 +1,201 @@
+{
+  "pair_key": "groq-small :: ros-planning/moveit2",
+  "repo": "ros-planning/moveit2",
+  "actual_categories": [
+    "hallucinated_node",
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "hallucinated_node",
+      "missing_node"
+    ],
+    "AS2FM": [
+      "hallucinated_node",
+      "missing_node"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0001",
+      "category": "hallucinated_node",
+      "node": "config_node",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0002",
+      "category": "hallucinated_node",
+      "node": "motion_planning_frame",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0003",
+      "category": "hallucinated_node",
+      "node": "motion_planning_node",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0004",
+      "category": "hallucinated_node",
+      "node": "object_detection_node",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0005",
+      "category": "hallucinated_node",
+      "node": "planning_scene_node",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0006",
+      "category": "hallucinated_node",
+      "node": "tab_widget_node",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0007",
+      "category": "missing_node",
+      "node": "Policy",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0008",
+      "category": "missing_node",
+      "node": "TeleopDevice",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0009",
+      "category": "missing_node",
+      "node": "_",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0010",
+      "category": "missing_node",
+      "node": "collision_updater",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0011",
+      "category": "missing_node",
+      "node": "global_planner_component",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0012",
+      "category": "missing_node",
+      "node": "hybrid_planning_manager",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0013",
+      "category": "missing_node",
+      "node": "local_planner_component",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0014",
+      "category": "missing_node",
+      "node": "moveit",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0015",
+      "category": "missing_node",
+      "node": "moveit_setup_assistant",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0016",
+      "category": "missing_node",
+      "node": "moveit_simple_controller_manager",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0017",
+      "category": "missing_node",
+      "node": "servo_node",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-planning_moveit2__err_0018",
+      "category": "missing_node",
+      "node": "srdf_publisher",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}

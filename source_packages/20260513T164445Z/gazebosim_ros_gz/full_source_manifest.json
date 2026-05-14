@@ -1,0 +1,554 @@
+[
+  {
+    "path": ".pre-commit-config.yaml",
+    "bytes": 564,
+    "sha256": "1b271ce3e41eb0c74d62abc738e75771d4b62abb27275bcc5bf4988c64a866d1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz\\package.xml",
+    "bytes": 1201,
+    "sha256": "8b53b1476004b1072e18689244b23f3eeb56f6452a56dc5c34486b90e127996e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\bridge_config.hpp",
+    "bytes": 3919,
+    "sha256": "05ae92d5d21b385a2d4600b44b2fc944030e42729d7fea6544d2ab1243cb1491",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert.hpp",
+    "bytes": 1310,
+    "sha256": "3f25a27ea46ecd39eb74163402ee866e2c7e896c31dd46ea9bc8911dee2b0da9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\actuator_msgs.hpp",
+    "bytes": 1265,
+    "sha256": "f47fe1775bec19c5995f567179f9560b27b2629a277315a433c68d31672d7c8e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\builtin_interfaces.hpp",
+    "bytes": 1229,
+    "sha256": "7416b679d6dc9c4a7ef1755fad40365e3cd0a9dfe37db42ff5f2c265cc7959aa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\geometry_msgs.hpp",
+    "bytes": 5997,
+    "sha256": "34e6c26491c23b5873196824407c26d63d5f77551752bf3c06394115c746cafb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\gps_msgs.hpp",
+    "bytes": 1213,
+    "sha256": "88f17d23163e5602a1347e5aa63058ba70f3925f086dcd0bde3fd38ada40fbd3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\marine_acoustic_msgs.hpp",
+    "bytes": 1317,
+    "sha256": "d9a319c4a00eef6a39b84c3ab86553e584d3035244b6644d55fff302425d9ec1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\nav_msgs.hpp",
+    "bytes": 1551,
+    "sha256": "f2cc495bb6bb09bbf3c3cc148bfe41fa4ea42852ee5dacfa167ddf3f8cabb297",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\rcl_interfaces.hpp",
+    "bytes": 1363,
+    "sha256": "b4386690e80044c61664bb058fb3e82989be9bd0a4b4aad66d3459e440ed65aa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\ros_gz_interfaces.hpp",
+    "bytes": 9030,
+    "sha256": "d3b461c9edae464a46e6b80494d37dea8938beb43e82c7404c1a2ae5667b6615",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\rosgraph_msgs.hpp",
+    "bytes": 1240,
+    "sha256": "e75aea15962ad860df050d62c92708070d94018a49eeedd84c5fffafa0db391c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\sensor_msgs.hpp",
+    "bytes": 4511,
+    "sha256": "c4de959eb23b919dad8813ec96cbda96e5463df9d3be87018a5a789b27740546",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\std_msgs.hpp",
+    "bytes": 3573,
+    "sha256": "71912c33301d6f9beb32a11194af32c98e75c47c5f98949f2bda7da5e7b10a25",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\tf2_msgs.hpp",
+    "bytes": 1226,
+    "sha256": "ffab81a8a9c4c9c769d4851d6075f26e0bac8febbf4b1c5f3959364fdf1594a3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\trajectory_msgs.hpp",
+    "bytes": 1612,
+    "sha256": "a0ca04b5c26318ae42c0425d4e73b91aebfcf1feacd6c7f3b04a1be955bdda23",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert\\vision_msgs.hpp",
+    "bytes": 2273,
+    "sha256": "2dfbbdad5d4057f08f053d4b1774b66b074d4574e2468ebb905aee31e9ba431e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\convert_decl.hpp",
+    "bytes": 1051,
+    "sha256": "f08d0a3e4b93523bee67b9a24e1941d0c5920773a81709e3a8385e77235d6eac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\include\\ros_gz_bridge\\ros_gz_bridge.hpp",
+    "bytes": 2628,
+    "sha256": "befbb9ba4169dc41ecfd22066c18d9c95b64eb0ab839da67e65799070e52d3da",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\launch\\ros_gz_bridge.launch.py",
+    "bytes": 3879,
+    "sha256": "a9977240ebcc3b7b8081127de5bbc77cb7f444d3905a3bafd3675f7aec728406",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\package.xml",
+    "bytes": 1861,
+    "sha256": "5e290fa9d101a9aa7c4c62fe3e01f09c8a48af45b3063bd99b21d4140e136b9a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\ros_gz_bridge\\__init__.py",
+    "bytes": 5815,
+    "sha256": "ef35054efd776facaabebed74306627b398c683291422f33c8a5ccdfd432761c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\ros_gz_bridge\\actions\\__init__.py",
+    "bytes": 721,
+    "sha256": "48aa237021b420bd3cdbbfaa0d674a9bc74a71d43496b3304c438e07ac5f9413",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\ros_gz_bridge\\actions\\ros_gz_bridge.py",
+    "bytes": 12303,
+    "sha256": "7ee17664fd40a8da3cc91e95bbf72d6e1ed8fb5f145123c157e433941bb10630",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "ros_gz_bridge\\ros_gz_bridge\\mappings.py",
+    "bytes": 4647,
+    "sha256": "28ad4076a80bd4011609f0fb3510c746334bd3af53758271904c1daeb01392ac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\bridge_config.cpp",
+    "bytes": 9771,
+    "sha256": "b753edb4b45097004838268e05e3053f7a2192e0d6caa65984772c199a4c46c8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\bridge_handle.cpp",
+    "bytes": 2008,
+    "sha256": "83758ebd114dbbe7c6820f8786ae625a06716d0daa1ed3f7e06397b7ea91904e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\bridge_handle.hpp",
+    "bytes": 3592,
+    "sha256": "d5b8f0f732134d7dfc72100dfe1e2a14334ffc2e42c0469d6f0a2d446be47a06",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\bridge_handle_gz_to_ros.cpp",
+    "bytes": 3061,
+    "sha256": "c95fac01942989ad5439718a57ad486549f3899a18c792c2505580a9fd6e6392",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\bridge_handle_gz_to_ros.hpp",
+    "bytes": 2267,
+    "sha256": "1a1e00f6adef68dfd7451851f597f1b9fd34650a0a4fca45886ecea4eb687747",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\bridge_handle_gz_to_ros_parameters.hpp",
+    "bytes": 1229,
+    "sha256": "a13a4fc13afbd7118b34ebbf43174ee6cc247ed2da4805be1ee7f76f240ee76e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\bridge_handle_ros_to_gz.cpp",
+    "bytes": 2308,
+    "sha256": "7bfe872ebbe6abda80dfb8f568033d1b1b28614b4b39174590d60a093e9f8bae",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\bridge_handle_ros_to_gz.hpp",
+    "bytes": 1976,
+    "sha256": "2e7803c49dea400261d9058256240a816ec8936335561a4913c95716c437200a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\bridge_types.cpp",
+    "bytes": 4245,
+    "sha256": "d362b2ce7a2e198207cedb6e68f1789c47b8fa59dfb469e82ed775fc529de3b3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\actuator_msgs.cpp",
+    "bytes": 1824,
+    "sha256": "d9eed1972c594e6a4a3fc0f49b4574294cd1ed4e50334ac2069b7c9f09f11ea9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\builtin_interfaces.cpp",
+    "bytes": 1129,
+    "sha256": "6ab0bc15fcca67100eab4ba300484727284a8fc216819f9a872d09a1a9ae6042",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\geometry_msgs.cpp",
+    "bytes": 10340,
+    "sha256": "4532581d3fdca31966e3cd0bbfb1e6eaf90ad9683c6136c8f53009b0e15ef377",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\gps_msgs.cpp",
+    "bytes": 2184,
+    "sha256": "5423890c9f849bd87b2a0852d243c49be45ec5a79260c97b8860f96a611f8b5e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\marine_acoustic_msgs.cpp",
+    "bytes": 7821,
+    "sha256": "fafd2dc274f42d2c8dd63872a6036b23e8dcdd5d68cabce3d148107d3d7eec24",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\nav_msgs.cpp",
+    "bytes": 2923,
+    "sha256": "d73a067e1965a58b6cc0faf94b9a86a75e79f060cccafd714b7001a2dd64c05c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\rcl_interfaces.cpp",
+    "bytes": 4896,
+    "sha256": "690fc1a9cfd1d92b166c1d7b4e75d63fe9747c16212db2c5c16f5b3d14baa6d4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\ros_gz_interfaces.cpp",
+    "bytes": 29462,
+    "sha256": "1d147658f61c177094981594edc1e5d4446e71a83b2742e48a7e2cef9a194cc8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\rosgraph_msgs.cpp",
+    "bytes": 1231,
+    "sha256": "365a6f24f7b22fc7558f41e7c193c2e61507ddc293380e94530c377c0fd7174f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\sensor_msgs.cpp",
+    "bytes": 27011,
+    "sha256": "5bf25ea904907395075dabe31bf076b97e454f2be2670f427c2adc4ed2215cd0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\std_msgs.cpp",
+    "bytes": 3993,
+    "sha256": "35ae4b802fc983cca4d5d2dcda005d31c4f897a1f1099e3c67ed80e1152ff647",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\tf2_msgs.cpp",
+    "bytes": 1487,
+    "sha256": "ada6d95c70f800be1e90ee8cad126669246caa3f1f94befa1583c4f82a071bf7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\trajectory_msgs.cpp",
+    "bytes": 3348,
+    "sha256": "6b7b5c095d65a149e4fda6af4fc9bcc4a0f6968d34b936700655da876d72774d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\utils.cpp",
+    "bytes": 1468,
+    "sha256": "a8b937e3f90df5f741b382fa24e600bfa1c9947e580a57b8bd67e61507ac03ed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\utils.hpp",
+    "bytes": 1083,
+    "sha256": "cba46d65fd1f610b4971769019d5131790d90443353f54b7346a0a74bc4c738a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\convert\\vision_msgs.cpp",
+    "bytes": 6408,
+    "sha256": "970d8aa2c8d929b82a257059ce81314d9d315c069ebf440d8c6d4823bc7d5719",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\factory.hpp",
+    "bytes": 7133,
+    "sha256": "de5cae64210bbf18cbf10c8fdcee97a00f129e05b320d7d9e6ee5f7568f2f55f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\factory_interface.cpp",
+    "bytes": 773,
+    "sha256": "a67c334351c9bbcbcc12dedc6c33f5fe33337f152b10faf470fc4a55f324cfe8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\factory_interface.hpp",
+    "bytes": 1960,
+    "sha256": "8db97081e4d285acb568f9d1ab0d708b411c50a92fe997b6c81826f61f4f7e4a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\get_factory.hpp",
+    "bytes": 1207,
+    "sha256": "8da868c1e743ff26193926d72e2b45ff2ebc8051f73d7b9c121d9dd49d45b9bb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\get_mappings.hpp",
+    "bytes": 1087,
+    "sha256": "e23f3ea2c484d75192f823bbecae1e7be9b0cd79a68f975a731726ad277fcb06",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\parameter_bridge.cpp",
+    "bytes": 6344,
+    "sha256": "9919ab87ff2f62a12f700f0eb0b6a94fcd1101952ef7bc3ce10acd619079bc25",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\ros_gz_bridge.cpp",
+    "bytes": 12687,
+    "sha256": "48fa512b6c17b6c033993ef0a4d1b51515827d4199466dc5a0259caecdc8451b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\service_factories\\ros_gz_interfaces.cpp",
+    "bytes": 6146,
+    "sha256": "60e8caf1481e0f3e7de46aa46b5f598658e340022f2534fb160fc13623dacd35",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\service_factories\\ros_gz_interfaces.hpp",
+    "bytes": 1140,
+    "sha256": "93617be64dcaec5be470a2072e85a7fdad89f2d4db56a7413bf013fbc1c32520",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\service_factory.hpp",
+    "bytes": 2920,
+    "sha256": "42b8e9c9ff7f5ec63a7f9f7ee49f2f16f4c2be3965946a37274f180fda9b58b3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\service_factory_interface.cpp",
+    "bytes": 795,
+    "sha256": "b298fe74c0af1a20b3d7bc56ce64e0a6a04948abfaa32a48c269571412d06af7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\service_factory_interface.hpp",
+    "bytes": 1251,
+    "sha256": "824774b8e7571b9bad9c08ca3ed2a664b1b744dd2bf2177ed8c8d838b3a74e96",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_bridge\\src\\static_bridge.cpp",
+    "bytes": 1570,
+    "sha256": "c804f54713abcbcc874a4a21bfa7af39360a68d5a9babc8dba26a8a3b82fd2c5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_image\\package.xml",
+    "bytes": 869,
+    "sha256": "65f788aa7afd340b6315df70f0cc403256e06839589b5f969f41caf96062c2fa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_image\\src\\image_bridge.cpp",
+    "bytes": 6160,
+    "sha256": "08b733754758f729036eb03aad2d53701b0a649dcf6b0d2c9631c1f61456d4e8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_interfaces\\package.xml",
+    "bytes": 1200,
+    "sha256": "e18b06276608eda545f7e54b640cc5ddaa6037d847b788701185f420112af25c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_point_cloud\\package.xml",
+    "bytes": 678,
+    "sha256": "7f3b93d59ac39e5aa84c64523fcd3d9ba8ff2434da2ce1060002eacc6535d9c2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_point_cloud\\src\\point_cloud.cc",
+    "bytes": 16799,
+    "sha256": "a30a28b7b59771440739d2a7db2eca922f163f761d76ce83f443a63c7d16d2f3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_point_cloud\\src\\point_cloud.hh",
+    "bytes": 2361,
+    "sha256": "e9e4d1dcbd50e055e7b1921290569732ba9c1fcdb24827782723862bc576354d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\include\\ros_gz_sim\\Stopwatch.hpp",
+    "bytes": 5486,
+    "sha256": "5ea0384eacdf0143a942f47bf758dc471090e4287bdf4a79fcb1cef88131f9a5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\include\\ros_gz_sim\\delete_entity.hpp",
+    "bytes": 2070,
+    "sha256": "dfb4558996d87340bbe702a3b4afe4d7f22c863bda8de30f20e1558d6ee5c251",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\include\\ros_gz_sim\\gzserver.hpp",
+    "bytes": 1285,
+    "sha256": "e81f9f283c363bc2d6a91defe6a6fa15bb3da03281ffea69e9f257de468c2bee",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\include\\ros_gz_sim\\set_entity_pose.hpp",
+    "bytes": 3052,
+    "sha256": "5f082d2f6f5b677630d2697e12e73d2a146c024887b79ce99420df948ee5d644",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\include\\ros_gz_sim\\spawn_entity.hpp",
+    "bytes": 2978,
+    "sha256": "3dbe9f0ed9a9edb5c18e4d514ebd3eedca3364db35b1692ec6a1600642067501",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\launch\\gz_remove_model.launch.py",
+    "bytes": 1720,
+    "sha256": "344be51b7fa51a981db537b46ee2c85f3fa526487c9ce5c0c83e021f44fe1b85",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "ros_gz_sim\\launch\\gz_server.launch.py",
+    "bytes": 3240,
+    "sha256": "808538aa93d22585c8cae579a24cc87a5eb889d8f25c7a09b64fcec9319af4d2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\launch\\gz_spawn_model.launch.py",
+    "bytes": 3514,
+    "sha256": "c480d62dcdff8aa64f4b236392ed79df78071e8e673fb8446616d4716ee6db51",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "ros_gz_sim\\launch\\ros_gz_sim.launch.py",
+    "bytes": 5227,
+    "sha256": "f779be1f52c388ddf86edbbad06c5ab2fac7a59ed372579cd8c69a9a09b8e65e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\launch\\ros_gz_spawn_model.launch.py",
+    "bytes": 6832,
+    "sha256": "b783a46e1600962afc91f1923d50a8df9dff0505902bcb0fccc0925ce80cfe5e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\package.xml",
+    "bytes": 2051,
+    "sha256": "31166c478bb1c1cc6b6b26ffbedfff7b1cac9bc86ee5c0dd60cddca53def2494",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\ros_gz_sim\\__init__.py",
+    "bytes": 731,
+    "sha256": "5e3d1783541d5d4447f3a023476afa8bf93d3d938d6d32fb6e87509a8e6dacad",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\ros_gz_sim\\actions\\__init__.py",
+    "bytes": 773,
+    "sha256": "98cc02e01d3923c4494bbc5639a061336c5d268fcdf72fe89dae13051148644e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\ros_gz_sim\\actions\\gz_spawn_model.py",
+    "bytes": 7348,
+    "sha256": "2c57f2c4438863278ec47c06e591fd3033df744d7b71440f7d67bd0e730f1fb9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\ros_gz_sim\\actions\\gzserver.py",
+    "bytes": 12796,
+    "sha256": "eda456b1696787fe9455b414e572bb53b88a11d0eb50f9acbbad29a73fe2b57d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\src\\Stopwatch.cpp",
+    "bytes": 7076,
+    "sha256": "8fa9dd1a6da1bfd71a90b594c42c1e73fa73c30f6f51f85274d96d20af333b44",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\src\\create.cpp",
+    "bytes": 10866,
+    "sha256": "25cbcd4ba8a09f99d314d2346d623dd17e6078e6f85290460aa7e28afdf9049d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\src\\delete_entity.cpp",
+    "bytes": 4670,
+    "sha256": "f06ea44e631692697c94ab85f8147cc528fde120deff66a1c64733ce45d2bb6d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\src\\gzserver.cpp",
+    "bytes": 3397,
+    "sha256": "80fb31d6dae0456b3dcfa73772f8fc11f32e2d1e376329584416569f2339e492",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\src\\remove.cpp",
+    "bytes": 3629,
+    "sha256": "57271b8c278c594006e7651bc42fef85e5216349f4e0511a08909100b14453cb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\src\\set_entity_pose.cpp",
+    "bytes": 7490,
+    "sha256": "0ce87f36fe624afb79e7587ed88bf09904ed36a2b942c7e74172eeaa4b178868",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros_gz_sim\\src\\spawn_entity.cpp",
+    "bytes": 7309,
+    "sha256": "d73682f0838bec381df4cf024d2d4664f9d2c52dbc2481b4e7a85045bdb0f1ad",
+    "included_in_llm_prompt": false
+  }
+]

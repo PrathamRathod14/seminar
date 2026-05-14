@@ -1,0 +1,100 @@
+{
+  "pair_key": "groq-small :: ros-drivers/urg_node",
+  "repo": "ros-drivers/urg_node",
+  "actual_categories": [
+    "hallucinated_node",
+    "interface_mismatch",
+    "lifecycle_violation",
+    "subsystem_boundary_confusion",
+    "wrong_topic_name"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "hallucinated_node",
+      "interface_mismatch",
+      "lifecycle_violation",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ],
+    "AS2FM": [
+      "hallucinated_node",
+      "interface_mismatch",
+      "lifecycle_violation",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ]
+  },
+  "as2fm_status": "run_as_jani_property_adapter",
+  "error_records": [
+    {
+      "id": "groq-small_ros-drivers_urg_node__err_0001",
+      "category": "hallucinated_node",
+      "node": "LidarStatusNode",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-drivers_urg_node__err_0002",
+      "category": "hallucinated_node",
+      "node": "UrgNode",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-drivers_urg_node__err_0003",
+      "category": "subsystem_boundary_confusion",
+      "node": "urg_node",
+      "detail": "gt=other; predicted=urg_node",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-drivers_urg_node__err_0004",
+      "category": "lifecycle_violation",
+      "node": "urg_node",
+      "detail": "gt=False; predicted=True",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-drivers_urg_node__err_0005",
+      "category": "interface_mismatch",
+      "node": "urg_node",
+      "detail": "publishes laser_status: gt=urg_node_msgs::msg::Status; predicted=urg_node_msgs/msg/Status",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-drivers_urg_node__err_0006",
+      "category": "interface_mismatch",
+      "node": "urg_node",
+      "detail": "publishes scan: gt=sensor_msgs::msg::LaserScan; predicted=sensor_msgs/msg/LaserScan",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    },
+    {
+      "id": "groq-small_ros-drivers_urg_node__err_0007",
+      "category": "wrong_topic_name",
+      "node": "urg_node",
+      "detail": "subscribes topic differs: update_laser_status",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": true
+      }
+    }
+  ]
+}
