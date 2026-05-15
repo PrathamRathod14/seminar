@@ -8678,7 +8678,7 @@
               "assignments": []
             }
           ],
-          "action": "bt_1002_halt_response_on_receive",
+          "action": "bt_1003_halt_response_on_receive",
           "guard": {
             "exp": {
               "op": "∧",
@@ -8688,7 +8688,7 @@
                 "exp": {
                   "op": "=",
                   "left": "current_child_idx",
-                  "right": 1
+                  "right": 2
                 }
               }
             }
@@ -8705,7 +8705,7 @@
               "assignments": []
             }
           ],
-          "action": "bt_1003_halt_response_on_receive",
+          "action": "bt_1004_halt_response_on_receive",
           "guard": {
             "exp": {
               "op": "∧",
@@ -8715,7 +8715,7 @@
                 "exp": {
                   "op": "=",
                   "left": "current_child_idx",
-                  "right": 2
+                  "right": 3
                 }
               }
             }
@@ -8759,7 +8759,7 @@
               "assignments": []
             }
           ],
-          "action": "bt_1004_halt_response_on_receive",
+          "action": "bt_1002_halt_response_on_receive",
           "guard": {
             "exp": {
               "op": "∧",
@@ -8769,7 +8769,7 @@
                 "exp": {
                   "op": "=",
                   "left": "current_child_idx",
-                  "right": 3
+                  "right": 1
                 }
               }
             }
@@ -8786,7 +8786,7 @@
               "assignments": []
             }
           ],
-          "action": "bt_1002_response_on_receive",
+          "action": "bt_1001_response_on_receive",
           "guard": {
             "exp": {
               "op": "∧",
@@ -8801,13 +8801,13 @@
                       "op": "∧",
                       "left": {
                         "op": "=",
-                        "left": "bt_1002_response__status",
+                        "left": "bt_1001_response__status",
                         "right": 1
                       },
                       "right": {
                         "op": "=",
                         "left": "current_child_idx",
-                        "right": 1
+                        "right": 0
                       }
                     }
                   }
@@ -8818,13 +8818,13 @@
                     "op": "∧",
                     "left": {
                       "op": "=",
-                      "left": "bt_1002_response__status",
+                      "left": "bt_1001_response__status",
                       "right": 2
                     },
                     "right": {
                       "op": "=",
                       "left": "current_child_idx",
-                      "right": 1
+                      "right": 0
                     }
                   }
                 }
@@ -8835,86 +8835,13 @@
                   "op": "∧",
                   "left": {
                     "op": "=",
-                    "left": "bt_1002_response__status",
+                    "left": "bt_1001_response__status",
                     "right": 3
                   },
                   "right": {
                     "op": "=",
                     "left": "current_child_idx",
-                    "right": 1
-                  }
-                }
-              }
-            }
-          }
-        },
-        {
-          "location": "tick_children",
-          "destinations": [
-            {
-              "location": "tick_children",
-              "probability": {
-                "exp": 1.0
-              },
-              "assignments": []
-            }
-          ],
-          "action": "bt_1004_response_on_receive",
-          "guard": {
-            "exp": {
-              "op": "∧",
-              "left": {
-                "op": "∧",
-                "left": {
-                  "op": "∧",
-                  "left": true,
-                  "right": {
-                    "op": "¬",
-                    "exp": {
-                      "op": "∧",
-                      "left": {
-                        "op": "=",
-                        "left": "bt_1004_response__status",
-                        "right": 1
-                      },
-                      "right": {
-                        "op": "=",
-                        "left": "current_child_idx",
-                        "right": 3
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "op": "¬",
-                  "exp": {
-                    "op": "∧",
-                    "left": {
-                      "op": "=",
-                      "left": "bt_1004_response__status",
-                      "right": 2
-                    },
-                    "right": {
-                      "op": "=",
-                      "left": "current_child_idx",
-                      "right": 3
-                    }
-                  }
-                }
-              },
-              "right": {
-                "op": "¬",
-                "exp": {
-                  "op": "∧",
-                  "left": {
-                    "op": "=",
-                    "left": "bt_1004_response__status",
-                    "right": 3
-                  },
-                  "right": {
-                    "op": "=",
-                    "left": "current_child_idx",
-                    "right": 3
+                    "right": 0
                   }
                 }
               }
@@ -9005,7 +8932,7 @@
               "assignments": []
             }
           ],
-          "action": "bt_1001_response_on_receive",
+          "action": "bt_1004_response_on_receive",
           "guard": {
             "exp": {
               "op": "∧",
@@ -9020,13 +8947,13 @@
                       "op": "∧",
                       "left": {
                         "op": "=",
-                        "left": "bt_1001_response__status",
+                        "left": "bt_1004_response__status",
                         "right": 1
                       },
                       "right": {
                         "op": "=",
                         "left": "current_child_idx",
-                        "right": 0
+                        "right": 3
                       }
                     }
                   }
@@ -9037,13 +8964,13 @@
                     "op": "∧",
                     "left": {
                       "op": "=",
-                      "left": "bt_1001_response__status",
+                      "left": "bt_1004_response__status",
                       "right": 2
                     },
                     "right": {
                       "op": "=",
                       "left": "current_child_idx",
-                      "right": 0
+                      "right": 3
                     }
                   }
                 }
@@ -9054,13 +8981,13 @@
                   "op": "∧",
                   "left": {
                     "op": "=",
-                    "left": "bt_1001_response__status",
+                    "left": "bt_1004_response__status",
                     "right": 3
                   },
                   "right": {
                     "op": "=",
                     "left": "current_child_idx",
-                    "right": 0
+                    "right": 3
                   }
                 }
               }
@@ -9068,27 +8995,73 @@
           }
         },
         {
-          "location": "halt_current_child",
+          "location": "tick_children",
           "destinations": [
             {
-              "location": "halt_current_child",
+              "location": "tick_children",
               "probability": {
                 "exp": 1.0
               },
               "assignments": []
             }
           ],
-          "action": "bt_1002_halt_response_on_receive",
+          "action": "bt_1002_response_on_receive",
           "guard": {
             "exp": {
               "op": "∧",
-              "left": true,
+              "left": {
+                "op": "∧",
+                "left": {
+                  "op": "∧",
+                  "left": true,
+                  "right": {
+                    "op": "¬",
+                    "exp": {
+                      "op": "∧",
+                      "left": {
+                        "op": "=",
+                        "left": "bt_1002_response__status",
+                        "right": 1
+                      },
+                      "right": {
+                        "op": "=",
+                        "left": "current_child_idx",
+                        "right": 1
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "op": "¬",
+                  "exp": {
+                    "op": "∧",
+                    "left": {
+                      "op": "=",
+                      "left": "bt_1002_response__status",
+                      "right": 2
+                    },
+                    "right": {
+                      "op": "=",
+                      "left": "current_child_idx",
+                      "right": 1
+                    }
+                  }
+                }
+              },
               "right": {
                 "op": "¬",
                 "exp": {
-                  "op": "=",
-                  "left": "current_child_idx",
-                  "right": 1
+                  "op": "∧",
+                  "left": {
+                    "op": "=",
+                    "left": "bt_1002_response__status",
+                    "right": 3
+                  },
+                  "right": {
+                    "op": "=",
+                    "left": "current_child_idx",
+                    "right": 1
+                  }
                 }
               }
             }
@@ -9132,6 +9105,33 @@
               "assignments": []
             }
           ],
+          "action": "bt_1004_halt_response_on_receive",
+          "guard": {
+            "exp": {
+              "op": "∧",
+              "left": true,
+              "right": {
+                "op": "¬",
+                "exp": {
+                  "op": "=",
+                  "left": "current_child_idx",
+                  "right": 3
+                }
+              }
+            }
+          }
+        },
+        {
+          "location": "halt_current_child",
+          "destinations": [
+            {
+              "location": "halt_current_child",
+              "probability": {
+                "exp": 1.0
+              },
+              "assignments": []
+            }
+          ],
           "action": "bt_1001_halt_response_on_receive",
           "guard": {
             "exp": {
@@ -9159,7 +9159,7 @@
               "assignments": []
             }
           ],
-          "action": "bt_1004_halt_response_on_receive",
+          "action": "bt_1002_halt_response_on_receive",
           "guard": {
             "exp": {
               "op": "∧",
@@ -9169,7 +9169,7 @@
                 "exp": {
                   "op": "=",
                   "left": "current_child_idx",
-                  "right": 3
+                  "right": 1
                 }
               }
             }

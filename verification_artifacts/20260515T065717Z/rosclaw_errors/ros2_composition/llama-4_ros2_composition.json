@@ -1,0 +1,16 @@
+{
+  "pair_key": "llama-4 :: ros2/composition",
+  "repo": "ros2/composition",
+  "actual_categories": [],
+  "detected_by_tool": {
+    "ROSClaw": [],
+    "AS2FM": [],
+    "AS2FM_JANI_adapter": [],
+    "LocalStaticValidator": []
+  },
+  "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
+  "as2fm_method": "not_applicable_without_repo_behavior_models",
+  "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+  "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+  "error_records": []
+}

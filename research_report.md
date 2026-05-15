@@ -1,7 +1,7 @@
 # Research Results Summary
 
-Run ID: `20260513T175513Z`
-Created UTC: `2026-05-13T17:58:07.415886+00:00`
+Run ID: `20260515T065717Z`
+Created UTC: `2026-05-15T06:59:09.186621+00:00`
 Repositories tested: **15**
 Models configured: **llama-4, groq-large, groq-small, qwen-groq**
 Real-data-only mode: **yes**
@@ -52,12 +52,12 @@ Interpretation: the largest error categories are the highest-priority targets fo
 ## SQ3 - Automatic Detection Coverage
 
 Detection method: **proposal_tools_separated_from_local_adapters**
-Proposal Tool Coverage Ratio: **16.67%**
-Proposal covered categories: **1 / 6**
+Proposal Tool Coverage Ratio: **0.00%**
+Proposal covered categories: **0 / 6**
 Extended/local Tool Coverage Ratio: **100.00%**
 
 Proposal category detector scores:
-- `interface_mismatch`: precision 100.00%, recall 100.00%, support 3
+- `interface_mismatch`: precision 0.00%, recall 0.00%, support 3
 - `hallucinated_node`: precision 0.00%, recall 0.00%, support 21
 - `subsystem_boundary_confusion`: precision 0.00%, recall 0.00%, support 5
 - `missing_node`: precision 0.00%, recall 0.00%, support 28
@@ -67,7 +67,7 @@ Proposal category detector scores:
 Interpretation: proposal TCR counts only AS2FM and ROSClaw. The extended/local TCR includes generated JANI-style property checks and the deterministic static validator as baseline evidence.
 
 Adequate detector by category:
-- `interface_mismatch`: ROSClaw
+- `interface_mismatch`: none
 - `hallucinated_node`: none
 - `subsystem_boundary_confusion`: none
 - `missing_node`: none
@@ -75,7 +75,7 @@ Adequate detector by category:
 - `lifecycle_violation`: none
 
 Extended/local adequate detector by category:
-- `interface_mismatch`: ROSClaw, AS2FM_JANI_adapter, LocalStaticValidator
+- `interface_mismatch`: AS2FM_JANI_adapter, LocalStaticValidator
 - `hallucinated_node`: AS2FM_JANI_adapter, LocalStaticValidator
 - `subsystem_boundary_confusion`: AS2FM_JANI_adapter, LocalStaticValidator
 - `missing_node`: AS2FM_JANI_adapter, LocalStaticValidator
@@ -92,8 +92,8 @@ Verification artifacts:
 - AS2FM/JANI files: 60
 - Native AS2FM repo models: 15
 - ROSClaw per-pair error files: 60
-- Manifest: C:\Users\prath\Desktop\seminar\verification_artifacts\20260513T175513Z\verification_manifest.json
-- ROSClaw before-call sample: tools/call / ur5_validate_trajectory -> run, detected=False
+- Manifest: C:\Users\prath\Desktop\seminar\verification_artifacts\20260515T065717Z\verification_manifest.json
+- ROSClaw before-call sample: tools/call / ur5_validate_trajectory -> failed, detected=False
 
 External tool status:
 - `AS2FM`: run - AS2FM operational RoAML/ASCXML to JANI conversion check using local ROS interface metadata
@@ -105,9 +105,9 @@ Ground-truth audit:
 - Method: deterministic source-parser integrity audit
 - Filter policy: real_data_only
 - Scope: 15 repositories, 12 nodes, 4 topics
-- Annotation file: C:\Users\prath\Desktop\seminar\annotations\ground_truth_annotations_20260513T175513Z.json
+- Annotation file: C:\Users\prath\Desktop\seminar\annotations\ground_truth_annotations_20260515T065717Z.json
 - YAML evidence files: 13
-- Full source package manifest: C:\Users\prath\Desktop\seminar\source_packages\20260513T175513Z\source_package_manifest.json
+- Full source package manifest: C:\Users\prath\Desktop\seminar\source_packages\20260515T065717Z\source_package_manifest.json
 - Integrity issues: empty_node_names=0, invalid_topic_names=0
 
 ## SQ4 - Adoption Gap
@@ -117,28 +117,28 @@ SQ4 evidence captured in this run:
 - Baseline comparison: the observed residual LLM errors are counted and classified rather than treated as one undifferentiated manual-fix bucket.
 - Industry baseline: 20.00% residual manual correction rate.
 - `AS2FM` adoption proxy: stars=16, forks=2, open_issues=20, setup_command_lines=0.
-- `ROSA` adoption proxy: stars=1514, forks=160, open_issues=3, setup_command_lines=2.
+- `ROSA` adoption proxy: stars=1515, forks=161, open_issues=3, setup_command_lines=2.
 - ROSA external error evidence: 8 classified issues/PRs from nasa-jpl/rosa.
-- AS2FM operational check time: 1.25 seconds
-- ROSClaw validator check time: 2.06 seconds
+- AS2FM operational check time: 2.81 seconds
+- ROSClaw validator check time: 4.72 seconds
 - Configuration evidence: AS2FM conversion, generated RoAML/JANI architecture-property checks, and ROSClaw-compatible per-error validation logs ran locally.
 
 ## M6 - Time-to-Verify
 
-Current pipeline TtV: **26582.23 ms**
+Current pipeline TtV: **52295.14 ms**
 
 This includes source parsing and validation timing from the script.
 
 Representative five-repo TtV:
 - Method: source parsing + prompt evidence collection + JANI artifact generation + native AS2FM conversion + category validation
-- Average total TtV: 1444.03 ms
-- `ros2/rviz`: 2468.08 ms (AS2FM failed in 1429.34 ms)
-- `ros2/rosbag2`: 1447.62 ms (AS2FM failed in 961.44 ms)
-- `ros2/geometry2`: 1218.25 ms (AS2FM failed in 976.07 ms)
-- `ros2/diagnostics`: 1019.54 ms (AS2FM failed in 1003.94 ms)
-- `ros2/robot_state_publisher`: 1066.67 ms (AS2FM failed in 1043.71 ms)
+- Average total TtV: 3232.90 ms
+- `ros2/rviz`: 4070.60 ms (AS2FM failed in 2149.78 ms)
+- `ros2/rosbag2`: 3173.02 ms (AS2FM failed in 2006.56 ms)
+- `ros2/geometry2`: 3433.01 ms (AS2FM failed in 2409.24 ms)
+- `ros2/diagnostics`: 2458.54 ms (AS2FM failed in 2450.29 ms)
+- `ros2/robot_state_publisher`: 3029.35 ms (AS2FM failed in 2975.91 ms)
 
 Ubuntu 22.04 + ROS 2 Humble TtV audit:
 - Status: **environment_unavailable**
 - Humble present: False
-- Probe: ubuntu_version=22.04; humble_setup=missing; ros_distro=missing; python_version=Python 3.10.12
+- Probe: ubuntu_version=22.04; humble_setup=present; ros_distro=missing; python_version=Python 3.10.12

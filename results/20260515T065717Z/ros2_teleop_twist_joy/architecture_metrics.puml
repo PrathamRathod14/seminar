@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam componentStyle rectangle
+skinparam packageStyle rectangle
+skinparam shadowing false
+title ROS 2 Architecture\nros2/teleop_twist_joy
+package "other" as sub_other {
+  component "joy_node" as node_joy_node #E0F2FE
+  component "teleop_node" as node_teleop_node #E0F2FE
+  component "teleop_twist_joy_node" as node_teleop_twist_joy_node #E0F2FE
+}
+queue "cmd_vel\ngeometry_msgs::msg::TwistStamped" as topic_cmd_vel #FEF3C7
+queue "joy\nsensor_msgs::msg::Joy" as topic_joy #FEF3C7
+node_teleop_twist_joy_node --> topic_cmd_vel : publishes
+node_teleop_twist_joy_node --> topic_cmd_vel : publishes
+topic_joy --> node_teleop_twist_joy_node : subscribes
+legend right
+  Blue = ROS 2 node
+  Yellow = topic/interface
+  Arrow = publish/subscribe relation
+endlegend
+footer Generated from ground-truth architecture in metrics_results.json
+@enduml

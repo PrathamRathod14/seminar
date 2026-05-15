@@ -1,0 +1,878 @@
+[
+  {
+    "path": "rclpy\\package.xml",
+    "bytes": 3605,
+    "sha256": "f96199fd1cbbeca6db6e93d021b80d8620d06b222e7734d1c064d0e73bc23f6c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\__init__.py",
+    "bytes": 14637,
+    "sha256": "6445dcd26f9eb5194a8564118d61f59f3f0fda2a42041cfc4e9b6288fadf2ca9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\action\\__init__.py",
+    "bytes": 1491,
+    "sha256": "f52461ec8882e11145f0d6293a1764f543f89324d2a2d88d55ebd686c8ebab82",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\action\\client.py",
+    "bytes": 35301,
+    "sha256": "8de1c7e56f0c4e2df06cd47a9a01834aeeb5e22be47803dc8d6f9db78aff86bd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\action\\graph.py",
+    "bytes": 3879,
+    "sha256": "a05199947767924562498fc76ab2c8ab9447d1f7a5f74a834c749801dbc66cc4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\action\\server.py",
+    "bytes": 34206,
+    "sha256": "af8333e4995b4e447020b53d3f836aaaf31f62240c43fbb210edddbbe0c0d3d9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\callback_groups.py",
+    "bytes": 4594,
+    "sha256": "7af05a5ccff93fedf14980c9d6ae50f550ea7a1137dfb2b044799d42811035ae",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\client.py",
+    "bytes": 11015,
+    "sha256": "3bc0150c0f72ba73df7704db96941a1e046acb794bf83005a3af4d0922c28767",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\clock.py",
+    "bytes": 13488,
+    "sha256": "7ad6b1b7d92dec3d2746a137b711858b823588abbf4258be7d776a68a54389b8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\clock_type.py",
+    "bytes": 780,
+    "sha256": "6fdfbedfef1551676860e1d303f236e647ec759df6a3edce7f512c2af09a6ef6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\constants.py",
+    "bytes": 681,
+    "sha256": "5c120ff73b53e7aa0aa0fced0e50e11446b33d0263e2377d25eb783b1eb505c3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\context.py",
+    "bytes": 8895,
+    "sha256": "4b8e76d90f1c27a22b8fbf75980790185321c780debcbca803001a200098d4af",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\duration.py",
+    "bytes": 5172,
+    "sha256": "aaf5921dc9549fc21bec69cfb183f7fa3c52ef892ad22bb357e2939d29e7f101",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\endpoint_info.py",
+    "bytes": 14463,
+    "sha256": "7d13d89049b28b9aa83395b6413db2ab2a7d7d37d830eb7111f815ad120dfcb3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\event_handler.py",
+    "bytes": 17593,
+    "sha256": "95570427ba7c6daf5ef0d03f92d9dc1adfe9bcff34007a56769c55a0e1713942",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\exceptions.py",
+    "bytes": 6344,
+    "sha256": "49a8834a556eed4f5550b1b7046ea3e9f920a3298f1838250eeb0f888ca323fb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\executors.py",
+    "bytes": 45844,
+    "sha256": "92522c366df0d05682b819b4bf113dc5a6edfe777c4756a7e9aec6dcb492c918",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\expand_topic_name.py",
+    "bytes": 1515,
+    "sha256": "d4de65d6d1fc70739c2744f650b9a306c5863b4b6736084bcf9669a7ac5399ca",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\experimental\\__init__.py",
+    "bytes": 1242,
+    "sha256": "fd6049927b4cfa6b64bd5640ee7fed77e8d2c46f8d732e9d73803cf7731b3797",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\experimental\\async_client.py",
+    "bytes": 4244,
+    "sha256": "102c520721fdfad5902d447d8fa7751c8b7a79ab8b20e5fe76992a0cf8634d37",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\experimental\\async_clock.py",
+    "bytes": 4698,
+    "sha256": "50a0f2903dadd3006918f4826bf63004ac57f6f319dc4a8e833a2d7f393c29c4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\experimental\\async_node.py",
+    "bytes": 18526,
+    "sha256": "ebaebd9403d08859e16f5ed241a9d3541684cb788d5e86fb80c0088f5e17a74e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\experimental\\async_publisher.py",
+    "bytes": 1287,
+    "sha256": "447cc6fb19aff96eba7f452d5da8dd14ba614f55f84108c553f423938759b08b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\experimental\\async_service.py",
+    "bytes": 3643,
+    "sha256": "8d987bd55c71e4416afe9065b4fea1de82ad127222bb87fab612d7e49e18154c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\experimental\\async_subscription.py",
+    "bytes": 3675,
+    "sha256": "5a74413f0c3f88a283c630745872b47f1ed59fd3f3642cf5cdf7f0cc7713ccf1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\experimental\\async_timer.py",
+    "bytes": 5981,
+    "sha256": "ff38fa2811a4a35f94ba86c50dbedca99d3e3aefb04242936bda490cb0dd407a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\experimental\\events_executor.py",
+    "bytes": 1899,
+    "sha256": "b52cfd7445fe8ac4c659de13a6585532abb76448a20d354d2b05ff94d93aace9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\guard_condition.py",
+    "bytes": 2721,
+    "sha256": "4d364146625db53844dbf1c54b577d7d3a1f72c8ff9d7fcbd914763c13ac57f7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\impl\\__init__.py",
+    "bytes": 619,
+    "sha256": "0222d9a36865a52c3a9fa037479a0bf761e5d807504c10c502b75f92cbac9ca4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\impl\\implementation_singleton.py",
+    "bytes": 1030,
+    "sha256": "a177b726c05bd5111ca8c6843aa91b5f188bb22c468f319526cf7c167cc32fff",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\impl\\logging_severity.py",
+    "bytes": 1291,
+    "sha256": "8aec59b0e8b8ba51dcf590d573d382914080770aa965b5635314cd2b3b6f6b2a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\impl\\rcutils_logger.py",
+    "bytes": 17854,
+    "sha256": "3cde872863a4c52b6f6786350d51413068c8f5f0432d43bf255c3d6272f799f0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\lifecycle\\__init__.py",
+    "bytes": 1510,
+    "sha256": "3821c5adabc3526398f2da9461162038a80785a58bd3ad454c324e64cc532536",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\lifecycle\\managed_entity.py",
+    "bytes": 4151,
+    "sha256": "7352a81928dd1bd63e6208ef1e3189b5f58b7b16c3d16005039a26ef52937f38",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\lifecycle\\node.py",
+    "bytes": 24688,
+    "sha256": "5fc4d752f1199708c0e788949fd26f450509a8a4b14e1baff00084d6bb1c5888",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\lifecycle\\publisher.py",
+    "bytes": 2392,
+    "sha256": "b21973d01139c04a58ca4db59e49bee9b9ec6b8f3923d3197048ca045149ee95",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\logging.py",
+    "bytes": 2427,
+    "sha256": "2e7e044b630906f43a12f7daef265e963bf3282da0db8cdf13b94a32d5727dfc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\logging_service.py",
+    "bytes": 3011,
+    "sha256": "0fbec93b2f1364f6598a468dbde6256f39c0e2981dbc76ba71b4c9717324e5d0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\node.py",
+    "bytes": 122037,
+    "sha256": "7047ecbf4bb22421b59800b2666f01c4712718e85963522ef5ba82b48ede46a3",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "rclpy\\rclpy\\parameter.py",
+    "bytes": 25850,
+    "sha256": "e68f3b08a9e43092f114e8e7dc4ce6a1d816d53a4cfbd1a84f8fb04ec165bfbd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\parameter_client.py",
+    "bytes": 15219,
+    "sha256": "030a7de4d16af4eb4c300da181cd42178285169b084048d6f3904c8801b1bec1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\parameter_event_handler.py",
+    "bytes": 16420,
+    "sha256": "c2227ce51258b20a3893677d018d329457b06f99257f48824728a00391d9963c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\parameter_service.py",
+    "bytes": 7250,
+    "sha256": "e7cb483cacf5c41519a43554d9fb51f6fb0f0c8ffafe38464035ba97cc76d906",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\publisher.py",
+    "bytes": 7099,
+    "sha256": "2a3371575f2a84172b8583e882ab41e1c499ced27ccec1cb6e1ea30cb2229aba",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\qos.py",
+    "bytes": 17714,
+    "sha256": "a81193ac39828f5ad382e45c194ba07ab7f3fdbf135710ba63313ec3e89c2466",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\qos_overriding_options.py",
+    "bytes": 8032,
+    "sha256": "3170d071f6137ea98bda9b22de55ee23f8f1e0d2ea649f35c9c845a8dda70753",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\serialization.py",
+    "bytes": 1744,
+    "sha256": "ef355f5e4d85e3b83beb38ac45d3e4eaac717830acfb3ceb09d59bc118029e2f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\service.py",
+    "bytes": 7597,
+    "sha256": "9c9e80963943a4ed19c34bba4b9e4b8ab8f86bbec3028a68f4404afe54ab47e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\service_introspection.py",
+    "bytes": 834,
+    "sha256": "dc901d838ee206812abc4ca3d271867a245604275c0c5a8e1e2aec3724cfb4d0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\signals.py",
+    "bytes": 2416,
+    "sha256": "f261bed9df9086532ed6ebb24b285400cab6fc6c1e4db3c51d2af2a460f1ecbf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\subscription.py",
+    "bytes": 12485,
+    "sha256": "ddd092278d161de8504b3ef8994c9175a8d7c3b1773d0aa3ac0a84e9c33bdeb5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\subscription_content_filter_options.py",
+    "bytes": 822,
+    "sha256": "2cea35eae1ae14a2ac53149f90dab8e27d6737467fcf35b537f0185e9341a9fe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\task.py",
+    "bytes": 14783,
+    "sha256": "85fd2472c84e2ad4dd3041e4686788f0763a6b3a31e521f862b7242fcf1018e8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\time.py",
+    "bytes": 7508,
+    "sha256": "d7dbe6f89e1ae9987de5e0c911e35ad3c7bbde9f35f7c582ea8686b96940cc1b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\time_source.py",
+    "bytes": 5882,
+    "sha256": "ad0968b63fe12efa47ee38a4e9dd3b85f049128bf0a8b9a7235b2a5e68a7aa09",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\timer.py",
+    "bytes": 9966,
+    "sha256": "0669320becb2a5250f73fc063c10b9a0c10ceea32370366ed9b9e67db2ac847e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\topic_or_service_is_hidden.py",
+    "bytes": 1219,
+    "sha256": "31f06bdbc8be3f7cc255681060716bfb48b793c22040f91a77d009e10968dcaa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\type_description_service.py",
+    "bytes": 4352,
+    "sha256": "77f5164c2ad1096e43a649ff7296d1efa4248265de2917ce21405e39312ba4ab",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\type_hash.py",
+    "bytes": 2242,
+    "sha256": "720bfa07602687f8f55ac4c8f352bc64b4a7780e3662b8b019a59821a9a23b59",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\type_support.py",
+    "bytes": 4319,
+    "sha256": "f350a7e9b727c3a04c60a826a89793eb5b1a82e70b98409012a95f878d0ee6ed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\utilities.py",
+    "bytes": 6171,
+    "sha256": "9b88762877710ebc77a46f08f2320d36b47ccf7d3d8afea44a453bdc54fc20d9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\validate_full_topic_name.py",
+    "bytes": 1760,
+    "sha256": "1f014266de3924a45f69f3aa5ec555ad55ae0d20106125e8ee478722cbb76da2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\validate_namespace.py",
+    "bytes": 1616,
+    "sha256": "c08565036a5023954ea89810740a8b3e276bf9d3ad25945db8cf6094a49c56f8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\validate_node_name.py",
+    "bytes": 1426,
+    "sha256": "1ee5e88772ffb3f6778c0e656e3bbc60d6918583237d92ae0efd69eab915558d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\validate_parameter_name.py",
+    "bytes": 1309,
+    "sha256": "697f3d298fae51d8960bb1a565edf3b376fce45df5fe18fcc3fbfcd45c9fecac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\validate_topic_name.py",
+    "bytes": 1793,
+    "sha256": "ddab7b4a168794a9c3ad6af09506fab4507293ef450fdb5dff2fa370d3cda051",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\wait_for_message.py",
+    "bytes": 2903,
+    "sha256": "a53df4e10ffb8644caeca9b6dca9a219cfed5f1107773469993fb65385c49861",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rclpy\\waitable.py",
+    "bytes": 5224,
+    "sha256": "e9009d5e6f1061a1857c14ffce21281e1015f1e2ac9aab2ed2582a9b90f049f5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\rosdoc2.yaml",
+    "bytes": 3326,
+    "sha256": "486b30786cd63f25cf847efadc222b354890fa3e7b3a216e73a8014bf755c98c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\_rclpy_logging.cpp",
+    "bytes": 8787,
+    "sha256": "9382d6880561bae612eba568408ef6343f35673e7188268b0e745b1ac5171a30",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\_rclpy_pybind11.cpp",
+    "bytes": 10111,
+    "sha256": "088870b24f072153eb57bfb62c62ec902e2e9afad81eaf73974350c4f09f394d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\action_client.cpp",
+    "bytes": 13752,
+    "sha256": "617c5334fde7ac9c8eb2c9bef49e4970d6dd62509279cd891f2a2f3a628d8ba1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\action_client.hpp",
+    "bytes": 12245,
+    "sha256": "e7861cf76a5acad587ce6573946b43463cf3078292cd843f7b13fdc2cd81c22e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\action_goal_handle.cpp",
+    "bytes": 3687,
+    "sha256": "7222bbcd509f8973dd11d9823db3afeafb3b05c9bdd36511e93e8c6d48ff8bd7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\action_goal_handle.hpp",
+    "bytes": 2575,
+    "sha256": "2be87ae907dc5c87d5ede4383e7f4a13d443d8f9700df4910152d33c07846b10",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\action_server.cpp",
+    "bytes": 14590,
+    "sha256": "23a31e1440022d801c81667f4e2d6ffacb624c6399eeb201014f452d9d167b15",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\action_server.hpp",
+    "bytes": 9299,
+    "sha256": "7b29efe7eb996b3a21c4ce2fb18eed721aff17cef65fce2a009685584507c637",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\client.cpp",
+    "bytes": 7443,
+    "sha256": "a01f3f328cc3bb30914f47373fa2e675f7847bfda8598c77d1b683ab6c54ea40",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\client.hpp",
+    "bytes": 4315,
+    "sha256": "f69e1a81b7dc6fdf7ff3ef6759854c56ac50d4aa531bd62333d31f82fd4ee3b8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\clock.cpp",
+    "bytes": 5917,
+    "sha256": "2874cf8b91b4b3781ddf06e495d81ccdcda7b0e36ca01dbae2b552538c506678",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\clock.hpp",
+    "bytes": 3501,
+    "sha256": "72a361372a0f775c213d24ed810cfced01f9f905b2d6c3a33ff25a9f9316e377",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\clock_event.cpp",
+    "bytes": 3613,
+    "sha256": "ad830e249b58d9d929ceb7296a8167743e8fbb916c115724ac5e2151f553a952",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\clock_event.hpp",
+    "bytes": 2134,
+    "sha256": "85718d330375d63ff0f40f69fdd0dfedc70c14e1b1b7a3dac563eb3f2b684d79",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\context.cpp",
+    "bytes": 5602,
+    "sha256": "e7468c328f96a2b2a301fffbb40f6676472a57f997f53c351615f1379dc1d0c7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\context.hpp",
+    "bytes": 2962,
+    "sha256": "23723c945a03bfb4a46d53cdfe0167cb197cb823061f049090d3a433014521fb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\destroyable.cpp",
+    "bytes": 2292,
+    "sha256": "41d38639f1d82c21e0ec627a915463e3dfb3f5ca90285c2ae1d9ee966e104090",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\destroyable.hpp",
+    "bytes": 1743,
+    "sha256": "c160ab6b6cd75a7e2eb999d774d763e329955e7de1b16c3021c895ee8b327ac5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\duration.cpp",
+    "bytes": 1110,
+    "sha256": "09748df9339fc4287ec3ec725e291db0d3103ff4273328402b08de7d230b6bda",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\duration.hpp",
+    "bytes": 1001,
+    "sha256": "c9abc36f4803c3affc929209cc6be5ec8dde56880ce6a565ee0e991bb7bb9f0c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\event_handle.cpp",
+    "bytes": 10521,
+    "sha256": "dfcafc169c6b8e8f680ef4fa95ec49d79dddb71d56087975138b86b116fd971c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\event_handle.hpp",
+    "bytes": 3499,
+    "sha256": "459016a9da57e3b2a8c13f5b701a200fe86c29b80952556ded832ea3fed26aee",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\events_executor\\delayed_event_thread.cpp",
+    "bytes": 2014,
+    "sha256": "d0abd9e2901a37798ddadb52c65bf49cf1fd4c23f8d1f7380420837cdd501dca",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\events_executor\\delayed_event_thread.hpp",
+    "bytes": 2106,
+    "sha256": "79aa5322941f3c60702f16662fa8940152480f8778811c05572b4a1694a7e27a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\events_executor\\events_executor.cpp",
+    "bytes": 39510,
+    "sha256": "41fd164517644dac3c37efd12f3f5b2918466af10233c1fb972aba0781563fc7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\events_executor\\events_executor.hpp",
+    "bytes": 8436,
+    "sha256": "36367992bfdeba9a2632fdce422e0e3cb60fb1c18dda727d219573a5e508a1db",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\events_executor\\events_queue.cpp",
+    "bytes": 1853,
+    "sha256": "2295e0e34c9f7353a31f9554f941e5c5686c9c3ae4990c09faabca60318b8279",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\events_executor\\events_queue.hpp",
+    "bytes": 2260,
+    "sha256": "976f10394357e903cb5f5d822066c861ee2fdacf75c2bc2e48f6fa4eec7052e8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\events_executor\\python_eq_handler.hpp",
+    "bytes": 1315,
+    "sha256": "c446c58c9d080abd53245c3aec11fc5149a54d204df93f673a67356e042eafd8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\events_executor\\python_hasher.hpp",
+    "bytes": 1294,
+    "sha256": "f1392a7e983127ea27186c01d34213079da12b59145d7e0f80c18c1c6aa69b00",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\events_executor\\rcl_support.cpp",
+    "bytes": 3004,
+    "sha256": "9fae487bdadf6b91b693ae1a6eab47e6ca0c0c1b5840527868ecd9b2904cefaf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\events_executor\\rcl_support.hpp",
+    "bytes": 3372,
+    "sha256": "be622d51f3c9c1598160347a7ce91585dbaa98a5c3c85ebe92d47898747447e5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\events_executor\\scoped_with.hpp",
+    "bytes": 1345,
+    "sha256": "96b60903fcc78f22ed2f77b33099e3d61688beb3f4f54ba3b62b39a14648d918",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\events_executor\\timers_manager.cpp",
+    "bytes": 13709,
+    "sha256": "2a2bc75a6b727ccc137f8ee32fabc684adaab1fd3dbbfb612379de558474be9c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\events_executor\\timers_manager.hpp",
+    "bytes": 3244,
+    "sha256": "98afd8afd1c797a6fdf5224f16460d2bc98938e3cb05ea2fa36b630984e73556",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\exceptions.cpp",
+    "bytes": 1689,
+    "sha256": "443132e3172101f305dca2d43b52887dd5b210a1b40a46c3d6925fca06dd404f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\exceptions.hpp",
+    "bytes": 2178,
+    "sha256": "1c6ff8619b0f0d8708e511916a0ce15820fc5c0b90937fc8e53af49a799c88c5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\graph.cpp",
+    "bytes": 16015,
+    "sha256": "f0af68681399d9463714c4906f400302009a34ddd917185fae9f2e48402dbf07",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\graph.hpp",
+    "bytes": 9864,
+    "sha256": "60414356237610e19393cc34b39c87015e9fb1b719fe01e7ab844f65ee855f21",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\guard_condition.cpp",
+    "bytes": 2556,
+    "sha256": "92defed8677ac7cea7d883fe48daa915bfe831466014c1ac45d8e8f49cde188c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\guard_condition.hpp",
+    "bytes": 1931,
+    "sha256": "d5b3dd04c254da03904a05c9a7b2b6e03d8c8f4b16b564eeb28abd00d8f74e9f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\lifecycle.cpp",
+    "bytes": 12848,
+    "sha256": "7e64210669cda4bc6df191aeb6ca0659f59555d941148019dd72d61041595f8a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\lifecycle.hpp",
+    "bytes": 1009,
+    "sha256": "497d5dbdf08c229aeeb53635e68b43581c55ac4cbaa0f269d99dbc780505eee3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\logging.cpp",
+    "bytes": 2436,
+    "sha256": "1f753903f020ea61ad8a626548daa3bf44966df00c8b6496ef537bec891dd106",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\logging.hpp",
+    "bytes": 1413,
+    "sha256": "a169d261c3c350a485872c72ee21f0fdfd784b254edf1f3ab368485a7b5acd50",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\logging_api.hpp",
+    "bytes": 1011,
+    "sha256": "5f166675cc4ec8e8b2d06c9dbf6c7b566c01df9f7d20deb50dab72929d148407",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\names.cpp",
+    "bytes": 8744,
+    "sha256": "6637a4641125f470bf5a1c2cb4fc389fc8033264c815e8fda05a2589d742d3db",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\names.hpp",
+    "bytes": 4301,
+    "sha256": "a8037a8362942e62baea6bdb8dcde577769ee4e567d59f77b63ebf9b8667c40a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\node.cpp",
+    "bytes": 21522,
+    "sha256": "a6f2ef000f3f0430f6bdf19985cc66e4abc315cdaed6704085cb4ac0eb0cc587",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\node.hpp",
+    "bytes": 7274,
+    "sha256": "2f2ed71aa4d1907cd6ffda4be65ed1c8b77f10dde82d0ff85f77b08dc2333b9e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\publisher.cpp",
+    "bytes": 5492,
+    "sha256": "adfdfc9377519b95f77ea4744f117c27206b4675b05a1a0c1618cd3d98635303",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\publisher.hpp",
+    "bytes": 4182,
+    "sha256": "5054847287a5b62f340c9ed3b7d98a5bc225b6d56366ae8335162ad198568e35",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\python_allocator.hpp",
+    "bytes": 2198,
+    "sha256": "ec6137e9cfef40fa1805538f3a7ff0dd31eb5df184316579d8581f1b32e5a17c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\qos.cpp",
+    "bytes": 5933,
+    "sha256": "fc4424c297c3a03514647f58340cd2e9f68067b11a80978bb0d741c84cc2446d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\qos.hpp",
+    "bytes": 2637,
+    "sha256": "da71bc486641202ec8e4b7b8cd928cef6b8a2daaaa4a530b012e999e46c3e01d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\serialization.cpp",
+    "bytes": 3941,
+    "sha256": "49f8bb9f52b57496ce72b4117e30ebe532482c924d7300b9ed059a1e6269c116",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\serialization.hpp",
+    "bytes": 1811,
+    "sha256": "e07368289dafd0fe82f6a55dadfd95601f240e55bb476dcb9eac9b634a74e140",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\service.cpp",
+    "bytes": 7651,
+    "sha256": "b07449cefadf10ff29d7ad0c1f51b2720e6cecda050b36d208431979d92fcdac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\service.hpp",
+    "bytes": 4570,
+    "sha256": "eb45192c02d4bd24ef023bff541e85c5ec96b99a20d1d2ec58ec9c90b76e1db3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\service_info.cpp",
+    "bytes": 1304,
+    "sha256": "229f80cb8eff5b00030f50f5d295c54ff54ef298b5d5eb1791a5211b0b724392",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\service_info.hpp",
+    "bytes": 1042,
+    "sha256": "21f01fcdad7347fbdc0219e07763d708e1e9fdcfd1c78381f278274cd56367da",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\service_introspection.cpp",
+    "bytes": 1180,
+    "sha256": "9479d48d5e1bb6fb54e5db88072b2b9c6fa626161a1e6debaa63b6a8d509456c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\service_introspection.hpp",
+    "bytes": 930,
+    "sha256": "46c6fb928e3a1dae884f037985e3725f377ed8ac24bfe24ac31ebbf0a3bf5092",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\signal_handler.cpp",
+    "bytes": 20817,
+    "sha256": "c3371a8d73f38dd6d721260a8ab7d203fc6958524aeef63e819295d77d896a95",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\signal_handler.hpp",
+    "bytes": 1494,
+    "sha256": "3b169ff6274d607d008e588acb30583948260c5394cd233761d86ceb9f1cc8f6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\subscription.cpp",
+    "bytes": 13603,
+    "sha256": "8cf36a051788b0c6bf1924dcf02f7afb908bb5036e5de5cade681e9af39025b7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\subscription.hpp",
+    "bytes": 5033,
+    "sha256": "28b5d8f4df05b448a3337c8714c2c7dd6e46df010df7d9bf7ad460656bca46e9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\time_point.cpp",
+    "bytes": 1296,
+    "sha256": "918f571894f458a281bbf2553764ab2957171751b03d1f8ee5ddf3960c7eda4b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\time_point.hpp",
+    "bytes": 1011,
+    "sha256": "9b8c850ffec668fd78427f325cd4da66d8ce2000b33030ba06d3348222b8ada0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\timer.cpp",
+    "bytes": 7048,
+    "sha256": "3497f0c4ad7816fa96eb6d0cf337da9bd7872349806fdad9ecf9e09dab99409a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\timer.hpp",
+    "bytes": 4561,
+    "sha256": "ac0f23787c2951ed556eb062eccbcd5c986d74a01cad24cc4f67a7982d5dc2dc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\type_description_service.cpp",
+    "bytes": 2508,
+    "sha256": "a84a29e38b1e5a4cd7756f9dd4369dab2df06ab5cd91c718f8ec0b78035db672",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\type_description_service.hpp",
+    "bytes": 2151,
+    "sha256": "444dff731e1422612ab91df20869db0238234582d81813ce4f1caff8423c6a17",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\utils.cpp",
+    "bytes": 14885,
+    "sha256": "0f999975148844f23c9e823b5a803c7d179b8a401515e40beb6a26d06017412c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\utils.hpp",
+    "bytes": 6307,
+    "sha256": "a2f01e89bd03cbe48834629f61cfeec74c057db46f57755a5405caf126cc6bf8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\wait_set.cpp",
+    "bytes": 8669,
+    "sha256": "11ca1bf333dbaf1b2933aece01d65c35b6ab6fd4972e3b806d5c1b9f6e1c1ee6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rclpy\\src\\rclpy\\wait_set.hpp",
+    "bytes": 5523,
+    "sha256": "b9755d6c820e17a8abe680dae484b6123cfeae12a1ee95a4caa24ef3640ba15d",
+    "included_in_llm_prompt": false
+  }
+]

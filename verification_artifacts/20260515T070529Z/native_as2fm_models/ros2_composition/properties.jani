@@ -1,0 +1,172 @@
+{
+  "jani-version": 1,
+  "name": "ros2_composition_properties",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "properties": [
+    {
+      "name": "no_interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "forall",
+        "values": {
+          "op": "=>",
+          "left": {
+            "op": "=",
+            "left": {
+              "var": "topic_name_equal"
+            },
+            "right": true
+          },
+          "right": {
+            "op": "=",
+            "left": {
+              "var": "msg_type_equal"
+            },
+            "right": true
+          }
+        },
+        "states": {
+          "op": "initial"
+        }
+      }
+    },
+    {
+      "name": "no_hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "forall",
+        "values": {
+          "op": "=>",
+          "left": {
+            "op": "=",
+            "left": {
+              "var": "predicted_node_present"
+            },
+            "right": true
+          },
+          "right": {
+            "op": "=",
+            "left": {
+              "var": "ground_truth_node_present"
+            },
+            "right": true
+          }
+        },
+        "states": {
+          "op": "initial"
+        }
+      }
+    },
+    {
+      "name": "no_subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "forall",
+        "values": {
+          "op": "=>",
+          "left": {
+            "op": "=",
+            "left": {
+              "var": "node_equal"
+            },
+            "right": true
+          },
+          "right": {
+            "op": "=",
+            "left": {
+              "var": "subsystem_equal"
+            },
+            "right": true
+          }
+        },
+        "states": {
+          "op": "initial"
+        }
+      }
+    },
+    {
+      "name": "no_missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "forall",
+        "values": {
+          "op": "=>",
+          "left": {
+            "op": "=",
+            "left": {
+              "var": "ground_truth_node_present"
+            },
+            "right": true
+          },
+          "right": {
+            "op": "=",
+            "left": {
+              "var": "predicted_node_present"
+            },
+            "right": true
+          }
+        },
+        "states": {
+          "op": "initial"
+        }
+      }
+    },
+    {
+      "name": "no_wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "forall",
+        "values": {
+          "op": "=>",
+          "left": {
+            "op": "=",
+            "left": {
+              "var": "edge_direction_equal"
+            },
+            "right": true
+          },
+          "right": {
+            "op": "=",
+            "left": {
+              "var": "topic_name_equal"
+            },
+            "right": true
+          }
+        },
+        "states": {
+          "op": "initial"
+        }
+      }
+    },
+    {
+      "name": "no_lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "forall",
+        "values": {
+          "op": "=>",
+          "left": {
+            "op": "=",
+            "left": {
+              "var": "node_equal"
+            },
+            "right": true
+          },
+          "right": {
+            "op": "=",
+            "left": {
+              "var": "lifecycle_equal"
+            },
+            "right": true
+          }
+        },
+        "states": {
+          "op": "initial"
+        }
+      }
+    }
+  ]
+}

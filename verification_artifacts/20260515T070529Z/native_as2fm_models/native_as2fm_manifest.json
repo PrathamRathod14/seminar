@@ -1,0 +1,128 @@
+{
+  "run_id": "20260515T070529Z",
+  "root": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models",
+  "taxonomy_property_specs": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\taxonomy_jani_property_specs.json",
+  "models": {
+    "ros2/rclcpp": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclcpp",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclcpp\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclcpp\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclcpp\\properties.jani",
+      "node_count": 1,
+      "topic_count": 1
+    },
+    "ros2/rclpy": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclpy",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclpy\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclpy\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclpy\\properties.jani",
+      "node_count": 1,
+      "topic_count": 0
+    },
+    "ros2/launch_ros": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_launch_ros",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_launch_ros\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_launch_ros\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_launch_ros\\properties.jani",
+      "node_count": 3,
+      "topic_count": 0
+    },
+    "ros2/rosbag2": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rosbag2",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rosbag2\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rosbag2\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rosbag2\\properties.jani",
+      "node_count": 1,
+      "topic_count": 0
+    },
+    "ros2/geometry2": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_geometry2",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_geometry2\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_geometry2\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_geometry2\\properties.jani",
+      "node_count": 1,
+      "topic_count": 0
+    },
+    "ros2/rviz": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rviz",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rviz\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rviz\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rviz\\properties.jani",
+      "node_count": 2,
+      "topic_count": 0
+    },
+    "ros2/composition": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_composition",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_composition\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_composition\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_composition\\properties.jani",
+      "node_count": 0,
+      "topic_count": 0
+    },
+    "ros2/bond_core": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_bond_core",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_bond_core\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_bond_core\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_bond_core\\properties.jani",
+      "node_count": 0,
+      "topic_count": 0
+    },
+    "ros2/diagnostics": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_diagnostics",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_diagnostics\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_diagnostics\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_diagnostics\\properties.jani",
+      "node_count": 0,
+      "topic_count": 0
+    },
+    "ros2/common_interfaces": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_common_interfaces",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_common_interfaces\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_common_interfaces\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_common_interfaces\\properties.jani",
+      "node_count": 0,
+      "topic_count": 0
+    },
+    "ros2/rcl": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rcl",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rcl\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rcl\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rcl\\properties.jani",
+      "node_count": 0,
+      "topic_count": 0
+    },
+    "ros2/robot_state_publisher": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_robot_state_publisher",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_robot_state_publisher\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_robot_state_publisher\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_robot_state_publisher\\properties.jani",
+      "node_count": 0,
+      "topic_count": 0
+    },
+    "ros2/teleop_twist_joy": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_teleop_twist_joy",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_teleop_twist_joy\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_teleop_twist_joy\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_teleop_twist_joy\\properties.jani",
+      "node_count": 3,
+      "topic_count": 3
+    },
+    "ros2/message_filters": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_message_filters",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_message_filters\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_message_filters\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_message_filters\\properties.jani",
+      "node_count": 0,
+      "topic_count": 0
+    },
+    "ros2/ros2cli": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_ros2cli",
+      "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_ros2cli\\main.xml",
+      "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_ros2cli\\architecture.ascxml",
+      "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_ros2cli\\properties.jani",
+      "node_count": 0,
+      "topic_count": 0
+    }
+  },
+  "manifest": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\native_as2fm_manifest.json"
+}

@@ -1,0 +1,437 @@
+{
+  "pair_key": "groq-large :: ros2/launch_ros",
+  "repo": "ros2/launch_ros",
+  "actual_categories": [
+    "hallucinated_node",
+    "lifecycle_violation",
+    "missing_node",
+    "subsystem_boundary_confusion",
+    "wrong_topic_name"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [],
+    "AS2FM": [],
+    "AS2FM_JANI_adapter": [
+      "hallucinated_node",
+      "lifecycle_violation",
+      "missing_node",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ],
+    "LocalStaticValidator": [
+      "hallucinated_node",
+      "lifecycle_violation",
+      "missing_node",
+      "subsystem_boundary_confusion",
+      "wrong_topic_name"
+    ]
+  },
+  "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
+  "as2fm_method": "not_applicable_without_repo_behavior_models",
+  "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+  "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+  "error_records": [
+    {
+      "id": "groq-large_ros2_launch_ros__err_0001",
+      "category": "hallucinated_node",
+      "node": "ComposableLifecycleNode",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "failed",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-hallucinated_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  0.5,
+                  -1.2,
+                  1.3,
+                  -1.4,
+                  -1.57,
+                  0.2
+                ],
+                [
+                  1.0,
+                  -0.8,
+                  1.1,
+                  -1.2,
+                  -1.5,
+                  0.4
+                ],
+                [
+                  1.2,
+                  -0.6,
+                  0.9,
+                  -1.0,
+                  -1.4,
+                  0.6
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "hallucinated_node",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 415.1172999991104,
+        "detected": false,
+        "error": "No module named 'mujoco'"
+      }
+    },
+    {
+      "id": "groq-large_ros2_launch_ros__err_0002",
+      "category": "missing_node",
+      "node": "ComposableNodeContainer",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "failed",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-missing_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  2.5,
+                  0.0,
+                  0.3,
+                  -0.4,
+                  -1.1,
+                  1.2
+                ],
+                [
+                  2.0,
+                  -0.2,
+                  0.5,
+                  -0.6,
+                  -1.2,
+                  0.8
+                ],
+                [
+                  1.0,
+                  -0.8,
+                  1.1,
+                  -1.2,
+                  -1.5,
+                  0.4
+                ],
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "missing_node",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 8.90449999133125,
+        "detected": false,
+        "error": "No module named 'mujoco'"
+      }
+    },
+    {
+      "id": "groq-large_ros2_launch_ros__err_0003",
+      "category": "missing_node",
+      "node": "_WaitForTopicsNode",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "failed",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-missing_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  2.5,
+                  0.0,
+                  0.3,
+                  -0.4,
+                  -1.1,
+                  1.2
+                ],
+                [
+                  2.0,
+                  -0.2,
+                  0.5,
+                  -0.6,
+                  -1.2,
+                  0.8
+                ],
+                [
+                  1.0,
+                  -0.8,
+                  1.1,
+                  -1.2,
+                  -1.5,
+                  0.4
+                ],
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "missing_node",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 8.90449999133125,
+        "detected": false,
+        "error": "No module named 'mujoco'"
+      }
+    },
+    {
+      "id": "groq-large_ros2_launch_ros__err_0004",
+      "category": "subsystem_boundary_confusion",
+      "node": "LifecycleNode",
+      "detail": "gt=other; predicted=launch_ros",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "failed",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-subsystem_boundary_confusion",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  1.2,
+                  -0.6,
+                  0.9,
+                  -1.0,
+                  -1.4,
+                  0.6
+                ],
+                [
+                  1.5,
+                  -0.4,
+                  0.7,
+                  -0.8,
+                  -1.3,
+                  0.8
+                ],
+                [
+                  2.0,
+                  -0.2,
+                  0.5,
+                  -0.6,
+                  -1.2,
+                  1.0
+                ],
+                [
+                  2.5,
+                  0.0,
+                  0.3,
+                  -0.4,
+                  -1.1,
+                  1.2
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "subsystem_boundary_confusion",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 8.527499972842634,
+        "detected": false,
+        "error": "No module named 'mujoco'"
+      }
+    },
+    {
+      "id": "groq-large_ros2_launch_ros__err_0005",
+      "category": "lifecycle_violation",
+      "node": "LifecycleNode",
+      "detail": "gt=False; predicted=True",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "failed",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-lifecycle_violation",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  0.6,
+                  -1.2,
+                  1.3,
+                  -1.4,
+                  -1.57,
+                  0.1
+                ],
+                [
+                  1.2,
+                  -0.8,
+                  1.0,
+                  -1.2,
+                  -1.5,
+                  0.2
+                ],
+                [
+                  1.8,
+                  -0.4,
+                  0.7,
+                  -0.9,
+                  -1.3,
+                  0.3
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "lifecycle_violation",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 9.594400005880743,
+        "detected": false,
+        "error": "No module named 'mujoco'"
+      }
+    },
+    {
+      "id": "groq-large_ros2_launch_ros__err_0006",
+      "category": "wrong_topic_name",
+      "node": "LifecycleNode",
+      "detail": "publishes topic differs: /<name>/transition_event",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "failed",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-wrong_topic_name",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  0.8,
+                  -1.0,
+                  1.2,
+                  -1.3,
+                  -1.57,
+                  0.3
+                ],
+                [
+                  1.6,
+                  -0.5,
+                  0.9,
+                  -1.0,
+                  -1.4,
+                  0.6
+                ],
+                [
+                  2.4,
+                  0.0,
+                  0.6,
+                  -0.7,
+                  -1.2,
+                  0.9
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "wrong_topic_name",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 9.094699984416366,
+        "detected": false,
+        "error": "No module named 'mujoco'"
+      }
+    }
+  ]
+}

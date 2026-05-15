@@ -1,0 +1,23 @@
+{
+  "status": "environment_unavailable",
+  "required_environment": "Ubuntu 22.04 + ROS 2 Humble",
+  "distro": "Ubuntu-22.04",
+  "probe": {
+    "command": [
+      "wsl",
+      "-d",
+      "Ubuntu-22.04",
+      "--",
+      "bash",
+      "-lc",
+      "printf 'ubuntu_version='; lsb_release -rs 2>/dev/null || true; if [ -f /opt/ros/humble/setup.bash ]; then source /opt/ros/humble/setup.bash; echo humble_setup=present; echo ros_distro=${ROS_DISTRO:-missing}; else echo humble_setup=missing; echo ros_distro=missing; fi; printf 'python_version='; python3 --version 2>/dev/null || true"
+    ],
+    "returncode": 0,
+    "stdout_tail": "ubuntu_version=22.04\nhumble_setup=present\nros_distro=missing\npython_version=Python 3.10.12\n",
+    "stderr_tail": "",
+    "elapsed_ms": 8610.147600003984
+  },
+  "humble_present": false,
+  "records": [],
+  "note": "The proposal specifies Ubuntu 22.04 + ROS 2 Humble as the target TtV environment (Step IV: 'Install AS2FM on a standard Ubuntu 22.04 + ROS 2 Humble machine'). WSL Ubuntu-22.04 is present but ROS 2 Humble (/opt/ros/humble/setup.bash) is not installed; status is therefore environment_unavailable for this environment. M6 TtV is measured on the active Windows + native AS2FM pipeline as the available fallback; the Ubuntu+Humble TtV measurement remains an open item pending Humble installation in WSL."
+}

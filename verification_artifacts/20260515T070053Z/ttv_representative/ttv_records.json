@@ -1,0 +1,217 @@
+{
+  "status": "recorded",
+  "method": "source parsing + prompt evidence collection + JANI artifact generation + native AS2FM conversion + category validation",
+  "root": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative",
+  "records": [
+    {
+      "repo": "ros2/rviz",
+      "node_count": 2,
+      "source_files_sent": 1,
+      "source_blocks": 1,
+      "parse_ms": 1191.3048999849707,
+      "prompt_collection_ms": 837.460899958387,
+      "translation_and_check_ms": 8.509400009643286,
+      "as2fm_native_ms": 946.4129999978468,
+      "as2fm_native_status": "failed",
+      "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_rviz\\as2fm_native_output.jani",
+      "total_ttv_ms": 2983.7103000027128,
+      "model_checks": {
+        "llama-4": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_rviz\\llama-4.jani"
+        },
+        "groq-large": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_rviz\\groq-large.jani"
+        },
+        "groq-small": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_rviz\\groq-small.jani"
+        },
+        "qwen-groq": {
+          "detected_categories": [
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_rviz\\qwen-groq.jani"
+        }
+      }
+    },
+    {
+      "repo": "ros2/rosbag2",
+      "node_count": 1,
+      "source_files_sent": 1,
+      "source_blocks": 1,
+      "parse_ms": 228.9833000395447,
+      "prompt_collection_ms": 142.01940002385527,
+      "translation_and_check_ms": 7.139199995435774,
+      "as2fm_native_ms": 1014.7518999874592,
+      "as2fm_native_status": "failed",
+      "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_rosbag2\\as2fm_native_output.jani",
+      "total_ttv_ms": 1392.9112000041641,
+      "model_checks": {
+        "llama-4": {
+          "detected_categories": [
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_rosbag2\\llama-4.jani"
+        },
+        "groq-large": {
+          "detected_categories": [
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_rosbag2\\groq-large.jani"
+        },
+        "groq-small": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_rosbag2\\groq-small.jani"
+        },
+        "qwen-groq": {
+          "detected_categories": [
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_rosbag2\\qwen-groq.jani"
+        }
+      }
+    },
+    {
+      "repo": "ros2/geometry2",
+      "node_count": 1,
+      "source_files_sent": 1,
+      "source_blocks": 1,
+      "parse_ms": 542.4794999998994,
+      "prompt_collection_ms": 315.5638000462204,
+      "translation_and_check_ms": 19.94209998520091,
+      "as2fm_native_ms": 917.8380999946967,
+      "as2fm_native_status": "failed",
+      "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_geometry2\\as2fm_native_output.jani",
+      "total_ttv_ms": 1795.844100008253,
+      "model_checks": {
+        "llama-4": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_geometry2\\llama-4.jani"
+        },
+        "groq-large": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_geometry2\\groq-large.jani"
+        },
+        "groq-small": {
+          "detected_categories": [
+            "hallucinated_node",
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_geometry2\\groq-small.jani"
+        },
+        "qwen-groq": {
+          "detected_categories": [
+            "missing_node"
+          ],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_geometry2\\qwen-groq.jani"
+        }
+      }
+    },
+    {
+      "repo": "ros2/diagnostics",
+      "node_count": 0,
+      "source_files_sent": 0,
+      "source_blocks": 0,
+      "parse_ms": 0.14630000805482268,
+      "prompt_collection_ms": 0.08459994569420815,
+      "translation_and_check_ms": 8.434400020632893,
+      "as2fm_native_ms": 899.4095000089146,
+      "as2fm_native_status": "failed",
+      "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_diagnostics\\as2fm_native_output.jani",
+      "total_ttv_ms": 908.0874999635853,
+      "model_checks": {
+        "llama-4": {
+          "detected_categories": [],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_diagnostics\\llama-4.jani"
+        },
+        "groq-large": {
+          "detected_categories": [],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_diagnostics\\groq-large.jani"
+        },
+        "groq-small": {
+          "detected_categories": [],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_diagnostics\\groq-small.jani"
+        },
+        "qwen-groq": {
+          "detected_categories": [],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_diagnostics\\qwen-groq.jani"
+        }
+      }
+    },
+    {
+      "repo": "ros2/robot_state_publisher",
+      "node_count": 0,
+      "source_files_sent": 0,
+      "source_blocks": 0,
+      "parse_ms": 12.921199959237128,
+      "prompt_collection_ms": 12.235800037160516,
+      "translation_and_check_ms": 11.47660001879558,
+      "as2fm_native_ms": 782.7815000200644,
+      "as2fm_native_status": "failed",
+      "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_robot_state_publisher\\as2fm_native_output.jani",
+      "total_ttv_ms": 819.4308999809437,
+      "model_checks": {
+        "llama-4": {
+          "detected_categories": [],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_robot_state_publisher\\llama-4.jani"
+        },
+        "groq-large": {
+          "detected_categories": [],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_robot_state_publisher\\groq-large.jani"
+        },
+        "groq-small": {
+          "detected_categories": [],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_robot_state_publisher\\groq-small.jani"
+        },
+        "qwen-groq": {
+          "detected_categories": [],
+          "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070053Z\\ttv_representative\\ros2_robot_state_publisher\\qwen-groq.jani"
+        }
+      }
+    }
+  ],
+  "ubuntu_22_04_ros2_humble": {
+    "status": "environment_unavailable",
+    "required_environment": "Ubuntu 22.04 + ROS 2 Humble",
+    "distro": "Ubuntu-22.04",
+    "probe": {
+      "command": [
+        "wsl",
+        "-d",
+        "Ubuntu-22.04",
+        "--",
+        "bash",
+        "-lc",
+        "printf 'ubuntu_version='; lsb_release -rs 2>/dev/null || true; if [ -f /opt/ros/humble/setup.bash ]; then source /opt/ros/humble/setup.bash; echo humble_setup=present; echo ros_distro=${ROS_DISTRO:-missing}; else echo humble_setup=missing; echo ros_distro=missing; fi; printf 'python_version='; python3 --version 2>/dev/null || true"
+      ],
+      "returncode": 0,
+      "stdout_tail": "ubuntu_version=22.04\nhumble_setup=present\nros_distro=missing\npython_version=Python 3.10.12\n",
+      "stderr_tail": "",
+      "elapsed_ms": 5598.091499996372
+    },
+    "humble_present": false,
+    "records": [],
+    "note": "The proposal specifies Ubuntu 22.04 + ROS 2 Humble as the target TtV environment (Step IV: 'Install AS2FM on a standard Ubuntu 22.04 + ROS 2 Humble machine'). WSL Ubuntu-22.04 is present but ROS 2 Humble (/opt/ros/humble/setup.bash) is not installed; status is therefore environment_unavailable for this environment. M6 TtV is measured on the active Windows + native AS2FM pipeline as the available fallback; the Ubuntu+Humble TtV measurement remains an open item pending Humble installation in WSL."
+  },
+  "average_total_ttv_ms": 1579.9967999919318
+}

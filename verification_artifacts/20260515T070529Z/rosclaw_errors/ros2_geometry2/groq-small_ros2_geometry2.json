@@ -1,0 +1,254 @@
+{
+  "pair_key": "groq-small :: ros2/geometry2",
+  "repo": "ros2/geometry2",
+  "actual_categories": [
+    "hallucinated_node",
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [],
+    "AS2FM": [],
+    "AS2FM_JANI_adapter": [
+      "hallucinated_node",
+      "missing_node"
+    ],
+    "LocalStaticValidator": [
+      "hallucinated_node",
+      "missing_node"
+    ]
+  },
+  "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
+  "as2fm_method": "not_applicable_without_repo_behavior_models",
+  "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+  "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+  "error_records": [
+    {
+      "id": "groq-small_ros2_geometry2__err_0001",
+      "category": "hallucinated_node",
+      "node": "StaticTransformListener",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-hallucinated_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  0.5,
+                  -1.2,
+                  1.3,
+                  -1.4,
+                  -1.57,
+                  0.2
+                ],
+                [
+                  1.0,
+                  -0.8,
+                  1.1,
+                  -1.2,
+                  -1.5,
+                  0.4
+                ],
+                [
+                  1.2,
+                  -0.6,
+                  0.9,
+                  -1.0,
+                  -1.4,
+                  0.6
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "hallucinated_node",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 353.86360000120476,
+        "detected": false,
+        "validation_result": {
+          "is_safe": true,
+          "collision_detected": false,
+          "joint_limit_violated": false,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 1.57,
+          "min_distance_to_collision": 0.0,
+          "simulation_steps": 40,
+          "violation_details": []
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_geometry2__err_0002",
+      "category": "hallucinated_node",
+      "node": "TransformListener",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-hallucinated_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  0.5,
+                  -1.2,
+                  1.3,
+                  -1.4,
+                  -1.57,
+                  0.2
+                ],
+                [
+                  1.0,
+                  -0.8,
+                  1.1,
+                  -1.2,
+                  -1.5,
+                  0.4
+                ],
+                [
+                  1.2,
+                  -0.6,
+                  0.9,
+                  -1.0,
+                  -1.4,
+                  0.6
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "hallucinated_node",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 353.86360000120476,
+        "detected": false,
+        "validation_result": {
+          "is_safe": true,
+          "collision_detected": false,
+          "joint_limit_violated": false,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 1.57,
+          "min_distance_to_collision": 0.0,
+          "simulation_steps": 40,
+          "violation_details": []
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_geometry2__err_0003",
+      "category": "missing_node",
+      "node": "tf_buffer",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-missing_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  2.5,
+                  0.0,
+                  0.3,
+                  -0.4,
+                  -1.1,
+                  1.2
+                ],
+                [
+                  2.0,
+                  -0.2,
+                  0.5,
+                  -0.6,
+                  -1.2,
+                  0.8
+                ],
+                [
+                  1.0,
+                  -0.8,
+                  1.1,
+                  -1.2,
+                  -1.5,
+                  0.4
+                ],
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "missing_node",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 0.6787999882362783,
+        "detected": false,
+        "validation_result": {
+          "is_safe": true,
+          "collision_detected": false,
+          "joint_limit_violated": false,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 2.5,
+          "min_distance_to_collision": 0.0,
+          "simulation_steps": 40,
+          "violation_details": []
+        }
+      }
+    }
+  ]
+}

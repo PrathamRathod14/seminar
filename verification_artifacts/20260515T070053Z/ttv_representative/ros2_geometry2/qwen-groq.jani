@@ -1,0 +1,81 @@
+{
+  "jani-version": 1,
+  "name": "ros2_architecture_recovery_check",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "metadata": {
+    "ground_truth_nodes": [
+      {
+        "name": "tf_buffer",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "tf2_ros\\src\\buffer_server_main.cpp"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      }
+    ],
+    "candidate_nodes": []
+  },
+  "properties": [
+    {
+      "name": "interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,1106 @@
+[
+  {
+    "path": "ros2action\\package.xml",
+    "bytes": 1577,
+    "sha256": "5b1bd192e8bc761ae5912385ba6eb82f60ba9242087f47f2cfe0700a97aef0f6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2action\\ros2action\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2action\\ros2action\\api\\__init__.py",
+    "bytes": 5656,
+    "sha256": "811fd291ac55e8ce7df4b68dab6736345de2d4aa473c3edc199d2e017a9b6612",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2action\\ros2action\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2action\\ros2action\\command\\action.py",
+    "bytes": 1368,
+    "sha256": "db5416a60c4661b1534487763a7ad9256505179ad822011e55d872f4caa6a8f0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2action\\ros2action\\verb\\__init__.py",
+    "bytes": 1375,
+    "sha256": "5397a1358f25d41dd4092618b7f6cee01a507fd6c7db34b869dc4b8b23c1227b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2action\\ros2action\\verb\\echo.py",
+    "bytes": 13807,
+    "sha256": "181d66f8fd401a9e35277f9ac0ea5bb77168bf258b95e02ff60613f3f2cef9f1",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "ros2action\\ros2action\\verb\\find.py",
+    "bytes": 1819,
+    "sha256": "7b98fe76d72d4d8a39f4e60bcb178aaa39fc411be9b7a4f5c5fb36cc0231a9de",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2action\\ros2action\\verb\\info.py",
+    "bytes": 2699,
+    "sha256": "3e92d98c8db0cb0b480355ff0a99ed19e5d0583499e202a4668fa69d5f8309ad",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2action\\ros2action\\verb\\list.py",
+    "bytes": 1685,
+    "sha256": "d819a9feefebb5d9f42996ac0df848cdc59c810ed3a47920bb06b579f25b130e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2action\\ros2action\\verb\\send_goal.py",
+    "bytes": 9210,
+    "sha256": "4e7e122393bf5a36f51c821c75399b794a3a8e1ca5fb257c02ebd65703472ea8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2action\\ros2action\\verb\\type.py",
+    "bytes": 1510,
+    "sha256": "b130eead58a4ae014557a11d70bc8b6e516ea66136950e6ffe981b299bad911d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2action\\setup.py",
+    "bytes": 1890,
+    "sha256": "c4266070e385921fb0d757dca7e5ac41ee5c79db3caef9dc32b6162aefc63c7b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\package.xml",
+    "bytes": 1446,
+    "sha256": "1a9b5851e1c241cbfd24cba5d51462e3d8dedb9d5632057783d22e0c8f1e40f8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\cli.py",
+    "bytes": 3592,
+    "sha256": "916589a0df722eb296bdfe38f3efcd47e6b3a93ac4af3a10309e9d22f2bce268",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\command\\__init__.py",
+    "bytes": 8707,
+    "sha256": "5b39ab7337ed13e9ad812b56169c1d91c3a74fa5a6829ce6d8c65bd12a4b75e4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\command\\daemon.py",
+    "bytes": 1407,
+    "sha256": "c6e8af9893d2c3f08de6da1525e0f89863910599c705bf69eccbbb7c7ff9c7cb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\command\\extension_points.py",
+    "bytes": 2681,
+    "sha256": "1b90fbf31d93a2d94ad137af59fac08ecd4b41e17ada2cb0f0c9ed2ededb9dc3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\command\\extensions.py",
+    "bytes": 2868,
+    "sha256": "e3545deea19e25a04a94569702f75b7db19379b856f825f36a2abdbe327f1b1a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\daemon\\__init__.py",
+    "bytes": 6829,
+    "sha256": "b6d46799269f111c5382641ccf5d0c8a463e7cce84cedb714a53e085eb66db6d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\daemon\\daemonize.py",
+    "bytes": 5500,
+    "sha256": "a9a946105d3a99d9954acc6eaeb9a52170a72878f7cd7bbcf7b94f6998b3acac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\entry_points.py",
+    "bytes": 3562,
+    "sha256": "f67acfdd3f40630d1e392dbe167a80e9f8ec8773645c13e53d21aed232b5d9d2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\helpers.py",
+    "bytes": 7438,
+    "sha256": "760430f17112b30332d4a0f905de8eea300db53f13cbebcf9c3a9c86d8240604",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\node\\__init__.py",
+    "bytes": 732,
+    "sha256": "abb3b14d7c9c515f3eb2e14797466a0087a91f7965732f545798a4a5edacb4bb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\node\\daemon.py",
+    "bytes": 6974,
+    "sha256": "61a647c718eb76738154dd1804200b6322814e26ade04a6524700cca2bdfde95",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\node\\direct.py",
+    "bytes": 3622,
+    "sha256": "ff1a755ea0902a5e253ee8b08647430d5dc26dfa53733c45fa657aa9525f3c18",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\node\\network_aware.py",
+    "bytes": 2534,
+    "sha256": "fbba38ed2fdbdd3c7f660ffaab79d7c94e1786d33e0d478715d4bc48ff9bca0d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\node\\strategy.py",
+    "bytes": 3221,
+    "sha256": "1560dfbc7b701e7f776523ddf694341cbe6e82c28f4944fe87d4718988b6c72a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\plugin_system.py",
+    "bytes": 3843,
+    "sha256": "007f8355950ab328925d0d39b3f6c95b8670d87029ce393bcea0cc059cb037e5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\qos.py",
+    "bytes": 7989,
+    "sha256": "e8bba7936ff082088a17cdab7ca802ec87dc0dd9afa00826a890277632a7226a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\verb\\__init__.py",
+    "bytes": 1799,
+    "sha256": "92437b30e21c90ff539ffe434919f27be6fd4e872d95571003978f8b4dce1151",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\verb\\daemon\\__init__.py",
+    "bytes": 1375,
+    "sha256": "aca6d9b53e76afbdd57111d03733e1bf68f8b2bb53f372536ef62ec45f6af81c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\verb\\daemon\\start.py",
+    "bytes": 1181,
+    "sha256": "3ecc0c07f0696581e54c5ebe50703d3141587ce674e45e51c3e82ce383401ab5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\verb\\daemon\\status.py",
+    "bytes": 972,
+    "sha256": "cb8024523820198036f9b4cebf4ccbde3b057c02cdbdc58cbc95f552b7bf0ebf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\verb\\daemon\\stop.py",
+    "bytes": 987,
+    "sha256": "556ac9f5d2d09556ce4457e712ccec03f14109e025e13c858a35804e6e38d053",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\xmlrpc\\__init__.py",
+    "bytes": 735,
+    "sha256": "79058e81195c22c5bfb88d12e8bdd5da8b6a6738d558cf3ad0d4250968803c99",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\xmlrpc\\client.py",
+    "bytes": 837,
+    "sha256": "1f27fd8aecd8796825d0656d4ba2b67b61a817b450218dff5feb1a8b3bb3b165",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\xmlrpc\\local_server.py",
+    "bytes": 1771,
+    "sha256": "79267bbf8a1f984220010bef7576810a9569cddef2c344c435955ed7059b7217",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\xmlrpc\\marshal\\__init__.py",
+    "bytes": 741,
+    "sha256": "6423e41bb8d4691fc897e9a0d2f607012a0cd00982dbf3cd655c288d8dc9c438",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\xmlrpc\\marshal\\generic.py",
+    "bytes": 1491,
+    "sha256": "c181ffb62f1a84e859965a77bd4d8d63665a0275721c1f9b8342d84cff3b72de",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\ros2cli\\xmlrpc\\marshal\\rclpy.py",
+    "bytes": 3426,
+    "sha256": "df7318dc3c1c26ada814db13fed4878c6857895b12d34ea371e92e650024d4f9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2cli\\setup.py",
+    "bytes": 2374,
+    "sha256": "6062084c01bda6af5534b2699990fca9ef5882d417ff7457af72936171e03de0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2component\\package.xml",
+    "bytes": 1534,
+    "sha256": "fab164ecc9f33147fef9a5759b5f03e065076c3604067f7f6313f4927f0fb4bd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2component\\ros2component\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2component\\ros2component\\api\\__init__.py",
+    "bytes": 16016,
+    "sha256": "db1e367e0046864a6c44e0513b8e14a3bc87ca0f54b42b058ffc3ee728cf354c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2component\\ros2component\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2component\\ros2component\\command\\component.py",
+    "bytes": 1377,
+    "sha256": "523fe85f4ee45a6adc092c7bc5d67b70e7e31ab5f677d5ca43b3e61e0fbf320d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2component\\ros2component\\verb\\__init__.py",
+    "bytes": 1373,
+    "sha256": "3b8c3288d698c79f503181a45e833d7d78da5823b89a8659d9d6cbfef1513ace",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2component\\ros2component\\verb\\list.py",
+    "bytes": 3702,
+    "sha256": "848f526c3fc880805e75375c6d1294b71acbebf1026be0fb0991c3ec0e3beb9a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2component\\ros2component\\verb\\load.py",
+    "bytes": 3041,
+    "sha256": "9ff8636d88ff2f66264c7100513ed75122ee0d4bf9638d838d97c40d29560290",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2component\\ros2component\\verb\\standalone.py",
+    "bytes": 2842,
+    "sha256": "82d2abe367788602a9feb6c5c64a9e47e32b1ff79111c17f7c8995aba8d49b20",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2component\\ros2component\\verb\\types.py",
+    "bytes": 1814,
+    "sha256": "972db5f4a0c63f8993c480fb4e9078970662e44ebdb7f720523feb9999d74b13",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2component\\ros2component\\verb\\unload.py",
+    "bytes": 2991,
+    "sha256": "da1b43a7acff7b9d1421f551bdacb32e0c13d1ee67a690065fa68bbbabed1828",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2component\\setup.py",
+    "bytes": 1899,
+    "sha256": "0c5789de3a1550cff9f67b9cd0b1a456783c2f076abac32c614d631d763e295b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\package.xml",
+    "bytes": 1847,
+    "sha256": "bb6b6fb906caf73f4e9a73c924197fe90594471acf6505a9ccb5a799c76aec18",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\api\\__init__.py",
+    "bytes": 9781,
+    "sha256": "97fc39e173ae5de50bf56b3ea65b7686e8dc731e198969dd4b38302dc5d4f4f6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\api\\action.py",
+    "bytes": 1906,
+    "sha256": "836072e23850c45205cfd70b88838f198622f73e12e925f680afc8de7c8ccf5f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\api\\environment.py",
+    "bytes": 2446,
+    "sha256": "6aec632c686a312353922c4cf196549766e30c137f3689ab44a56fb6bb1ba893",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\api\\format.py",
+    "bytes": 2770,
+    "sha256": "b0c60e71e2b6ed6473aa7417f4a3f87a68416dc04aad18f8c98c6c6508d24296",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\api\\network.py",
+    "bytes": 5944,
+    "sha256": "d78d4258925edeed41b43b3ffcc32b5fb12c1852b1a3ec5b449e3d2a3825b99c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\api\\package.py",
+    "bytes": 7372,
+    "sha256": "439b1ff4fb95bf3920229962ca5c7517ac02523ccd8f236c65c6d12820c3d5dd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\api\\platform.py",
+    "bytes": 4716,
+    "sha256": "cd986dd83ed07deed00557b706a594e66e9c4ca1009abdf4346051af74bce205",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\api\\qos_compatibility.py",
+    "bytes": 4408,
+    "sha256": "e22b95039e899ad0ee1f172d8b215c677a356f2bb30015a5b106978fc877dfbf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\api\\rmw.py",
+    "bytes": 1079,
+    "sha256": "6612147176bf13f18399abe0628b0dee50b6a4364441b47d5dc3178a009dc1a9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\api\\service.py",
+    "bytes": 1651,
+    "sha256": "6b118d1f085482091c102cdb6f4e62d4533e0c321159f6e84855cb6f73111513",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\api\\topic.py",
+    "bytes": 2654,
+    "sha256": "4de312d40214a9f64210458c531c3d281fc583c651b53fddd12d5c25847a7469",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\command\\doctor.py",
+    "bytes": 3246,
+    "sha256": "768af810df2e45bbc2c067862894326597ae9579b963b56a58fd4750630e2069",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\verb\\__init__.py",
+    "bytes": 1375,
+    "sha256": "8517349f83857417283d3eea78106d2b1e71669af04dfbb360b01904574c5e7b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\ros2doctor\\verb\\hello.py",
+    "bytes": 11476,
+    "sha256": "0242d3bac60c751df569c716d6bec624183ad0ba9c670155369f9d1a9d0e0494",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2doctor\\setup.py",
+    "bytes": 2750,
+    "sha256": "d96c82e757fba452891558cc37f1dd3319f67354e8cd518d55d31639b9165844",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2interface\\package.xml",
+    "bytes": 1591,
+    "sha256": "dade2af1ac832d460124f5193a08ebd1129d156b4bc3e58168a2fc60b848f005",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2interface\\ros2interface\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2interface\\ros2interface\\api\\__init__.py",
+    "bytes": 2817,
+    "sha256": "6d165d5d5178d5f2e43f1114002dcd47a30dd8d362e73505f2da2dacc0511c20",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2interface\\ros2interface\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2interface\\ros2interface\\command\\interface.py",
+    "bytes": 1368,
+    "sha256": "4734d6d62697a2a382758c1ca1cf9dd0bc486b78cf14441333af08b70c7be395",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2interface\\ros2interface\\verb\\__init__.py",
+    "bytes": 1133,
+    "sha256": "04219f7b81971099d62bfd47f5aa139351ea16004195872d6187465df38e9aee",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2interface\\ros2interface\\verb\\list.py",
+    "bytes": 2616,
+    "sha256": "ef068ff7e8685cf3edf0b95c1850086f033ac72617e8c8ccf09b2d5c2349cd64",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2interface\\ros2interface\\verb\\package.py",
+    "bytes": 2783,
+    "sha256": "f81dfa7e34ee0951b20b90b5dadd628b3fc74ea2b553b8091c3c99463ced4d32",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2interface\\ros2interface\\verb\\packages.py",
+    "bytes": 1942,
+    "sha256": "432beb15c1b87cb88f259af53958b05f1fc5d1dc4140909d6f59aa56310ecb43",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2interface\\ros2interface\\verb\\proto.py",
+    "bytes": 1385,
+    "sha256": "4406773d8feb8f9ef675177c2de2f3749cca8f5de0ff1db9f0866c41e7b1558e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2interface\\ros2interface\\verb\\show.py",
+    "bytes": 7844,
+    "sha256": "121b837e5e8aed708c52c68f6c3ed9520c76097a2566bab10362d9b7edd64bad",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2interface\\setup.py",
+    "bytes": 1944,
+    "sha256": "830a4452d3d00509890b8e9710c161a29caf4a8d40963fda61c051eceb795f0c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2lifecycle\\package.xml",
+    "bytes": 1579,
+    "sha256": "f9dfeb0bce2feae787f4b0b803fd767019917bfd7e3c12627121a4edb5e71524",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2lifecycle\\ros2lifecycle\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2lifecycle\\ros2lifecycle\\api\\__init__.py",
+    "bytes": 6639,
+    "sha256": "de3c31f56808d8faefe9ac61be61a572f5cbc426329ae5dd23c42dfae7ce9194",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2lifecycle\\ros2lifecycle\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2lifecycle\\ros2lifecycle\\command\\lifecycle.py",
+    "bytes": 1379,
+    "sha256": "985f45bfa9ce96796804f2e72e485a5260c6680479361221e255155a02d27b93",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2lifecycle\\ros2lifecycle\\verb\\__init__.py",
+    "bytes": 1378,
+    "sha256": "ee4e38cf192f890de18a1c19d27bc23bae7856764ad4180c2b1849ac1d6d4336",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2lifecycle\\ros2lifecycle\\verb\\get.py",
+    "bytes": 3280,
+    "sha256": "d5168b62b5f34278e5f855ec2374dee5ea579da5ebff6e96997f4a926a824d09",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2lifecycle\\ros2lifecycle\\verb\\list.py",
+    "bytes": 3121,
+    "sha256": "871cb7619b4364bc81b2a5c300f0b9ed992851f797d2976befef97014527712a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2lifecycle\\ros2lifecycle\\verb\\nodes.py",
+    "bytes": 1685,
+    "sha256": "80569962abcac60911718f08218251960a07834d4debacbad0e1ebfad36fa2c7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2lifecycle\\ros2lifecycle\\verb\\set.py",
+    "bytes": 3902,
+    "sha256": "c61194865042ee43788404327cb0f1b43edbadadb1390b7c6b966d4e8af3ec31",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2lifecycle\\setup.py",
+    "bytes": 1814,
+    "sha256": "c1d122c34b6f22782dd5a81552434d76ef5391b980bb8ecf30952aaa6d0282a5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2multicast\\package.xml",
+    "bytes": 1187,
+    "sha256": "c603fbaccecdcaf0d8193645423d21007f444f09b9eac9531966ae0c2b57776f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2multicast\\ros2multicast\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2multicast\\ros2multicast\\api\\__init__.py",
+    "bytes": 2144,
+    "sha256": "9d558fe133f68a02d32f68e8721dc03af61efb1aea4c8c70bbc775c65415764b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2multicast\\ros2multicast\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2multicast\\ros2multicast\\command\\multicast.py",
+    "bytes": 1377,
+    "sha256": "8514fae2e156a467e21b75dc09d3cc148a79d37b21e603400052e5a340002601",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2multicast\\ros2multicast\\verb\\__init__.py",
+    "bytes": 2045,
+    "sha256": "b693cfc729f04b8d21799b8d0fb1d015c115f7d2e0271c7ac79e933b1c724829",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2multicast\\ros2multicast\\verb\\receive.py",
+    "bytes": 1360,
+    "sha256": "47f9f1ed010625516b14c1170e4cdbbeb4d71531a0fed4b5cb2b81a6aab6f2b4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2multicast\\ros2multicast\\verb\\send.py",
+    "bytes": 1325,
+    "sha256": "f8d2ec8efb1f29bfbc442692bba3adf11cc44abba133367447580f30a019e18f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2multicast\\setup.py",
+    "bytes": 1715,
+    "sha256": "f4ff5c787ee831ae514ea8efef56511e3a738919876c3a89a7d828ac7a57411e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2node\\package.xml",
+    "bytes": 1461,
+    "sha256": "7f85313ffccfcdba9986f240ba94802a5c260a69c8d54edff9081ca1b68ea2a3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2node\\ros2node\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2node\\ros2node\\api\\__init__.py",
+    "bytes": 5595,
+    "sha256": "74d4f434c2936467bbadab7b7419b1e040d89fd47682bc330c025a76e0e44953",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2node\\ros2node\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2node\\ros2node\\command\\node.py",
+    "bytes": 1362,
+    "sha256": "9c498465199a029f59710a1fbec3050257da44ea41b7c9ff410e5e77317729ba",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2node\\ros2node\\verb\\__init__.py",
+    "bytes": 1373,
+    "sha256": "3b8c3288d698c79f503181a45e833d7d78da5823b89a8659d9d6cbfef1513ace",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2node\\ros2node\\verb\\info.py",
+    "bytes": 4894,
+    "sha256": "0d887f22f24e955a1b46a08bd7f6e8fbb3872c1482fcce145525feabb1e8f266",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2node\\ros2node\\verb\\list.py",
+    "bytes": 1895,
+    "sha256": "613615bbaca718599c5f0b856e2a5a8372da757ddf5a2efd29730bddce158e46",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2node\\setup.py",
+    "bytes": 1640,
+    "sha256": "bb23793487daf3121de4ad9e49b4b277800abee7156bb86123be7bd526a6e9e7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\package.xml",
+    "bytes": 1513,
+    "sha256": "112349d32fd995812ae68596798dc4438921e33aa299b4eaf38007b0856d8830",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\ros2param\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\ros2param\\api\\__init__.py",
+    "bytes": 7893,
+    "sha256": "0125cf934001d27320eb96c8bdf31c2bb72d0829882b9755732891c5c7cf5cb1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\ros2param\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\ros2param\\command\\param.py",
+    "bytes": 1405,
+    "sha256": "36f12823752803a33ce6792add7668272d42bdae560fdd97728b4f04149e2ee3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\ros2param\\verb\\__init__.py",
+    "bytes": 1374,
+    "sha256": "b1e746785285e5f5dd5e5e0c3ae10358dbcf731ba0a2318f5275169985139ad0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\ros2param\\verb\\delete.py",
+    "bytes": 3464,
+    "sha256": "53858bd119b3dfaa842964f088a970b560d96ce9d7b9a44912e814872747d932",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\ros2param\\verb\\describe.py",
+    "bytes": 3759,
+    "sha256": "7f87ad1006cc40daf2d715a9175e02c9ce052a858c7f30b7cca6aa312c39bbc6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\ros2param\\verb\\dump.py",
+    "bytes": 4902,
+    "sha256": "3e51c3c9a6873e0fd0664b16fa695366209b70b7d6acc197c54d34e911204dcd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\ros2param\\verb\\get.py",
+    "bytes": 11491,
+    "sha256": "708403e1c5f41d652689bc20616818607fe798a7e3a9b9a9e4a74d07c126e006",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\ros2param\\verb\\list.py",
+    "bytes": 5591,
+    "sha256": "e7a89772c0f555df636d7dc592e8071fa0706a7e95f62c85c8fefede7126ff34",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\ros2param\\verb\\load.py",
+    "bytes": 2669,
+    "sha256": "534fb205be54e32ab14e4a8805d35029ec188fcac5c09b380844e2fc78137e32",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\ros2param\\verb\\set.py",
+    "bytes": 6351,
+    "sha256": "c3e37c290be828168791ca57bc732592aeba4b2bcdad727d1323cf1c8bb2a705",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2param\\setup.py",
+    "bytes": 1925,
+    "sha256": "d176abb6eb236e1231f7aed72a4e6aa5dbeb8568e45c869feff75894b9b88cac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\package.xml",
+    "bytes": 1455,
+    "sha256": "f5199bbda472399d00b92a29524d34875b9409e95380f17a67692c986c244d1f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\api\\__init__.py",
+    "bytes": 2026,
+    "sha256": "59e16c59bae7f8cde6a4f02c5f9268925e1966c486e3258cb8b3001e24a529a8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\api\\create.py",
+    "bytes": 12639,
+    "sha256": "cf3d4c605522fd2381e53e1cfa19bca04cb3a1aba3bf9ca7d79ea100dfd7b84f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\command\\pkg.py",
+    "bytes": 1363,
+    "sha256": "b6a902f8591155ac2fe7e53b2a4b7f7308fa72a78e07fd687563f344a1220c36",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\resource\\__init__.py",
+    "bytes": 638,
+    "sha256": "a44199720e786f944ebd7d1734b3d333618f851f5ea6367dafc5f89486b2665b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\resource\\ament_cargo\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\resource\\ament_cmake\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\resource\\ament_python\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\resource\\cmake\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\resource\\cpp\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\resource\\package_environment\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\resource\\rust\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\verb\\__init__.py",
+    "bytes": 1372,
+    "sha256": "ca8fd0591ffce2bbb33c96d897f4a2857ca5babadfec0af716ab30591b6d957c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\verb\\create.py",
+    "bytes": 10598,
+    "sha256": "82a7fb4356dcab3c986468e10855c19527a8789e34e14fffcdcc29badffe7134",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\verb\\executables.py",
+    "bytes": 2087,
+    "sha256": "9be4fa1336d55b95663765f0066eff9da39eb2be7ff23cf144a148951258c115",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\verb\\list.py",
+    "bytes": 898,
+    "sha256": "5f0c0571456a604afbe0481913406ecfe8a6f572e9fefcfdccb8f65a4b335abc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\verb\\prefix.py",
+    "bytes": 1755,
+    "sha256": "022f628ac4e40cacc887bb2e8d0e13ace049fbaa3bf57905d3b27b1a5f889921",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\ros2pkg\\verb\\xml.py",
+    "bytes": 2143,
+    "sha256": "8c69e5b93ac4df9ec8f91e5561d2143f9c12ff97ad3bba52f4bf6aeedaf112e4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2pkg\\setup.py",
+    "bytes": 1886,
+    "sha256": "a7aacd682ad5480471b3b59ccab046fee0c68a496cc9f67c0cf08da89ea26af5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2run\\package.xml",
+    "bytes": 1213,
+    "sha256": "9ee2acf4fcbd2094196d3a225fb389187857bcef09d8a30f1ef302675c78bae6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2run\\ros2run\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2run\\ros2run\\api\\__init__.py",
+    "bytes": 4046,
+    "sha256": "4393783f7bfde93198d76815ea655d677a3281f6bbea22be9b1f5f1c8f4cf3aa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2run\\ros2run\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2run\\ros2run\\command\\run.py",
+    "bytes": 4720,
+    "sha256": "d479f818283d98628f3b00d50a52801de1c610fd23b1e24319d003956793d4d2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2run\\setup.py",
+    "bytes": 1380,
+    "sha256": "2af49f12b8b39a29558362d2b074081807297b4fefb98434ea6b2e2f45ba66ad",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2service\\package.xml",
+    "bytes": 1526,
+    "sha256": "6af5d73b28a49822a2b42302fb2f2b1b85bc4af2b6fa00e7f56330189feb6e9f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2service\\ros2service\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2service\\ros2service\\api\\__init__.py",
+    "bytes": 5820,
+    "sha256": "328442b122a66f27451fa7798db11edbd3f822d41a6e5378761c8414c2169579",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2service\\ros2service\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2service\\ros2service\\command\\service.py",
+    "bytes": 1520,
+    "sha256": "ca40022a2e1bfffd2a3fa836a2e9e921d542ad25170924dc79685843b1a16d46",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2service\\ros2service\\verb\\__init__.py",
+    "bytes": 1376,
+    "sha256": "3d7df83aeb2a3ca919626d1ebb0884cfc0a65bd82398b94cd7ba0754783fe3f4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2service\\ros2service\\verb\\call.py",
+    "bytes": 6903,
+    "sha256": "cdeda4e4c88b087358d5e726cddede4d63afe4cdbb1a3b5b079abbd56e6de7c5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2service\\ros2service\\verb\\echo.py",
+    "bytes": 7648,
+    "sha256": "cd5f9cecbad40efe2634ddcebe62534be5da45ba9346470b89b3cded4b2bae7e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2service\\ros2service\\verb\\find.py",
+    "bytes": 2208,
+    "sha256": "786a9179a3570d9d06c15346aaf70f20c4d9e8dcc3d32d4479047231552d2649",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2service\\ros2service\\verb\\info.py",
+    "bytes": 3231,
+    "sha256": "c1ae9051660dd89ec9e8dd3fbee2c13d723891a4ea960ab284e9bf298fc45158",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2service\\ros2service\\verb\\list.py",
+    "bytes": 2175,
+    "sha256": "25c25984fbd31ac0823a0a3bc72366160c0638e478341d1ba2c61cb602458d38",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2service\\ros2service\\verb\\type.py",
+    "bytes": 1688,
+    "sha256": "f287817ace1c55ee196a8a35caca2e93c82591de780457e85c26cd2e4ec67f80",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2service\\setup.py",
+    "bytes": 1899,
+    "sha256": "4223d493b749efe5e77d880d6d8982932a3abda5fc7546144602ca3fac0516db",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\package.xml",
+    "bytes": 1778,
+    "sha256": "2a82859d41218e7b2680455dde93381e2fcf0211292420a7f43a9b6eb01a9a49",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\api\\__init__.py",
+    "bytes": 8877,
+    "sha256": "75b26e67791422a69ea10153c12879ef1540fc577da13da648a2422af27f45c7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\command\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\command\\topic.py",
+    "bytes": 1510,
+    "sha256": "9573c0944fe1e610b4aa6cf43af7384f2dd44ed642685d520ec42b06aa8cb84a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\verb\\__init__.py",
+    "bytes": 1374,
+    "sha256": "9c7e9609913c230457798477eed5b3313fcaacafe9ab492842b48e9661d5b550",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\verb\\bw.py",
+    "bytes": 13284,
+    "sha256": "d8bb24e961122539eb35d41584ff8dad59f0e4430a29d1ec0da89c5bbc0c055c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\verb\\delay.py",
+    "bytes": 7115,
+    "sha256": "c30ffc4138fcd3e2ebaf8c1f3f8109c0b262db43f2d01c1894d554d510c17cd8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\verb\\echo.py",
+    "bytes": 13094,
+    "sha256": "8fc0ac7d4b8d49b951520cbaababc3f139728a45bc2f78bd13995d92fb68a71d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\verb\\find.py",
+    "bytes": 2245,
+    "sha256": "c4ee4c6ca9e94d1bf99fdbf0082efabff556868e232b3cc7e6e7dfaed97bc1f4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\verb\\hz.py",
+    "bytes": 15255,
+    "sha256": "4b4bb933fc916f27925de29c677d8e2f6a1dbbb0408f0bc04f82d9240a40b99b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\verb\\info.py",
+    "bytes": 3956,
+    "sha256": "f104fe0c68cbffa6df35b4da74541732894f12ed69157e8ce20dfedd460483e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\verb\\list.py",
+    "bytes": 3640,
+    "sha256": "c9b33836617f9de0bb46105717cd5189123bb0fe5a5db19b02910668126017d8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\verb\\pub.py",
+    "bytes": 10966,
+    "sha256": "716c1b12699351cf0fe99c2d85f697434f44b1f6ea1430d47ba3c6ba44c9a06f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\ros2topic\\verb\\type.py",
+    "bytes": 2597,
+    "sha256": "8a12b7f3fb312b26f5b58ffbbdf95da77fddee3189fb4fe311cb3965282b0d6e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "ros2topic\\setup.py",
+    "bytes": 2005,
+    "sha256": "b523da525db757983eea0b51f8b00354af5f38a04c6fd3ad59342a8cb92a2df1",
+    "included_in_llm_prompt": false
+  }
+]

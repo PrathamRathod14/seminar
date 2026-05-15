@@ -1,0 +1,227 @@
+{
+  "pair_key": "llama-4 :: ros2/rviz",
+  "repo": "ros2/rviz",
+  "actual_categories": [
+    "hallucinated_node",
+    "missing_node"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [],
+    "AS2FM": [],
+    "AS2FM_JANI_adapter": [
+      "hallucinated_node",
+      "missing_node"
+    ],
+    "LocalStaticValidator": [
+      "hallucinated_node",
+      "missing_node"
+    ]
+  },
+  "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
+  "as2fm_method": "not_applicable_without_repo_behavior_models",
+  "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+  "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+  "error_records": [
+    {
+      "id": "llama-4_ros2_rviz__err_0001",
+      "category": "hallucinated_node",
+      "node": "robot_link",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "failed",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-hallucinated_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  0.5,
+                  -1.2,
+                  1.3,
+                  -1.4,
+                  -1.57,
+                  0.2
+                ],
+                [
+                  1.0,
+                  -0.8,
+                  1.1,
+                  -1.2,
+                  -1.5,
+                  0.4
+                ],
+                [
+                  1.2,
+                  -0.6,
+                  0.9,
+                  -1.0,
+                  -1.4,
+                  0.6
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "hallucinated_node",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 415.1172999991104,
+        "detected": false,
+        "error": "No module named 'mujoco'"
+      }
+    },
+    {
+      "id": "llama-4_ros2_rviz__err_0002",
+      "category": "missing_node",
+      "node": "NodeObject",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "failed",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-missing_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  2.5,
+                  0.0,
+                  0.3,
+                  -0.4,
+                  -1.1,
+                  1.2
+                ],
+                [
+                  2.0,
+                  -0.2,
+                  0.5,
+                  -0.6,
+                  -1.2,
+                  0.8
+                ],
+                [
+                  1.0,
+                  -0.8,
+                  1.1,
+                  -1.2,
+                  -1.5,
+                  0.4
+                ],
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "missing_node",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 8.90449999133125,
+        "detected": false,
+        "error": "No module named 'mujoco'"
+      }
+    },
+    {
+      "id": "llama-4_ros2_rviz__err_0003",
+      "category": "missing_node",
+      "node": "static_transform_publisher",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "failed",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-missing_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  2.5,
+                  0.0,
+                  0.3,
+                  -0.4,
+                  -1.1,
+                  1.2
+                ],
+                [
+                  2.0,
+                  -0.2,
+                  0.5,
+                  -0.6,
+                  -1.2,
+                  0.8
+                ],
+                [
+                  1.0,
+                  -0.8,
+                  1.1,
+                  -1.2,
+                  -1.5,
+                  0.4
+                ],
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "missing_node",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 8.90449999133125,
+        "detected": false,
+        "error": "No module named 'mujoco'"
+      }
+    }
+  ]
+}

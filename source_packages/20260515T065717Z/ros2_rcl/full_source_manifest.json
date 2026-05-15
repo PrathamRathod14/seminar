@@ -1,0 +1,530 @@
+[
+  {
+    "path": "rcl\\include\\rcl\\allocator.h",
+    "bytes": 1868,
+    "sha256": "48a6723b1920fd0a0681a32381aa474896f717bb075a39cfa8867716d56884b2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\arguments.h",
+    "bytes": 16567,
+    "sha256": "f4a3803196369319238ccd6fdc15ce8b11f24483deded25f9c4c95326102d9e7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\client.h",
+    "bytes": 21244,
+    "sha256": "b268735e1514757ac59389d811d0015acabad6e7d405e326d170aa8cfb366b47",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\context.h",
+    "bytes": 12497,
+    "sha256": "156ea9eb4f23a2e06345c7728020983fefa8f18f665d14bc5e847259d3ad80b9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\discovery_options.h",
+    "bytes": 4093,
+    "sha256": "cfa8de4638bbe921f91a1d0f8006b658da5bd23d6693fcf82ee8cc832051731c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\domain_id.h",
+    "bytes": 1418,
+    "sha256": "0ac1df10cb197db2b3070c1f7715c9c6c04376d0118091cae0f72cf853a80c41",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\dynamic_message_type_support.h",
+    "bytes": 1761,
+    "sha256": "d817f3b08147c52e82481defe0f1c2b569c87eb1b67644303ba6a9bca39b12a1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\error_handling.h",
+    "bytes": 2320,
+    "sha256": "04e3d861bdadb084b87eb4f1306adc2a84460ea3515dc5fc1e9aca557d46e654",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\event.h",
+    "bytes": 7631,
+    "sha256": "905241b5f65a272fa7f29b8f1a7318809104115a3e08abe3cf3aa3ed61fd2933",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\event_callback.h",
+    "bytes": 1233,
+    "sha256": "18e28a8c03b697627916faf93a36f3289d4747d9f75a22c1c4c87c24ed02ebe8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\expand_topic_name.h",
+    "bytes": 5593,
+    "sha256": "8573c68e6c26c89fc8f71dacfc31a7d15ac5085010add9014ff9d02f5cc46acb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\graph.h",
+    "bytes": 50446,
+    "sha256": "e9574b87d9aafadc4762bbea323eff049843ab6aae80e826875477d4c83e54a8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\guard_condition.h",
+    "bytes": 9711,
+    "sha256": "06cf53e8a2279f910e23eef3c00db90f075125730881cab8569df3529540172f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\init.h",
+    "bytes": 4436,
+    "sha256": "9d03c117170c7105a0fbf01e7f3e7fc533eb51b3ebaf7929ecb7d84504e05955",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\init_options.h",
+    "bytes": 7543,
+    "sha256": "9604aa40590dbf1450125bf7654a50d632aee560fc25141aa411f7db59149582",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\lexer.h",
+    "bytes": 3362,
+    "sha256": "a2d4831c5e4a8a4e01571b33e728214a6a7eab0394287e29fb40af5d3b6c7fe5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\lexer_lookahead.h",
+    "bytes": 8977,
+    "sha256": "08a7d35ffce05e04f48c8b9dea7e314a41c4108211e731060c0963c6ab990588",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\log_level.h",
+    "bytes": 6661,
+    "sha256": "f55d856462ad573cd716d02e0793106686c5d65427ffad228a5bf62bf657c84c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\logging.h",
+    "bytes": 5107,
+    "sha256": "c8f4691228283411f134c91ea6012433d0e831599fe55615dd7d8d12027381ba",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\logging_rosout.h",
+    "bytes": 8807,
+    "sha256": "60c310c043809d981a1ace2e073ae83a651ed1d42c601435be3d3c68045d1428",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\macros.h",
+    "bytes": 982,
+    "sha256": "5a3fec053a2d4eeceffb4f53906ca9bbd119abfe5c5c0dabb734c07ea795829e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\network_flow_endpoints.h",
+    "bytes": 5461,
+    "sha256": "42c2cb693e954f0023efda319576bf9df63da2888a2131e5f3cada4fa89a690d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\node.h",
+    "bytes": 22583,
+    "sha256": "263010d81bf1c6f229bf3dce7612961f0775e470b37d183a44f02d995f9dfe49",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\node_options.h",
+    "bytes": 3833,
+    "sha256": "c6ff0b881fad99fe26e316ffdc7a7df4944286009e0502e9006666b78795792d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\node_type_cache.h",
+    "bytes": 6652,
+    "sha256": "1fe2656e9bfa22ce4bd5bb77d1edb5ea92e5392babc2c9580951b4d630f6b13d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\publisher.h",
+    "bytes": 27902,
+    "sha256": "8085f017a48dfbdb3f069f0b4d0759a4fb830b1e9dbfec8a74cab1e28f66a060",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\rcl.h",
+    "bytes": 2668,
+    "sha256": "cbcfeef3a2bc9a2ccae6f6f89aa496ce874e0de29210ff8539bd1a7e2e5b9b9f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\remap.h",
+    "bytes": 12094,
+    "sha256": "0e364fd3548a9bb6f246c5ab7fcc966bcfc270a2d991d2208a74fa95dba6a80c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\rmw_implementation_identifier_check.h",
+    "bytes": 1727,
+    "sha256": "cf4bc56b1ae57a902823b72ba833a4c92e8e26fc73206e8ecca7ce8ed9e737ea",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\security.h",
+    "bytes": 5019,
+    "sha256": "a88b89fb277c559a4d32c3c07f0f9c327fc675692ac59a21f01053a047ff9431",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\service.h",
+    "bytes": 23016,
+    "sha256": "91d819b6c730fb7c9119b352940f3d2310c5524249c9de18d3df6fca9c3d1494",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\service_introspection.h",
+    "bytes": 1182,
+    "sha256": "8725c74bd5c173f9bcd11729ca9a37715b3fdf0933e132de7fdba529756c3f54",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\subscription.h",
+    "bytes": 38608,
+    "sha256": "22b181edccbdc03f1b7cde12d85ba8f4b95069b8e313922b56eca1393abb5ad8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\time.h",
+    "bytes": 26712,
+    "sha256": "40f4c084104d5d15f554a74cbb0f9e1649a2d0bcbe449a3016ca62a4a39f4bd1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\timer.h",
+    "bytes": 27882,
+    "sha256": "30775f5d95fe98cc65381d73a1bd279fcba1f71ebcdb5110d0b17b7e210b73e2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\type_description_conversions.h",
+    "bytes": 5152,
+    "sha256": "c7ca7de181882019a63495e973010e417e70da87c583787912fe402809c0c7c8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\type_hash.h",
+    "bytes": 3200,
+    "sha256": "59eaf53179ccf48f50c1d19d1306388338f0add98a4edc7d7d5f15274e1987e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\types.h",
+    "bytes": 5793,
+    "sha256": "8e700c65db5edb7602969b0fc0548fcdc49a4ec6541df6fc89c79ea898d6ca16",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\validate_enclave_name.h",
+    "bytes": 4439,
+    "sha256": "de19db595aa1dcc1d4438b01cf76c7d46a4be103f94fea4826041f2be1055133",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\validate_topic_name.h",
+    "bytes": 6257,
+    "sha256": "7593cc34da0591253e9a936c4f0efc393f65ea55707d6abe80e9410e927e48f9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\visibility_control.h",
+    "bytes": 1740,
+    "sha256": "f59c853d70235c41869cebc76a592de96f436f151fd98176c57cf3cdfa366170",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\include\\rcl\\wait.h",
+    "bytes": 18458,
+    "sha256": "5fe87116c26ba9a99cc8355d35747aaf7b50714f4c76ad5c97809bdf90f71ec0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\package.xml",
+    "bytes": 2242,
+    "sha256": "e04f0930ce428d2140891b00e8805972146f2a44aa4e9cf082aff519d96274ab",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\arguments_impl.h",
+    "bytes": 2391,
+    "sha256": "8b8571c46c026ce9c7d57e25b57c383f9d5f7023c38b21370eda2a71ab0543d4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\client_impl.h",
+    "bytes": 1226,
+    "sha256": "b135cce8206f54c159c47708b4fc4c1a351854bcce36a6bfbb917642c2818d24",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\common.h",
+    "bytes": 1114,
+    "sha256": "78adc0cf256240bf5719da1ecdf4594729752bbe0372576e8ca1255f685be4ac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\context_impl.h",
+    "bytes": 1354,
+    "sha256": "241a7390a62fb1cd5f2fc97cd9bb2dd95b1ccbc752a25e0b5463131a789c1cc8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\event_impl.h",
+    "bytes": 859,
+    "sha256": "19a32b844736a419993b1fc193268e01685de4be0ffc5adb69a9f635cab4f467",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\guard_condition_impl.h",
+    "bytes": 954,
+    "sha256": "7338fd8f5d130a0fb06d719b8eff8e906d75e8683b76c53cb9dc7ba35588f520",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\init_options_impl.h",
+    "bytes": 1009,
+    "sha256": "4601dbf3f9cdff6db1c20724ec1f6b6e307de253eec79394443ccf59ba81c9ea",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\node_impl.h",
+    "bytes": 1170,
+    "sha256": "392012a3fcc858b9473c32679194b7214c788e013a428380c1950d88823ab308",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\publisher_impl.h",
+    "bytes": 983,
+    "sha256": "2b5232021f7deaf047b4de0a7f88141c3a66278ada4b523fa112f2b17cbf44ff",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\remap_impl.h",
+    "bytes": 2039,
+    "sha256": "d01299a85dd5ec380633866b2abdabb5f334895511575be602865d371bd330e6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\service_event_publisher.h",
+    "bytes": 8429,
+    "sha256": "deaedbbec2583fa00c7a62edddb615598e66abb642ca66f913098dfcab5890f5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\service_impl.h",
+    "bytes": 1153,
+    "sha256": "9183aa6299577879c829b5c2a13920d8864f630648296bc52f6fb902a58e681d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\subscription_impl.h",
+    "bytes": 1005,
+    "sha256": "a5c450a81efc46473066a87cc74ba395e058eea758c0fc34b5f6d1a79322a5c6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl\\src\\rcl\\timer_impl.h",
+    "bytes": 2044,
+    "sha256": "a90305aea9dc689994366a9855350aba7451177f5d1b385e0c97b7376aa96267",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\include\\rcl_action\\action_client.h",
+    "bytes": 38637,
+    "sha256": "075e802d2be27c20aca49d93c716bcc6411ae393bc6c6a1839372debaa9c5b2c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\include\\rcl_action\\action_server.h",
+    "bytes": 42233,
+    "sha256": "84d8609b44215e1b83f764670e636e9c5eb4ffbc8f15253994209f5e149a02fd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\include\\rcl_action\\default_qos.h",
+    "bytes": 1216,
+    "sha256": "df79595a281c6ea901f8f57e0aa11a03bac38f51a7a0252488a06c083166e497",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\include\\rcl_action\\goal_handle.h",
+    "bytes": 11175,
+    "sha256": "e8b12d80fcf4685d414efe11f73ddf368ad62a949858d047b087e23bb9b1a43b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\include\\rcl_action\\goal_state_machine.h",
+    "bytes": 1478,
+    "sha256": "1a0840229e23af45e69c0a241300e5b120f04226d4ce7135a84d103c2727ced3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\include\\rcl_action\\graph.h",
+    "bytes": 9915,
+    "sha256": "1b067a89d0aa83b285a7b46f790b8bf62d643ada1fa4cb43289f0dea1df563b8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\include\\rcl_action\\names.h",
+    "bytes": 8401,
+    "sha256": "016276039f385199b80b5e45527bd60375b5238343f482e0e3eaabfc17e58780",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\include\\rcl_action\\rcl_action.h",
+    "bytes": 1970,
+    "sha256": "23a116b96e6515bc2bfdf368ccad4a9653547e0ebcf0ab43b29d653989ee9075",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\include\\rcl_action\\types.h",
+    "bytes": 10113,
+    "sha256": "b5ba9aa9a79917f2b3ccac46cec0d3a4d217749648e5a02100782aa2fa30c030",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\include\\rcl_action\\visibility_control.h",
+    "bytes": 2205,
+    "sha256": "0d940577119d29197e95d399bd901fd474a32b9ea0b7019f9144a04ab477d26c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\include\\rcl_action\\wait.h",
+    "bytes": 11396,
+    "sha256": "a36f366d7afd4c554d510887b29890f444127d0212e24d892f36e210df4235b5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\package.xml",
+    "bytes": 1286,
+    "sha256": "1222567d658f33ad7fd99c063b52edff373777fc236b5789241b449670ce956a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\src\\rcl_action\\action_client_impl.h",
+    "bytes": 2064,
+    "sha256": "b3de7e2597dc2c6ec6bd86f6dcf149ad6f0f32ed99fe8a5cc68ffed30c734fa3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_action\\src\\rcl_action\\action_server_impl.h",
+    "bytes": 1653,
+    "sha256": "50e87226ded4486ce3dbd70a03b4eab673ba3cde148920e75fe4e0d6d97a145f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_lifecycle\\include\\rcl_lifecycle\\data_types.h",
+    "bytes": 4472,
+    "sha256": "118fc7e79f20cd1b3b342ff81ea1d3645f79b923301405c45500c12d513a1d5b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_lifecycle\\include\\rcl_lifecycle\\default_state_machine.h",
+    "bytes": 3615,
+    "sha256": "9d21e6d88cd9b180bb81106b14609a122419dfb75956cb66b10ecaeed5b2c8aa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_lifecycle\\include\\rcl_lifecycle\\rcl_lifecycle.h",
+    "bytes": 17105,
+    "sha256": "410e2070b9e179db09f363f743a08df83b96e78fc4fc10ea79dbdb2c0b7a9ddc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_lifecycle\\include\\rcl_lifecycle\\transition_map.h",
+    "bytes": 6714,
+    "sha256": "243f052237a5c9633aa8e70951a6817824eeff0680ed1514e3aae672f3d78e70",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_lifecycle\\include\\rcl_lifecycle\\visibility_control.h",
+    "bytes": 2271,
+    "sha256": "9a794e7e43ffb2a41f748e927eeeb9e3cfb7e2b743843d52c57a758a3775e567",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_lifecycle\\package.xml",
+    "bytes": 1607,
+    "sha256": "5d58d17e330320ce23948cddef8142a16b44586abe597a7b185106af53731170",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_lifecycle\\src\\com_interface.h",
+    "bytes": 2870,
+    "sha256": "1c9d785018dc8762e80a82e1c3bfc4a4b6541000cf8e5d4a06d574103207803b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_yaml_param_parser\\include\\rcl_yaml_param_parser\\parser.h",
+    "bytes": 5257,
+    "sha256": "640095706e464a046228425a89cc0a067b39d3d356abcdb287839be43134041a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_yaml_param_parser\\include\\rcl_yaml_param_parser\\types.h",
+    "bytes": 3363,
+    "sha256": "f19a3cd4c47854d7bb4f3db85c5f3c55d38ae15f6a6b37afa4e816d4a2dc2459",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_yaml_param_parser\\include\\rcl_yaml_param_parser\\visibility_control.h",
+    "bytes": 2136,
+    "sha256": "8e653469ffe5ac2c6fa5d9fb87870b127ebf10bcdb3ec346bb01a11536154fa6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_yaml_param_parser\\package.xml",
+    "bytes": 1340,
+    "sha256": "b44a7868a3ea6069a4e7ee09abec1be478cc20511a5c8d9c39e0d0bd0ebb0f42",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_yaml_param_parser\\src\\impl\\add_to_arrays.h",
+    "bytes": 2146,
+    "sha256": "df37a10102a98f29a93a3ee1de01a816cf58bbc8bdfacdd57eee83d178dd7214",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_yaml_param_parser\\src\\impl\\namespace.h",
+    "bytes": 1773,
+    "sha256": "57b7b21e882a464d56611008060788357d2b09f58f17ef0f23004cdf7161afdc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_yaml_param_parser\\src\\impl\\node_params.h",
+    "bytes": 2051,
+    "sha256": "bb013a2588dc9ce07f9d371cc8b15bcdab475d72332dfed7e70ee2cf153faaf9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_yaml_param_parser\\src\\impl\\parse.h",
+    "bytes": 2506,
+    "sha256": "5addd1de69f36011d5ba803a8f04ea6de2b24bd31a740031767614f247ffd546",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_yaml_param_parser\\src\\impl\\types.h",
+    "bytes": 1729,
+    "sha256": "0bb3afb1848bc2aee0d5574abcb2336a16364e18d4d20df26a97d0844efb5c48",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rcl_yaml_param_parser\\src\\impl\\yaml_variant.h",
+    "bytes": 1393,
+    "sha256": "d62a2f3fe3180549f96df6ef5d979e0b45252e1f2ef621d9243795abf0971212",
+    "included_in_llm_prompt": false
+  }
+]

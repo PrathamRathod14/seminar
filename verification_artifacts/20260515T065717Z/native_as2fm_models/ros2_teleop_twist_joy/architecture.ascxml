@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ascxml
+    initial="idle"
+    version="1.0"
+    name="ros2_teleop_twist_joy"
+    model_src=""
+    xmlns="http://www.w3.org/2005/07/scxml">
+
+    <datamodel>
+        <data id="architecture_valid" expr="true" type="bool" />
+    </datamodel>
+
+    <ros_topic_publisher topic="cmd_vel" type="std_msgs/Int32" />
+    <ros_topic_publisher topic="cmd_vel" type="std_msgs/Int32" />
+    <ros_topic_subscriber topic="joy" type="std_msgs/Int32" />
+
+    <state id="idle">
+        <onentry>
+        </onentry>
+    </state>
+</ascxml>

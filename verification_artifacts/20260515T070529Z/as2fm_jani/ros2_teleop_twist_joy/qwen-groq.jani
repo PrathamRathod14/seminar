@@ -1,0 +1,125 @@
+{
+  "jani-version": 1,
+  "name": "ros2_architecture_recovery_check",
+  "type": "dtmc",
+  "features": [
+    "derived-operators"
+  ],
+  "metadata": {
+    "ground_truth_nodes": [
+      {
+        "name": "joy_node",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "launch\\teleop-launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "teleop_node",
+        "subsystem": "other",
+        "publishes": [],
+        "subscribes": [],
+        "lifecycle": false,
+        "source_files": [
+          "launch\\teleop-launch.py"
+        ],
+        "msg_types": {},
+        "has_lifecycle": false
+      },
+      {
+        "name": "teleop_twist_joy_node",
+        "subsystem": "other",
+        "publishes": [
+          {
+            "topic": "cmd_vel",
+            "type": "geometry_msgs::msg::TwistStamped"
+          },
+          {
+            "topic": "cmd_vel",
+            "type": "geometry_msgs::msg::Twist"
+          }
+        ],
+        "subscribes": [
+          {
+            "topic": "joy",
+            "type": "sensor_msgs::msg::Joy"
+          }
+        ],
+        "lifecycle": false,
+        "source_files": [
+          "src\\teleop_twist_joy.cpp"
+        ],
+        "msg_types": {
+          "cmd_vel": "geometry_msgs::msg::Twist",
+          "joy": "sensor_msgs::msg::Joy"
+        },
+        "has_lifecycle": false
+      }
+    ],
+    "candidate_nodes": [],
+    "model_label": "qwen-groq",
+    "repo_label": "ros2/teleop_twist_joy",
+    "verification_adapter": "AS2FM/JANI architecture evidence artifact"
+  },
+  "properties": [
+    {
+      "name": "interface_mismatch",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "hallucinated_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "subsystem_boundary_confusion",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "missing_node",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "wrong_topic_name",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    },
+    {
+      "name": "lifecycle_violation",
+      "expression": {
+        "op": "filter",
+        "fun": "min",
+        "values": true,
+        "states": true
+      }
+    }
+  ]
+}

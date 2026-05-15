@@ -1,0 +1,74 @@
+[
+  {
+    "path": "config\\atk3.config.yaml",
+    "bytes": 359,
+    "sha256": "075a5b1da6cb8c29bf44f0af21ef1ec6d956e5662cd30d3f8775fca54e70c249",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "config\\pdp.config.yaml",
+    "bytes": 438,
+    "sha256": "ffd3640c21242796cd97f7a1a144b72e8a801e045e60ae423b2b1b307207f064",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "config\\ps3-holonomic.config.yaml",
+    "bytes": 253,
+    "sha256": "9c526120536e963a45727b92b7725b43ebf2c054615b3469701a71a6cc85593b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "config\\ps3.config.yaml",
+    "bytes": 314,
+    "sha256": "363cbb443159ff837d641bdeff7f199514ab68d4db74d7c83f6e1256c6988bcd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "config\\ps5.config.yaml",
+    "bytes": 313,
+    "sha256": "89962d44ffb1263b24c8d4a75991889bf67fbc17f880acc1c06c4a91d105123a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "config\\xbox.config.yaml",
+    "bytes": 376,
+    "sha256": "1c0daf14766d047c27f6cbf2480a95fead064f1ad96e0638d342cf074e96059b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "config\\xd3.config.yaml",
+    "bytes": 361,
+    "sha256": "9def89ed4eeda71b20aa01417e34aa7af87b28ae8eee8f93e6ea47957594cf82",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\teleop_twist_joy\\teleop_twist_joy.hpp",
+    "bytes": 2301,
+    "sha256": "01042aea192b5d30816ba0595351f61625a15636832a801fba7dd55d87753c2b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "launch\\teleop-launch.py",
+    "bytes": 1817,
+    "sha256": "166d66df7d3d2226253ff205e34e2abff995c1105af52e0159f20d324250262b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "package.xml",
+    "bytes": 1068,
+    "sha256": "7da504fc1689c6be5620e128cb7f51a4fa151b03215227f04abf30893b562616",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\teleop_node.cpp",
+    "bytes": 1973,
+    "sha256": "38bcc8d15f91b13d4e5688e8e75f8b42577e8ac264ead452eaf6f2498b2446c0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\teleop_twist_joy.cpp",
+    "bytes": 15950,
+    "sha256": "90778e782f1bc9c1311fcf6ac049095e02ab6dfb2e9be10b451117d8e8ba1f9d",
+    "included_in_llm_prompt": true
+  }
+]

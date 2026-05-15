@@ -1,6 +1,6 @@
 {
-  "run_id": "20260513T175513Z",
-  "created_utc": "2026-05-13T17:58:07.415886+00:00",
+  "run_id": "20260515T070529Z",
+  "created_utc": "2026-05-15T07:06:25.211800+00:00",
   "proposal_status": {
     "target_repo_count": 15,
     "selected_repo_count": 15,
@@ -55,7 +55,7 @@
       "returncode": 0,
       "stdout_tail": "AS2FM - RoAML to JANI.\n\nLoading model from C:\\Users\\prath\\Desktop\\seminar\\tools\\AS2FM\\examples\\tutorial_fetch_and_carry\\main.xml.\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\examples\\\\tutorial_fetch_and_carry\\\\./world.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\examples\\\\tutorial_fetch_and_carry\\\\./bt_navigate_action.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\examples\\\\tutorial_fetch_and_carry\\\\./bt_pick_action.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\examples\\\\tutorial_fetch_and_carry\\\\./bt_place_action.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\always_failure.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\always_success.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\blackboard_check_int.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\fallback.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\if_then_else.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\inverter.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\parallel.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\reactive_fallback.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\reactive_sequence.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\repeat_node.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\retry_node.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\sequence.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\sequence_with_memory.ascxml'\nxml_file='C:\\\\Users\\\\prath\\\\Desktop\\\\seminar\\\\tools\\\\AS2FM\\\\src\\\\as2fm\\\\resources\\\\bt_control_nodes\\\\set_blackboard.ascxml'\n",
       "stderr_tail": "",
-      "elapsed_ms": 1249.3057999527082
+      "elapsed_ms": 1201.9261000095867
     },
     "ROSClaw": {
       "status": "run",
@@ -68,9 +68,9 @@
         "-q"
       ],
       "returncode": 0,
-      "stdout_tail": ".........................                                                [100%]\n============================== warnings summary ===============================\n.venv\\Lib\\site-packages\\_pytest\\config\\__init__.py:1434\n  C:\\Users\\prath\\Desktop\\seminar\\.venv\\Lib\\site-packages\\_pytest\\config\\__init__.py:1434: PytestConfigWarning: Unknown config option: asyncio_mode\n  \n    self._warn_or_fail_if_strict(f\"Unknown config option: {key}\\n\")\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n25 passed, 1 warning in 1.03s\n",
+      "stdout_tail": ".........................                                                [100%]\n============================== warnings summary ===============================\n.venv\\Lib\\site-packages\\_pytest\\config\\__init__.py:1434\n  C:\\Users\\prath\\Desktop\\seminar\\.venv\\Lib\\site-packages\\_pytest\\config\\__init__.py:1434: PytestConfigWarning: Unknown config option: asyncio_mode\n  \n    self._warn_or_fail_if_strict(f\"Unknown config option: {key}\\n\")\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n25 passed, 1 warning in 0.94s\n",
       "stderr_tail": "",
-      "elapsed_ms": 2060.2265000343323
+      "elapsed_ms": 1752.4438999826089
     }
   },
   "repos": {
@@ -97,7 +97,7 @@
       "remote_origin": "https://github.com/ros2/rclcpp.git"
     },
     "ros2/rclpy": {
-      "head": "d71761c72d18e4307d00646e56f02bef46a43f62",
+      "head": "1e5e2673b51fb68a1d9bdf0468fe96a9c9958f63",
       "branch": "rolling",
       "remote_origin": "https://github.com/ros2/rclpy.git"
     },
@@ -117,7 +117,7 @@
       "remote_origin": "https://github.com/ros2/geometry2.git"
     },
     "ros2/rviz": {
-      "head": "3f8d192b1d18ca508df5ba40831f2612bfab6d57",
+      "head": "a84a91cdda84a676a01b6bab4ac0af66137d7e7b",
       "branch": "rolling",
       "remote_origin": "https://github.com/ros2/rviz.git"
     },
@@ -147,7 +147,7 @@
       "remote_origin": "https://github.com/ros2/message_filters.git"
     },
     "ros2/ros2cli": {
-      "head": "bf77534b626751c3dfa6f84b27c69fc6a70937b4",
+      "head": "9c05387ad9b8ede2cf541a792d7532d9585819bf",
       "branch": "rolling",
       "remote_origin": "https://github.com/ros2/ros2cli.git"
     }
@@ -555,7 +555,7 @@
   },
   "annotation_audit": {
     "status": "source_parser_seed_for_manual_review",
-    "path": "C:\\Users\\prath\\Desktop\\seminar\\annotations\\ground_truth_annotations_20260513T175513Z.json",
+    "path": "C:\\Users\\prath\\Desktop\\seminar\\annotations\\ground_truth_annotations_20260515T070529Z.json",
     "repo_count": 15,
     "node_count": 12,
     "topic_count": 4
@@ -2926,7 +2926,77 @@
     "covered_count": 1,
     "total_categories": 6,
     "tcr": 0.16666666666666666,
-    "logs_path": "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\tool_detection_logs.json",
+    "proposal_tcr": {
+      "tools_counted": [
+        "AS2FM",
+        "ROSClaw"
+      ],
+      "adequate_detectors_by_category": {
+        "interface_mismatch": [
+          "ROSClaw"
+        ],
+        "hallucinated_node": [],
+        "subsystem_boundary_confusion": [],
+        "missing_node": [],
+        "wrong_topic_name": [],
+        "lifecycle_violation": []
+      },
+      "covered_categories": [
+        "interface_mismatch"
+      ],
+      "covered_count": 1,
+      "total_categories": 6,
+      "tcr": 0.16666666666666666,
+      "note": "SQ3 proposal metric: only existing AS2FM and ROSClaw detections count."
+    },
+    "extended_tcr": {
+      "tools_counted": [
+        "AS2FM",
+        "ROSClaw",
+        "AS2FM_JANI_adapter",
+        "LocalStaticValidator"
+      ],
+      "adequate_detectors_by_category": {
+        "interface_mismatch": [
+          "ROSClaw",
+          "AS2FM_JANI_adapter",
+          "LocalStaticValidator"
+        ],
+        "hallucinated_node": [
+          "AS2FM_JANI_adapter",
+          "LocalStaticValidator"
+        ],
+        "subsystem_boundary_confusion": [
+          "AS2FM_JANI_adapter",
+          "LocalStaticValidator"
+        ],
+        "missing_node": [
+          "AS2FM_JANI_adapter",
+          "LocalStaticValidator"
+        ],
+        "wrong_topic_name": [
+          "AS2FM_JANI_adapter",
+          "LocalStaticValidator"
+        ],
+        "lifecycle_violation": [
+          "AS2FM_JANI_adapter",
+          "LocalStaticValidator"
+        ]
+      },
+      "covered_categories": [
+        "interface_mismatch",
+        "hallucinated_node",
+        "subsystem_boundary_confusion",
+        "missing_node",
+        "wrong_topic_name",
+        "lifecycle_violation"
+      ],
+      "covered_count": 6,
+      "total_categories": 6,
+      "tcr": 1.0,
+      "note": "Includes local adapters/baselines and shows which categories are automatically detectable in principle."
+    },
+    "logs_path": "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\tool_detection_logs.json",
     "logs": [
       {
         "pair_key": "llama-4 :: ros2/rclcpp",
@@ -2949,6 +3019,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "llama-4_ros2_rclcpp__err_0001",
@@ -3012,7 +3084,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -3088,7 +3160,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -3102,9 +3174,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-large :: ros2/rclcpp",
@@ -3127,6 +3197,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-large_ros2_rclcpp__err_0001",
@@ -3190,7 +3262,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -3266,7 +3338,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -3280,9 +3352,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-small :: ros2/rclcpp",
@@ -3305,6 +3375,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-small_ros2_rclcpp__err_0001",
@@ -3368,7 +3440,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -3444,7 +3516,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -3520,7 +3592,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -3596,7 +3668,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -3672,7 +3744,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -3748,7 +3820,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -3824,7 +3896,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -3838,9 +3910,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "qwen-groq :: ros2/rclcpp",
@@ -3860,6 +3930,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "qwen-groq_ros2_rclcpp__err_0001",
@@ -3923,7 +3995,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -3937,9 +4009,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "llama-4 :: ros2/rclpy",
@@ -3959,6 +4029,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "llama-4_ros2_rclpy__err_0001",
@@ -4022,7 +4094,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -4036,9 +4108,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-large :: ros2/rclpy",
@@ -4061,6 +4131,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-large_ros2_rclpy__err_0001",
@@ -4124,7 +4196,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -4200,7 +4272,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -4214,9 +4286,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-small :: ros2/rclpy",
@@ -4239,6 +4309,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-small_ros2_rclpy__err_0001",
@@ -4302,7 +4374,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -4378,7 +4450,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -4454,7 +4526,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -4530,7 +4602,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -4606,7 +4678,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -4682,7 +4754,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -4696,9 +4768,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "qwen-groq :: ros2/rclpy",
@@ -4718,6 +4788,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "qwen-groq_ros2_rclpy__err_0001",
@@ -4781,7 +4853,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -4795,9 +4867,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "llama-4 :: ros2/launch_ros",
@@ -4820,6 +4890,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "llama-4_ros2_launch_ros__err_0001",
@@ -4883,7 +4955,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -4959,7 +5031,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -5035,7 +5107,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -5111,7 +5183,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -5187,7 +5259,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -5201,9 +5273,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-large :: ros2/launch_ros",
@@ -5235,6 +5305,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-large_ros2_launch_ros__err_0001",
@@ -5298,7 +5370,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -5374,7 +5446,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -5450,7 +5522,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -5526,7 +5598,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.45930000487715006,
+              "elapsed_ms": 0.3836999530903995,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -5602,7 +5674,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5225000204518437,
+              "elapsed_ms": 0.6591000128537416,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -5678,7 +5750,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.41039998177438974,
+              "elapsed_ms": 0.37809996865689754,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -5692,9 +5764,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-small :: ros2/launch_ros",
@@ -5726,6 +5796,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-small_ros2_launch_ros__err_0001",
@@ -5789,7 +5861,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -5865,7 +5937,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -5941,7 +6013,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -6017,7 +6089,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -6093,7 +6165,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.45930000487715006,
+              "elapsed_ms": 0.3836999530903995,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -6169,7 +6241,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5225000204518437,
+              "elapsed_ms": 0.6591000128537416,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -6245,7 +6317,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.41039998177438974,
+              "elapsed_ms": 0.37809996865689754,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -6259,9 +6331,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "qwen-groq :: ros2/launch_ros",
@@ -6281,6 +6351,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "qwen-groq_ros2_launch_ros__err_0001",
@@ -6344,7 +6416,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -6420,7 +6492,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -6496,7 +6568,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -6510,9 +6582,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "llama-4 :: ros2/rosbag2",
@@ -6532,6 +6602,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "llama-4_ros2_rosbag2__err_0001",
@@ -6595,7 +6667,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -6609,9 +6681,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-large :: ros2/rosbag2",
@@ -6631,6 +6701,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-large_ros2_rosbag2__err_0001",
@@ -6694,7 +6766,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -6708,9 +6780,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-small :: ros2/rosbag2",
@@ -6733,6 +6803,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-small_ros2_rosbag2__err_0001",
@@ -6796,7 +6868,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -6872,7 +6944,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -6948,7 +7020,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -7024,7 +7096,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -7100,7 +7172,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -7176,7 +7248,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -7252,7 +7324,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -7328,7 +7400,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -7404,7 +7476,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -7418,9 +7490,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "qwen-groq :: ros2/rosbag2",
@@ -7440,6 +7510,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "qwen-groq_ros2_rosbag2__err_0001",
@@ -7503,7 +7575,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -7517,9 +7589,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "llama-4 :: ros2/geometry2",
@@ -7542,6 +7612,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "llama-4_ros2_geometry2__err_0001",
@@ -7605,7 +7677,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -7681,7 +7753,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -7695,9 +7767,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-large :: ros2/geometry2",
@@ -7720,6 +7790,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-large_ros2_geometry2__err_0001",
@@ -7783,7 +7855,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -7859,7 +7931,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -7935,7 +8007,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -7949,9 +8021,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-small :: ros2/geometry2",
@@ -7974,6 +8044,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-small_ros2_geometry2__err_0001",
@@ -8037,7 +8109,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -8113,7 +8185,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -8189,7 +8261,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -8203,9 +8275,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "qwen-groq :: ros2/geometry2",
@@ -8225,6 +8295,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "qwen-groq_ros2_geometry2__err_0001",
@@ -8288,7 +8360,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -8302,9 +8374,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "llama-4 :: ros2/rviz",
@@ -8327,6 +8397,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "llama-4_ros2_rviz__err_0001",
@@ -8390,7 +8462,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -8466,7 +8538,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -8542,7 +8614,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -8556,9 +8628,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-large :: ros2/rviz",
@@ -8581,6 +8651,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-large_ros2_rviz__err_0001",
@@ -8644,7 +8716,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -8720,7 +8792,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -8796,7 +8868,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -8810,9 +8882,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-small :: ros2/rviz",
@@ -8835,6 +8905,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-small_ros2_rviz__err_0001",
@@ -8898,7 +8970,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -8974,7 +9046,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -9050,7 +9122,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -9126,7 +9198,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -9202,7 +9274,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -9278,7 +9350,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -9354,7 +9426,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -9368,9 +9440,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "qwen-groq :: ros2/rviz",
@@ -9390,6 +9460,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "qwen-groq_ros2_rviz__err_0001",
@@ -9453,7 +9525,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -9529,7 +9601,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -9543,9 +9615,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "llama-4 :: ros2/composition",
@@ -9559,9 +9629,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-large :: ros2/composition",
@@ -9575,9 +9645,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-small :: ros2/composition",
@@ -9591,9 +9661,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "qwen-groq :: ros2/composition",
@@ -9607,9 +9677,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "llama-4 :: ros2/bond_core",
@@ -9623,9 +9693,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-large :: ros2/bond_core",
@@ -9639,9 +9709,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-small :: ros2/bond_core",
@@ -9655,9 +9725,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "qwen-groq :: ros2/bond_core",
@@ -9671,9 +9741,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "llama-4 :: ros2/diagnostics",
@@ -9687,9 +9757,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-large :: ros2/diagnostics",
@@ -9703,9 +9773,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-small :: ros2/diagnostics",
@@ -9719,9 +9789,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "qwen-groq :: ros2/diagnostics",
@@ -9735,9 +9805,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "llama-4 :: ros2/common_interfaces",
@@ -9751,9 +9821,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-large :: ros2/common_interfaces",
@@ -9767,9 +9837,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-small :: ros2/common_interfaces",
@@ -9783,9 +9853,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "qwen-groq :: ros2/common_interfaces",
@@ -9799,9 +9869,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "llama-4 :: ros2/rcl",
@@ -9815,9 +9885,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-large :: ros2/rcl",
@@ -9831,9 +9901,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-small :: ros2/rcl",
@@ -9847,9 +9917,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "qwen-groq :: ros2/rcl",
@@ -9863,9 +9933,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "llama-4 :: ros2/robot_state_publisher",
@@ -9879,9 +9949,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-large :: ros2/robot_state_publisher",
@@ -9895,9 +9965,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-small :: ros2/robot_state_publisher",
@@ -9911,9 +9981,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "qwen-groq :: ros2/robot_state_publisher",
@@ -9927,9 +9997,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "llama-4 :: ros2/teleop_twist_joy",
@@ -9957,6 +10027,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "llama-4_ros2_teleop_twist_joy__err_0001",
@@ -10020,7 +10092,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -10096,7 +10168,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -10172,7 +10244,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.45930000487715006,
+              "elapsed_ms": 0.3836999530903995,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -10248,7 +10320,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.09129999671131372,
+              "elapsed_ms": 0.09789998875930905,
               "detected": true,
               "validation_result": {
                 "is_safe": false,
@@ -10326,7 +10398,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.09129999671131372,
+              "elapsed_ms": 0.09789998875930905,
               "detected": true,
               "validation_result": {
                 "is_safe": false,
@@ -10342,9 +10414,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-large :: ros2/teleop_twist_joy",
@@ -10372,6 +10442,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-large_ros2_teleop_twist_joy__err_0001",
@@ -10435,7 +10507,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -10511,7 +10583,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -10587,7 +10659,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.45930000487715006,
+              "elapsed_ms": 0.3836999530903995,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -10663,7 +10735,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.09129999671131372,
+              "elapsed_ms": 0.09789998875930905,
               "detected": true,
               "validation_result": {
                 "is_safe": false,
@@ -10741,7 +10813,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.09129999671131372,
+              "elapsed_ms": 0.09789998875930905,
               "detected": true,
               "validation_result": {
                 "is_safe": false,
@@ -10757,9 +10829,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-small :: ros2/teleop_twist_joy",
@@ -10793,6 +10863,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-small_ros2_teleop_twist_joy__err_0001",
@@ -10856,7 +10928,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -10932,7 +11004,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -11008,7 +11080,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -11084,7 +11156,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.45930000487715006,
+              "elapsed_ms": 0.3836999530903995,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -11160,7 +11232,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5225000204518437,
+              "elapsed_ms": 0.6591000128537416,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -11236,7 +11308,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.09129999671131372,
+              "elapsed_ms": 0.09789998875930905,
               "detected": true,
               "validation_result": {
                 "is_safe": false,
@@ -11314,7 +11386,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.09129999671131372,
+              "elapsed_ms": 0.09789998875930905,
               "detected": true,
               "validation_result": {
                 "is_safe": false,
@@ -11330,9 +11402,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "qwen-groq :: ros2/teleop_twist_joy",
@@ -11352,6 +11422,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "qwen-groq_ros2_teleop_twist_joy__err_0001",
@@ -11415,7 +11487,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -11491,7 +11563,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -11567,7 +11639,7 @@
                   }
                 }
               },
-              "elapsed_ms": 0.5473000346682966,
+              "elapsed_ms": 0.6787999882362783,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -11581,9 +11653,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "llama-4 :: ros2/message_filters",
@@ -11597,9 +11667,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-large :: ros2/message_filters",
@@ -11613,9 +11683,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "groq-small :: ros2/message_filters",
@@ -11635,6 +11705,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-small_ros2_message_filters__err_0001",
@@ -11698,7 +11770,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -11712,9 +11784,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "qwen-groq :: ros2/message_filters",
@@ -11728,9 +11798,9 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
-        "error_records": [],
         "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+        "error_records": []
       },
       {
         "pair_key": "llama-4 :: ros2/ros2cli",
@@ -11750,6 +11820,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "llama-4_ros2_ros2cli__err_0001",
@@ -11813,7 +11885,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -11827,9 +11899,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-large :: ros2/ros2cli",
@@ -11849,6 +11919,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-large_ros2_ros2cli__err_0001",
@@ -11912,7 +11984,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -11926,9 +11998,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "groq-small :: ros2/ros2cli",
@@ -11948,6 +12018,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "groq-small_ros2_ros2cli__err_0001",
@@ -12011,7 +12083,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -12087,7 +12159,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -12163,7 +12235,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -12177,9 +12249,7 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
+        ]
       },
       {
         "pair_key": "qwen-groq :: ros2/ros2cli",
@@ -12199,6 +12269,8 @@
         },
         "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
         "as2fm_method": "not_applicable_without_repo_behavior_models",
+        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+        "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
         "error_records": [
           {
             "id": "qwen-groq_ros2_ros2cli__err_0001",
@@ -12262,7 +12334,7 @@
                   }
                 }
               },
-              "elapsed_ms": 583.2331000128761,
+              "elapsed_ms": 353.86360000120476,
               "detected": false,
               "validation_result": {
                 "is_safe": true,
@@ -12276,338 +12348,266 @@
               }
             }
           }
-        ],
-        "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
-        "local_static_method": "deterministic ROS 2 architecture graph validator baseline"
-      }
-    ],
-    "proposal_tcr": {
-      "tools_counted": [
-        "AS2FM",
-        "ROSClaw"
-      ],
-      "adequate_detectors_by_category": {
-        "interface_mismatch": [
-          "ROSClaw"
-        ],
-        "hallucinated_node": [],
-        "subsystem_boundary_confusion": [],
-        "missing_node": [],
-        "wrong_topic_name": [],
-        "lifecycle_violation": []
-      },
-      "covered_categories": [
-        "interface_mismatch"
-      ],
-      "covered_count": 1,
-      "total_categories": 6,
-      "tcr": 0.16666666666666666,
-      "note": "SQ3 proposal metric: only existing AS2FM and ROSClaw detections count."
-    },
-    "extended_tcr": {
-      "tools_counted": [
-        "AS2FM",
-        "ROSClaw",
-        "AS2FM_JANI_adapter",
-        "LocalStaticValidator"
-      ],
-      "adequate_detectors_by_category": {
-        "interface_mismatch": [
-          "ROSClaw",
-          "AS2FM_JANI_adapter",
-          "LocalStaticValidator"
-        ],
-        "hallucinated_node": [
-          "AS2FM_JANI_adapter",
-          "LocalStaticValidator"
-        ],
-        "subsystem_boundary_confusion": [
-          "AS2FM_JANI_adapter",
-          "LocalStaticValidator"
-        ],
-        "missing_node": [
-          "AS2FM_JANI_adapter",
-          "LocalStaticValidator"
-        ],
-        "wrong_topic_name": [
-          "AS2FM_JANI_adapter",
-          "LocalStaticValidator"
-        ],
-        "lifecycle_violation": [
-          "AS2FM_JANI_adapter",
-          "LocalStaticValidator"
         ]
-      },
-      "covered_categories": [
-        "interface_mismatch",
-        "hallucinated_node",
-        "subsystem_boundary_confusion",
-        "missing_node",
-        "wrong_topic_name",
-        "lifecycle_violation"
-      ],
-      "covered_count": 6,
-      "total_categories": 6,
-      "tcr": 1.0,
-      "note": "Includes local adapters/baselines and shows which categories are automatically detectable in principle."
-    }
+      }
+    ]
   },
   "verification_artifacts": {
-    "run_id": "20260513T175513Z",
-    "root": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z",
+    "run_id": "20260515T070529Z",
+    "root": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z",
     "as2fm_jani_files": [
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rclcpp\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rclcpp\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rclcpp\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rclcpp\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rclpy\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rclpy\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rclpy\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rclpy\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_launch_ros\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_launch_ros\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_launch_ros\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_launch_ros\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rosbag2\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rosbag2\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rosbag2\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rosbag2\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_geometry2\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_geometry2\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_geometry2\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_geometry2\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rviz\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rviz\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rviz\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rviz\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_composition\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_composition\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_composition\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_composition\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_bond_core\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_bond_core\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_bond_core\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_bond_core\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_diagnostics\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_diagnostics\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_diagnostics\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_diagnostics\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_common_interfaces\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_common_interfaces\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_common_interfaces\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_common_interfaces\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rcl\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rcl\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rcl\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_rcl\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_robot_state_publisher\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_robot_state_publisher\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_robot_state_publisher\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_robot_state_publisher\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_teleop_twist_joy\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_teleop_twist_joy\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_teleop_twist_joy\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_teleop_twist_joy\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_message_filters\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_message_filters\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_message_filters\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_message_filters\\qwen-groq.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_ros2cli\\llama-4.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_ros2cli\\groq-large.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_ros2cli\\groq-small.jani",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\as2fm_jani\\ros2_ros2cli\\qwen-groq.jani"
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rclcpp\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rclcpp\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rclcpp\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rclcpp\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rclpy\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rclpy\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rclpy\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rclpy\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_launch_ros\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_launch_ros\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_launch_ros\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_launch_ros\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rosbag2\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rosbag2\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rosbag2\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rosbag2\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_geometry2\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_geometry2\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_geometry2\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_geometry2\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rviz\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rviz\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rviz\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rviz\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_composition\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_composition\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_composition\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_composition\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_bond_core\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_bond_core\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_bond_core\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_bond_core\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_diagnostics\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_diagnostics\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_diagnostics\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_diagnostics\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_common_interfaces\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_common_interfaces\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_common_interfaces\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_common_interfaces\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rcl\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rcl\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rcl\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_rcl\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_robot_state_publisher\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_robot_state_publisher\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_robot_state_publisher\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_robot_state_publisher\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_teleop_twist_joy\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_teleop_twist_joy\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_teleop_twist_joy\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_teleop_twist_joy\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_message_filters\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_message_filters\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_message_filters\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_message_filters\\qwen-groq.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_ros2cli\\llama-4.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_ros2cli\\groq-large.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_ros2cli\\groq-small.jani",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\as2fm_jani\\ros2_ros2cli\\qwen-groq.jani"
     ],
     "rosclaw_error_files": [
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rclcpp\\llama-4_ros2_rclcpp.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rclcpp\\groq-large_ros2_rclcpp.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rclcpp\\groq-small_ros2_rclcpp.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rclcpp\\qwen-groq_ros2_rclcpp.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rclpy\\llama-4_ros2_rclpy.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rclpy\\groq-large_ros2_rclpy.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rclpy\\groq-small_ros2_rclpy.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rclpy\\qwen-groq_ros2_rclpy.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_launch_ros\\llama-4_ros2_launch_ros.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_launch_ros\\groq-large_ros2_launch_ros.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_launch_ros\\groq-small_ros2_launch_ros.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_launch_ros\\qwen-groq_ros2_launch_ros.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rosbag2\\llama-4_ros2_rosbag2.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rosbag2\\groq-large_ros2_rosbag2.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rosbag2\\groq-small_ros2_rosbag2.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rosbag2\\qwen-groq_ros2_rosbag2.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_geometry2\\llama-4_ros2_geometry2.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_geometry2\\groq-large_ros2_geometry2.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_geometry2\\groq-small_ros2_geometry2.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_geometry2\\qwen-groq_ros2_geometry2.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rviz\\llama-4_ros2_rviz.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rviz\\groq-large_ros2_rviz.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rviz\\groq-small_ros2_rviz.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rviz\\qwen-groq_ros2_rviz.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_composition\\llama-4_ros2_composition.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_composition\\groq-large_ros2_composition.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_composition\\groq-small_ros2_composition.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_composition\\qwen-groq_ros2_composition.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_bond_core\\llama-4_ros2_bond_core.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_bond_core\\groq-large_ros2_bond_core.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_bond_core\\groq-small_ros2_bond_core.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_bond_core\\qwen-groq_ros2_bond_core.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_diagnostics\\llama-4_ros2_diagnostics.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_diagnostics\\groq-large_ros2_diagnostics.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_diagnostics\\groq-small_ros2_diagnostics.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_diagnostics\\qwen-groq_ros2_diagnostics.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_common_interfaces\\llama-4_ros2_common_interfaces.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_common_interfaces\\groq-large_ros2_common_interfaces.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_common_interfaces\\groq-small_ros2_common_interfaces.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_common_interfaces\\qwen-groq_ros2_common_interfaces.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rcl\\llama-4_ros2_rcl.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rcl\\groq-large_ros2_rcl.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rcl\\groq-small_ros2_rcl.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_rcl\\qwen-groq_ros2_rcl.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_robot_state_publisher\\llama-4_ros2_robot_state_publisher.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_robot_state_publisher\\groq-large_ros2_robot_state_publisher.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_robot_state_publisher\\groq-small_ros2_robot_state_publisher.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_robot_state_publisher\\qwen-groq_ros2_robot_state_publisher.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_teleop_twist_joy\\llama-4_ros2_teleop_twist_joy.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_teleop_twist_joy\\groq-large_ros2_teleop_twist_joy.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_teleop_twist_joy\\groq-small_ros2_teleop_twist_joy.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_teleop_twist_joy\\qwen-groq_ros2_teleop_twist_joy.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_message_filters\\llama-4_ros2_message_filters.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_message_filters\\groq-large_ros2_message_filters.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_message_filters\\groq-small_ros2_message_filters.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_message_filters\\qwen-groq_ros2_message_filters.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_ros2cli\\llama-4_ros2_ros2cli.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_ros2cli\\groq-large_ros2_ros2cli.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_ros2cli\\groq-small_ros2_ros2cli.json",
-      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\rosclaw_errors\\ros2_ros2cli\\qwen-groq_ros2_ros2cli.json"
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rclcpp\\llama-4_ros2_rclcpp.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rclcpp\\groq-large_ros2_rclcpp.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rclcpp\\groq-small_ros2_rclcpp.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rclcpp\\qwen-groq_ros2_rclcpp.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rclpy\\llama-4_ros2_rclpy.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rclpy\\groq-large_ros2_rclpy.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rclpy\\groq-small_ros2_rclpy.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rclpy\\qwen-groq_ros2_rclpy.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_launch_ros\\llama-4_ros2_launch_ros.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_launch_ros\\groq-large_ros2_launch_ros.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_launch_ros\\groq-small_ros2_launch_ros.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_launch_ros\\qwen-groq_ros2_launch_ros.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rosbag2\\llama-4_ros2_rosbag2.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rosbag2\\groq-large_ros2_rosbag2.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rosbag2\\groq-small_ros2_rosbag2.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rosbag2\\qwen-groq_ros2_rosbag2.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_geometry2\\llama-4_ros2_geometry2.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_geometry2\\groq-large_ros2_geometry2.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_geometry2\\groq-small_ros2_geometry2.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_geometry2\\qwen-groq_ros2_geometry2.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rviz\\llama-4_ros2_rviz.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rviz\\groq-large_ros2_rviz.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rviz\\groq-small_ros2_rviz.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rviz\\qwen-groq_ros2_rviz.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_composition\\llama-4_ros2_composition.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_composition\\groq-large_ros2_composition.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_composition\\groq-small_ros2_composition.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_composition\\qwen-groq_ros2_composition.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_bond_core\\llama-4_ros2_bond_core.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_bond_core\\groq-large_ros2_bond_core.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_bond_core\\groq-small_ros2_bond_core.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_bond_core\\qwen-groq_ros2_bond_core.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_diagnostics\\llama-4_ros2_diagnostics.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_diagnostics\\groq-large_ros2_diagnostics.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_diagnostics\\groq-small_ros2_diagnostics.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_diagnostics\\qwen-groq_ros2_diagnostics.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_common_interfaces\\llama-4_ros2_common_interfaces.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_common_interfaces\\groq-large_ros2_common_interfaces.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_common_interfaces\\groq-small_ros2_common_interfaces.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_common_interfaces\\qwen-groq_ros2_common_interfaces.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rcl\\llama-4_ros2_rcl.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rcl\\groq-large_ros2_rcl.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rcl\\groq-small_ros2_rcl.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_rcl\\qwen-groq_ros2_rcl.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_robot_state_publisher\\llama-4_ros2_robot_state_publisher.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_robot_state_publisher\\groq-large_ros2_robot_state_publisher.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_robot_state_publisher\\groq-small_ros2_robot_state_publisher.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_robot_state_publisher\\qwen-groq_ros2_robot_state_publisher.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_teleop_twist_joy\\llama-4_ros2_teleop_twist_joy.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_teleop_twist_joy\\groq-large_ros2_teleop_twist_joy.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_teleop_twist_joy\\groq-small_ros2_teleop_twist_joy.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_teleop_twist_joy\\qwen-groq_ros2_teleop_twist_joy.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_message_filters\\llama-4_ros2_message_filters.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_message_filters\\groq-large_ros2_message_filters.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_message_filters\\groq-small_ros2_message_filters.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_message_filters\\qwen-groq_ros2_message_filters.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_ros2cli\\llama-4_ros2_ros2cli.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_ros2cli\\groq-large_ros2_ros2cli.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_ros2cli\\groq-small_ros2_ros2cli.json",
+      "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\rosclaw_errors\\ros2_ros2cli\\qwen-groq_ros2_ros2cli.json"
     ],
     "note": "Artifacts are generated from real repo architecture evidence and LLM outputs; AS2FM native conversion is audited separately in tool_audit.",
-    "manifest": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\verification_manifest.json",
+    "manifest": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\verification_manifest.json",
     "native_as2fm_models": {
-      "run_id": "20260513T175513Z",
-      "root": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models",
-      "taxonomy_property_specs": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\taxonomy_jani_property_specs.json",
+      "run_id": "20260515T070529Z",
+      "root": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models",
+      "taxonomy_property_specs": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\taxonomy_jani_property_specs.json",
       "models": {
         "ros2/rclcpp": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rclcpp",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rclcpp\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rclcpp\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rclcpp\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclcpp",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclcpp\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclcpp\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclcpp\\properties.jani",
           "node_count": 1,
           "topic_count": 1
         },
         "ros2/rclpy": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rclpy",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rclpy\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rclpy\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rclpy\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclpy",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclpy\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclpy\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rclpy\\properties.jani",
           "node_count": 1,
           "topic_count": 0
         },
         "ros2/launch_ros": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_launch_ros",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_launch_ros\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_launch_ros\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_launch_ros\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_launch_ros",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_launch_ros\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_launch_ros\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_launch_ros\\properties.jani",
           "node_count": 3,
           "topic_count": 0
         },
         "ros2/rosbag2": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rosbag2",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rosbag2\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rosbag2\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rosbag2\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rosbag2",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rosbag2\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rosbag2\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rosbag2\\properties.jani",
           "node_count": 1,
           "topic_count": 0
         },
         "ros2/geometry2": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_geometry2",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_geometry2\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_geometry2\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_geometry2\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_geometry2",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_geometry2\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_geometry2\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_geometry2\\properties.jani",
           "node_count": 1,
           "topic_count": 0
         },
         "ros2/rviz": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rviz",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rviz\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rviz\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rviz\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rviz",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rviz\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rviz\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rviz\\properties.jani",
           "node_count": 2,
           "topic_count": 0
         },
         "ros2/composition": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_composition",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_composition\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_composition\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_composition\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_composition",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_composition\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_composition\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_composition\\properties.jani",
           "node_count": 0,
           "topic_count": 0
         },
         "ros2/bond_core": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_bond_core",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_bond_core\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_bond_core\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_bond_core\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_bond_core",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_bond_core\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_bond_core\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_bond_core\\properties.jani",
           "node_count": 0,
           "topic_count": 0
         },
         "ros2/diagnostics": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_diagnostics",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_diagnostics\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_diagnostics\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_diagnostics\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_diagnostics",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_diagnostics\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_diagnostics\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_diagnostics\\properties.jani",
           "node_count": 0,
           "topic_count": 0
         },
         "ros2/common_interfaces": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_common_interfaces",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_common_interfaces\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_common_interfaces\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_common_interfaces\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_common_interfaces",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_common_interfaces\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_common_interfaces\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_common_interfaces\\properties.jani",
           "node_count": 0,
           "topic_count": 0
         },
         "ros2/rcl": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rcl",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rcl\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rcl\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_rcl\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rcl",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rcl\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rcl\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_rcl\\properties.jani",
           "node_count": 0,
           "topic_count": 0
         },
         "ros2/robot_state_publisher": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_robot_state_publisher",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_robot_state_publisher\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_robot_state_publisher\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_robot_state_publisher\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_robot_state_publisher",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_robot_state_publisher\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_robot_state_publisher\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_robot_state_publisher\\properties.jani",
           "node_count": 0,
           "topic_count": 0
         },
         "ros2/teleop_twist_joy": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_teleop_twist_joy",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_teleop_twist_joy\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_teleop_twist_joy\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_teleop_twist_joy\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_teleop_twist_joy",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_teleop_twist_joy\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_teleop_twist_joy\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_teleop_twist_joy\\properties.jani",
           "node_count": 3,
           "topic_count": 3
         },
         "ros2/message_filters": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_message_filters",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_message_filters\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_message_filters\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_message_filters\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_message_filters",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_message_filters\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_message_filters\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_message_filters\\properties.jani",
           "node_count": 0,
           "topic_count": 0
         },
         "ros2/ros2cli": {
-          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_ros2cli",
-          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_ros2cli\\main.xml",
-          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_ros2cli\\architecture.ascxml",
-          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\ros2_ros2cli\\properties.jani",
+          "folder": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_ros2cli",
+          "main_xml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_ros2cli\\main.xml",
+          "ascxml": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_ros2cli\\architecture.ascxml",
+          "properties": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\ros2_ros2cli\\properties.jani",
           "node_count": 0,
           "topic_count": 0
         }
       },
-      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\native_as2fm_models\\native_as2fm_manifest.json"
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\native_as2fm_models\\native_as2fm_manifest.json"
     }
   },
   "adoption_gap": {
@@ -12633,8 +12633,8 @@
         "github": {
           "status": "ok",
           "full_name": "nasa-jpl/rosa",
-          "stars": 1514,
-          "forks": 160,
+          "stars": 1515,
+          "forks": 161,
           "open_issues": 3,
           "watchers": 29,
           "default_branch": "main"
@@ -12758,7 +12758,7 @@
       ]
     },
     "manual_residual_errors_observed": 106,
-    "current_pipeline_ttv_ms": 26582.226400030777
+    "current_pipeline_ttv_ms": 16724.901999987196
   },
   "metrics": {
     "m1_node_level_precision": {
@@ -13258,51 +13258,51 @@
         }
       }
     },
-    "m6_ttv_ms": 26582.226400030777,
+    "m6_ttv_ms": 16724.901999987196,
     "m6_representative_ttv": {
       "status": "recorded",
       "method": "source parsing + prompt evidence collection + JANI artifact generation + native AS2FM conversion + category validation",
-      "root": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative",
+      "root": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative",
       "records": [
         {
           "repo": "ros2/rviz",
           "node_count": 2,
           "source_files_sent": 1,
           "source_blocks": 1,
-          "parse_ms": 667.7485999534838,
-          "prompt_collection_ms": 361.982700007502,
-          "translation_and_check_ms": 8.990599948447198,
-          "as2fm_native_ms": 1429.344400006812,
+          "parse_ms": 360.98269996000454,
+          "prompt_collection_ms": 215.04350000759587,
+          "translation_and_check_ms": 5.509799986612052,
+          "as2fm_native_ms": 949.8536000028253,
           "as2fm_native_status": "failed",
-          "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_rviz\\as2fm_native_output.jani",
-          "total_ttv_ms": 2468.0845999973826,
+          "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_rviz\\as2fm_native_output.jani",
+          "total_ttv_ms": 1531.4053999609314,
           "model_checks": {
             "llama-4": {
               "detected_categories": [
                 "hallucinated_node",
                 "missing_node"
               ],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_rviz\\llama-4.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_rviz\\llama-4.jani"
             },
             "groq-large": {
               "detected_categories": [
                 "hallucinated_node",
                 "missing_node"
               ],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_rviz\\groq-large.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_rviz\\groq-large.jani"
             },
             "groq-small": {
               "detected_categories": [
                 "hallucinated_node",
                 "missing_node"
               ],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_rviz\\groq-small.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_rviz\\groq-small.jani"
             },
             "qwen-groq": {
               "detected_categories": [
                 "missing_node"
               ],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_rviz\\qwen-groq.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_rviz\\qwen-groq.jani"
             }
           }
         },
@@ -13311,38 +13311,38 @@
           "node_count": 1,
           "source_files_sent": 1,
           "source_blocks": 1,
-          "parse_ms": 258.3973000291735,
-          "prompt_collection_ms": 220.52009997423738,
-          "translation_and_check_ms": 7.244699983857572,
-          "as2fm_native_ms": 961.4355000085197,
+          "parse_ms": 195.77969994861633,
+          "prompt_collection_ms": 153.94210000522435,
+          "translation_and_check_ms": 5.408099968917668,
+          "as2fm_native_ms": 930.1130999810994,
           "as2fm_native_status": "failed",
-          "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_rosbag2\\as2fm_native_output.jani",
-          "total_ttv_ms": 1447.6207999978215,
+          "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_rosbag2\\as2fm_native_output.jani",
+          "total_ttv_ms": 1285.2540999883786,
           "model_checks": {
             "llama-4": {
               "detected_categories": [
                 "missing_node"
               ],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_rosbag2\\llama-4.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_rosbag2\\llama-4.jani"
             },
             "groq-large": {
               "detected_categories": [
                 "missing_node"
               ],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_rosbag2\\groq-large.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_rosbag2\\groq-large.jani"
             },
             "groq-small": {
               "detected_categories": [
                 "hallucinated_node",
                 "missing_node"
               ],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_rosbag2\\groq-small.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_rosbag2\\groq-small.jani"
             },
             "qwen-groq": {
               "detected_categories": [
                 "missing_node"
               ],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_rosbag2\\qwen-groq.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_rosbag2\\qwen-groq.jani"
             }
           }
         },
@@ -13351,40 +13351,40 @@
           "node_count": 1,
           "source_files_sent": 1,
           "source_blocks": 1,
-          "parse_ms": 155.21280001848936,
-          "prompt_collection_ms": 77.62379996711388,
-          "translation_and_check_ms": 9.327900013886392,
-          "as2fm_native_ms": 976.0731999995187,
+          "parse_ms": 115.49680004827678,
+          "prompt_collection_ms": 69.07899997895584,
+          "translation_and_check_ms": 19.062799983657897,
+          "as2fm_native_ms": 890.9621000057086,
           "as2fm_native_status": "failed",
-          "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_geometry2\\as2fm_native_output.jani",
-          "total_ttv_ms": 1218.247100012377,
+          "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_geometry2\\as2fm_native_output.jani",
+          "total_ttv_ms": 1094.6131000528112,
           "model_checks": {
             "llama-4": {
               "detected_categories": [
                 "hallucinated_node",
                 "missing_node"
               ],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_geometry2\\llama-4.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_geometry2\\llama-4.jani"
             },
             "groq-large": {
               "detected_categories": [
                 "hallucinated_node",
                 "missing_node"
               ],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_geometry2\\groq-large.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_geometry2\\groq-large.jani"
             },
             "groq-small": {
               "detected_categories": [
                 "hallucinated_node",
                 "missing_node"
               ],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_geometry2\\groq-small.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_geometry2\\groq-small.jani"
             },
             "qwen-groq": {
               "detected_categories": [
                 "missing_node"
               ],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_geometry2\\qwen-groq.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_geometry2\\qwen-groq.jani"
             }
           }
         },
@@ -13393,29 +13393,29 @@
           "node_count": 0,
           "source_files_sent": 0,
           "source_blocks": 0,
-          "parse_ms": 0.13760000001639128,
-          "prompt_collection_ms": 0.1297999988310039,
-          "translation_and_check_ms": 15.317499986849725,
-          "as2fm_native_ms": 1003.939599962905,
+          "parse_ms": 0.3154999576508999,
+          "prompt_collection_ms": 0.06180000491440296,
+          "translation_and_check_ms": 12.890200014226139,
+          "as2fm_native_ms": 899.6487999684177,
           "as2fm_native_status": "failed",
-          "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_diagnostics\\as2fm_native_output.jani",
-          "total_ttv_ms": 1019.5431000320241,
+          "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_diagnostics\\as2fm_native_output.jani",
+          "total_ttv_ms": 912.9283999791369,
           "model_checks": {
             "llama-4": {
               "detected_categories": [],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_diagnostics\\llama-4.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_diagnostics\\llama-4.jani"
             },
             "groq-large": {
               "detected_categories": [],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_diagnostics\\groq-large.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_diagnostics\\groq-large.jani"
             },
             "groq-small": {
               "detected_categories": [],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_diagnostics\\groq-small.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_diagnostics\\groq-small.jani"
             },
             "qwen-groq": {
               "detected_categories": [],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_diagnostics\\qwen-groq.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_diagnostics\\qwen-groq.jani"
             }
           }
         },
@@ -13424,29 +13424,29 @@
           "node_count": 0,
           "source_files_sent": 0,
           "source_blocks": 0,
-          "parse_ms": 6.868200027383864,
-          "prompt_collection_ms": 3.965199983213097,
-          "translation_and_check_ms": 12.112599972169846,
-          "as2fm_native_ms": 1043.713899969589,
+          "parse_ms": 4.18249994982034,
+          "prompt_collection_ms": 3.5475000040605664,
+          "translation_and_check_ms": 15.35550004336983,
+          "as2fm_native_ms": 899.0512000164017,
           "as2fm_native_status": "failed",
-          "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_robot_state_publisher\\as2fm_native_output.jani",
-          "total_ttv_ms": 1066.6701000300236,
+          "as2fm_native_output": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_robot_state_publisher\\as2fm_native_output.jani",
+          "total_ttv_ms": 922.1455999650061,
           "model_checks": {
             "llama-4": {
               "detected_categories": [],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_robot_state_publisher\\llama-4.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_robot_state_publisher\\llama-4.jani"
             },
             "groq-large": {
               "detected_categories": [],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_robot_state_publisher\\groq-large.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_robot_state_publisher\\groq-large.jani"
             },
             "groq-small": {
               "detected_categories": [],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_robot_state_publisher\\groq-small.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_robot_state_publisher\\groq-small.jani"
             },
             "qwen-groq": {
               "detected_categories": [],
-              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260513T175513Z\\ttv_representative\\ros2_robot_state_publisher\\qwen-groq.jani"
+              "jani_artifact": "C:\\Users\\prath\\Desktop\\seminar\\verification_artifacts\\20260515T070529Z\\ttv_representative\\ros2_robot_state_publisher\\qwen-groq.jani"
             }
           }
         }
@@ -13466,15 +13466,15 @@
             "printf 'ubuntu_version='; lsb_release -rs 2>/dev/null || true; if [ -f /opt/ros/humble/setup.bash ]; then source /opt/ros/humble/setup.bash; echo humble_setup=present; echo ros_distro=${ROS_DISTRO:-missing}; else echo humble_setup=missing; echo ros_distro=missing; fi; printf 'python_version='; python3 --version 2>/dev/null || true"
           ],
           "returncode": 0,
-          "stdout_tail": "ubuntu_version=22.04\nhumble_setup=missing\nros_distro=missing\npython_version=Python 3.10.12\n",
+          "stdout_tail": "ubuntu_version=22.04\nhumble_setup=present\nros_distro=missing\npython_version=Python 3.10.12\n",
           "stderr_tail": "",
-          "elapsed_ms": 220.79299995675683
+          "elapsed_ms": 8610.147600003984
         },
         "humble_present": false,
         "records": [],
         "note": "The proposal specifies Ubuntu 22.04 + ROS 2 Humble as the target TtV environment (Step IV: 'Install AS2FM on a standard Ubuntu 22.04 + ROS 2 Humble machine'). WSL Ubuntu-22.04 is present but ROS 2 Humble (/opt/ros/humble/setup.bash) is not installed; status is therefore environment_unavailable for this environment. M6 TtV is measured on the active Windows + native AS2FM pipeline as the available fallback; the Ubuntu+Humble TtV measurement remains an open item pending Humble installation in WSL."
       },
-      "average_total_ttv_ms": 1444.0331400139257
+      "average_total_ttv_ms": 1149.2693199892528
     },
     "ground_truth_audit": {
       "status": "recorded",
@@ -13621,7 +13621,7 @@
       "max_tokens": 2048,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\llama-4__ros2_rclcpp__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\llama-4__ros2_rclcpp__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13634,7 +13634,7 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-large__ros2_rclcpp__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-large__ros2_rclcpp__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13647,8 +13647,8 @@
       "max_tokens": 768,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_rclcpp__chunk_001.json",
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_rclcpp__chunk_002.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_rclcpp__chunk_001.json",
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_rclcpp__chunk_002.json"
       ],
       "cache_enabled": true,
       "cache_hits": 2
@@ -13661,7 +13661,7 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\qwen-groq__ros2_rclcpp__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\qwen-groq__ros2_rclcpp__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13674,7 +13674,7 @@
       "max_tokens": 2048,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\llama-4__ros2_rclpy__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\llama-4__ros2_rclpy__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13687,7 +13687,7 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-large__ros2_rclpy__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-large__ros2_rclpy__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13700,8 +13700,8 @@
       "max_tokens": 768,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_rclpy__chunk_001.json",
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_rclpy__chunk_002.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_rclpy__chunk_001.json",
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_rclpy__chunk_002.json"
       ],
       "cache_enabled": true,
       "cache_hits": 2
@@ -13714,7 +13714,7 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\qwen-groq__ros2_rclpy__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\qwen-groq__ros2_rclpy__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13727,7 +13727,7 @@
       "max_tokens": 2048,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\llama-4__ros2_launch_ros__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\llama-4__ros2_launch_ros__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13740,7 +13740,7 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-large__ros2_launch_ros__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-large__ros2_launch_ros__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13753,8 +13753,8 @@
       "max_tokens": 768,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_launch_ros__chunk_001.json",
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_launch_ros__chunk_002.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_launch_ros__chunk_001.json",
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_launch_ros__chunk_002.json"
       ],
       "cache_enabled": true,
       "cache_hits": 2
@@ -13767,7 +13767,7 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\qwen-groq__ros2_launch_ros__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\qwen-groq__ros2_launch_ros__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13780,7 +13780,7 @@
       "max_tokens": 2048,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\llama-4__ros2_rosbag2__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\llama-4__ros2_rosbag2__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13793,7 +13793,7 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-large__ros2_rosbag2__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-large__ros2_rosbag2__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13806,8 +13806,8 @@
       "max_tokens": 768,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_rosbag2__chunk_001.json",
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_rosbag2__chunk_002.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_rosbag2__chunk_001.json",
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_rosbag2__chunk_002.json"
       ],
       "cache_enabled": true,
       "cache_hits": 2
@@ -13820,7 +13820,7 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\qwen-groq__ros2_rosbag2__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\qwen-groq__ros2_rosbag2__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13833,7 +13833,7 @@
       "max_tokens": 2048,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\llama-4__ros2_geometry2__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\llama-4__ros2_geometry2__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13846,7 +13846,7 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-large__ros2_geometry2__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-large__ros2_geometry2__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13859,8 +13859,8 @@
       "max_tokens": 768,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_geometry2__chunk_001.json",
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_geometry2__chunk_002.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_geometry2__chunk_001.json",
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_geometry2__chunk_002.json"
       ],
       "cache_enabled": true,
       "cache_hits": 2
@@ -13873,7 +13873,7 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\qwen-groq__ros2_geometry2__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\qwen-groq__ros2_geometry2__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13886,7 +13886,7 @@
       "max_tokens": 2048,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\llama-4__ros2_rviz__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\llama-4__ros2_rviz__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13899,7 +13899,7 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-large__ros2_rviz__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-large__ros2_rviz__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -13912,8 +13912,8 @@
       "max_tokens": 768,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_rviz__chunk_001.json",
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_rviz__chunk_002.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_rviz__chunk_001.json",
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_rviz__chunk_002.json"
       ],
       "cache_enabled": true,
       "cache_hits": 2
@@ -13926,7 +13926,7 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\qwen-groq__ros2_rviz__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\qwen-groq__ros2_rviz__chunk_001.json"
       ],
       "cache_enabled": true,
       "cache_hits": 1
@@ -14203,10 +14203,10 @@
       "max_tokens": 2048,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\llama-4__ros2_teleop_twist_joy__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\llama-4__ros2_teleop_twist_joy__chunk_001.json"
       ],
       "cache_enabled": true,
-      "cache_hits": 0
+      "cache_hits": 1
     },
     "groq-large :: ros2/teleop_twist_joy": {
       "chunks": 1,
@@ -14216,10 +14216,10 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-large__ros2_teleop_twist_joy__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-large__ros2_teleop_twist_joy__chunk_001.json"
       ],
       "cache_enabled": true,
-      "cache_hits": 0
+      "cache_hits": 1
     },
     "groq-small :: ros2/teleop_twist_joy": {
       "chunks": 2,
@@ -14229,11 +14229,11 @@
       "max_tokens": 768,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_teleop_twist_joy__chunk_001.json",
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_teleop_twist_joy__chunk_002.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_teleop_twist_joy__chunk_001.json",
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_teleop_twist_joy__chunk_002.json"
       ],
       "cache_enabled": true,
-      "cache_hits": 0
+      "cache_hits": 2
     },
     "qwen-groq :: ros2/teleop_twist_joy": {
       "chunks": 1,
@@ -14243,10 +14243,10 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\qwen-groq__ros2_teleop_twist_joy__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\qwen-groq__ros2_teleop_twist_joy__chunk_001.json"
       ],
       "cache_enabled": true,
-      "cache_hits": 0
+      "cache_hits": 1
     },
     "llama-4 :: ros2/message_filters": {
       "chunks": 1,
@@ -14256,10 +14256,10 @@
       "max_tokens": 2048,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\llama-4__ros2_message_filters__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\llama-4__ros2_message_filters__chunk_001.json"
       ],
       "cache_enabled": true,
-      "cache_hits": 0
+      "cache_hits": 1
     },
     "groq-large :: ros2/message_filters": {
       "chunks": 1,
@@ -14269,10 +14269,10 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-large__ros2_message_filters__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-large__ros2_message_filters__chunk_001.json"
       ],
       "cache_enabled": true,
-      "cache_hits": 0
+      "cache_hits": 1
     },
     "groq-small :: ros2/message_filters": {
       "chunks": 2,
@@ -14282,11 +14282,11 @@
       "max_tokens": 768,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_message_filters__chunk_001.json",
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_message_filters__chunk_002.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_message_filters__chunk_001.json",
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_message_filters__chunk_002.json"
       ],
       "cache_enabled": true,
-      "cache_hits": 0
+      "cache_hits": 2
     },
     "qwen-groq :: ros2/message_filters": {
       "chunks": 1,
@@ -14296,10 +14296,10 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\qwen-groq__ros2_message_filters__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\qwen-groq__ros2_message_filters__chunk_001.json"
       ],
       "cache_enabled": true,
-      "cache_hits": 0
+      "cache_hits": 1
     },
     "llama-4 :: ros2/ros2cli": {
       "chunks": 1,
@@ -14309,10 +14309,10 @@
       "max_tokens": 2048,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\llama-4__ros2_ros2cli__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\llama-4__ros2_ros2cli__chunk_001.json"
       ],
       "cache_enabled": true,
-      "cache_hits": 0
+      "cache_hits": 1
     },
     "groq-large :: ros2/ros2cli": {
       "chunks": 1,
@@ -14322,10 +14322,10 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-large__ros2_ros2cli__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-large__ros2_ros2cli__chunk_001.json"
       ],
       "cache_enabled": true,
-      "cache_hits": 0
+      "cache_hits": 1
     },
     "groq-small :: ros2/ros2cli": {
       "chunks": 2,
@@ -14335,11 +14335,11 @@
       "max_tokens": 768,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_ros2cli__chunk_001.json",
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\groq-small__ros2_ros2cli__chunk_002.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_ros2cli__chunk_001.json",
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\groq-small__ros2_ros2cli__chunk_002.json"
       ],
       "cache_enabled": true,
-      "cache_hits": 0
+      "cache_hits": 2
     },
     "qwen-groq :: ros2/ros2cli": {
       "chunks": 1,
@@ -14349,10 +14349,10 @@
       "max_tokens": 1536,
       "chunk_errors": [],
       "audit_files": [
-        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z\\qwen-groq__ros2_ros2cli__chunk_001.json"
+        "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z\\qwen-groq__ros2_ros2cli__chunk_001.json"
       ],
       "cache_enabled": true,
-      "cache_hits": 0
+      "cache_hits": 1
     }
   },
   "source_files_sent": {
@@ -14474,101 +14474,101 @@
     ]
   },
   "source_packages": {
-    "run_id": "20260513T175513Z",
-    "root": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z",
+    "run_id": "20260515T070529Z",
+    "root": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z",
     "repositories": {
       "ros2/rclcpp": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_rclcpp",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_rclcpp\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rclcpp",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rclcpp\\full_source_manifest.json",
         "source_file_count": 325,
         "prompt_file_count": 1
       },
       "ros2/rclpy": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_rclpy",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_rclpy\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rclpy",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rclpy\\full_source_manifest.json",
         "source_file_count": 146,
         "prompt_file_count": 1
       },
       "ros2/launch_ros": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_launch_ros",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_launch_ros\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_launch_ros",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_launch_ros\\full_source_manifest.json",
         "source_file_count": 66,
         "prompt_file_count": 3
       },
       "ros2/rosbag2": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_rosbag2",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_rosbag2\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rosbag2",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rosbag2\\full_source_manifest.json",
         "source_file_count": 237,
         "prompt_file_count": 1
       },
       "ros2/geometry2": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_geometry2",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_geometry2\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_geometry2",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_geometry2\\full_source_manifest.json",
         "source_file_count": 113,
         "prompt_file_count": 1
       },
       "ros2/rviz": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_rviz",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_rviz\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rviz",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rviz\\full_source_manifest.json",
         "source_file_count": 482,
         "prompt_file_count": 1
       },
       "ros2/composition": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_composition",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_composition\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_composition",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_composition\\full_source_manifest.json",
         "source_file_count": 0,
         "prompt_file_count": 0
       },
       "ros2/bond_core": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_bond_core",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_bond_core\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_bond_core",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_bond_core\\full_source_manifest.json",
         "source_file_count": 0,
         "prompt_file_count": 0
       },
       "ros2/diagnostics": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_diagnostics",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_diagnostics\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_diagnostics",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_diagnostics\\full_source_manifest.json",
         "source_file_count": 0,
         "prompt_file_count": 0
       },
       "ros2/common_interfaces": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_common_interfaces",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_common_interfaces\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_common_interfaces",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_common_interfaces\\full_source_manifest.json",
         "source_file_count": 23,
         "prompt_file_count": 0
       },
       "ros2/rcl": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_rcl",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_rcl\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rcl",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rcl\\full_source_manifest.json",
         "source_file_count": 88,
         "prompt_file_count": 0
       },
       "ros2/robot_state_publisher": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_robot_state_publisher",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_robot_state_publisher\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_robot_state_publisher",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_robot_state_publisher\\full_source_manifest.json",
         "source_file_count": 1,
         "prompt_file_count": 0
       },
       "ros2/teleop_twist_joy": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_teleop_twist_joy",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_teleop_twist_joy\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_teleop_twist_joy",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_teleop_twist_joy\\full_source_manifest.json",
         "source_file_count": 12,
         "prompt_file_count": 1
       },
       "ros2/message_filters": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_message_filters",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_message_filters\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_message_filters",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_message_filters\\full_source_manifest.json",
         "source_file_count": 29,
         "prompt_file_count": 1
       },
       "ros2/ros2cli": {
-        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_ros2cli",
-        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\ros2_ros2cli\\full_source_manifest.json",
+        "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_ros2cli",
+        "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_ros2cli\\full_source_manifest.json",
         "source_file_count": 184,
         "prompt_file_count": 1
       }
     },
-    "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260513T175513Z\\source_package_manifest.json"
+    "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\source_package_manifest.json"
   },
   "yaml_evidence": {
     "ros2/rclcpp": [],
@@ -15363,7 +15363,7 @@
     "ros2/message_filters": [],
     "ros2/ros2cli": []
   },
-  "audit_dir": "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260513T175513Z",
+  "audit_dir": "C:\\Users\\prath\\Desktop\\seminar\\audit_llm_responses\\20260515T070529Z",
   "jani_like_specs": {
     "llama-4 :: ros2/rclcpp": {
       "jani-version": 1,
@@ -21166,9 +21166,9 @@
     }
   },
   "timing": {
-    "total_wall_clock_ms": 173581.28760004183,
-    "parse_phase_ms": 18203.6439999938,
-    "check_phase_ms": 8378.582400036976,
-    "ttv_ms": 26582.226400030777
+    "total_wall_clock_ms": 55400.27250000276,
+    "parse_phase_ms": 1717.9189000162296,
+    "check_phase_ms": 15006.983099970967,
+    "ttv_ms": 16724.901999987196
   }
 }

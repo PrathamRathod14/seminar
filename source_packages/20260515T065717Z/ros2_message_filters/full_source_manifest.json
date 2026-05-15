@@ -1,0 +1,176 @@
+[
+  {
+    "path": "include\\message_filters\\cache.hpp",
+    "bytes": 11852,
+    "sha256": "148e1a5571efb53c0862048213863f3e528a0183e9b5db87232d0443ac9928f5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\chain.hpp",
+    "bytes": 7900,
+    "sha256": "e58a9cb521156ab35c3221fd669ddf42fb07e0c818bfb7133b5bf4120732223e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\connection.hpp",
+    "bytes": 2561,
+    "sha256": "a4ace5a313f9f2f1d1a1f65aa2bfd51ebbde4be4d24963ac2227d20dc21200df",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\delta_filter.hpp",
+    "bytes": 10290,
+    "sha256": "432c1c58dca2b5ec80a5074984104dc64c5081f16eeb316e67623850c5264855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\input_aligner.hpp",
+    "bytes": 13904,
+    "sha256": "08a69401eed9409d88fe06e251b491489dde8c1bd1bdc83f61ddd4907e7f1569",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\message_event.hpp",
+    "bytes": 7819,
+    "sha256": "bf4ab8867a58093555c55cfd6e6b1e970560c66961b0f24c5390113b93755f47",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\message_traits.hpp",
+    "bytes": 3935,
+    "sha256": "c808ad9b222b37c64aec19c71ad082e94e3e19980a77b036b20fcf6cdf66bdbb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\null_types.hpp",
+    "bytes": 2548,
+    "sha256": "df2402275ba3800d405cf7313dedd3453244a8d5e4b2ff206ed6f21c2911d901",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\parameter_adapter.hpp",
+    "bytes": 6752,
+    "sha256": "34ee80846e44bdda2300adb226f7aacae3458d29290969a9c5c50e4049f1074a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\pass_through.hpp",
+    "bytes": 2846,
+    "sha256": "08708b2e07c8c883bc924526b174a28be9a6ba17a62d21a0d75330e6f3ae7593",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\signal1.hpp",
+    "bytes": 4252,
+    "sha256": "f0e23957196619a43f887947c9b7ee05665db553a4b85ecb37e9a4bbd84fcc5f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\signal9.hpp",
+    "bytes": 5403,
+    "sha256": "23dd6deb2ccee2625f9ba5c1f4d3506e4743d31ffd6c25db06961ed0b98822b3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\simple_filter.hpp",
+    "bytes": 4990,
+    "sha256": "46d932d91660e1fd95003389e50052d6cd30e2481f130711660abb8ab95dcba1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\subscriber.hpp",
+    "bytes": 11517,
+    "sha256": "06b896a05c838047b6721e12049b01dc5c0b677542dc26b2c96246bde12b8a39",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "include\\message_filters\\sync_policies\\approximate_epsilon_time.hpp",
+    "bytes": 8928,
+    "sha256": "e9ebad1a6bbd0d73f5180efddeb72f6e97692e01889fde6589fd5fd0e2117a0b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\sync_policies\\approximate_time.hpp",
+    "bytes": 23777,
+    "sha256": "404db04be800baf384f70cad3b02d0360de7adfe6bf84258ef6340432a801e46",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\sync_policies\\exact_time.hpp",
+    "bytes": 6055,
+    "sha256": "ba61ae7e963b767e5ccb9af9c9b121a8fe4aa818bfe18aec27a0b33fe839657e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\sync_policies\\latest_time.hpp",
+    "bytes": 12602,
+    "sha256": "6fbfde9443d57bbdcfcdbd8d7280a892381506f1fe498c5b327f49d417542cbc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\synchronizer.hpp",
+    "bytes": 5377,
+    "sha256": "5e90695d65f3203b908234977537e1afd50c5810f7bfcacda85ebbb2a3ae183b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\time_sequencer.hpp",
+    "bytes": 7671,
+    "sha256": "ffa711f5cb0c37069f97defa207056b42d75b5daf57da1039d9271d20ad3b386",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\time_synchronizer.hpp",
+    "bytes": 4159,
+    "sha256": "36d635c947dd5eaaaccd09090375ec2d53c641951c600b30ca2da01e39ee41b4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "include\\message_filters\\visibility_control.hpp",
+    "bytes": 1909,
+    "sha256": "5cfcd766850c80ba6a8ee3aa5680d1069d7b3f2696d864809164458e06120a93",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "package.xml",
+    "bytes": 1455,
+    "sha256": "7cd7735ec0b65c1b24ad31647539385c9921544345bad67843357e5189a9fdd7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rosdoc2.yaml",
+    "bytes": 3134,
+    "sha256": "a1551693b58661248e5b9dc794d85998926211ab32ec9da54e5cb25afcd10672",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\connection.cpp",
+    "bytes": 1920,
+    "sha256": "fe5d6ab5cc7ba51d5c471a625b4086acdd79e9eb5beab398a09d74ce661547a5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\message_filters\\__init__.py",
+    "bytes": 23300,
+    "sha256": "206cb15e56bc4be0cb717e334e998e92b1423f0c30fb4e221804259df61ff0cf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\message_filters\\delta_filter.py",
+    "bytes": 9231,
+    "sha256": "8bf63490542756efaf3501bf83410581878944edd9eace9619c06c3ad2d25562",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\message_filters\\input_aligner.py",
+    "bytes": 8407,
+    "sha256": "1284258a6e18a3d5f253cdd3262e98faca92135206caa5a767e89b542a2250c7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "src\\message_filters\\simple_filter.py",
+    "bytes": 2470,
+    "sha256": "3ade830696d0419d306a60ab77aaea2d9534ab23ff25ba16edb9cd7987cc092b",
+    "included_in_llm_prompt": false
+  }
+]

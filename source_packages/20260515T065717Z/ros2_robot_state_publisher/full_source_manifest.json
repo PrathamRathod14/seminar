@@ -1,0 +1,8 @@
+[
+  {
+    "path": "package.xml",
+    "bytes": 1339,
+    "sha256": "eb95d9f84b82487154daa33381306b53f40083e36494c4659fc3001da87b61a0",
+    "included_in_llm_prompt": false
+  }
+]

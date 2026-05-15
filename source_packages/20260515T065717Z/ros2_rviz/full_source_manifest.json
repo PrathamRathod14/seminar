@@ -1,0 +1,2894 @@
+[
+  {
+    "path": "rviz2\\package.xml",
+    "bytes": 1872,
+    "sha256": "734bf47d5e2fc2dfb221c317e50285a78fbefaca365a525e80bb410c6d421fb0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz2\\scripts\\rviz1_to_rviz2.py",
+    "bytes": 18975,
+    "sha256": "c5739cee4533b7022d25e22e9a870244ff21a31ae60007b0e25db3d32da3c7af",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz2\\src\\main.cpp",
+    "bytes": 4164,
+    "sha256": "366996826afc3f985c8dde13f444da4aa7ab5269a6eea34d0666b37e6c76a8f1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\adapter_filter_display.hpp",
+    "bytes": 8792,
+    "sha256": "ac5c77512597130a5e2f4a2f3a42f52e58e0a54de4e5027d628593ab2b740b39",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\bit_allocator.hpp",
+    "bytes": 2367,
+    "sha256": "b63fefea1113759f92f4106d4b288fd77b931f5aa71dce7996dbd193f1680c42",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\config.hpp",
+    "bytes": 13244,
+    "sha256": "aea3d1723db9d922cd62d472d525911265c02b7f996f87b2f70c0825a9dcff0a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\depth_cloud_mld.hpp",
+    "bytes": 5337,
+    "sha256": "4416ffd971ef7c63ed55555727b5b14dd16296fab47113c563746142c1b272df",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\display.hpp",
+    "bytes": 12935,
+    "sha256": "7fd8ce0e231c87e74f09f6b8bf4674bb494be7a1a900cadaa866953b53420dd3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\display_context.hpp",
+    "bytes": 7323,
+    "sha256": "2adfca7ea798238c942ddf67a74e34adf913c114971633a91ae0df2f74812a81",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\display_group.hpp",
+    "bytes": 6570,
+    "sha256": "7fc7fd965a2f0f3ff14f3dd6e5f28577661dad059dab8f401a7b051f4f6fccb2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\factory\\class_id_recording_factory.hpp",
+    "bytes": 3355,
+    "sha256": "47f65e796070d82d719cedb01574ad3d1b4da94148e89de74f22d0b8286ef78d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\factory\\factory.hpp",
+    "bytes": 3009,
+    "sha256": "a57247f8c30d45be293c8a59b85f926a7d1cac73157fb3de66ebe8060f3eec13",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\factory\\pluginlib_factory.hpp",
+    "bytes": 7415,
+    "sha256": "1690adcfb24cda84d97bd8f724e1ee8579b69640340c399566277a82c12ac15f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\frame_manager_iface.hpp",
+    "bytes": 9362,
+    "sha256": "e5fab7ca771f9baddcf8813e72639506ddfb7a3c7dffcf64e4938d3538e250ed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\frame_position_tracking_view_controller.hpp",
+    "bytes": 4475,
+    "sha256": "b1c166b39896bb9c8bda5d93e80ef1ef08a0e24023033f91cc41a589b6752008",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\interaction\\forwards.hpp",
+    "bytes": 3322,
+    "sha256": "cb0bc5afd3bfcf98b285870c350557d23374ce0b809c2095a783d10903327a98",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\interaction\\handler_manager.hpp",
+    "bytes": 3456,
+    "sha256": "95a742a5df2c6e67720e2796200ab710e141c0e97d87fadeb8613a571d2f086f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\interaction\\handler_manager_iface.hpp",
+    "bytes": 6181,
+    "sha256": "4aa1f0504bd5ecc1493da44212d7f0f8e0ca1cc5f8c013711aa7dce9bf2aece6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\interaction\\handler_manager_listener.hpp",
+    "bytes": 2239,
+    "sha256": "3a8d8e196726df347192c7e374579d3ea57470e93044e123e7d6e33be788659c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\interaction\\selection_handler.hpp",
+    "bytes": 9217,
+    "sha256": "629a9a7d5d1d4b73ca91f688f4cd607733ef6e97bd0df0f9e291a2e5b5d38a2e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\interaction\\selection_manager.hpp",
+    "bytes": 7329,
+    "sha256": "0c9bc8302bfd5e63a6b3e0aef680f483bfa4da9d54dc05bdd7cd17f8e058560f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\interaction\\selection_manager_iface.hpp",
+    "bytes": 3776,
+    "sha256": "3f80f663e4633a3d8574d0b80ee2bdeb4c4c0e8f1da3af4d1e6b553deef9fc72",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\interaction\\selection_renderer.hpp",
+    "bytes": 5811,
+    "sha256": "9080fc05e1eed7def7538df7a381efbe05a5742bb8a9981845d27330c82f01a1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\interaction\\view_picker.hpp",
+    "bytes": 6134,
+    "sha256": "33690afc664c7588066f1868fd484de9b2446f4392f3348f4c4c359f7fd2bdfe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\interaction\\view_picker_iface.hpp",
+    "bytes": 3016,
+    "sha256": "dd89b002740e45234eafe1ce85788561891ee1800927cbb888a98f5e5fb1f4d2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\interactive_object.hpp",
+    "bytes": 2963,
+    "sha256": "15a563da1c2d202713dbfc89221a11813489d3a40562932b5791ea03d92053ed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\load_resource.hpp",
+    "bytes": 3253,
+    "sha256": "2779ec28528b980789437bc74c380338f1ce196cf7bb480ffc63d0c9e5d9bded",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\logging.hpp",
+    "bytes": 5244,
+    "sha256": "a4a93bc4b7458e478f39739b57dbd5a8d766c44ee97f505f1e98774ed59b38bd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\message_filter_display.hpp",
+    "bytes": 8588,
+    "sha256": "e58601235b52994511e226179004be78c9eb04cc6a98985940b6ef7569ca0fe0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\msg_conversions.hpp",
+    "bytes": 3112,
+    "sha256": "f7195b20635dc6d2f339f3628f6deb4aae26032eae81f69f1419bead4561ae7b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\panel.hpp",
+    "bytes": 4082,
+    "sha256": "bc50565900a8f5a7ca51ba7cb7c6ae96c8441502527bfbfec9d083d0ad3096cc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\panel_dock_widget.hpp",
+    "bytes": 3620,
+    "sha256": "22e48fd5e21f3008c101bd536706d23c6964b574bb93ea5479c6b2dca26bdea6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\bool_property.hpp",
+    "bytes": 3042,
+    "sha256": "aed95a681a8d8a08de9270711b6edd1b1a44cb0f1a9d590c1487f859e2cd9c1d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\color_editor.hpp",
+    "bytes": 2806,
+    "sha256": "effa2ac4ac835dd224ce0db9d295e29c564d404e4c42521c2e9b0930b953821c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\color_property.hpp",
+    "bytes": 2922,
+    "sha256": "50cd43a54affca013390fb605eae6a71385e79a1f86a3283ada169d7631dc5c5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\combo_box.hpp",
+    "bytes": 2179,
+    "sha256": "6736e1bdc389bea0ca4f81f09349cfec2a44bf1c20fecd697706abd4b0adf291",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\covariance_property.hpp",
+    "bytes": 3708,
+    "sha256": "581881d7901b67f686b3d34185b330e2bc8f1904c2c03b7ddd1f5f15d4d689aa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\display_group_visibility_property.hpp",
+    "bytes": 3682,
+    "sha256": "b316f0e04368eefedce81c02d07457312414bec753134c35c400ca53b23a77ed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\display_visibility_property.hpp",
+    "bytes": 3172,
+    "sha256": "7a3e07e29431a009c2a1b58b2737cfcc31a9608e3bf751e467f7c7087284aaf7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\editable_combo_box.hpp",
+    "bytes": 2361,
+    "sha256": "fedc516d41f652ce98d754245f061e59de553b4ba4a538134970a7834982bced",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\editable_enum_property.hpp",
+    "bytes": 4097,
+    "sha256": "d3d4c8ff9492bdcd20cbcf27dfc40d913c754bcdc0b504a2895c7605d92243e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\enum_property.hpp",
+    "bytes": 4664,
+    "sha256": "77335014ff59378877caa56c0bb369938f894b233d7dadabcf6cf9082175bc39",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\file_picker_property.hpp",
+    "bytes": 2720,
+    "sha256": "135b2b3c9f71dcad68a33121ac874e2692d54e7089e451241e56e6f1bbd44771",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\float_edit.hpp",
+    "bytes": 2522,
+    "sha256": "38066b08eceeabeacdcb78eac7deb4796a58e2bdc425cf9616adca8b1327f07e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\float_property.hpp",
+    "bytes": 3507,
+    "sha256": "373bb8fe24108b6d81b03a92f9a8fd4dff8a57b00457daf55604bd8782d7ea1a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\grouped_checkbox_property.hpp",
+    "bytes": 3583,
+    "sha256": "d47f4728cb64ead7fd5fcc7a4997677d9b8b39b7a265c23838f403f327a07930",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\grouped_checkbox_property_group.hpp",
+    "bytes": 2419,
+    "sha256": "fc7a4459d1a3a1ee8400a5808b9a03bd79592c35be79ba8ab3293a52b8f04cac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\int_property.hpp",
+    "bytes": 4866,
+    "sha256": "2f1a70b0b960fe6c08019a537ea2b2c8ce7874612330be2f511c5bc65fc5639b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\line_edit_with_button.hpp",
+    "bytes": 2632,
+    "sha256": "549dcc59dd274d5691cbf2c46d16411e08db5b1fae7927a8d0f6c9730cff8c17",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\parse_color.hpp",
+    "bytes": 2313,
+    "sha256": "c99be5d436cda4874d14d7091fe7fb1114547fccfc0d1fd17137f633e9a9bc82",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\property.hpp",
+    "bytes": 20896,
+    "sha256": "60f63a5648fdd7ebedf6fc2d40f520d93267ea3c3b1d4f77f6552e551f7581a1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\property_tree_delegate.hpp",
+    "bytes": 2523,
+    "sha256": "7f913e2d0ae5cb92d7db554c887aad6f70dadcafb555b2a98c71abd9c8ad6952",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\property_tree_model.hpp",
+    "bytes": 7125,
+    "sha256": "c46247953f2ca9b1b47ccc90f3e2e77bcc7e18b84b07634ed3128edaee4b3a15",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\property_tree_widget.hpp",
+    "bytes": 4828,
+    "sha256": "0be1bd4b24331866fe7a3e11f49757a9a27d7d58ea06bc0d7b35fd6081b6d74e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\property_tree_with_help.hpp",
+    "bytes": 2720,
+    "sha256": "a20245e1a08a27743c8aaea128a91316615bc8d3e0ace0e6b3e16cb1cc1bc9be",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\qos_profile_property.hpp",
+    "bytes": 3259,
+    "sha256": "8a3f850888a234782ae212cbcb70c32663a742debd4b3f6415c074da4b3e8432",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\quaternion_property.hpp",
+    "bytes": 3283,
+    "sha256": "764297d2cfbf1e83b6affad0f2c76a1847b2c6992785a164b36dfa314b553789",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\regex_filter_property.hpp",
+    "bytes": 3225,
+    "sha256": "79f9dd2760bf8d724955e983e1836d9325a1d9d3a0ed6f9b1c7f251bfc4b2ae3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\ros_action_property.hpp",
+    "bytes": 3816,
+    "sha256": "2ca1737abda9b38e2bd6e1d89c914709c0760226e21121cecc5a3e52d688c4c9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\ros_service_property.hpp",
+    "bytes": 3834,
+    "sha256": "6909a38986f3ca6a0512bdf4db6d09a1a31e32622703b742af5059d3edfa42f4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\ros_topic_multi_type_property.hpp",
+    "bytes": 3264,
+    "sha256": "53e6c0ef244a6a6acf81dd5d56ddf7adc2e06151d34f409b08fba8d5131a27ef",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\ros_topic_property.hpp",
+    "bytes": 3990,
+    "sha256": "0e5986ac86780dd9e1010c493f44a3ac342db76cb8ce6bb0ccbd779335706af3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\splitter_handle.hpp",
+    "bytes": 3559,
+    "sha256": "0499b7a3b6d4e113fb21c7fa338e0c3a16c450f439c4b4307bfa4599d7a78399",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\status_list.hpp",
+    "bytes": 3084,
+    "sha256": "d504a5dc224da7b69fb5020c87fc14fc99bc6636061b2ce8bdc0e2723032454d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\status_property.hpp",
+    "bytes": 3455,
+    "sha256": "af71fc2a8a743ef85519b9ea74385c8231ad0d9ef389e3c03510a24cc8382483",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\string_property.hpp",
+    "bytes": 2881,
+    "sha256": "d6d9ed65dec835cab157368719fac2be50d835a84474b43f35df0d391886a13c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\tf_frame_property.hpp",
+    "bytes": 3616,
+    "sha256": "243ae40533c98dfea5a78ef906fe3f489fd2d39763601a970d63a9a22769ab07",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\properties\\vector_property.hpp",
+    "bytes": 3185,
+    "sha256": "1c291d38ef4bca75fd5a80123d7cde3252955dd9e92074ff2fba709fb644a9c4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\render_panel.hpp",
+    "bytes": 6345,
+    "sha256": "c6816cf8e6a1b1e9d3496dcd283e2b995bbfd2a10252698250a01cdde3dbb259",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\ros_adapter_display.hpp",
+    "bytes": 7505,
+    "sha256": "45283e341736579d9767083a946be742a7d2335741ec7515ee4ec8a1cdc2f4f2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\ros_integration\\ros_client_abstraction.hpp",
+    "bytes": 4189,
+    "sha256": "692988d49ef7417ff812ef177eb2af8dc19d2a4ba4741a2f0ba2ff13bd95f054",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\ros_integration\\ros_client_abstraction_iface.hpp",
+    "bytes": 2466,
+    "sha256": "d3345dccc5c58016994ef0e150e3ecefbbd21908be443d355394894aa9fac74d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\ros_integration\\ros_node_abstraction.hpp",
+    "bytes": 4016,
+    "sha256": "701a5f78acce56620e96b92fe7fdf0e96855f99f5ad2d83e1b32788ca6f1ec90",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\ros_integration\\ros_node_abstraction_iface.hpp",
+    "bytes": 2754,
+    "sha256": "d6054de1aa8cbff4e80fead8911b474c2ba107399b44c0f101e8b5b63502252e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\ros_topic_display.hpp",
+    "bytes": 10370,
+    "sha256": "1d84ba9113adc633f6dfcb1387475a148f7621ac75458e74e4d0301a4a7fdc17",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\tool.hpp",
+    "bytes": 7191,
+    "sha256": "b162c3fa03c1122d29067d6e641796526e414a5bfadc8e6a69b207010ec1d391",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\tool_manager.hpp",
+    "bytes": 6250,
+    "sha256": "b5b4faaea38ea8bc7d5556de4d9e172170d35e5cc80746f24e38ecce5b7b71fb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\transformation\\frame_transformer.hpp",
+    "bytes": 5063,
+    "sha256": "b45e7296937e0a7ef3d7f47507f95f3cf0d3ac4573436b00193b089370f3d619",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\transformation\\tf2_helpers\\tf2_conversion_helpers.hpp",
+    "bytes": 3463,
+    "sha256": "b794dad28c53e7603a0ba5d98708514dae4e6c68b7e261010f82a9769b06899d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\transformation\\transformation_manager.hpp",
+    "bytes": 3518,
+    "sha256": "facef4288e441e70d46b8b9f67fd54b0ec23804a3779975525204de164d45998",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\uniform_string_stream.hpp",
+    "bytes": 2888,
+    "sha256": "51dcf3aa944ad55cb8f3f715e2fea547391a772d2e60fbbb7226638897304bfa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\validate_floats.hpp",
+    "bytes": 5579,
+    "sha256": "b34f387aa31696fb092310e8103b04ebb3eeff95f870049a8ac68e2c8c977f93",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\view_controller.hpp",
+    "bytes": 9853,
+    "sha256": "4dfcbe3d1d9ac57baa60b501c949ff1f45e737e561eeafd893db74cbad8f2062",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\view_manager.hpp",
+    "bytes": 7152,
+    "sha256": "de57236814bc879de0c4a42905d67ce319a1c5f4216db4386a16b09e5cabcf1f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\viewport_mouse_event.hpp",
+    "bytes": 4195,
+    "sha256": "3d7a29b24a7ea461755a4990d4ec742a7ead768d992dd9c004e9d02666ad82db",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\visibility_control.hpp",
+    "bytes": 2869,
+    "sha256": "18899e231c24a1a8ba38bc4ef7c4aabb109afa51d46ea4e76e20d3716bb9f306",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\visualization_frame.hpp",
+    "bytes": 16052,
+    "sha256": "4f1e4770eebe573417a18c7c3b49ddf623ef55fcb4b8f004e65e485ece06e312",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\visualization_manager.hpp",
+    "bytes": 14042,
+    "sha256": "0bf0bb7f616f4cd21a5eceb9ba84b142131c1304546af2ba44c4e2593ae76179",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\visualizer_app.hpp",
+    "bytes": 3373,
+    "sha256": "13ca9bf8aab13e6a3f6e2b183cc5df2488a5b9de04c63c5ca4db9b1740c1f31f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\window_manager_interface.hpp",
+    "bytes": 2935,
+    "sha256": "cecf574b1ee2ecbc031fe5d310ec273a7218dcfcef44c0882097ead41900d2e8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\yaml_config_reader.hpp",
+    "bytes": 3343,
+    "sha256": "c7c08eb75b8974f8c23e815625818e0252ec1f8905fd63c6bd816c9bed7597b7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\include\\rviz_common\\yaml_config_writer.hpp",
+    "bytes": 3318,
+    "sha256": "abb9172cff44eed2a4eba2b06c9d31ef8f7cb0cb3cc971189bd0792c0da84a08",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\package.xml",
+    "bytes": 2123,
+    "sha256": "a23d6d2a2dd121ba8912d0b3eb5a4402f841732232d895d714892fe9a9ad68cc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\add_display_dialog.cpp",
+    "bytes": 24100,
+    "sha256": "bea9835167afe9f37b91cc0057c6d703903c4d877360586763437d4c5134c695",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\add_display_dialog.hpp",
+    "bytes": 7998,
+    "sha256": "f27171e24f7b69462c0ca5ac1e992cf524441535361059034c0ff3b42728edcc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\bit_allocator.cpp",
+    "bytes": 2172,
+    "sha256": "903e7c9d680bb8beedad8742abb9c68e95841962e54ea91a9af4634a04e3ffa2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\config.cpp",
+    "bytes": 10095,
+    "sha256": "20d2ac0aba8887b1fdc7813904a9f25ca2e446c354d050260a21304799a46d0c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\depth_cloud_mld.cpp",
+    "bytes": 20758,
+    "sha256": "2909b37ae3a6a873f548b31273dbe62d8f0b0956fae7e432d39fc00917abccdf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\display.cpp",
+    "bytes": 14281,
+    "sha256": "62f2ff0edbcf709b5e93218f682e99b71910ac1024892c76f28df2c9eea5bfa6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\display_factory.cpp",
+    "bytes": 7336,
+    "sha256": "01708989fff29b5f5717d93ef1075230d068b806b8cdf14b52ec7a112a0eb26b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\display_factory.hpp",
+    "bytes": 3480,
+    "sha256": "4920d189ec1b008e5fdcd0c773f7d340dc3b6b3bcdc4d9570ca65fd445ff6229",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\display_group.cpp",
+    "bytes": 10005,
+    "sha256": "20fd9ac7daba1766ba8811e7b16bc9b09a863c13aa4ce07cee2f3437c30a5b28",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\displays_panel.cpp",
+    "bytes": 9907,
+    "sha256": "ce2c28a2d1551adef47ad79c0034379634a89431c90f12f550e94895ff755ed7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\displays_panel.hpp",
+    "bytes": 3426,
+    "sha256": "e1961741b2cfb168c2b889a9fcdd98d08382a11690c6aecd8ffdb88c777df179",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\env_config.hpp",
+    "bytes": 2103,
+    "sha256": "b6b09a25bc0a09c72b54ff6ce751a4368a8d434687de8e2758c73af18e27b025",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\failed_display.cpp",
+    "bytes": 3115,
+    "sha256": "f77c4c58006f001cb990224e9c9e5392659a47363ecaee70c2f0027f78803c0b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\failed_display.hpp",
+    "bytes": 3046,
+    "sha256": "3bcd5f2b21764a81ff920459223b4c44d8542afacc43b9e81c4b125102ec43bd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\failed_panel.cpp",
+    "bytes": 2819,
+    "sha256": "49171a879032078e56c88dcf8b5327b39cebe0408dfa97aae5923f517ef17a0a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\failed_panel.hpp",
+    "bytes": 2489,
+    "sha256": "fabf0772de5369744edf404ac296b1e59044afe03121304b461c0158fc3ee9ba",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\failed_tool.cpp",
+    "bytes": 2789,
+    "sha256": "a7ce4f60611ee01d7231f23855ab5312cb8829e90bc9308356be6c885ddb99bd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\failed_tool.hpp",
+    "bytes": 2963,
+    "sha256": "9d3a96f22f90a1cf2f91f147fb6cffa7a179c767de89c7df6d3418085d99ba86",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\failed_view_controller.cpp",
+    "bytes": 3044,
+    "sha256": "9ab605e97f882bb2275edebf637133f49dacdaa081876b71d4c7dde90fdd5a36",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\failed_view_controller.hpp",
+    "bytes": 2992,
+    "sha256": "7e1feb626e6e3e5e5efa8b5f0c3bcae5f301464658ad464a4cb1800a931d8aa8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\frame_manager.cpp",
+    "bytes": 9347,
+    "sha256": "abf415decdc1178a98129f89601d4d80c172a67820987874448fa91167ae4c42",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\frame_manager.hpp",
+    "bytes": 9089,
+    "sha256": "6682e04f438220fdd4ababa2c6afc70cfe3935ede8efb1a8621a0dfb48f35b05",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\frame_position_tracking_view_controller.cpp",
+    "bytes": 5551,
+    "sha256": "d95e04c87bf054a6357fbafce9443dd12604517787790011faf99391e37e6493",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\help_panel.cpp",
+    "bytes": 3032,
+    "sha256": "98f65f90f6f86f032d3b1242528070a4401f6727f0735f37971bc87a26ea0194",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\help_panel.hpp",
+    "bytes": 2276,
+    "sha256": "6f9cd1ca4867d3a7d529a2a747854826355f6ba558114429a616bf8bd4c0c013",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\interaction\\handler_manager.cpp",
+    "bytes": 4955,
+    "sha256": "63eefe590c7bc6d8f79e8ddac2bcbd2416f4ef4d671fe6bd5e26841311f30777",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\interaction\\selection_handler.cpp",
+    "bytes": 8857,
+    "sha256": "49aa79ea590e0e450ff89c9fa02a79a4e9ba0936a63cafd088262f99c90cfb61",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\interaction\\selection_manager.cpp",
+    "bytes": 21192,
+    "sha256": "8f58b39450af4d38ae4e5a304627380326840888cb673667d8dddd5993484ff1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\interaction\\selection_renderer.cpp",
+    "bytes": 12697,
+    "sha256": "6ac37b897e4a1142695d981a9abb285be62416b405ab377e1b81ada3fa1b4fc0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\interaction\\view_picker.cpp",
+    "bytes": 9705,
+    "sha256": "dc9de49896c3bd86e711b60286aaa68c7606bebd791e2df9dd97da1142c869a0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\load_resource.cpp",
+    "bytes": 4742,
+    "sha256": "db01c9dd2274c32e92bca965e513ffdec861e5a2f0f7c3292e14a88fce19b6c7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\loading_dialog.cpp",
+    "bytes": 2241,
+    "sha256": "1faf3413a3cf9101380a2b097625451eabbd1a2053cf02bca4d87082c9dcae44",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\loading_dialog.hpp",
+    "bytes": 2161,
+    "sha256": "1487b9e1ac114de2baa02311138bc54d8dafba74274fd999afce9a1ef4cf31b1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\logging.cpp",
+    "bytes": 4664,
+    "sha256": "e2e8ed87f2b642677eb052469c0a8b60bad970a3202b392739a245b12b7190cf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\new_object_dialog.cpp",
+    "bytes": 8451,
+    "sha256": "757ab2f2f74c31a294203547d3e9d61fa6a500d5d97eafa3f516112a1f9e5e21",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\new_object_dialog.hpp",
+    "bytes": 4269,
+    "sha256": "b2c2657d88b9e5e6128eac6af75d01c9a8855596832f396538bcf9f2e3a9fa98",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\panel.cpp",
+    "bytes": 2940,
+    "sha256": "c5c5c9c33c584c74cd1c4bda16645cfb5caf93cc2981f68aa5e8528adabeddaf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\panel_dock_widget.cpp",
+    "bytes": 4834,
+    "sha256": "244c0daf7619f05c8faae8004bbc99c77092886e638ed92af299c5a390084764",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\panel_factory.cpp",
+    "bytes": 3703,
+    "sha256": "dbba80c6c196ad9485f4db92124dc5befa1decad759414808272bbb059b2c94c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\panel_factory.hpp",
+    "bytes": 2326,
+    "sha256": "2cb69ed8906d322c9de15836cbfb7d368b271b467831606bd17b5a4f34bce490",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\bool_property.cpp",
+    "bytes": 2796,
+    "sha256": "5360de44201ea63f28a72736fb49b781cc228e17270ab5b4ae2cab568b999ea9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\color_editor.cpp",
+    "bytes": 4717,
+    "sha256": "60c7a009f5a58617ed80009db95beed55fa2195a0a142d9b156dcd93ab358d62",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\color_property.cpp",
+    "bytes": 4177,
+    "sha256": "fc6be26d80c4602c62361279810b0be5cf947661ad8622dc5e42d778818fd86e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\combo_box.cpp",
+    "bytes": 1860,
+    "sha256": "6103d5955bbd724f94e88bd5c533ac7d9bdd603e77de97df93a78fd6b3841b48",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\covariance_property.cpp",
+    "bytes": 7255,
+    "sha256": "8bd1d0bb74d0947cfd68829b6d1951a41326b083ea0e46fec00faced63054da2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\display_group_visibility_property.cpp",
+    "bytes": 4838,
+    "sha256": "e20548c31bc70a7f02dd423bd4ad6bb14f28a94da9ce8e8f9af1e0ccbb9a9302",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\display_visibility_property.cpp",
+    "bytes": 3472,
+    "sha256": "efd3c880d2c89508875455c6129e2431510c337ea9b769b13d03c763dcd03052",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\editable_combo_box.cpp",
+    "bytes": 4109,
+    "sha256": "09cd8adf9bac43eac6934074b762849f309cdf4d47300d1990c049178b0d38cd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\editable_enum_property.cpp",
+    "bytes": 3681,
+    "sha256": "d65be4de04071a445d7aa751d53bbc721d191300a72f5466a12b42a11253f673",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\enum_property.cpp",
+    "bytes": 3952,
+    "sha256": "1ab41f0c2a6fdfa46ff00f60c130d05d264201f4c1962fdd2496b9c8ffb0bb1f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\file_picker.cpp",
+    "bytes": 2335,
+    "sha256": "4f9f6be2ee54bb74b3dd037c958a6287cdd56deb343ebf035bcf2c09151e37a2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\file_picker.hpp",
+    "bytes": 2489,
+    "sha256": "93dc7c5c211f043551247941be7d852a03a5241107eb4326508d81d831982283",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\file_picker_property.cpp",
+    "bytes": 2547,
+    "sha256": "e0a4b314032707261306c16106b765934562955ce38fc84d7d88b307b72535bb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\float_edit.cpp",
+    "bytes": 2741,
+    "sha256": "833355c52eab82d5f11f1626a837fa727d28447d898faa0c82ba241b6b4a0e31",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\float_property.cpp",
+    "bytes": 3169,
+    "sha256": "0f956645b29528c6e6531130d0f690039662a6316a4694871468ddb8267410e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\grouped_checkbox_property.cpp",
+    "bytes": 2724,
+    "sha256": "57a35dea724381963e60ab3aab3f33667cb21c488de4387b9d626ee0370565b5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\grouped_checkbox_property_group.cpp",
+    "bytes": 2496,
+    "sha256": "f7f65e0f6faf8b75a26f1c963c24f4059d77f1ddbf8debaf114c100a54735d02",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\int_property.cpp",
+    "bytes": 3306,
+    "sha256": "4ba0496ee717235b592410f845e300123001eda61c868b9568d8e7c773f42eb9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\line_edit_with_button.cpp",
+    "bytes": 3113,
+    "sha256": "dce69a39b3cbcb39602a48a3b968e68447912ce508b1dbf53c74e591edf25f94",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\parse_color.cpp",
+    "bytes": 3216,
+    "sha256": "4c1a2bca8e43fb98dc855d07c90dcb2b1da82826eb36d387d5f057e6f8442d5f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\property.cpp",
+    "bytes": 16174,
+    "sha256": "892d13ff03865f29c8e0a906577c5bd625a4fc9c6912f201a7b0286a91510b23",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\property_tree_delegate.cpp",
+    "bytes": 2958,
+    "sha256": "cd27c1984b42b58a317b67ffbeb9533602b899f07e2a4b6b675a0674a8df090b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\property_tree_model.cpp",
+    "bytes": 10391,
+    "sha256": "ef1aa9ae270aa2f6cc90c371c8e446911f770c40b3dc071551dc5a4520c8d877",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\property_tree_widget.cpp",
+    "bytes": 7529,
+    "sha256": "6efc215776b4b67121037e46d6d96535fa8968c30716706cf93d751395734668",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\property_tree_with_help.cpp",
+    "bytes": 3840,
+    "sha256": "2c40711dd8831cd6d787b795185cce095b0239b67921cc9cc929240c87234f81",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\qos_profile_property.cpp",
+    "bytes": 6301,
+    "sha256": "1c9b7ff8d5a9f0431b0b0fd34f09214f1dd512c23e751dafff55d0eb5df2a849",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\quaternion_property.cpp",
+    "bytes": 5867,
+    "sha256": "f0953ebd1b9c68e8fe46a1e5caafd07c754fb062766e810f9a36ac02b24a48d6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\regex_filter_property.cpp",
+    "bytes": 3848,
+    "sha256": "ed9473be2b617546ead7790d1bc7c043f8467871da89cbf460b363ada6d9103f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\ros_action_property.cpp",
+    "bytes": 5059,
+    "sha256": "dd2c7eb4d2e40d7c7811695402efc4f95b006d0923be660816a8e29b33eb06f6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\ros_service_property.cpp",
+    "bytes": 4963,
+    "sha256": "eecaf367e21d980ab0526856cd34db300e4cf6f32c5747bad83404d42268fd03",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\ros_topic_multi_type_property.cpp",
+    "bytes": 2686,
+    "sha256": "c06c7caa527846a6003e1a77b8e7580b446a19dbd3e0e6c479fe832c7fd157b3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\ros_topic_property.cpp",
+    "bytes": 4307,
+    "sha256": "a101639ce0592f964363a0bd099c0b2794a35bc5195cdbf1d1c906eb902ca626",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\splitter_handle.cpp",
+    "bytes": 4729,
+    "sha256": "b09b43b6698419b0a733e9a96e61b1e7a1b14ac07844d0d6359da18e4ca8ffc5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\status_list.cpp",
+    "bytes": 4157,
+    "sha256": "58159ca1e0f9eed2df7aecc6489de5f8094f1cad8379ab14c608b282f8d7d6ea",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\status_property.cpp",
+    "bytes": 4121,
+    "sha256": "ea2c12e0a49ab50bf4b9b5b0aba37bb9c75d80d72a5f8924e8bd77155b617066",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\string_property.cpp",
+    "bytes": 2650,
+    "sha256": "4798f3e7f73eef89d846f9e466688b8c76d418a38689af4f6cba795e6556af96",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\tf_frame_property.cpp",
+    "bytes": 4563,
+    "sha256": "f8efacb2c011e4631f4d0b186d6a064c7d8db197484decd1ce43b1a2c2937890",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\properties\\vector_property.cpp",
+    "bytes": 5428,
+    "sha256": "fcce130ecd7106e79d48b7b78933026daf808fc901eddb0efac143b20bf42f4e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\render_panel.cpp",
+    "bytes": 10056,
+    "sha256": "6bd0ad1e5e6cc5602016163ff62c1eeeb570f662047a091c50c13fcb50699297",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\ros_integration\\ros_client_abstraction.cpp",
+    "bytes": 3232,
+    "sha256": "cf3efa77a2e67054bf5f68f1fd44364604ed1739ec5be3cc1f0397a1598a2560",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\ros_integration\\ros_node_abstraction.cpp",
+    "bytes": 2625,
+    "sha256": "a23f044b55d97b06219b2c919efa25ccdddf76dafdb28f3f6fe4a38dd444419d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\scaled_image_widget.cpp",
+    "bytes": 2619,
+    "sha256": "e9e625b84054057333bf24e2badc0ea85d24e51088ec7b068142fc574bf5b1a7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\scaled_image_widget.hpp",
+    "bytes": 2658,
+    "sha256": "5ad647e6fa77d04af18efaf716c43c532413e69ae13a2e10e5fccda2574efb5f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\screenshot_dialog.cpp",
+    "bytes": 7709,
+    "sha256": "ce6a4fa28c79a4aeb27fceb2f56d2d81ac5558f69abeb55933fa49c5d7d50337",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\screenshot_dialog.hpp",
+    "bytes": 3137,
+    "sha256": "f714c2bfbf6c198368267bad3d0813ab882cc8b7c92fcf7ff41a50178327de0e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\selection_panel.cpp",
+    "bytes": 2336,
+    "sha256": "880579a923db5d01587ac98adaab5e68e19eeed1330718358102453266bd0d32",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\selection_panel.hpp",
+    "bytes": 2124,
+    "sha256": "ca0cd27017959d9aa8da58f9ddc2c2c2f00dcd2ca73dbc7b246c05933a9de5d4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\splash_screen.cpp",
+    "bytes": 3219,
+    "sha256": "943fb143bdba6794b5a52104789f879c72b2cec180e7160c1109b28c677d6edc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\splash_screen.hpp",
+    "bytes": 2082,
+    "sha256": "884c9919ebd3e7f5247d77a7442b22d1464385e314d5d140657d473aaf099dcf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\time_panel.cpp",
+    "bytes": 9525,
+    "sha256": "9b33e56a375da566ed7851a0853e5bc343d14be010569f79adde579444a34f2a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\time_panel.hpp",
+    "bytes": 3515,
+    "sha256": "9ab61944aa14b48364cfe7709c14c019bff088f165a8a73f3915494578bc2fdc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\tool.cpp",
+    "bytes": 4667,
+    "sha256": "a754e2dbea790e0844b98d3190af6739ad1a510a0e386959a208fed566987809",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\tool_manager.cpp",
+    "bytes": 9721,
+    "sha256": "eb4a97cf1d945056f4e9c1bd0751c74d642e045010b077afedd9f522c1811b7b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\tool_properties_panel.cpp",
+    "bytes": 2627,
+    "sha256": "41c1b3628cb7bb01e57e685685bcc89493a823213e58bafb65e383a6085ad6c2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\tool_properties_panel.hpp",
+    "bytes": 2639,
+    "sha256": "84ec492f27712715c4a70a19553121c94f24485dbf430ad96ba9a19e335ab794",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\transformation\\identity_frame_transformer.cpp",
+    "bytes": 6532,
+    "sha256": "3d198251c1a4a72e5c9f17cf4bf64a26468d438ec5497325e900eb04851c2e1b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\transformation\\identity_frame_transformer.hpp",
+    "bytes": 4460,
+    "sha256": "5472fad0e909cb3aaf9d145945cb3091b8e4cc26634df76423a19e6086b24a3e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\transformation\\transformation_manager.cpp",
+    "bytes": 4339,
+    "sha256": "03ddaa885501aac49ecf052683ef598823584480115179824ebc4918d53aab4b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\transformation_panel.cpp",
+    "bytes": 6240,
+    "sha256": "092f27394883edc308a80dd07d5359bc31b8e934b131184fc0c9d8fe30a254aa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\transformation_panel.hpp",
+    "bytes": 3723,
+    "sha256": "1fe9e91999faa77f0038e3eba65fac0e236809558f5c683aea344c3912d7c156",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\uniform_string_stream.cpp",
+    "bytes": 2520,
+    "sha256": "baf230daeb78a42d6ed5e7bfd27737b96d4c9bf2e0f5a34008ae6903686ad6e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\view_controller.cpp",
+    "bytes": 11381,
+    "sha256": "12ea179685e4634f79a73aaeee822743e3a4b13d5a9305af643b870179493075",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\view_manager.cpp",
+    "bytes": 9249,
+    "sha256": "97cdafcfa438e7b5fc9a7ea10c53cad14019f83d45f40ff526a6fa86c4700175",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\viewport_mouse_event.cpp",
+    "bytes": 4445,
+    "sha256": "61fd1991eb97283943a80081d1db61b9bb262d0b57dad7cde87ad1407464292e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\views_panel.cpp",
+    "bytes": 7976,
+    "sha256": "734cefb831c07057b022d0720dd9e8eedd1f1afb1d17396014abd001ed2b4c73",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\views_panel.hpp",
+    "bytes": 3610,
+    "sha256": "ae377fd01fcd3c756edad44873e563de36e0a15920912aa058b442b25bb423c1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\visualization_frame.cpp",
+    "bytes": 44203,
+    "sha256": "e214512051dc478ee439b40cede62bcd2c587d4d7815eb87a72345e68ff893d7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\visualization_manager.cpp",
+    "bytes": 21703,
+    "sha256": "f7fbf7240a0da7fdef47f1fa57d2e3e23ca0e324a60d3de524a700a6ff94105c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\visualizer_app.cpp",
+    "bytes": 6831,
+    "sha256": "d1782db13b8aeba8c7352b07d36157305bd12b63b67fa69848111e533a73c7e5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\widget_geometry_change_detector.cpp",
+    "bytes": 2179,
+    "sha256": "f08126b517455b9d40cc9b53b78f0ea0f7cf20383ce55528360bba5aa1fa555f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\widget_geometry_change_detector.hpp",
+    "bytes": 2374,
+    "sha256": "824e8f7e295d5b5d78604165e2ef0f5f4efa05eb5499d9ae8bb736be3b48748a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\yaml_config_reader.cpp",
+    "bytes": 3995,
+    "sha256": "7869012e1c9e022d59039dfb9922709b97f24691b9c05529e6e3813e4bf01f17",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_common\\src\\rviz_common\\yaml_config_writer.cpp",
+    "bytes": 4315,
+    "sha256": "66249075e4c3884d3177b8d344d47ade24f3aa0ff34cf94520494a53301d2f9f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\accel\\accel_display.hpp",
+    "bytes": 2372,
+    "sha256": "7d74074cf7080ba64317180ade10a2f7de4fea9dfbe06254e9590d0edb029b18",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\axes\\axes_display.hpp",
+    "bytes": 2818,
+    "sha256": "46bc025676e290970d38629291e86757abb87091977cf228e37910cd50fab5b0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\camera\\camera_display.hpp",
+    "bytes": 6622,
+    "sha256": "5634cf20ac2b4215d95526339789f148414f66684253a0651b3bc4a07b5689fd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\camera_info\\camera_info_display.hpp",
+    "bytes": 4795,
+    "sha256": "198dfdc883a90996b41de2097f2c4fe403ded7021bee1a36346a98daef6fcfda",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\depth_cloud\\depth_cloud_display.hpp",
+    "bytes": 7575,
+    "sha256": "ce585202632ac90e80f0abf89a4712ba3775fd52c38844f8ea2c53cbf3f60ba8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\effort\\effort_display.hpp",
+    "bytes": 5649,
+    "sha256": "6c1edbeb97c6b68295b2664b24063aa6c8ac40520046d22c6f42281e79d448a6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\fluid_pressure\\fluid_pressure_display.hpp",
+    "bytes": 2775,
+    "sha256": "47cb23cdb1eab2a3aab9044caad3d7ea583c00e54424c5222552a63c1f200c05",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\grid\\grid_display.hpp",
+    "bytes": 3975,
+    "sha256": "e9caa61cfbd631a980967e6492473f554a9339aac9fabb94ba26cb0e9db43228",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\grid_cells\\grid_cells_display.hpp",
+    "bytes": 3779,
+    "sha256": "26903ae56d5e1b9a56b4ba4869c08df3f16c10793729134541b9fd237161f19d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\illuminance\\illuminance_display.hpp",
+    "bytes": 2739,
+    "sha256": "a5c142460205cab99da6b612aec3fb6130a481ba563ad2834363229d4609b733",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\image\\get_transport_from_topic.hpp",
+    "bytes": 2289,
+    "sha256": "529eac559890e896a3e8e847dae46305531a54c9fe26cee1c154c5c1c5811525",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\image\\image_display.hpp",
+    "bytes": 5173,
+    "sha256": "fd0058fc33d4f39484ae1cd4340bd9dd80423039bee9c7482dff35a2fa910545",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\image\\ros_image_texture.hpp",
+    "bytes": 5624,
+    "sha256": "aeb57d842d475cf5739bcfa16108d3d45a45d2e17833e7533c78ed9562624e7c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\image\\ros_image_texture_iface.hpp",
+    "bytes": 2966,
+    "sha256": "4867cf6a162d37db13aa32643fdbfc5d4dc4457aa48dd689655618499d77488a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\interactive_markers\\integer_action.hpp",
+    "bytes": 2528,
+    "sha256": "10e2dcd18ef6d81f9476caebd5c1690aa48bcd0481b679b74788e6bd2807234c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\interactive_markers\\interactive_marker.hpp",
+    "bytes": 9868,
+    "sha256": "a3af62c1757e47154da5279f9e66a990d84ddd7c22f5f3c8a57a8aea7677910f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\interactive_markers\\interactive_marker_control.hpp",
+    "bytes": 19400,
+    "sha256": "8ee91aed3be70495dc0e2d15f65978712f8bbff9cc22846b3b55f7a08978a1cb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\interactive_markers\\interactive_marker_display.hpp",
+    "bytes": 5662,
+    "sha256": "919503810a1644f2ab50ee25144e9c1531a280fe43d044fbf636c4a922f36691",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\interactive_markers\\interactive_marker_namespace_property.hpp",
+    "bytes": 3417,
+    "sha256": "90559caa261524382db90bff7a3ad32e49203e51f17c81f11a4f2c978dac8fbe",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\laser_scan\\laser_scan_display.hpp",
+    "bytes": 3980,
+    "sha256": "a992e100e8a31d945b4381e590ef9d1c2f6b35caa647878dfe0675d52f03b2d3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\map\\map_display.hpp",
+    "bytes": 6720,
+    "sha256": "9d2a0604ae06935c7d359cf7afb9dd35b97bf6fbf78854a21d0d7b5785d75c28",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\map\\palette_builder.hpp",
+    "bytes": 3435,
+    "sha256": "825dc5175779658e6b7dbed5e53caa6c2e43a9bada5351a47a38dc3cd4067059",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\map\\swatch.hpp",
+    "bytes": 3933,
+    "sha256": "48fd21d4955bb446ab102f233b65cbeaf032615e630c38ad13eb833c92e6e0f0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\marker_common.hpp",
+    "bytes": 7788,
+    "sha256": "38c3abb840b09a0cb5cb6ac4d85ed1484138e48fe90d0721deab0eeb6609e411",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\marker_display.hpp",
+    "bytes": 3307,
+    "sha256": "ec9809d292b353a8538dcfdd723ad5a6c0848a9e6b10738e19e95fe748d746c7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\markers\\arrow_marker.hpp",
+    "bytes": 3463,
+    "sha256": "3227914d92329c00ee7f9a99f2e5666124e15849160cf97db9081f4157c5fae5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\markers\\line_list_marker.hpp",
+    "bytes": 2785,
+    "sha256": "aa601fa0a846b84185ea1e2ca6bd5f4e8cc79a5b15805a7718a0efc18ec7e93d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\markers\\line_marker_base.hpp",
+    "bytes": 3647,
+    "sha256": "426998b0181c5f15bd9e6c4727e6138356fa8d7893f5509d4ed2548825548bfa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\markers\\line_strip_marker.hpp",
+    "bytes": 2679,
+    "sha256": "e0ab8037bcfdcf94bd19ee42d744dc0cdd5b8908623f81aa4a84f68af965bbb6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\markers\\marker_base.hpp",
+    "bytes": 5040,
+    "sha256": "27a4edb820ab0341d6cf6a838b91705cd7b0f9b589cfb1b0e6c4a5d70b8cfbbd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\markers\\marker_factory.hpp",
+    "bytes": 3573,
+    "sha256": "a1e60d1b365914b1f5433967fba1e2f88153c56ddd54c1bf47f8b6ce46bbfab6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\markers\\marker_selection_handler.hpp",
+    "bytes": 3607,
+    "sha256": "be0c0fe8992d7e757306a54f65805bf10ab5abad0b506f762a628f30054b0a5a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\markers\\mesh_resource_marker.hpp",
+    "bytes": 3885,
+    "sha256": "af6ae85322c126339d2967a6f06a8f0bc428afe536cf3ccee781dec0fe4962a3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\markers\\points_marker.hpp",
+    "bytes": 3245,
+    "sha256": "98e192a59c7c8ab6218d03c9e520195fd05e914da649083500fd92304eae4516",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\markers\\shape_marker.hpp",
+    "bytes": 3175,
+    "sha256": "84ad220165b8dcec993081989a76c3d58b958eb9a645be0e92eb1021e27c1ab9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\markers\\text_view_facing_marker.hpp",
+    "bytes": 2926,
+    "sha256": "a808b3a6cc986e8e8cc6b7d09a39280bbb3085a56c4dc71376e55d3bab4e13cf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker\\markers\\triangle_list_marker.hpp",
+    "bytes": 4411,
+    "sha256": "10e65efbb5e460961e0054b9e2cd475379a68dd2fba4e0c33a9370ac1dc7da29",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\marker_array\\marker_array_display.hpp",
+    "bytes": 3151,
+    "sha256": "d4418268375b9f0c63101a7da277b40404acb3f52c298a614d129d617f4204b7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\odometry\\odometry_display.hpp",
+    "bytes": 5980,
+    "sha256": "1455ff0b464a5dc407d930d3bee3e804f71e783839659b662f38a992f32e6418",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\path\\path_display.hpp",
+    "bytes": 6043,
+    "sha256": "ab56e3b5dbec1a8fafbc87a1ca785abc4e485427285a1f77e64a31c84430319b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\point\\point_stamped_display.hpp",
+    "bytes": 3869,
+    "sha256": "85d26363daafa7947ae0d62fd9292d23a71e8d85894ee47cfbe2012bfdf40d7a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\get_transport_from_topic.hpp",
+    "bytes": 2332,
+    "sha256": "3e5d26437ce01b8bf5f86af845860099aa4849a7dde6f4178211f6e0eef73422",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\point_cloud2_display.hpp",
+    "bytes": 4585,
+    "sha256": "320edf33f9ba27d841078aa32fdaa7dd24916084fdccc8a2c7089ffd39c0630f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_common.hpp",
+    "bytes": 9286,
+    "sha256": "99e53774570ad8c960a77657c14e4b4697e28230b46087a7f9138da48307675b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_display.hpp",
+    "bytes": 3471,
+    "sha256": "c77bdd2571b8b531eed843f345982085d6952cc43b00be8b91f6cb26bc445a57",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_helpers.hpp",
+    "bytes": 4957,
+    "sha256": "89ef45d798a5dcd115ffac379c52e6d5673ed3f054365e5264265c684239664e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_scalar_display.hpp",
+    "bytes": 7210,
+    "sha256": "e89032d9dfdc3472a73d449037d62f1568919b647b9860435d0e91fed90c118d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_selection_handler.hpp",
+    "bytes": 5595,
+    "sha256": "637591bb31a6a25d245e3e9cba11d9ee1dc9c0670a3f9c9c8a320b505bec992d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_to_point_cloud2.hpp",
+    "bytes": 2339,
+    "sha256": "69cd40a31be52c83f89aa5a044bf19cd3a86542cfa4fbaa572cc6158c9edc975",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_transformer.hpp",
+    "bytes": 5697,
+    "sha256": "7043deb9ff3aa656b837e12a78ca216404b80469136f7da71a9862609deeba1f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_transformer_factory.hpp",
+    "bytes": 2430,
+    "sha256": "ac4b7e5c6de2807ae4d3939a674db09ef934df552076ff303352e1c6d97424e5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_transport_display.hpp",
+    "bytes": 4985,
+    "sha256": "34f1634a90717ca576a02595267ba9d2d944459186b9f126ad7e33954f02fa83",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\transformers\\axis_color_pc_transformer.hpp",
+    "bytes": 3661,
+    "sha256": "f0a47746f9906072e3543f40f4c66d3af0b6867d729d45b32df80a898b5a3c45",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\transformers\\flat_color_pc_transformer.hpp",
+    "bytes": 3123,
+    "sha256": "f00d1cf1f99bd3cbb46744665b60544a5bfd9f1061fc98e5792e6ac42cfb3916",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\transformers\\intensity_pc_transformer.hpp",
+    "bytes": 3971,
+    "sha256": "ad4c913a0530a152e011eb80c1b7bec33f22d84a168352c6e138b1dfffe5172f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\transformers\\rgb8_pc_transformer.hpp",
+    "bytes": 2727,
+    "sha256": "1118d193d9d7d1e7bd1f946c207a26c15a2693f30839d5b6ddcf7c31485db304",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\transformers\\rgbf32_pc_transformer.hpp",
+    "bytes": 2676,
+    "sha256": "01dab22d2a9b25cbc44d7bc80727893b6e83dac1a3c3ddb5c93ca0f2166472ed",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pointcloud\\transformers\\xyz_pc_transformer.hpp",
+    "bytes": 2666,
+    "sha256": "aeec1f6162cfb6c5252979a157863a4087b3a5d55d3ae48587dda631f16a4785",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\polygon\\polygon_display.hpp",
+    "bytes": 3012,
+    "sha256": "4de7141b96f03895ae16c96ef7e3d808df9df4404a6b87803b5eb76fe219207d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pose\\pose_display.hpp",
+    "bytes": 4283,
+    "sha256": "953f287fb205c24865ce46a04e73cb43f635052856325c6cf81940ff2b82a45e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pose\\pose_display_selection_handler.hpp",
+    "bytes": 3457,
+    "sha256": "977b811b4c8af70d2be9ed53053ae19129a1c4b9072b7b6103e23f75f980c120",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pose_array\\flat_arrows_array.hpp",
+    "bytes": 3110,
+    "sha256": "8ca13202ad001aa56f306bdb6281dcbeed7ef5185fc4798f18d3021193168e20",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pose_array\\pose_array_display.hpp",
+    "bytes": 5329,
+    "sha256": "8c1014e4b46e9dd4e4502cb345c404ccd84db2c6c53875eda49c97762d46fb95",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\pose_covariance\\pose_with_covariance_display.hpp",
+    "bytes": 4624,
+    "sha256": "703293e5e0ab1a7bb925c0fb5ecb0b935f6198c64b572084c8495dc4f32ce21a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\range\\range_display.hpp",
+    "bytes": 3562,
+    "sha256": "9deb9f76f6d418f4f25242ad3c799d8c2e453872b427e74423565459ace0d376",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\relative_humidity\\relative_humidity_display.hpp",
+    "bytes": 2820,
+    "sha256": "5b87e5645deacb6663128ecc7080e4c8ce0cd187e4dafceea8b6a417bfe7951a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\robot_model\\robot_model_display.hpp",
+    "bytes": 5653,
+    "sha256": "9c4297855bbee7f1790ed316d611f6da9d26fa12740a34f3862f6a7e2ab7dee0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\screw\\screw_display.hpp",
+    "bytes": 4117,
+    "sha256": "174efb244e7cae942ddbb5fe95b18a29be55de7d7604bc5e3b3e35f4706cc6cc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\temperature\\temperature_display.hpp",
+    "bytes": 2738,
+    "sha256": "a6a9e78c8a634ae424f0b8ce02f428c071b1e4cb18e0790845c23d0d22b6cb47",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\tf\\frame_info.hpp",
+    "bytes": 4713,
+    "sha256": "edbfbd3c24bd5c1075139a49a29359a3e0027839e52847a931865f2ddd9db327",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\tf\\frame_selection_handler.hpp",
+    "bytes": 3850,
+    "sha256": "62a5c371c35e42370943dbff2cd114fd4be2f4b4ede5a40916746ab7f40d16a2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\tf\\tf_display.hpp",
+    "bytes": 6144,
+    "sha256": "e63389c597e3a67fdcdf150ba8fd203054c5d74d36d2b9dcb3b16b49e20027cb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\twist\\twist_display.hpp",
+    "bytes": 2372,
+    "sha256": "5f2e980602678f3e87a7b7e5c7e31dbdd895eea1f22c1de08514e14fe6b603a8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\displays\\wrench\\wrench_display.hpp",
+    "bytes": 3674,
+    "sha256": "3a62f31e3a1841e2d7ee69e62d8d1f109a2397ac07d94fea3e06804224166a6e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\robot\\link_updater.hpp",
+    "bytes": 2709,
+    "sha256": "2af06bd6ec70d34b5779dae29c35d0c6a3557d67a4168872915dcc26454cd166",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\robot\\robot.hpp",
+    "bytes": 12169,
+    "sha256": "3e136e05cc85a4adaf1084dac2a719dc80c641962a8f9cece38e3fd016bd1e51",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\robot\\robot_element_base_class.hpp",
+    "bytes": 4125,
+    "sha256": "dde88e1c1a132138f8f8ba4c4ef6fc94ac7132bf95cef9866469e4d8f592fd2d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\robot\\robot_joint.hpp",
+    "bytes": 6594,
+    "sha256": "276cfb4c64c4c66065b5de2ce6a58c46d6aba5644d60e1ada6191ab72acba0ab",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\robot\\robot_link.hpp",
+    "bytes": 10143,
+    "sha256": "6c9466fa85d20ab9cd1916931c7e8802d68c4eb745123680f4e5414e8c8105db",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\robot\\tf_link_updater.hpp",
+    "bytes": 3112,
+    "sha256": "e9ee71d3b33c0a264f53cd289b7b835027d49372ac2d0da93edfa5c4e57ff248",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\tools\\focus\\focus_tool.hpp",
+    "bytes": 2780,
+    "sha256": "5348ea804532aa5b300917cadb41796c91e658a94ec763d7a96ae04338259549",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\tools\\goal_pose\\goal_tool.hpp",
+    "bytes": 3011,
+    "sha256": "6790af6224749bd9352045f9d2b24b5eb64fbc763c7af6b1504cb88086dd2cf3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\tools\\interaction\\interaction_tool.hpp",
+    "bytes": 3830,
+    "sha256": "7b509ecc618ae4797b59f8e81d31bd94da1238727014c830428f3a57c3124f6f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\tools\\measure\\measure_tool.hpp",
+    "bytes": 3158,
+    "sha256": "58f5d936a7557a6d812dd623714d866a65f5f190aa6202075060c66c995ab5db",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\tools\\move\\move_tool.hpp",
+    "bytes": 2558,
+    "sha256": "0c1f099829a2f8b393fabcacfe1a6ee89322ed84472407d6bd2a4c738702db71",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\tools\\point\\point_tool.hpp",
+    "bytes": 3469,
+    "sha256": "2ef0bd4845e731b091a373a2d4664656830129bb53b6f3110659f7276508bd15",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\tools\\pose\\pose_tool.hpp",
+    "bytes": 3673,
+    "sha256": "54b579c08bf890505de7c8ba4602453e5010512c3f8d32eb4c86f71bf90651db",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\tools\\pose_estimate\\initial_pose_tool.hpp",
+    "bytes": 3326,
+    "sha256": "cbccbcb11d471e9edca1080cf3e554dbcdd6eae8c3a6213bd220fcd4027f3548",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\tools\\select\\selection_tool.hpp",
+    "bytes": 2843,
+    "sha256": "075535831d5594fb9cf534d486e5e3fea451223b911f0779be6a1ce63f63ed6e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\transformation\\tf_frame_transformer.hpp",
+    "bytes": 4787,
+    "sha256": "3550267c924ea5cb6ad75e09a35e255b3c76464ac13e1e9c9fda2fde3fefe1d1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\transformation\\tf_wrapper.hpp",
+    "bytes": 4900,
+    "sha256": "2ab765aba61091e5e45b87fcd13514a3a6c57c5828a8afbbac1e1ffc8975ac81",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\transformation\\transformer_guard.hpp",
+    "bytes": 6574,
+    "sha256": "2b4902ee9e86ef8972797e67e208ec10e44ee4242ac5919b78f1cd1760fde2d0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\view_controllers\\follower\\third_person_follower_view_controller.hpp",
+    "bytes": 2521,
+    "sha256": "b741257aef7e789c78a158e68da0f3ad348c333011d595c8f116de32f348aa8a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\view_controllers\\fps\\fps_view_controller.hpp",
+    "bytes": 4577,
+    "sha256": "3f71c06483c393ce93cbfef4e0200ecb6da9fd8c6b3277fde1fef5b160e371d9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\view_controllers\\frame\\frame_view_controller.hpp",
+    "bytes": 3420,
+    "sha256": "eacb37973129df93ac9f94b5887c9180083ff2428d0f60b8b200324c0031d339",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\view_controllers\\orbit\\orbit_view_controller.hpp",
+    "bytes": 6574,
+    "sha256": "736eb5033807f7e8f4f823384eede094e2cdf0ed1f9aab106f6789c52abdf0cc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\view_controllers\\ortho\\fixed_orientation_ortho_view_controller.hpp",
+    "bytes": 4064,
+    "sha256": "be3d46c3d55dbb60feb8b9f4ba3a782bc18bb559e0d5436f3779d8fb92b96003",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\view_controllers\\xy_orbit\\xy_orbit_view_controller.hpp",
+    "bytes": 4000,
+    "sha256": "2feeedbf37d415e862a5c3270b118f1a241bf51f3e625da6a0a85dcd47ccaf11",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\include\\rviz_default_plugins\\visibility_control.hpp",
+    "bytes": 3049,
+    "sha256": "2f77d6bbac3173201f6ee5e84f37e538ce87e3afe8ae382db8e478ded6195aec",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\package.xml",
+    "bytes": 2557,
+    "sha256": "470099e7461f42fc37c93c3774249752b5e433815bcc838c34cfd330bdf765fa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\plugins_description.xml",
+    "bytes": 17541,
+    "sha256": "2cc263ef5162cc0dfbb4871af60a49ead305819a79d2b1e04c0e3e1cf31ad09d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\accel\\accel_display.cpp",
+    "bytes": 2342,
+    "sha256": "8c42dc2cb3eccfcf5a715c530a981a1b4544df9af2efd74631298b26b053c522",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\axes\\axes_display.cpp",
+    "bytes": 4703,
+    "sha256": "abe6b6e33a5906a637d901016f5cfebcaa4bb3e53c4245a24e3e429df7169daa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\camera\\camera_display.cpp",
+    "bytes": 23142,
+    "sha256": "9ca23093c649bd9d41dd144cb998f0849225f6692e4b5158cba43a5bbff67c28",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\camera_info\\camera_info_display.cpp",
+    "bytes": 14255,
+    "sha256": "687cd48268a4e445db3df11399c94e2f0110b10ad22742c598e6ce78c363f058",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\depth_cloud\\depth_cloud_display.cpp",
+    "bytes": 24307,
+    "sha256": "f53830d7d1df88763bc7623ac634df596d05870f6ccdcb6a16d3372e465b5ec0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\effort\\effort_display.cpp",
+    "bytes": 14518,
+    "sha256": "bc03da2fbc516374a433edb474c8a7eb0b716cdb47199f15ddc79d61029db328",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\fluid_pressure\\fluid_pressure_display.cpp",
+    "bytes": 2958,
+    "sha256": "efd005fb12bb237e3b7864efe77126e03cde23a9815535abed8568736f5d0bf9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\grid\\grid_display.cpp",
+    "bytes": 8007,
+    "sha256": "25867f18ac7af5d803c84c140c306dabc1b1d19550cc97b1524bbf8c7c03c9d5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\grid_cells\\grid_cells_display.cpp",
+    "bytes": 6535,
+    "sha256": "10385042b6c8b2899b98cdfe76f459c9d3cf191cffe25d0522e4a0ed964cf944",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\illuminance\\illuminance_display.cpp",
+    "bytes": 2919,
+    "sha256": "3444070fa428e6c8ef4f038ed18c38d9185e5b08c36226b576cb7f6c37d8d6a6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\image\\get_transport_from_topic.cpp",
+    "bytes": 4106,
+    "sha256": "345337ac1bf9b765d1dd1019e1f4e4eb1b3d90ca18594d5f92c94b399c2b0e9c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\image\\image_display.cpp",
+    "bytes": 15656,
+    "sha256": "17cf5710984dfd379b63955cd62321580823570da6f471ae11fc41d37226e436",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\image\\ros_image_texture.cpp",
+    "bytes": 15478,
+    "sha256": "8a8793fd5d07d4cd15719ae0705a35b3a2a252e98500f39b2e893a891bc1b6e0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\interactive_markers\\integer_action.cpp",
+    "bytes": 2111,
+    "sha256": "7ce9a6a36e6266a896a58f81323bb897ab6c86600ac3c55bf81093bd1abdaa37",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\interactive_markers\\interactive_marker.cpp",
+    "bytes": 23607,
+    "sha256": "5b2e9debf88ab6b66968b0488423b5dc87a5f608b7a9bdcbf2b2bf85e79642ff",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\interactive_markers\\interactive_marker_control.cpp",
+    "bytes": 59771,
+    "sha256": "1d8ac275c399cac64af20308a600ba29885a3f3e7041b11dfdbd7123c7ee30a1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\interactive_markers\\interactive_marker_display.cpp",
+    "bytes": 13845,
+    "sha256": "4d1d8236faa9679f532cbcb0bd54e4417e36d12383a2734b36ad21e6d30b41de",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\interactive_markers\\interactive_marker_namespace_property.cpp",
+    "bytes": 4065,
+    "sha256": "134c0022e1977e98d73b682c2b70c997affda024dc70ab292ad4ec90f68d3b40",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\laser_scan\\laser_scan_display.cpp",
+    "bytes": 5254,
+    "sha256": "3c6ead7ce8a48ea5bfb150ad0c1edf9dffbd5016da6c3b1cc9898e4c197c2496",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\map\\map_display.cpp",
+    "bytes": 24253,
+    "sha256": "7362d1f12f46cfdfb9f81b6f846799f058a08ef63bc70eb9322be4ce0c723b6b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\map\\palette_builder.cpp",
+    "bytes": 5714,
+    "sha256": "729414f5cd538110e1e9f68f8d1e81ac41d5b9a407a912a5008f38ee4c37b438",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\map\\swatch.cpp",
+    "bytes": 7598,
+    "sha256": "7dbb79f4e7f07ed9954b4630a20d9674f02763a3fd1a992186217213ede35e47",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\marker_common.cpp",
+    "bytes": 14467,
+    "sha256": "45452378af57482e8565a8d81143dbca4f3c397192f347f933a6ed37fe92d52d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\marker_display.cpp",
+    "bytes": 4643,
+    "sha256": "21f897c39fbdda7c45a552a2156273a0f404f72a1776c7a3ec03e82cb1b6ea14",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\markers\\arrow_marker.cpp",
+    "bytes": 6742,
+    "sha256": "91d45bd6d42dda53702cff0a2c7b239f0352225289a5f46a0e34dc2d7e7fe64f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\markers\\line_list_marker.cpp",
+    "bytes": 3271,
+    "sha256": "2a188ede0d43332cc330002b3c0e379cb68d97515fb77926b7865fb747502ed1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\markers\\line_marker_base.cpp",
+    "bytes": 4591,
+    "sha256": "c5f7d559c0cbee7029c241058dc81bdc78c27856de10520b9de3a66b8a66f8a2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\markers\\line_strip_marker.cpp",
+    "bytes": 2828,
+    "sha256": "5dff0cfc03f168c9a82b22b9fc1eae3f8b7914a519ec23fe7a41cc1924f6eab5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\markers\\marker_base.cpp",
+    "bytes": 5499,
+    "sha256": "768b5438740f55236639fe860d4a277ec39b07d18d2e9096f0b53c264d251862",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\markers\\marker_factory.cpp",
+    "bytes": 4623,
+    "sha256": "606f5fe75d3a8d03085734816acce6bc98d95d889829d2ca9fcb03d7813a8064",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\markers\\marker_selection_handler.cpp",
+    "bytes": 3872,
+    "sha256": "18331d9e706ed8c3e2df31c2ccae070bac86d087d9ccd835e842631e7a90e267",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\markers\\mesh_resource_marker.cpp",
+    "bytes": 9868,
+    "sha256": "28856e9487b6af3d499180f6447d87012091b9919d0ddac0046595ad6f9707b0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\markers\\points_marker.cpp",
+    "bytes": 6469,
+    "sha256": "51e25e7e62cceedb2e002d1aa05f1babc02f141764c30e552dd6fdc34fdfe715",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\markers\\shape_marker.cpp",
+    "bytes": 4550,
+    "sha256": "28a7df286632b592c2d7d3b7066be639f84e158756d157b088595febf9eec5bf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\markers\\text_view_facing_marker.cpp",
+    "bytes": 3983,
+    "sha256": "6bfdae9fa65dbd541f219c9604fd20cad658f3ac78928d3a665951baad8012b2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker\\markers\\triangle_list_marker.cpp",
+    "bytes": 12562,
+    "sha256": "d98751a4a0d7405c9236c9aaeaa1fc09689148a3f0833ebc8ca360cee9a0f577",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\marker_array\\marker_array_display.cpp",
+    "bytes": 3192,
+    "sha256": "634a7e3958763646689fd696cfd386211339189956fff32f190590af3398bacd",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\odometry\\odometry_display.cpp",
+    "bytes": 14194,
+    "sha256": "f58c9a5a3f2e56316d2106728e0b077da1efdd59b5a7559646e8f64a93a886e2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\odometry\\quaternion_helper.hpp",
+    "bytes": 2249,
+    "sha256": "d25bab74a9b72dbda8bc29c2ddd3c5dd7280b52d594ae8a922691b9aff20ec19",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\path\\path_display.cpp",
+    "bytes": 18657,
+    "sha256": "e1f8b0532ef2af46357a2302783f84e9b889edeba2d551b4d622e802134749df",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\point\\point_stamped_display.cpp",
+    "bytes": 5881,
+    "sha256": "50cebd6cc7435de98559ae5961ea7ddb01b1b5e415262918804678a1658e601e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pointcloud\\get_transport_from_topic.cpp",
+    "bytes": 2598,
+    "sha256": "c0d2b62cf77602cdfcefc83b84821afb946667d1bdacdf896de6bf20ffa490d1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pointcloud\\point_cloud2_display.cpp",
+    "bytes": 7043,
+    "sha256": "313a270d14450e2b9e4183e6bce822cc9e26c18fc12a4c394c70f0539e959c3b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_common.cpp",
+    "bytes": 24386,
+    "sha256": "a29ca9130112778c56f117d0976de6b93b5fb7b1f405da8271f05e18afa5525a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_display.cpp",
+    "bytes": 3072,
+    "sha256": "fb6e7a2ccd4c9757389c8270407b4ca75c6771c48f7333d519ed4ae10c03d9ad",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_selection_handler.cpp",
+    "bytes": 9945,
+    "sha256": "2762867a333eb10fa2e5b8efde26f0bdde0ce2cd92f8b5382515c0a82abd6d61",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_to_point_cloud2.cpp",
+    "bytes": 3829,
+    "sha256": "a1701d4888230f8dba1e9b61d3e77018bdf9f0fce914915a67a1476b85c4b021",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pointcloud\\point_cloud_transformer_factory.cpp",
+    "bytes": 3699,
+    "sha256": "0aa0eb19443e514476514cb59aba283c64008f8a04cb8c4ba6bac2e340ceb227",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pointcloud\\transformers\\axis_color_pc_transformer.cpp",
+    "bytes": 7655,
+    "sha256": "a7087888e9f54fcc3fc6a12f5b2b5a4818684fc7e3c0240e50843f635991bf71",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pointcloud\\transformers\\flat_color_pc_transformer.cpp",
+    "bytes": 3304,
+    "sha256": "bb5eaba9077ed819290ce2b73fe5855cee0a3aacbb6308b85eece32b72c39226",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pointcloud\\transformers\\intensity_pc_transformer.cpp",
+    "bytes": 9864,
+    "sha256": "72246cb2b68def6b77dc8ba92c6a425d327e73b0cafea3ac33c707d4348ca6c9",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pointcloud\\transformers\\rgb8_pc_transformer.cpp",
+    "bytes": 4229,
+    "sha256": "58aff4675d2b2d578b43a4ba72699912c7838ed67dff2f27174d052072d21323",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pointcloud\\transformers\\rgbf32_pc_transformer.cpp",
+    "bytes": 3448,
+    "sha256": "e57648441f43b4dc250b3f789cad4a03b5f2b2519216b66fede147c08560b96f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pointcloud\\transformers\\xyz_pc_transformer.cpp",
+    "bytes": 3728,
+    "sha256": "b843167f8b4436be894b6b30266369c5cad940dc6bc1b687c78e40e63c3bbf1c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\polygon\\polygon_display.cpp",
+    "bytes": 5100,
+    "sha256": "211efeb77a58f3df0eb07a9a16b5967a244245d544db36733ff4231fd2c9f67a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pose\\pose_display.cpp",
+    "bytes": 8182,
+    "sha256": "979eb76d7260fe9d83ded8a545d3cd42dc3b5377f2fadc32bb3390bc6fdc249d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pose\\pose_display_selection_handler.cpp",
+    "bytes": 5507,
+    "sha256": "8438d343d8a7af887908019e450d5e971d9584cb0f00f1fa32a5c022c54a8f7e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pose_array\\flat_arrows_array.cpp",
+    "bytes": 4309,
+    "sha256": "737bfd18e7378b7656a031f7bdb6d0f8b5f93067bb8dd68dc187895c52dbdd9c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pose_array\\pose_array_display.cpp",
+    "bytes": 11738,
+    "sha256": "4d4162006f69f80e19fd3721a828ef2e7522d55bd2c7da685ab516bda7c51137",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pose_covariance\\pose_with_cov_selection_handler.cpp",
+    "bytes": 6270,
+    "sha256": "0697d2e23e650c31151fd0b9aab6094834923073ff5d5473c5f8a30b806c6c93",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pose_covariance\\pose_with_cov_selection_handler.hpp",
+    "bytes": 3559,
+    "sha256": "d7d6de51089fad05c7a8644fbd71a966e7346a88e84ba7137400d8f2588f69a3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\pose_covariance\\pose_with_covariance_display.cpp",
+    "bytes": 9389,
+    "sha256": "5278de99fb7277d166e80110b126bd2e7790acf03aafbb6adaa3aa83c1f70244",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\range\\range_display.cpp",
+    "bytes": 6064,
+    "sha256": "ab89a4d17c7b8f8c27ddbea404073332ab30928fed3f357587c480b58054c2d5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\relative_humidity\\relative_humidity_display.cpp",
+    "bytes": 3004,
+    "sha256": "cbca4d4878ee471a677a0ea33fe824a33db11ec8a181b57f1bf3c213794c9780",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\robot_model\\robot_model_display.cpp",
+    "bytes": 12749,
+    "sha256": "68b0f5e82918042f482fc9854cdf09d742f3c227f5b94028227a4c384bf11874",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\screw\\screw_display.cpp",
+    "bytes": 10033,
+    "sha256": "b788d8b1025aecb29d7a748bad878e73f398e38114f5b7ef9e285b62860d3a4b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\temperature\\temperature_display.cpp",
+    "bytes": 3002,
+    "sha256": "b1929049710f7ba6e4003b9e7296d8904494fdce08da4af9115b6f11b600d5ca",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\tf\\frame_info.cpp",
+    "bytes": 8502,
+    "sha256": "17da67712f9f7e3c27f9a81802a9a0ae77b2f8df4cd4e0fc84192614366b5eb1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\tf\\frame_selection_handler.cpp",
+    "bytes": 5145,
+    "sha256": "a9dddd0a12b6a10e92ca65e1329e7bb72feec2fa6032e4fa1c035772d37a2faf",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\tf\\tf_display.cpp",
+    "bytes": 21625,
+    "sha256": "c5cc5413e5365850723c27b7ac1840167721b9b5765a92bbb1f362a4132d1bfb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\twist\\twist_display.cpp",
+    "bytes": 2342,
+    "sha256": "ed8e85155e4353681c1f8ed5b0156b8af18a1506cb0cc340b8c4145ff96e9835",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\displays\\wrench\\wrench_display.cpp",
+    "bytes": 8975,
+    "sha256": "3a697e21058f7a9921b8a0aabc10c6d7018d990cb37cc3e780dac97cd7a25383",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\robot\\robot.cpp",
+    "bytes": 21154,
+    "sha256": "4a31ad6da8d1c0468049c93495b33e30d1d405b6fe385cfad856d179b23cc3a0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\robot\\robot_element_base_class.cpp",
+    "bytes": 4715,
+    "sha256": "e74c636e19b6bd8134753a81ef96bae99748ff5c49af4238755c64ac80e4a4ac",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\robot\\robot_joint.cpp",
+    "bytes": 14231,
+    "sha256": "6443f3f2b7f92798d5b8f56c3f227ee7d5753e83227a63508e675c25b1ba4d1b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\robot\\robot_link.cpp",
+    "bytes": 30632,
+    "sha256": "62104b415f4c241d8244787f01b09ed2c28998d6b5089b97ca9b7c86f8baf478",
+    "included_in_llm_prompt": true
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\robot\\tf_link_updater.cpp",
+    "bytes": 3647,
+    "sha256": "eacd79f630f2af5789311bee8fc823201b5d9c21fc96ef53175d530bc398d9c1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\tools\\focus\\focus_tool.cpp",
+    "bytes": 4204,
+    "sha256": "51b8b648b8f75967634381244fa6d5a1fbb6c4ed8a4cd5843a3f6a32dd55fb1d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\tools\\goal_pose\\goal_tool.cpp",
+    "bytes": 3888,
+    "sha256": "e7c4deb755b74fb64474b54f470adb302907b81a79db6d4d8bfaf9f764d3a797",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\tools\\interaction\\interaction_tool.cpp",
+    "bytes": 7095,
+    "sha256": "22451489b131d6c869a3b4e2650f41bc169f841442ad52e7268433e143bbec84",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\tools\\measure\\measure_tool.cpp",
+    "bytes": 4658,
+    "sha256": "bac973e133df96d1f879ac80cb50e08f35a14733670d69a0ce45bc04aa560393",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\tools\\move\\move_tool.cpp",
+    "bytes": 3177,
+    "sha256": "ec266132c9d16288b265b69b8ac09451a87ba438d7c96b077f8e6f8f0f5f212f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\tools\\point\\point_tool.cpp",
+    "bytes": 5207,
+    "sha256": "e6573673f6a55a920aa428dbce2f03da8b6514fbd5f2b4772ab0a4ea697bfc49",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\tools\\pose\\pose_tool.cpp",
+    "bytes": 5858,
+    "sha256": "6af34a920ad038d21ee6a2ff07e4500ca5bb7a125a662016e2c8e6d195f9e161",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\tools\\pose_estimate\\initial_pose_tool.cpp",
+    "bytes": 4884,
+    "sha256": "597cdd4621cf5b34bf0e63ebc72fecbc0753eca82faa152ca347b2092b85c22c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\tools\\select\\selection_tool.cpp",
+    "bytes": 5468,
+    "sha256": "5a13445e013f017d93bf1291b6ff5c96723624fd66cfdba2c5b57324e2c06526",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\transformation\\tf_frame_transformer.cpp",
+    "bytes": 9571,
+    "sha256": "286af288156145f1197c87d4f8a18bb365ee53f50239ed69e80a8279a8bae72f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\transformation\\tf_wrapper.cpp",
+    "bytes": 6307,
+    "sha256": "0e0be0fe5fcf896f151c063c0da5170b47ada41f963112e9b81677b24b15cf33",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\view_controllers\\follower\\third_person_follower_view_controller.cpp",
+    "bytes": 2782,
+    "sha256": "3d9e35252ad9c7aed37412ca777c493161ef4f0affd9e6c7a6293ebdeb9e3649",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\view_controllers\\fps\\fps_view_controller.cpp",
+    "bytes": 9388,
+    "sha256": "a67974669ab0f911dd854e343327532ef2cad1c4bffb765b491217f540b770bb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\view_controllers\\frame\\frame_view_controller.cpp",
+    "bytes": 6146,
+    "sha256": "28f9d0eb5dea91fa1788f1b2c320f4085bed48850fbb6e9d1b177027e9d561f4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\view_controllers\\orbit\\orbit_view_controller.cpp",
+    "bytes": 14020,
+    "sha256": "28cf4e080fba9c66b6188b5d9d98eebadad51adbd4bdd5ad7fcde65baf0a7f52",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\view_controllers\\ortho\\fixed_orientation_ortho_view_controller.cpp",
+    "bytes": 8818,
+    "sha256": "9f612d445d140f341abb7a2973f3cc2c957f0b4ab00bf45badb35412883eea3c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_default_plugins\\src\\rviz_default_plugins\\view_controllers\\xy_orbit\\xy_orbit_view_controller.cpp",
+    "bytes": 9172,
+    "sha256": "e532392aae58ef8418306674fc2d8fed537e208bdf858a0fd142a3321924d48f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_ogre_vendor\\package.xml",
+    "bytes": 1540,
+    "sha256": "3265ec6c3366111d07cb5299f830464b34396ca8f026f957f93b3f87c3899708",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\apply_visibility_bits.hpp",
+    "bytes": 2125,
+    "sha256": "cbea34d84d7808b0cbaa3564f17e92418ba4e330f931e0fdebea561ac615c28d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\custom_parameter_indices.hpp",
+    "bytes": 2607,
+    "sha256": "3a3f3a39e969d46f1ffb38345c006710d1583c1d4307bba331e3a7a79fe79e85",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\geometry.hpp",
+    "bytes": 2450,
+    "sha256": "c207f706d44110b1263d094867d479680a17c5a0635c568d68a12f1333573ec4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\logging.hpp",
+    "bytes": 3975,
+    "sha256": "72689c3604003030060a9d6265dffb306c37664f7b03f7130a1918ffdacf015a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\logging_handler.hpp",
+    "bytes": 2034,
+    "sha256": "83c8be2520dfc531511cd8a03cef201b362d7b68a7e267839b9c4d09e9227e44",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\material_manager.hpp",
+    "bytes": 2911,
+    "sha256": "dc62120b67d98113787d2c420ec6068cae7b536594d81a57c153527bca9b50aa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\mesh_loader.hpp",
+    "bytes": 2119,
+    "sha256": "98a6d37626dd664c321b8d9ceed33ca95693f0f0ac8ab8f946a9a4f9f12ce08b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\arrow.hpp",
+    "bytes": 6130,
+    "sha256": "8c91e83fb3209bb0ceeed95592ee71d119de655cc707eebadd0602110787bc9e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\axes.hpp",
+    "bytes": 5243,
+    "sha256": "fe42a0b95a51a87769e922bb65b7de52f6325fe2363c17aa73eca3ba444d7890",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\billboard_line.hpp",
+    "bytes": 5102,
+    "sha256": "14239cd2721ac54a4ed460392391373dd4a6b4d84ceeaa5fc570a7b2ec541493",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\covariance_visual.hpp",
+    "bytes": 9036,
+    "sha256": "6258e19b54131739a516d8cd1e515cb8f5f867c10107895117bd7de93d94f941",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\effort_visual.hpp",
+    "bytes": 3554,
+    "sha256": "ff627b0c430e0cb025b41381bf34fe5754230df4e469a824fd480299d6557e06",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\grid.hpp",
+    "bytes": 5385,
+    "sha256": "68b8381bb6b0f481e3cd5bcee8ac92083e11e1715156ff8b1f48d115758a8748",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\line.hpp",
+    "bytes": 4699,
+    "sha256": "2e82b35da82e200747678d5e341859e718c2f14a550e75a61f6a292710c02cfb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\mesh_shape.hpp",
+    "bytes": 6275,
+    "sha256": "22599638ccbd8d65c20bbfe36eae73c7ae9505a95802c0ba33a0488899b172e2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\movable_text.hpp",
+    "bytes": 7360,
+    "sha256": "c4372f8a1f122bda9ad26fdefb7fe3b75373beebd516bb9caf4bb6f9c9e3f6e3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\object.hpp",
+    "bytes": 3793,
+    "sha256": "28dfd24a68f21decfee72ce10d1dc51f11e9dbad55c92749129921a3f79171d6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\point_cloud.hpp",
+    "bytes": 10239,
+    "sha256": "8d16a6ba777fa7800dae03232cfabbc58038899192f2c2b0ab8c546a1f7dd1fc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\point_cloud_renderable.hpp",
+    "bytes": 4046,
+    "sha256": "372d7771972fb91a459affe591a5456d05d87bbc90d2c294886cd5335c5d81d5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\screw_visual.hpp",
+    "bytes": 4612,
+    "sha256": "374b53849b4c16d68a03214fd50677921558a4c3b160d44afa853480f4ddcf9a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\shape.hpp",
+    "bytes": 4565,
+    "sha256": "acac0d3e0ff4fe8d16640bba1fc744cfce2d179e2d66b522caffe65a2ec986bc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\triangle_polygon.hpp",
+    "bytes": 2670,
+    "sha256": "881296312b0d48a8f2483449dfcdeede894fb7d45feef1ae1e6fa59f7f40fd09",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\objects\\wrench_visual.hpp",
+    "bytes": 4136,
+    "sha256": "241107e26803ac5727f1c38ef7698223c601944399dc56410c1b166f95bbef99",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\ogre_logging.hpp",
+    "bytes": 3915,
+    "sha256": "3a9b6d5a6d3dce4e02ebad7f01e5af351cacf4c72b10cb00553761471dc9cd2f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\orthographic.hpp",
+    "bytes": 2164,
+    "sha256": "c0166df7fcd8eb9fbdedcf6a852382bf223322792b8caee99e1eab22168482ba",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\render_system.hpp",
+    "bytes": 4883,
+    "sha256": "6b49e929d5a7fe21e45ac66ec7669a37431399ab719b6d655cc78b1adf05d475",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\render_window.hpp",
+    "bytes": 5880,
+    "sha256": "299c3c3d1fb5f412ed1a6a0116537c3c14d53bc83319082d4d99cde5b8868048",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\resource_config.hpp",
+    "bytes": 2916,
+    "sha256": "64133db1255fbd615cfa39b53f9a7ee354a7bd88b57fdc110a64555ad1da2238",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\rviz_rendering.hpp",
+    "bytes": 2246,
+    "sha256": "d3c4e2569bae4d084fd69ac45391258f853bcf9a77455924e7349d42e9da161f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\viewport_projection_finder.hpp",
+    "bytes": 2620,
+    "sha256": "257a862f821afe91dadca8cd775b5894a8f5ea46c8890a42c38353071ddc0733",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\include\\rviz_rendering\\visibility_control.hpp",
+    "bytes": 2935,
+    "sha256": "62b790d523352035161913f839c0d5defffd097b54f2e3e0f2593c3d54b84e97",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\package.xml",
+    "bytes": 2275,
+    "sha256": "8c6668492b9d3c65cf9a1682922299dfba0c8fe16837c6d94fdff55aae707970",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\apply_visibility_bits.cpp",
+    "bytes": 2403,
+    "sha256": "cd4d8f27667ba8bb382769c1142b20cef0112cdf49a90e084dfc8a7bd3ad529b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\geometry.cpp",
+    "bytes": 2582,
+    "sha256": "e6e8fcb35f7653b5a196c98af5b01bfc7d0829827d6cccd0748110840203f32b",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\logging.cpp",
+    "bytes": 4501,
+    "sha256": "7222d405584cd5a61ddf837b9cf1b1f6a3978be09db231cacfeee0f605553692",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\material_manager.cpp",
+    "bytes": 5378,
+    "sha256": "c1b03a00eb55bef454cf618c465c0c1bb1408bc7ab3ffa1cfcc1081d2ddd1c38",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\mesh_loader.cpp",
+    "bytes": 4615,
+    "sha256": "534e55f870f55e5622b60610accb4a3879593d17d7669f318572d97999d7226c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\mesh_loader_helpers\\assimp_loader.cpp",
+    "bytes": 21608,
+    "sha256": "d651abee2e53ca5dd9f8cdaf7144a85388c0d0348ec15d244d925e6c2898af2c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\mesh_loader_helpers\\assimp_loader.hpp",
+    "bytes": 5806,
+    "sha256": "fa0bf82075c4a202af3c83ad5aebf21957f28a546c1d1e4957e80601c757bf34",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\arrow.cpp",
+    "bytes": 4929,
+    "sha256": "18c9c49dfba08775640187690b55754d4894ddd4fdab7c999404243a2a3664da",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\axes.cpp",
+    "bytes": 5091,
+    "sha256": "7466444d74041773550857a50b64ebdc99e70330d2b1e8f4ecd565a1cd285462",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\billboard_line.cpp",
+    "bytes": 8373,
+    "sha256": "c20965718b11e7880c1a2177c591c9ba7aafdddfccbf40099ed0273322c56a8d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\covariance_visual.cpp",
+    "bytes": 25635,
+    "sha256": "d65a2cf7e9e72d64bcd24a2d7b2d91b462dcda54d7996107b79439f995070eb7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\effort_visual.cpp",
+    "bytes": 6296,
+    "sha256": "810a4cb063545671f36699ae6c8d2be1a0060150ccf57c4b77e54dd8ae3e520d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\grid.cpp",
+    "bytes": 7392,
+    "sha256": "43889d84e0a6f546fe3f5d68cb9b9cc20d133687c4f32300223bcd7abc8786c2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\line.cpp",
+    "bytes": 4650,
+    "sha256": "0dcc6d2d7461df7cb3277f04072eaf626a2634f2b0b46967ef880338461da0b5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\mesh_shape.cpp",
+    "bytes": 4804,
+    "sha256": "982b1560b9bbfd23b56d1d9e3aa366d054de48a9b417784e8a13bb0207b8ac79",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\movable_text.cpp",
+    "bytes": 16878,
+    "sha256": "330e9bfe50829486e75f91889e05e7f40aa3fcb713c72bfd9b7cb7037ced500a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\object.cpp",
+    "bytes": 1898,
+    "sha256": "5971acbb5d780809b1fcbf0103fc5def88ffb8998887a4a6fe51b1fd4e4343b3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\point_cloud.cpp",
+    "bytes": 21643,
+    "sha256": "24e28817099637b7c8c5ee27988bd48a92109077892ce13312f084e12a731879",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\point_cloud_renderable.cpp",
+    "bytes": 4693,
+    "sha256": "1a01b9e6b24a291ab61320b9b76e1f0024f8bc4c3ce02ccddccc04ffda02b1e8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\screw_visual.cpp",
+    "bytes": 6969,
+    "sha256": "511cb0bb34613494092496f10faaa73736b675cfe67c276b0a894ee76fe7f704",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\shape.cpp",
+    "bytes": 5313,
+    "sha256": "0c162c09aa4fa6507baad4df3442dd17e90662fb34d87d184a26fe59e6418235",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\triangle_polygon.cpp",
+    "bytes": 3377,
+    "sha256": "41875a52591b2261858128e2280e5252bd1b366616075af1240e01e9068a734c",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\objects\\wrench_visual.cpp",
+    "bytes": 7037,
+    "sha256": "8675e5c0bdb361525b2d0efdf82e0543242f6dc6b6a61cec429d48a5da7ceace",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\ogre_logging.cpp",
+    "bytes": 4670,
+    "sha256": "a78c0cd7f5fc7e754b6edd75549cf75b3edcf6196c433f1b4f37f509ff60b053",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\ogre_render_window_impl.cpp",
+    "bytes": 11137,
+    "sha256": "d76dc2af456f8f3bcda11cbad568eb03815d884cdc69020ad8b23aa9d5e3e3f1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\ogre_render_window_impl.hpp",
+    "bytes": 5883,
+    "sha256": "6dc38d7b9cbe9e6292dee757ea3de0e3168ebdf7094eb273501b45fd1faee836",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\orthographic.cpp",
+    "bytes": 2438,
+    "sha256": "ce61635ac5b256dd1bb395d35dcbe8841ff47d2a7c0e0b1017098217fb7e3326",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\render_system.cpp",
+    "bytes": 18625,
+    "sha256": "c88e3ea4a046e7a8f03a10ed2d767c45ccc44218c6918c15728a3b408582cd36",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\render_window.cpp",
+    "bytes": 8275,
+    "sha256": "1fa3bb9550d1845f3425d3f0e95c4570b8a322958868b1732e503e2a362a1ac7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\resource_config.cpp",
+    "bytes": 2692,
+    "sha256": "fbe31e6bfea694ba043deec894e11cd31750199c6ee52aea2a044ae0196a6973",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\string_helper.cpp",
+    "bytes": 3140,
+    "sha256": "b1b11aa38aff27d3882d93a6b44cd50c8cc1be14598f21008e5239775e01f73e",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\string_helper.hpp",
+    "bytes": 2053,
+    "sha256": "f9561951c6cdbc4e3cf940428469a15cbdf397c4de0f6747721ec287ef02d4a8",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_rendering\\src\\rviz_rendering\\viewport_projection_finder.cpp",
+    "bytes": 3099,
+    "sha256": "e554c733455a21e93857b0043fb9dc1fa2394293c01da8e34bf5519893ec90f4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\include\\rviz_visual_testing_framework\\internal\\display_handler.hpp",
+    "bytes": 3285,
+    "sha256": "6b40a1a610a921b58e929fdd07b2f52bb565306a53be1aba646a5915104eea0d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\include\\rviz_visual_testing_framework\\internal\\executor.hpp",
+    "bytes": 2165,
+    "sha256": "70d0c5af39a826f61b26aa43ea0a6924c35963c3a45705218c7495987faa0fe6",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\include\\rviz_visual_testing_framework\\internal\\image_tester.hpp",
+    "bytes": 3412,
+    "sha256": "686b7e2da9c3cb7b0243755c964708ed764ae9c0e2374785ee0d04e1ef4ac07a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\include\\rviz_visual_testing_framework\\internal\\transform_message_creator.hpp",
+    "bytes": 2291,
+    "sha256": "ad6856106ec784339d78d0bdd4839b467e10403557cf9b54fc92c875e667918d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\include\\rviz_visual_testing_framework\\page_objects\\base_page_object.hpp",
+    "bytes": 8305,
+    "sha256": "46dd52e18d45fd1e645399c5d21a8f73b67fedc0bce1095714412a68971f2228",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\include\\rviz_visual_testing_framework\\page_objects\\page_object_with_window.hpp",
+    "bytes": 2927,
+    "sha256": "d494f740d7bc1ef68f8b07704a27e26bfe6c041edda69c745f8d6a179026be84",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\include\\rviz_visual_testing_framework\\transform_publisher.hpp",
+    "bytes": 4132,
+    "sha256": "490de333af1b7169139331f69263689bbf0c4f9f89303f70abae00775aeb1b79",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\package.xml",
+    "bytes": 1543,
+    "sha256": "07f13547f6585ee2164de39b8342a777c4790aa2a20c97a68e4b57dd5ecbf2b1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\src\\internal\\display_handler.cpp",
+    "bytes": 7074,
+    "sha256": "5c1b4ad385bb7693ad852dc514d12f3c7fe6e5bda48ac023b1c3e3c3e55149b5",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\src\\internal\\executor.cpp",
+    "bytes": 2572,
+    "sha256": "7e6eb896d022c937b43d67facc324fecc43f262fb2c3b3765a21340928efaa0d",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\src\\internal\\image_tester.cpp",
+    "bytes": 9095,
+    "sha256": "e230a6be86a3b2a90a43c10fb6f46cfbebed42e67da43bc7f5d8803fd54fa3d3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\src\\internal\\transform_message_creator.cpp",
+    "bytes": 2863,
+    "sha256": "46d47436ed23c1ba44cce070f093859002479be78c06def5039661c63ebe88bc",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\src\\page_objects\\base_page_object.cpp",
+    "bytes": 10643,
+    "sha256": "baabed7f0d12dc516bc37053ce5564eae5d94b263c7a61cd4c4fa138741fc53a",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\src\\page_objects\\page_object_with_window.cpp",
+    "bytes": 2350,
+    "sha256": "73a91ff840f3991cea61424b01f753950abde75f68cf40d02c11ebae4dd39bba",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "rviz_visual_testing_framework\\src\\page_objects\\point_cloud_display_page_object.cpp",
+    "bytes": 4255,
+    "sha256": "1e1f33571c63de25ca395c0502338fadccc37f8a1319ad18d3d702e4bb96ee3f",
+    "included_in_llm_prompt": false
+  }
+]

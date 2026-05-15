@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam componentStyle rectangle
+skinparam packageStyle rectangle
+skinparam shadowing false
+title ROS 2 Architecture\nros2/rosbag2
+package "other" as sub_other {
+  component "benchmarking_results_writer" as node_benchmarking_results_writer #E0F2FE
+}
+note bottom "No topic edges were extracted; diagram shows discovered ROS 2 nodes grouped by subsystem."
+legend right
+  Blue = ROS 2 node
+  Yellow = topic/interface
+  Arrow = publish/subscribe relation
+endlegend
+footer Generated from ground-truth architecture in metrics_results.json
+@enduml

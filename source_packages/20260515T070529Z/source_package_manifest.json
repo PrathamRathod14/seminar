@@ -1,0 +1,97 @@
+{
+  "run_id": "20260515T070529Z",
+  "root": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z",
+  "repositories": {
+    "ros2/rclcpp": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rclcpp",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rclcpp\\full_source_manifest.json",
+      "source_file_count": 325,
+      "prompt_file_count": 1
+    },
+    "ros2/rclpy": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rclpy",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rclpy\\full_source_manifest.json",
+      "source_file_count": 146,
+      "prompt_file_count": 1
+    },
+    "ros2/launch_ros": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_launch_ros",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_launch_ros\\full_source_manifest.json",
+      "source_file_count": 66,
+      "prompt_file_count": 3
+    },
+    "ros2/rosbag2": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rosbag2",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rosbag2\\full_source_manifest.json",
+      "source_file_count": 237,
+      "prompt_file_count": 1
+    },
+    "ros2/geometry2": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_geometry2",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_geometry2\\full_source_manifest.json",
+      "source_file_count": 113,
+      "prompt_file_count": 1
+    },
+    "ros2/rviz": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rviz",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rviz\\full_source_manifest.json",
+      "source_file_count": 482,
+      "prompt_file_count": 1
+    },
+    "ros2/composition": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_composition",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_composition\\full_source_manifest.json",
+      "source_file_count": 0,
+      "prompt_file_count": 0
+    },
+    "ros2/bond_core": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_bond_core",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_bond_core\\full_source_manifest.json",
+      "source_file_count": 0,
+      "prompt_file_count": 0
+    },
+    "ros2/diagnostics": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_diagnostics",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_diagnostics\\full_source_manifest.json",
+      "source_file_count": 0,
+      "prompt_file_count": 0
+    },
+    "ros2/common_interfaces": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_common_interfaces",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_common_interfaces\\full_source_manifest.json",
+      "source_file_count": 23,
+      "prompt_file_count": 0
+    },
+    "ros2/rcl": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rcl",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_rcl\\full_source_manifest.json",
+      "source_file_count": 88,
+      "prompt_file_count": 0
+    },
+    "ros2/robot_state_publisher": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_robot_state_publisher",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_robot_state_publisher\\full_source_manifest.json",
+      "source_file_count": 1,
+      "prompt_file_count": 0
+    },
+    "ros2/teleop_twist_joy": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_teleop_twist_joy",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_teleop_twist_joy\\full_source_manifest.json",
+      "source_file_count": 12,
+      "prompt_file_count": 1
+    },
+    "ros2/message_filters": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_message_filters",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_message_filters\\full_source_manifest.json",
+      "source_file_count": 29,
+      "prompt_file_count": 1
+    },
+    "ros2/ros2cli": {
+      "folder": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_ros2cli",
+      "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\ros2_ros2cli\\full_source_manifest.json",
+      "source_file_count": 184,
+      "prompt_file_count": 1
+    }
+  },
+  "manifest": "C:\\Users\\prath\\Desktop\\seminar\\source_packages\\20260515T070529Z\\source_package_manifest.json"
+}

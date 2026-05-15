@@ -1,0 +1,140 @@
+[
+  {
+    "path": "common_interfaces\\package.xml",
+    "bytes": 1445,
+    "sha256": "45e41249246e9d8324aa9b5fdbd160a43f20735bf8c9bed40554a22a48808de0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "diagnostic_msgs\\package.xml",
+    "bytes": 1203,
+    "sha256": "ed1fa0baa67ed609aa7dbbffc6e222fc06807b74eba984fa9f50c43d9dfd0a2f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "geometry_msgs\\package.xml",
+    "bytes": 1113,
+    "sha256": "eaf4c2568b65e7b2e8f9c34d94a62a6610467395890bc1d62a887c9bef8fcb9f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "nav_msgs\\package.xml",
+    "bytes": 1195,
+    "sha256": "953ad723018cfe948c1a8c5845ab676cd1d28ae69e8b188c704ed2229d894b4f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "sensor_msgs\\include\\sensor_msgs\\distortion_models.hpp",
+    "bytes": 2154,
+    "sha256": "1f655b29e4cd2f292e7d264171daa53b8003c0b69175f3449a73b63ba17e442f",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "sensor_msgs\\include\\sensor_msgs\\fill_image.hpp",
+    "bytes": 3111,
+    "sha256": "12fd7802340cba754a488afcf7e071e1eb23bf4b92a709f8163bb345f0c9c2aa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "sensor_msgs\\include\\sensor_msgs\\image_encodings.hpp",
+    "bytes": 8701,
+    "sha256": "9f8d4a679f3fea52335d562624059fff298201e304c66bcd8a686904d0f715fa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "sensor_msgs\\include\\sensor_msgs\\impl\\point_cloud2_iterator.hpp",
+    "bytes": 14575,
+    "sha256": "a77fa5384174a6909af1a571d3b4dc11baa800fcda43fbf9fab7cd95b0304ed1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "sensor_msgs\\include\\sensor_msgs\\point_cloud2_iterator.hpp",
+    "bytes": 13515,
+    "sha256": "813a79e8dc5cda22a3b0eeaf4e4cfef6ebaeedc3d07a88ccaf1d105c9ac2ccc3",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "sensor_msgs\\include\\sensor_msgs\\point_cloud_conversion.hpp",
+    "bytes": 8596,
+    "sha256": "cc6b45137771d15c1ded6f58a770c6a358b8cba12497d6a8433e553aaa8cedfb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "sensor_msgs\\include\\sensor_msgs\\point_field_conversion.hpp",
+    "bytes": 8661,
+    "sha256": "fb6aef39f240ecfdd32e87bf096aa050c8bacdd1c2e8ce04bd5506151542f0f0",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "sensor_msgs\\package.xml",
+    "bytes": 1336,
+    "sha256": "4e9f13e3035149df844fbf141af5f3e94c130a9e40b650ae8ea0e69a84e57c08",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "sensor_msgs_py\\package.xml",
+    "bytes": 1137,
+    "sha256": "5216543f1f24dd6bfcd294ba8f4617871218aa7e37001f7de63e04af6432bbd1",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "sensor_msgs_py\\sensor_msgs_py\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "sensor_msgs_py\\sensor_msgs_py\\numpy_compat.py",
+    "bytes": 6833,
+    "sha256": "fecccd93997407d5d6b146b57418c4d78daa5f4389465bc69db47bf3ace129fa",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "sensor_msgs_py\\sensor_msgs_py\\point_cloud2.py",
+    "bytes": 14292,
+    "sha256": "09abc7bd0cfe05e7c044ec0f00d2948fca52d895041177da50edce06a5e64e12",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "sensor_msgs_py\\setup.py",
+    "bytes": 748,
+    "sha256": "83dd8d0350d4584fc8a44d7efa1727d4acae1dca33a9235b85278542b267e5b2",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "shape_msgs\\package.xml",
+    "bytes": 1128,
+    "sha256": "247c41642b2054acab845d9fccffcaed026ec0874281a65eefb349161db4acdb",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "std_msgs\\package.xml",
+    "bytes": 1104,
+    "sha256": "5ceba4e8eacc792d9ae13a40d167fa719bf6ca55ba92a645f42e997fcee4d065",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "std_srvs\\package.xml",
+    "bytes": 1065,
+    "sha256": "a007785495fe7961a5248bbe21bd148cea733beb8cc910a54dc5b6c5fb0158d7",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "stereo_msgs\\package.xml",
+    "bytes": 1148,
+    "sha256": "2d6d10a069df5567be126c2fbc68318c813376cf4f32db561457ac28ef54d5b4",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "trajectory_msgs\\package.xml",
+    "bytes": 1188,
+    "sha256": "4aead9e2aa8b17b596c894fdefc846c62a2c145c2cd32f4d6da67b70cdb5dc90",
+    "included_in_llm_prompt": false
+  },
+  {
+    "path": "visualization_msgs\\package.xml",
+    "bytes": 1244,
+    "sha256": "cd8a40c92aa0b897cd8be44b4bb8d5ce271ad599d0ca1020f16503cf89edee85",
+    "included_in_llm_prompt": false
+  }
+]

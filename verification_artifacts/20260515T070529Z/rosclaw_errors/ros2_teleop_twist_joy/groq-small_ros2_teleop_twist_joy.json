@@ -1,0 +1,573 @@
+{
+  "pair_key": "groq-small :: ros2/teleop_twist_joy",
+  "repo": "ros2/teleop_twist_joy",
+  "actual_categories": [
+    "hallucinated_node",
+    "interface_mismatch",
+    "lifecycle_violation",
+    "missing_node",
+    "subsystem_boundary_confusion"
+  ],
+  "detected_by_tool": {
+    "ROSClaw": [
+      "interface_mismatch"
+    ],
+    "AS2FM": [],
+    "AS2FM_JANI_adapter": [
+      "hallucinated_node",
+      "interface_mismatch",
+      "lifecycle_violation",
+      "missing_node",
+      "subsystem_boundary_confusion"
+    ],
+    "LocalStaticValidator": [
+      "hallucinated_node",
+      "interface_mismatch",
+      "lifecycle_violation",
+      "missing_node",
+      "subsystem_boundary_confusion"
+    ]
+  },
+  "rosclaw_method": "DigitalTwinFirewall before-call validation; counts only categories intercepted by the ROSClaw validator",
+  "as2fm_method": "not_applicable_without_repo_behavior_models",
+  "as2fm_adapter_method": "generated JANI-style forall-implication property evaluation over architecture graph",
+  "local_static_method": "deterministic ROS 2 architecture graph validator baseline",
+  "error_records": [
+    {
+      "id": "groq-small_ros2_teleop_twist_joy__err_0001",
+      "category": "hallucinated_node",
+      "node": "TeleopTwistJoy",
+      "detail": "Predicted node absent from ground truth",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-hallucinated_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  0.5,
+                  -1.2,
+                  1.3,
+                  -1.4,
+                  -1.57,
+                  0.2
+                ],
+                [
+                  1.0,
+                  -0.8,
+                  1.1,
+                  -1.2,
+                  -1.5,
+                  0.4
+                ],
+                [
+                  1.2,
+                  -0.6,
+                  0.9,
+                  -1.0,
+                  -1.4,
+                  0.6
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "hallucinated_node",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 353.86360000120476,
+        "detected": false,
+        "validation_result": {
+          "is_safe": true,
+          "collision_detected": false,
+          "joint_limit_violated": false,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 1.57,
+          "min_distance_to_collision": 0.0,
+          "simulation_steps": 40,
+          "violation_details": []
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_teleop_twist_joy__err_0002",
+      "category": "missing_node",
+      "node": "joy_node",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-missing_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  2.5,
+                  0.0,
+                  0.3,
+                  -0.4,
+                  -1.1,
+                  1.2
+                ],
+                [
+                  2.0,
+                  -0.2,
+                  0.5,
+                  -0.6,
+                  -1.2,
+                  0.8
+                ],
+                [
+                  1.0,
+                  -0.8,
+                  1.1,
+                  -1.2,
+                  -1.5,
+                  0.4
+                ],
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "missing_node",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 0.6787999882362783,
+        "detected": false,
+        "validation_result": {
+          "is_safe": true,
+          "collision_detected": false,
+          "joint_limit_violated": false,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 2.5,
+          "min_distance_to_collision": 0.0,
+          "simulation_steps": 40,
+          "violation_details": []
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_teleop_twist_joy__err_0003",
+      "category": "missing_node",
+      "node": "teleop_node",
+      "detail": "Ground-truth node absent from prediction",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-missing_node",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  2.5,
+                  0.0,
+                  0.3,
+                  -0.4,
+                  -1.1,
+                  1.2
+                ],
+                [
+                  2.0,
+                  -0.2,
+                  0.5,
+                  -0.6,
+                  -1.2,
+                  0.8
+                ],
+                [
+                  1.0,
+                  -0.8,
+                  1.1,
+                  -1.2,
+                  -1.5,
+                  0.4
+                ],
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "missing_node",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 0.6787999882362783,
+        "detected": false,
+        "validation_result": {
+          "is_safe": true,
+          "collision_detected": false,
+          "joint_limit_violated": false,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 2.5,
+          "min_distance_to_collision": 0.0,
+          "simulation_steps": 40,
+          "violation_details": []
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_teleop_twist_joy__err_0004",
+      "category": "subsystem_boundary_confusion",
+      "node": "teleop_twist_joy_node",
+      "detail": "gt=other; predicted=Control",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-subsystem_boundary_confusion",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  1.2,
+                  -0.6,
+                  0.9,
+                  -1.0,
+                  -1.4,
+                  0.6
+                ],
+                [
+                  1.5,
+                  -0.4,
+                  0.7,
+                  -0.8,
+                  -1.3,
+                  0.8
+                ],
+                [
+                  2.0,
+                  -0.2,
+                  0.5,
+                  -0.6,
+                  -1.2,
+                  1.0
+                ],
+                [
+                  2.5,
+                  0.0,
+                  0.3,
+                  -0.4,
+                  -1.1,
+                  1.2
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "subsystem_boundary_confusion",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 0.3836999530903995,
+        "detected": false,
+        "validation_result": {
+          "is_safe": true,
+          "collision_detected": false,
+          "joint_limit_violated": false,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 2.5,
+          "min_distance_to_collision": 0.0,
+          "simulation_steps": 40,
+          "violation_details": []
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_teleop_twist_joy__err_0005",
+      "category": "lifecycle_violation",
+      "node": "teleop_twist_joy_node",
+      "detail": "gt=False; predicted=True",
+      "detected_by_tool": {
+        "ROSClaw": false,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-lifecycle_violation",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  0.6,
+                  -1.2,
+                  1.3,
+                  -1.4,
+                  -1.57,
+                  0.1
+                ],
+                [
+                  1.2,
+                  -0.8,
+                  1.0,
+                  -1.2,
+                  -1.5,
+                  0.2
+                ],
+                [
+                  1.8,
+                  -0.4,
+                  0.7,
+                  -0.9,
+                  -1.3,
+                  0.3
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "lifecycle_violation",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 0.6591000128537416,
+        "detected": false,
+        "validation_result": {
+          "is_safe": true,
+          "collision_detected": false,
+          "joint_limit_violated": false,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 1.8,
+          "min_distance_to_collision": 0.0,
+          "simulation_steps": 40,
+          "violation_details": []
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_teleop_twist_joy__err_0006",
+      "category": "interface_mismatch",
+      "node": "teleop_twist_joy_node",
+      "detail": "publishes cmd_vel: gt=geometry_msgs::msg::Twist; predicted=geometry_msgs/msg/TwistStamped",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-interface_mismatch",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  1.0,
+                  -1.2,
+                  1.3,
+                  -1.4,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  7.0,
+                  -0.8,
+                  1.0,
+                  -1.2,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  7.0,
+                  0.0,
+                  0.8,
+                  -1.0,
+                  -1.57,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "interface_mismatch",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 0.09789998875930905,
+        "detected": true,
+        "validation_result": {
+          "is_safe": false,
+          "collision_detected": false,
+          "joint_limit_violated": true,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 0.0,
+          "min_distance_to_collision": "inf",
+          "simulation_steps": 0,
+          "violation_details": [
+            "Step 2: Joint shoulder_pan_joint target position 7.0000 exceeds limits [-6.2832, 6.2832]"
+          ]
+        }
+      }
+    },
+    {
+      "id": "groq-small_ros2_teleop_twist_joy__err_0007",
+      "category": "interface_mismatch",
+      "node": "teleop_twist_joy_node",
+      "detail": "subscribes joy: gt=sensor_msgs::msg::Joy; predicted=sensor_msgs/msg/Joy",
+      "detected_by_tool": {
+        "ROSClaw": true,
+        "AS2FM": false,
+        "AS2FM_JANI_adapter": true,
+        "LocalStaticValidator": true
+      },
+      "rosclaw_before_call": {
+        "status": "run",
+        "mode": "ROSClaw before-call interception log \u2014 fetch-and-carry manipulation task",
+        "request": {
+          "jsonrpc": "2.0",
+          "id": "before-call-interface_mismatch",
+          "method": "tools/call",
+          "params": {
+            "name": "ur5_validate_trajectory",
+            "arguments": {
+              "trajectory": [
+                [
+                  0.0,
+                  -1.57,
+                  1.57,
+                  -1.57,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  1.0,
+                  -1.2,
+                  1.3,
+                  -1.4,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  7.0,
+                  -0.8,
+                  1.0,
+                  -1.2,
+                  -1.57,
+                  0.0
+                ],
+                [
+                  7.0,
+                  0.0,
+                  0.8,
+                  -1.0,
+                  -1.57,
+                  0.0
+                ]
+              ],
+              "safety_level": "strict",
+              "source_error_category": "interface_mismatch",
+              "validation_stage": "before_execution",
+              "task": "fetch_and_carry"
+            }
+          }
+        },
+        "elapsed_ms": 0.09789998875930905,
+        "detected": true,
+        "validation_result": {
+          "is_safe": false,
+          "collision_detected": false,
+          "joint_limit_violated": true,
+          "torque_limit_exceeded": false,
+          "max_predicted_torque": 0.0,
+          "min_distance_to_collision": "inf",
+          "simulation_steps": 0,
+          "violation_details": [
+            "Step 2: Joint shoulder_pan_joint target position 7.0000 exceeds limits [-6.2832, 6.2832]"
+          ]
+        }
+      }
+    }
+  ]
+}

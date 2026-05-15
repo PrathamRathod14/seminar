@@ -1,0 +1,197 @@
+{
+  "format": "jani-property-specification",
+  "jani-version": 1,
+  "purpose": "Executable JANI property specifications for each ROS 2 LLM error taxonomy category (SQ3).",
+  "threshold": {
+    "precision": 0.7,
+    "recall": 0.7
+  },
+  "properties": [
+    {
+      "category": "interface_mismatch",
+      "informal_property": "Every predicted publisher/subscriber interface type must match the ground-truth topic type.",
+      "jani_property": {
+        "name": "no_interface_mismatch",
+        "expression": {
+          "op": "filter",
+          "fun": "forall",
+          "values": {
+            "op": "=>",
+            "left": {
+              "op": "=",
+              "left": {
+                "var": "topic_name_equal"
+              },
+              "right": true
+            },
+            "right": {
+              "op": "=",
+              "left": {
+                "var": "msg_type_equal"
+              },
+              "right": true
+            }
+          },
+          "states": {
+            "op": "initial"
+          }
+        }
+      }
+    },
+    {
+      "category": "hallucinated_node",
+      "informal_property": "Every predicted node must exist in the ground-truth node set.",
+      "jani_property": {
+        "name": "no_hallucinated_node",
+        "expression": {
+          "op": "filter",
+          "fun": "forall",
+          "values": {
+            "op": "=>",
+            "left": {
+              "op": "=",
+              "left": {
+                "var": "predicted_node_present"
+              },
+              "right": true
+            },
+            "right": {
+              "op": "=",
+              "left": {
+                "var": "ground_truth_node_present"
+              },
+              "right": true
+            }
+          },
+          "states": {
+            "op": "initial"
+          }
+        }
+      }
+    },
+    {
+      "category": "subsystem_boundary_confusion",
+      "informal_property": "Every matched node must be assigned to the same subsystem as the ground truth.",
+      "jani_property": {
+        "name": "no_subsystem_boundary_confusion",
+        "expression": {
+          "op": "filter",
+          "fun": "forall",
+          "values": {
+            "op": "=>",
+            "left": {
+              "op": "=",
+              "left": {
+                "var": "node_equal"
+              },
+              "right": true
+            },
+            "right": {
+              "op": "=",
+              "left": {
+                "var": "subsystem_equal"
+              },
+              "right": true
+            }
+          },
+          "states": {
+            "op": "initial"
+          }
+        }
+      }
+    },
+    {
+      "category": "missing_node",
+      "informal_property": "Every ground-truth node must appear in the LLM-generated architecture.",
+      "jani_property": {
+        "name": "no_missing_node",
+        "expression": {
+          "op": "filter",
+          "fun": "forall",
+          "values": {
+            "op": "=>",
+            "left": {
+              "op": "=",
+              "left": {
+                "var": "ground_truth_node_present"
+              },
+              "right": true
+            },
+            "right": {
+              "op": "=",
+              "left": {
+                "var": "predicted_node_present"
+              },
+              "right": true
+            }
+          },
+          "states": {
+            "op": "initial"
+          }
+        }
+      }
+    },
+    {
+      "category": "wrong_topic_name",
+      "informal_property": "Every predicted topic edge must match a ground-truth topic edge for the same node and direction.",
+      "jani_property": {
+        "name": "no_wrong_topic_name",
+        "expression": {
+          "op": "filter",
+          "fun": "forall",
+          "values": {
+            "op": "=>",
+            "left": {
+              "op": "=",
+              "left": {
+                "var": "edge_direction_equal"
+              },
+              "right": true
+            },
+            "right": {
+              "op": "=",
+              "left": {
+                "var": "topic_name_equal"
+              },
+              "right": true
+            }
+          },
+          "states": {
+            "op": "initial"
+          }
+        }
+      }
+    },
+    {
+      "category": "lifecycle_violation",
+      "informal_property": "Lifecycle-node status must match between generated architecture and ground truth.",
+      "jani_property": {
+        "name": "no_lifecycle_violation",
+        "expression": {
+          "op": "filter",
+          "fun": "forall",
+          "values": {
+            "op": "=>",
+            "left": {
+              "op": "=",
+              "left": {
+                "var": "node_equal"
+              },
+              "right": true
+            },
+            "right": {
+              "op": "=",
+              "left": {
+                "var": "lifecycle_equal"
+              },
+              "right": true
+            }
+          },
+          "states": {
+            "op": "initial"
+          }
+        }
+      }
+    }
+  ]
+}
