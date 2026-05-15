@@ -1,149 +1,232 @@
 # ROS 2 LLM Architecture Recovery
 
-This project tests a simple research question:
+This project evaluates whether Large Language Models can recover ROS 2 software architecture from real source code, and what kinds of mistakes they make.
 
-**Can LLMs recover ROS 2 software architecture from real source code, and what mistakes do they make?**
+The pipeline clones real ROS 2 repositories, extracts source-derived ground truth, asks configured LLMs to recover the architecture, compares the model output against the ground truth, classifies errors, and writes metrics/reports for analysis.
 
-This runnable setup uses real Groq-hosted models only. By default, `REAL_DATA_ONLY=1`, so tutorial, example, demo, test, mock, dummy, fake, stub, fixture, simulation, simulator, and loopback inputs are excluded from the evaluation data.
+## What This Project Measures
 
-In proposal terms, this is the current implementation:
+- ROS 2 nodes recovered by each model
+- Publishers, subscribers, topics, message/interface types, and lifecycle hints
+- Subsystem grouping quality
+- Hallucinated nodes and missing nodes
+- Interface mismatches, wrong topic names, lifecycle violations, and subsystem boundary confusion
+- Tool coverage using ROSClaw, AS2FM status, generated JANI-style checks, and a local static validator
+- Time-to-verify for the architecture recovery and validation pipeline
 
-- **Now:** run SQ1, SQ2, and SQ3 static validation on real-data-only ROS 2 source inputs. AS2FM and ROSClaw smoke checks are skipped in real-data-only mode because the available local inputs are tutorial/test/simulation fixtures.
+## Repository Layout
 
-## Current Setup
+```text
+ros2_llm_arch_recovery.py      Main experiment pipeline
+generate_research_report.py    Creates research_report.md from metrics_results.json
+terminal_metrics_dashboard.py  Shows metrics in the terminal
+requirements.txt               Python dependencies
+.env.example                   Safe example configuration
+metrics_results.json           Latest generated metrics artifact
+research_report.md             Latest generated readable report
 
-The current test uses Groq-hosted free/available models:
-
-- `llama-4`
-- `groq-small`
-- `groq-large`
-- `qwen-groq`
-
-These are configured in `.env`:
-
-```env
-GROQ_API_KEY=your_real_key_here
-ACTIVE_MODELS=llama-4,groq-large,groq-small,qwen-groq
-MAX_REPOS=15
-PROMPT_CHAR_BUDGET=30000
-LLM_CACHE=1
-REAL_DATA_ONLY=1
+annotations/                   Ground-truth audit/annotation files
+results/                       Generated architecture diagram artifacts
+source_packages/               Source package manifests used for audit
+verification_artifacts/        JANI, ROSClaw, AS2FM, and TtV evidence
+repos/                         Cloned ROS 2 repositories, generated locally
+audit_llm_responses/           Raw model responses, generated locally
+.llm_cache/                    Cached model responses, generated locally
 ```
 
-For this Groq-only target set, provide `GROQ_API_KEY`. Do not put real API keys in `.env.example`; keep real keys only in `.env`.
+`repos/`, `audit_llm_responses/`, and `.llm_cache/` are generated locally and are intentionally not committed.
 
-## Install
+## Requirements
+
+- Python 3.10 or newer
+- Git
+- Internet access for cloning ROS 2 repositories
+- A Groq API key for the default model set
+
+The project is easiest to run from Windows PowerShell because the external-tool audit currently expects the local Windows virtual environment path `.venv\Scripts\python.exe`.
+
+## Quick Start
+
+Clone the repository:
+
+```powershell
+git clone https://github.com/PrathamRathod14/seminar.git
+cd seminar
+```
+
+Create and activate a virtual environment:
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
+```
+
+Install dependencies:
+
+```powershell
+python -m pip install --upgrade pip
 pip install -r requirements.txt
+```
+
+Create your local config:
+
+```powershell
 Copy-Item .env.example .env
 ```
 
-Then edit `.env` and paste your Groq key.
+Open `.env` and add your real Groq key:
 
-## Run
+```env
+GROQ_API_KEY=your_real_groq_key_here
+```
+
+Do not commit `.env`; it is ignored by Git.
+
+## Run The Experiment
+
+Run the full pipeline:
 
 ```powershell
 python ros2_llm_arch_recovery.py
 ```
 
-Then generate a readable research summary:
+Generate the readable report:
 
 ```powershell
 python generate_research_report.py
 ```
 
-This creates:
+View the metrics in the terminal:
 
-```text
-research_report.md
+```powershell
+python terminal_metrics_dashboard.py metrics_results.json
 ```
 
-## Easy Explanation
+Watch the metrics with live refresh:
 
-Think of the project like an exam.
+```powershell
+python terminal_metrics_dashboard.py metrics_results.json --watch
+```
 
-- The ROS 2 repositories are the exam questions.
-- The script's static parser creates the answer key.
-- The LLMs give their answers.
-- The script marks the answers and writes the marksheet to `metrics_results.json`.
+## First Test Run
 
-## How The Test Works
+For a faster first run, edit `.env`:
 
-1. **Input**
+```env
+MAX_REPOS=2
+ACTIVE_MODELS=llama-4,groq-small
+PROMPT_CHAR_BUDGET=30000
+LLM_CACHE=1
+REAL_DATA_ONLY=1
+```
 
-   The script clones real ROS 2 repositories into `repos/`.
+Then run:
 
-   Examples:
+```powershell
+python ros2_llm_arch_recovery.py
+python generate_research_report.py
+python terminal_metrics_dashboard.py metrics_results.json
+```
 
-   - `ros2/examples`
-   - `ros2/demos`
-   - `navigation2`
-   - `ros2/rclcpp`
-   - `ros2/rclpy`
+After that works, increase `MAX_REPOS` or add more models.
 
-2. **Ground Truth**
+## Configuration
 
-   The script reads the code and extracts the real architecture:
+Main `.env` settings:
 
-   - nodes
-   - publishers
-   - subscribers
-   - topic names
-   - message types
-   - lifecycle nodes
-   - launch-file executables
+```env
+GROQ_API_KEY=your_real_groq_key_here
+ACTIVE_MODELS=llama-4,groq-large,groq-small,qwen-groq
+MAX_REPOS=15
+PROMPT_CHAR_BUDGET=30000
+LLM_CACHE=1
+LLM_CACHE_DIR=.llm_cache
+LLM_CHUNK_PAUSE_SECONDS=2
+REAL_DATA_ONLY=1
+```
 
-3. **LLM Architecture Recovery**
+Optional settings:
 
-   The script sends selected source files to each active Groq model.
+```env
+GITHUB_TOKEN=your_optional_github_token
+OPENROUTER_SITE_URL=http://localhost
+OPENROUTER_APP_NAME=ros2-llm-arch-recovery
+```
 
-   Each model is asked to return JSON containing:
+`GITHUB_TOKEN` is optional. It only helps avoid GitHub API rate limits when collecting adoption-gap evidence.
 
-   - node names
-   - subsystem names
-   - published topics
-   - subscribed topics
-   - lifecycle status
+## Default Models
 
-4. **Comparison**
+The default configured models are Groq-backed labels:
 
-   The model output is compared with the ground truth.
+- `llama-4`
+- `groq-large`
+- `groq-small`
+- `qwen-groq`
 
-   The script checks whether the model:
+All default labels require `GROQ_API_KEY`.
 
-   - found real nodes
-   - missed nodes
-   - hallucinated fake nodes
-   - used wrong topic names
-   - used wrong message/interface types
-   - confused subsystem boundaries
-   - got lifecycle status wrong
+The code also contains support for additional future labels, but the default reproducible setup uses Groq only.
 
-5. **Output**
+## Real-Data-Only Mode
 
-   Results are written to:
+By default:
 
-   - `metrics_results.json`: final metrics and comparisons
-   - `audit_llm_responses/<run_id>/`: raw model outputs
-   - `.llm_cache/`: cached LLM responses to avoid repeated API calls
+```env
+REAL_DATA_ONLY=1
+```
 
-## Research Questions Mapping
+This excludes tutorial, demo, example, test, mock, fake, dummy, stub, fixture, simulation, simulator, and loopback-style inputs from the evaluation. The goal is to evaluate real implementation code rather than synthetic or teaching examples.
 
-### SQ1: Architecture Accuracy
+## Pipeline Steps
 
-The script measures how accurately each active Groq model recovers ROS 2 nodes and subsystem groupings.
+1. Select ROS 2 repositories from the configured list.
+2. Clone missing repositories into `repos/`.
+3. Extract source-derived ground truth with the static parser.
+4. Send bounded source evidence to each configured LLM.
+5. Parse the returned architecture JSON.
+6. Compare LLM output with ground truth.
+7. Classify errors into the ROS 2 taxonomy.
+8. Generate diagrams, annotations, manifests, validation artifacts, and metrics.
+9. Write `metrics_results.json`.
+10. Generate `research_report.md`.
 
-Main metrics:
+## Output Files
 
-- **Node-Level Precision**
-- **Subsystem Boundary Recall Gap**
+Important generated files:
 
-### SQ2: Error Taxonomy
+```text
+metrics_results.json
+research_report.md
+annotations/ground_truth_annotations_<run_id>.json
+results/<run_id>/
+source_packages/<run_id>/
+verification_artifacts/<run_id>/
+audit_llm_responses/<run_id>/
+```
 
-The script classifies LLM mistakes into ROS 2-specific error categories:
+The most important file is:
+
+```text
+metrics_results.json
+```
+
+It contains the run ID, selected repositories, selected models, ground truth, LLM outputs, comparisons, tool audit, validation artifacts, and all metrics.
+
+## Metrics
+
+The experiment reports six main metrics:
+
+| ID | Metric | Meaning |
+| --- | --- | --- |
+| M1 | Node-Level Precision | How many generated nodes are real |
+| M2 | Subsystem Boundary Recall Gap | Drop from node recall to subsystem recall |
+| M3 | Error Category Distribution | Which error types appear most often |
+| M4 | Inter-LLM Error Rate Variation | How differently models fail |
+| M5 | Tool Coverage Ratio | Which error categories are automatically detected |
+| M6 | Time-to-Verify | Runtime cost of verification |
+
+Error categories:
 
 - `interface_mismatch`
 - `hallucinated_node`
@@ -152,158 +235,109 @@ The script classifies LLM mistakes into ROS 2-specific error categories:
 - `wrong_topic_name`
 - `lifecycle_violation`
 
-Main metrics:
+## Tool Validation Notes
 
-- **Error Category Distribution**
-- **Inter-LLM Error Rate Variation**
+The pipeline separates proposal-level tool coverage from extended local validation:
 
-### SQ3: Automatic Detection
+- Proposal TCR counts AS2FM and ROSClaw.
+- Extended/local TCR also includes generated JANI-style checks and the deterministic local static validator.
 
-The script now reports SQ3 in two layers:
+AS2FM may be marked not applicable for category-level detection on the current real ROS 2 repositories because AS2FM needs repo-specific RoAML/ASCXML behavior models. The repository source code provides architecture evidence, not always executable AS2FM behavior models.
 
-- **Proposal Tool Coverage Ratio:** counts only categories detected with adequate precision and recall by AS2FM or ROSClaw.
-- **Extended/local Tool Coverage Ratio:** also includes the generated JANI-style AS2FM adapter and the deterministic ROS 2 static architecture validator.
+ROSClaw firewall checks can run when the local `tools/rosclaw` checkout is available.
 
-This distinction is important because the current real ROS 2 source repositories provide architecture graphs, but not repo-specific RoAML/ASCXML behaviour models that AS2FM can execute directly. Therefore the real AS2FM column is marked as not applicable for those inputs unless such behaviour models are supplied. The generated JANI-style adapter remains in the output as evidence that the category checks are formalizable, but it is not counted as real AS2FM proposal coverage.
+## Optional External Tool Checkouts
 
-### SQ4: Adoption Gap
-
-The run records practical adoption-friction evidence from the local smoke checks:
-
-- real-data-only filter status
-- skipped status for external smoke checks whose available inputs are tutorial/test/simulation fixtures
-- comparison against the baseline of manually triaging residual LLM errors
-
-GitHub stars/forks/issues can still be added as an adoption proxy, but they are not required for the proposal completion gate recorded in `metrics_results.json`.
-
-## Metrics
-
-### M1: Node-Level Precision
-
-How many generated nodes are real?
+Some historical artifacts were generated with local checkouts under:
 
 ```text
-TP / (TP + FP)
+tools/AS2FM/
+tools/rosa/
+tools/rosclaw/
 ```
 
-Example:
+Those are external repositories and are not required to inspect the committed metrics or reports. For a fresh clone, the main LLM architecture-recovery flow still works with the Python dependencies and Groq key. External-tool smoke checks may report `failed` or `not_applicable` until those tools are installed locally.
 
-```text
-LLM outputs 10 nodes.
-9 are real.
-Precision = 90%.
+## WSL/Linux Notes
+
+For WSL/Linux, use Linux activation commands:
+
+```bash
+cd /mnt/c/Users/prath/Desktop/seminar
+python3 -m venv .venv_wsl
+source .venv_wsl/bin/activate
+python3 -m pip install -r requirements.txt
+python3 terminal_metrics_dashboard.py metrics_results.json
 ```
 
-### M2: Subsystem Boundary Recall Gap
+The dashboard and report reader work well in WSL. The full external-tool audit is currently easiest from Windows PowerShell because parts of the script use `.venv\Scripts\python.exe`.
 
-How much accuracy drops when moving from node detection to subsystem grouping.
+## Common Commands
 
-```text
-node recall - subsystem recall
-```
-
-A large gap means the model finds nodes but groups them badly.
-
-### M3: Error Category Distribution
-
-Which error type appears most often.
-
-Example:
-
-```text
-807 of 975 errors are missing_node.
-missing_node = 82.77%.
-```
-
-### M4: Inter-LLM Error Rate Variation
-
-How different the models are for each error category.
-
-A high value means model choice matters a lot.
-
-### M5: Tool Coverage Ratio
-
-How many error categories can be detected automatically.
-
-```text
-covered categories / total categories
-```
-
-### M6: Time-to-Verify
-
-How long the full checking pipeline takes.
-
-This includes:
-
-- parsing source code
-- comparing model output
-- validating errors
-
-## Suggested First Run
-
-Use a small run first:
-
-```env
-MAX_REPOS=2
-ACTIVE_MODELS=llama-4,groq-small,groq-large
-PROMPT_CHAR_BUDGET=30000
-LLM_CHUNK_PAUSE_SECONDS=2
-LLM_CACHE=1
-```
-
-Then run:
+Run the main pipeline:
 
 ```powershell
 python ros2_llm_arch_recovery.py
+```
+
+Regenerate the report:
+
+```powershell
 python generate_research_report.py
 ```
 
-After it finishes, open `metrics_results.json` and look at:
+Print metrics dashboard:
 
-```json
-"metrics"
+```powershell
+python terminal_metrics_dashboard.py metrics_results.json
 ```
 
-That section tells you which model performed best and what errors happened most.
+Watch dashboard:
 
-For a more readable answer, open:
-
-```text
-research_report.md
+```powershell
+python terminal_metrics_dashboard.py metrics_results.json --watch --interval 5
 ```
 
-That file is organized directly by SQ1, SQ2, SQ3, SQ4, and TtV.
+Check Git status:
 
-## Full Proposal Target
+```powershell
+git status
+```
 
-Your pasted plan says the final study should do this:
+## Troubleshooting
 
-1. Select 15 ROS 2 repositories.
-2. Build or verify ground-truth node, topic, and subsystem annotations.
-3. Feed each repo to the configured real Groq models.
-4. Log TP, FP, FN for nodes and subsystem groupings.
-5. Classify every error into a ROS 2-specific taxonomy.
-6. Test whether AS2FM or ROSClaw detects each error category.
-7. Measure end-to-end TtV.
-8. Measure adoption friction for AS2FM and ROSA.
+If `python` is not found in WSL, use `python3`.
 
-The current pipeline covers steps 1-5 with real Groq model calls/cache and real static validation. In real-data-only mode it does not use the bundled AS2FM tutorial model or ROSClaw firewall tests as metric evidence, because those are not real production source inputs.
+If PowerShell blocks virtual environment activation, run:
 
-## Future Expansion
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+```
 
-When you get more API keys, update `.env` like this:
+If API calls fail, check that `.env` contains:
 
 ```env
-ACTIVE_MODELS=llama-4,groq-large,groq-small,qwen-groq,gemini-flash,mistral-small,openrouter-free,gpt-nano
+GROQ_API_KEY=your_real_groq_key_here
 ```
 
-Supported future labels already in the code:
+If the run is slow or expensive, reduce:
 
-- `llama-4`
-- `groq-large`
-- `groq-small`
-- `qwen-groq`
-- `gemini-flash`
-- `mistral-small`
-- `openrouter-free`
-- `gpt-nano`
+```env
+MAX_REPOS=2
+ACTIVE_MODELS=llama-4
+```
+
+If GitHub API evidence fails, add an optional `GITHUB_TOKEN` or ignore the adoption-gap GitHub counters.
+
+## Research Interpretation
+
+Use `research_report.md` for a professor-friendly summary organized by research question:
+
+- SQ1: architecture recovery accuracy
+- SQ2: ROS 2 LLM error taxonomy
+- SQ3: automatic detection coverage
+- SQ4: adoption-gap evidence
+- M6: time-to-verify
+
+The key conclusion from the latest real-data run is that LLMs can attempt ROS 2 architecture recovery, but their outputs need automatic validation because missing nodes, hallucinated nodes, and model-to-model variation are significant.
